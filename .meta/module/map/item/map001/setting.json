@@ -2,25 +2,7 @@
   "data": {
     "box": {
       "base": {
-        "__OBJ_TYPE": "SkyBoxStatic",
-        "back": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
-        },
-        "bottom": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
-        },
-        "front": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
-        },
-        "left": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
-        },
-        "right": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
-        },
-        "top": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
-        }
+        "__OBJ_TYPE": "SkyBoxStatic"
       }
     },
     "instances": [
@@ -87,9 +69,9 @@
           "z": 23.7169
         },
         "size": {
-          "x": 10.3309555053711,
-          "y": 0.999996781349182,
-          "z": 23.7169399261475
+          "x": 10.331,
+          "y": 0.999997,
+          "z": 23.7169
         },
         "useAnchor": true,
         "useCollide": false
@@ -104,7 +86,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f07f62a513746230cd7dd4639051811b"
+      "setting.json": "025a63ffcb29a58d8d96fd9bb3b6db05"
     },
     "VERSION": "0.24"
   }

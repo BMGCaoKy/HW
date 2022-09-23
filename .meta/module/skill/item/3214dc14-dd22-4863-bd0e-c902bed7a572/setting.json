@@ -7,11 +7,14 @@
       "base": {
         "__OBJ_TYPE": "Skill_MeleeAttack"
       }
+    },
+    "skillReleaseWay": {
+      "isClick": true
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "87aa8868c039bda340b8dbdec2f44e97",
+      "setting.json": "3428246a225a50a975f061e5230d78b2",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

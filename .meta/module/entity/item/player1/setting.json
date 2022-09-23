@@ -16,9 +16,7 @@
     },
     "boundingVolume": {
       "height": 1.7,
-      "height_c": 1.7,
       "radius": 0.43,
-      "radius_c": 0.43,
       "type": "Capsule"
     },
     "canRevive": true,
@@ -46,7 +44,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3910935a164398ccd4cd37ca662604ce",
+      "setting.json": "3ec4d14dc531089dabbd16687e672043",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

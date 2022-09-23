@@ -1,6 +1,7 @@
 local MatchRoom = class("MatchRoom")
-function MatchRoom:ctor()
+function MatchRoom:ctor() --contructor
 end
+
 function MatchRoom:create()
   local base=MatchRoom.new()
   return base
