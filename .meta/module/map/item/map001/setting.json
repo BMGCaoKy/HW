@@ -1,0 +1,111 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8636598139055390721",
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyLineColor": {
+          "b": 139,
+          "g": 131,
+          "r": 127
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8636598139123630081",
+        "lightBrightness": 0.8,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "x": 50,
+          "y": -90,
+          "z": -30
+        },
+        "shadows": {
+          "shadowsType": "hard"
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "eb2434f3-9358-4321-8408-85a2f5eb1f9d",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8813553933906608129",
+        "massCenter": {
+          "x": 6.12121725082397,
+          "y": 1.49990081787109,
+          "z": 26.3501930236816
+        },
+        "material": {
+          "alpha": 0.803
+        },
+        "position": {
+          "x": 6.12121725082397,
+          "y": 1.49990081787109,
+          "z": 26.3501930236816
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 10.331,
+          "y": 0.999997,
+          "z": 23.7169
+        },
+        "size": {
+          "x": 10.3309555053711,
+          "y": 0.999996781349182,
+          "z": 23.7169399261475
+        },
+        "useAnchor": true,
+        "useCollide": false
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f07f62a513746230cd7dd4639051811b"
+    },
+    "VERSION": "0.24"
+  }
+}
