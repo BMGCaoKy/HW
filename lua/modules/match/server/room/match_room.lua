@@ -13,7 +13,7 @@ function MatchRoom:init(uid)
   self.userMurder={}                    --danh sách người chơi là murder    type: table playerId
   self.userPolice={}                    --danh sách người chơi là police    type: table playerId
   self.userStatus={}                    --trạng thái người chơi             type: table {offline=true}
-  self.roomStatus=0                     --trạng thái phòng (0: đã khởi tạo)(2: đang chờ)(3: đang chơi)
+  self.roomStatus=0                     --trạng thái phòng (0: đã khởi tạo)(1: du nguoi choi)(2: đang chờ)(3: đang chơi)
 end
 
 --get
@@ -78,5 +78,16 @@ function MatchRoom:isInRoom(userId)
   end
   return false
 end
-
+function MatchRoom:roomListenning()
+  local isGameStart=false
+  World.Timer(1,function ()
+    if not(isGameStart) then
+      isGameStart=(Define.MATCH.MIN_PLAYER<=Lib.getTableSize(self.userList))
+    else
+      self.roomStatus=1
+      --phan vai
+    end
+    return not(isGameStart)
+  end)
+end
 return MatchRoom

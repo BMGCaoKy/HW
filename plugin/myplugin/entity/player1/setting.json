@@ -29,13 +29,13 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 1.7,
+    "height": 1.5,
     "offset": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "radius": 0.43,
+    "radius": 0.5,
     "rotation": {
       "x": 0,
       "y": 0,

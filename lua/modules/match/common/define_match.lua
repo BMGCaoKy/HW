@@ -1,9 +1,13 @@
 local match_event_function=require "modules.match.server.match_event_function"
 Define.MATCH={}
-
+Define.MATCH.MIN_PLAYER=3
 Define.MATCH.EVENT={
-    ["ENTITY_ENTER"]=match_event_function["ENTITY_ENTER"]
-}
-Define.MATCH.CFG={
-    PLAYER=Entity.GetCfg("myplugin/player1"),
+    ["ENTITY_ENTER"]={
+        cfg="PLAYER",
+        func=match_event_function["ENTITY_ENTER"],
+    },
+    ["ENTITY_LEAVE"]={
+        cfg="PLAYER",
+        func=match_event_function["ENTITY_LEAVE"],
+    },
 }
