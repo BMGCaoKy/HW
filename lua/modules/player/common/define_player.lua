@@ -1,4 +1,4 @@
-local player_event_function=require "modules.player.server.player"
+local player_event_function=require "modules.player.server.player_event_function"
 Define.PLAYER={}
 Define.PLAYER.EVENT={
     ["ENTITY_ENTER"]={

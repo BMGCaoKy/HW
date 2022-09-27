@@ -16,10 +16,10 @@ else
             local function run_function(p)
                 for i,func in pairs(v1) do
                     func(p)
+                    print(type(func))
                 end
             end
             Trigger.addHandler(Define.CONNECTION.CFG[k1],event_name,run_function)
         end
-        
     end
 end

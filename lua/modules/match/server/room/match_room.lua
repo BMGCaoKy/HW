@@ -3,17 +3,17 @@ function MatchRoom:ctor() --contructor
 end
 
 function MatchRoom:create()
-  local base=MatchRoom.new()
+  local base = MatchRoom.new()
   return base
 end
 function MatchRoom:init(uid)
-  self.uid = uid                        --id phòng                          type: number
-  self.userList = {}                     --danh sách người chơi              type: table playerId
-  self.userDeath={}                     --danh sách người chơi bị loại      type: table playerId
-  self.userMurder={}                    --danh sách người chơi là murder    type: table playerId
-  self.userPolice={}                    --danh sách người chơi là police    type: table playerId
-  self.userStatus={}                    --trạng thái người chơi             type: table {offline=true}
-  self.roomStatus=0                     --trạng thái phòng (0: đã khởi tạo)(1: du nguoi choi)(2: đang chờ)(3: đang chơi)
+  self.uid = uid --id phòng                          type: number
+  self.userList = {} --danh sách người chơi              type: table playerId
+  self.userDeath = {} --danh sách người chơi bị loại      type: table playerId
+  self.userMurder = {} --danh sách người chơi là murder    type: table playerId
+  self.userPolice = {} --danh sách người chơi là police    type: table playerId
+  self.userStatus = {} --trạng thái người chơi             type: table {offline=true}
+  self.roomStatus = 0 --trạng thái phòng (0: đã khởi tạo)(1: du nguoi choi)(2: phân vai xong)(3: đang chơi)
 end
 
 --get
@@ -24,16 +24,16 @@ function MatchRoom:getUserList()
   return self:getOnlineUserList()
 end
 function MatchRoom:getUserDeath()
-    return self.userDeath
+  return self.userDeath
 end
 function MatchRoom:getUserPolice()
-    return self.userPolice
+  return self.userPolice
 end
 function MatchRoom:getUserMurder()
-    return self.userMurder
+  return self.userMurder
 end
 function MatchRoom:getAllUserList()
-    return self.userList
+  return self.userList
 end
 function MatchRoom:getOnlineUserList()
   local userList = {}
@@ -45,28 +45,62 @@ function MatchRoom:getOnlineUserList()
   return userList
 end
 function MatchRoom:getRoomStatus()
-    return self.roomStatus
+  return self.roomStatus
 end
 
 --set
 function MatchRoom:setRoomStatus(codeStatus)
-  self.roomStatus=codeStatus
+  self.roomStatus = codeStatus
 end
-function MatchRoom:setMurder(userIdList)
-  self.userMurder=userIdList  
+function MatchRoom:setMurder(userId)
+  --self.userMurder = userIdList
+  table.insert(self.userMurder,userId)
 end
-function MatchRoom:setPolice(userIdList)
-    self.userPolice=userIdList
+function MatchRoom:setPolice(userId)
+  --self.userPolice = userIdList
+  table.insert(self.userPolice,userId)
 end
-
+---local function ---------------------------------
+local function getRandomItem(items)
+  local p = math.random()
+  local cumulativeProbability = 0
+  for name, item in pairs(items) do
+    cumulativeProbability = cumulativeProbability + item.probability
+    if p <= cumulativeProbability then
+      return name, item.uid
+    end
+  end
+end
+function MatchRoom:setRoles()
+  local item = {}
+  for k, v in pairs(self.userList) do
+    local player = Game.GetPlayerByUserId(v)
+    local playerBase = player:getValue("temporary")
+    table.insert(item,{
+      probability = playerBase.changeRoles + 5,
+      uid=v
+    })
+  end
+  while Lib.getTableSize(self.userMurder)<Define.MATCH.MIN_MURDER do
+    local key,idUser=getRandomItem(item)
+    self:setMurder(idUser)
+    table.remove(item,key)
+  end
+  while Lib.getTableSize(self.userPolice)<Define.MATCH.MIN_POLICE do
+    local key,idUser,probability=getRandomItem(item)
+    self:setPolice(idUser)
+    table.remove(item,key)
+  end
+  self.roomStatus = 2
+end
 --function
 function MatchRoom:addPlayer(playerId)
-  table.insert( self.userList,playerId)
+  table.insert(self.userList, playerId)
 end
 function MatchRoom:removePlayer(playerId)
-  for k,v in pairs(self.userList) do
-    if v==playerId then
-      table.remove(self.userList,k)
+  for k, v in pairs(self.userList) do
+    if v == playerId then
+      table.remove(self.userList, k)
     end
   end
 end
@@ -79,15 +113,23 @@ function MatchRoom:isInRoom(userId)
   return false
 end
 function MatchRoom:roomListenning()
-  local isGameStart=false
-  World.Timer(1,function ()
-    if not(isGameStart) then
-      isGameStart=(Define.MATCH.MIN_PLAYER<=Lib.getTableSize(self.userList))
-    else
-      self.roomStatus=1
-      --phan vai
+  local isGameStart = false
+  World.Timer(
+    1,
+    function()
+      if not (isGameStart) then
+        isGameStart = (Define.MATCH.MIN_PLAYER <= Lib.getTableSize(self.userList))
+        Lib.logs("waiting")
+      end
+      if isGameStart then
+        self.roomStatus = 1
+        --phan vai
+        self:setRoles()
+        Lib.pv(self.userMurder)
+        Lib.pv(self.userPolice)
+      end
+      return not (isGameStart)
     end
-    return not(isGameStart)
-  end)
+  )
 end
 return MatchRoom

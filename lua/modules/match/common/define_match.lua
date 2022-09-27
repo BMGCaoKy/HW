@@ -1,6 +1,8 @@
 local match_event_function=require "modules.match.server.match_event_function"
 Define.MATCH={}
 Define.MATCH.MIN_PLAYER=3
+Define.MATCH.MIN_MURDER=1
+Define.MATCH.MIN_POLICE=1
 Define.MATCH.EVENT={
     ["ENTITY_ENTER"]={
         cfg="PLAYER",

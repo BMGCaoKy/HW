@@ -1,7 +1,7 @@
 local format={}
 
-format={
-    base={},
+format.baseInform={
+    time_create=os.time(os.date("!*t")),
     exp={
         lv=0,
         point=0
@@ -9,8 +9,13 @@ format={
     item={
         weapon={
             gun={},
-            knife={},
-            skin={}
+            knife={}
         }
+    },
+    login7day={
+        lastLoginDay=0, --lưu dạng time_date
+        sumLoginDay=0,
     }
 }
+
+return format
