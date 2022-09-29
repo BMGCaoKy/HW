@@ -1,0 +1,223 @@
+{
+  "data": {
+    "md5": "e4c877b9053d12e7bab5797ac7ad437b",
+    "path": "asset/ui/role.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 4,
+                  "Font": "Fonts/RWcreepsville",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "e335c57e-4153-4367-97ba-aa1d9b26ae9c"
+                  },
+                  "name": "role_murder",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "Murder",
+                  "text_key": {
+                    "value": "asset/ui/role.layout.StaticText#48728e66-0cc0-42e2-9ccb-2515beb21772"
+                  },
+                  "TextColours": {
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "Visible": false,
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 4,
+                  "Font": "Fonts/RWcreepsville",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "4f8aeed6-5580-44d4-a8dd-e37e574bf7a5"
+                  },
+                  "name": "role_sheriff",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "Sheriff",
+                  "text_key": {
+                    "value": "asset/ui/role.layout.StaticText#7ad95b37-4fdc-4c52-b033-80a7d4a0805e"
+                  },
+                  "TextColours": {
+                    "g": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "Visible": false,
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 4,
+                  "Font": "Fonts/RWcreepsville",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "c574517f-5753-407a-ab40-168a4acb8cd4"
+                  },
+                  "name": "role_innocent",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "Innocent",
+                  "text_key": {
+                    "value": "asset/ui/role.layout.StaticText#c95b77f6-2ea6-4e5b-95e8-326f5d2aae23"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 170
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "e7c0922f-5acf-4a51-b445-31f16112e515"
+              },
+              "Image": {
+                "asset": "asset/ui/role/hlwBoard.png"
+              },
+              "name": "bg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "bebdc989-6fe4-4ea6-b52f-d3f498724800"
+          },
+          "name": "win",
+          "size": {
+            "UDim_X": {
+              "Offect": 600
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BorderColor": {
+            "b": 0,
+            "r": 85
+          },
+          "BorderWidth": 2,
+          "Font": "Fonts/shloprg",
+          "Font_size": 20,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "2553a66a-ec80-4b5d-b573-087de5fecb82"
+          },
+          "name": "probability",
+          "pos": {
+            "UDim_Y": {
+              "Offect": 60
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 600
+            },
+            "UDim_Y": {
+              "Offect": 40
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/ui/role.layout.StaticText#9a050e87-5180-494c-aaa2-d7404fb0c7ed"
+          },
+          "VertFormatting": "BottomAligned",
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "f09b5b5c-525a-4446-b86a-6e845d18d0c3"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "e4c877b9053d12e7bab5797ac7ad437b",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

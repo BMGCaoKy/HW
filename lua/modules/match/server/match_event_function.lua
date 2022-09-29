@@ -1,10 +1,10 @@
 local event = {}
 local MatchRoom = require("modules.match.server.room.match_room")
 event["ENTITY_ENTER"] = function(p)
-    print("HÀM THỨ 1")
+    Global.ui("ui/popup",p.obj1,{})
     local keyId = nil
     for k, v in pairs(Global.listRoom) do
-        if v:getRoomStatus() == 0 then
+        if v:getRoomStatus() <= 2 then
             keyId = k
             break
         end

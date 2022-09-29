@@ -1,4 +1,5 @@
 if World.isClient then
+    require "modules.base.client.ui_controller"
 else
     for k, v in pairs(Global.connection) do
         if Define.CONNECTION.EVENT[k] == nil then

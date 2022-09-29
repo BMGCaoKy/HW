@@ -1,0 +1,115 @@
+{
+  "data": {
+    "md5": "d2ca14d4066af9df270d690f9355a39f",
+    "path": "asset/ui/popup.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "VerticalLayoutContainer",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 60,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "1b6feff3-7081-41ab-bf1a-8fdbb05379e2"
+              },
+              "name": "Label",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                }
+              },
+              "Text": "WAITING FOR YOUR TURN",
+              "text_key": {
+                "value": "asset/ui/popup.layout.StaticText#f42d29fb-9db9-4817-9645-72e9cb34d255"
+              },
+              "TextColours": {
+                "r": 170
+              },
+              "VertFormatting": "BottomAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "BorderColor": {
+                "b": 0,
+                "g": 85
+              },
+              "BorderWidth": 2,
+              "Font": "Fonts/youmurdererbbreg",
+              "Font_size": 60,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "607443e9-d85e-4275-8c40-7c9b7688d168"
+              },
+              "name": "MainLabel",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 108
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Waiting player...",
+              "text_key": {
+                "value": "asset/ui/popup.layout.StaticText#06c3d75d-b8d2-41a4-a1ba-ac2a9515949c"
+              },
+              "TextBoldWeight": "1",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "0b500b2a-0aa8-4ce3-b9eb-2899afbeea17"
+          },
+          "name": "ListText",
+          "size": {
+            "UDim_X": {
+              "Offect": 1284
+            },
+            "UDim_Y": {
+              "Offect": 180
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "26a2f318-348d-4dd9-a6a2-f970ad48832a"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "d2ca14d4066af9df270d690f9355a39f",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

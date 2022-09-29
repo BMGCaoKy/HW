@@ -14,6 +14,7 @@ function MatchRoom:init(uid)
   self.userPolice = {} --danh sách người chơi là police    type: table playerId
   self.userStatus = {} --trạng thái người chơi             type: table {offline=true}
   self.roomStatus = 0 --trạng thái phòng (0: đã khởi tạo)(1: du nguoi choi)(2: phân vai xong)(3: đang chơi)
+  self.timeWaitingToStart=Define.MATCH.TIME_WAITING_TO_START
 end
 
 --get
@@ -96,6 +97,7 @@ end
 --function
 function MatchRoom:addPlayer(playerId)
   table.insert(self.userList, playerId)
+  self.timeWaitingToStart=Define.MATCH.TIME_WAITING_TO_START
 end
 function MatchRoom:removePlayer(playerId)
   for k, v in pairs(self.userList) do
@@ -113,23 +115,45 @@ function MatchRoom:isInRoom(userId)
   return false
 end
 function MatchRoom:roomListenning()
+  local time=0
   local isGameStart = false
   World.Timer(
     1,
     function()
-      if not (isGameStart) then
-        isGameStart = (Define.MATCH.MIN_PLAYER <= Lib.getTableSize(self.userList))
-        Lib.logs("waiting")
+      time=time+1
+      --if not (isGameStart) then
+        isGameStart = (Define.MATCH.MIN_PLAYER <= Lib.getTableSize(self.userList))and(self.timeWaitingToStart==0)
+        --Lib.logs("waiting")
+      --end
+      if Define.MATCH.MIN_PLAYER > Lib.getTableSize(self.userList) then
+        self.roomStatus = 0
+      end
+      if Define.MATCH.MIN_PLAYER <= Lib.getTableSize(self.userList) then
+        self.roomStatus = 1
+        if time%20==0 then
+          self.timeWaitingToStart=self.timeWaitingToStart-1
+          print("waiting: "..self.timeWaitingToStart)
+        end
       end
       if isGameStart then
-        self.roomStatus = 1
+        self.roomStatus = 2
         --phan vai
         self:setRoles()
         Lib.pv(self.userMurder)
         Lib.pv(self.userPolice)
+        for k,v in pairs(self.userList) do
+          local player=Game.GetPlayerByUserId(v)
+          Global.ui("ui/role",player,player:getValue("temporary"))
+        end
       end
       return not (isGameStart)
     end
   )
+end
+function MatchRoom:startGame()
+  local start=true
+  World.Timer(1,function ()
+    return start
+  end)
 end
 return MatchRoom

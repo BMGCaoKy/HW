@@ -6,7 +6,7 @@ local function CompareTwoTable(t1, t2)
             t1[k] = v
         end
         if type(v)=="table" then
-            CompareTwoTable(t1[k], v)
+            t1[k]=CompareTwoTable(t1[k], v)
         end
     end
     return t1
