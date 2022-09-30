@@ -1,0 +1,59 @@
+{
+  "data": {
+    "md5": "c28b40680dd272ea4bad46d72913149a",
+    "path": "asset/ui/MainPlay.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Font": "Fonts/RWcreepsville",
+          "Font_size": 30,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "173ba236-c8de-47f2-850e-ca39397859e4"
+          },
+          "name": "role",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.2
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.2
+            }
+          },
+          "text_key": {
+            "value": "asset/ui/MainPlay.layout.StaticText#02005ead-72ad-4dda-8eb8-0ffca90c9299"
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "98fa4c38-2080-4d47-8eaa-69f473580a31"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "c28b40680dd272ea4bad46d72913149a",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "e4c877b9053d12e7bab5797ac7ad437b",
+    "md5": "a33843975b0c8a55198c3105b33121b0",
     "path": "asset/ui/role.layout",
     "root": {
       "anchor": {
@@ -20,6 +20,7 @@
               "children": [
                 {
                   "__OBJ_TYPE": "StaticText",
+                  "AutoTextScale": true,
                   "BorderColor": {
                     "b": 0,
                     "g": 0,
@@ -56,6 +57,7 @@
                 },
                 {
                   "__OBJ_TYPE": "StaticText",
+                  "AutoTextScale": true,
                   "BorderColor": {
                     "b": 0,
                     "g": 0,
@@ -92,6 +94,7 @@
                 },
                 {
                   "__OBJ_TYPE": "StaticText",
+                  "AutoTextScale": true,
                   "BorderColor": {
                     "b": 0,
                     "g": 0,
@@ -215,7 +218,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "e4c877b9053d12e7bab5797ac7ad437b",
+      "layout": "a33843975b0c8a55198c3105b33121b0",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

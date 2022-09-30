@@ -1,0 +1,115 @@
+{
+  "data": {
+    "md5": "a77504a0cc6bfce11438699c11f23f83",
+    "path": "asset/ui/loading.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.994,
+          "id": {
+            "value": "0d88a3ec-4845-4c06-af54-0b15dd007fd4"
+          },
+          "Image": {
+            "asset": "asset/ui/loading/bg_hwl1.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "VerticalAlignment": "Bottom"
+          },
+          "BorderColor": {
+            "b": 0,
+            "g": 85
+          },
+          "BorderWidth": 4,
+          "Font": "Fonts/RWcreepsville",
+          "Font_size": 40,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "44093df3-f9f1-4df2-898f-07084fc1134d"
+          },
+          "name": "Status",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 100
+            }
+          },
+          "Text": "Create map...",
+          "text_key": {
+            "value": "asset/ui/loading.layout.StaticText#03f006dd-4556-4e48-ba3b-88270cff485d"
+          },
+          "TextColours": {
+            "g": 255
+          },
+          "VertFormatting": "CentreAligned"
+        },
+        {
+          "__OBJ_TYPE": "EffectWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "effectName": {
+            "asset": "asset/ui/loading/loading.effect"
+          },
+          "EffectPosition": {
+            "y": 100
+          },
+          "effectYPosition": 100,
+          "id": {
+            "value": "61332eda-4c47-40de-8991-4b383f1d976b"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Offect": -100
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 100
+            },
+            "UDim_Y": {
+              "Offect": 100
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "a76e46d3-eb88-4b52-a15a-5ec706b1893b"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "a77504a0cc6bfce11438699c11f23f83",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

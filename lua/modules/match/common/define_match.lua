@@ -14,3 +14,9 @@ Define.MATCH.EVENT={
         func=match_event_function["ENTITY_LEAVE"],
     },
 }
+
+Define.MATCH.MAP={
+    [1]={
+        mapId="map001",
+    }
+}

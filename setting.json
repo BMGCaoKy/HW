@@ -83,11 +83,11 @@
   "engineDefUIEnable": {
     "actionControl": true,
     "actionControlMode": "flexibleDragControl",
-    "appMainRole": true,
+    "appMainRole": false,
     "chat": true,
-    "playerinfo": true,
-    "shortcutBar": true,
-    "toolbar": true
+    "playerinfo": false,
+    "shortcutBar": false,
+    "toolbar": false
   },
   "forcePickBlock": true,
   "glesMinorVersion": 0,

@@ -15,6 +15,7 @@ function MatchRoom:init(uid)
   self.userStatus = {} --trạng thái người chơi             type: table {offline=true}
   self.roomStatus = 0 --trạng thái phòng (0: đã khởi tạo)(1: du nguoi choi)(2: phân vai xong)(3: đang chơi)
   self.timeWaitingToStart=Define.MATCH.TIME_WAITING_TO_START
+  self.map={}
 end
 
 --get
@@ -114,6 +115,22 @@ function MatchRoom:isInRoom(userId)
   end
   return false
 end
+function MatchRoom:isMurder(userId)
+  for i, roomUserId in ipairs(self.userMurder) do
+    if roomUserId == userId then
+      return true
+    end
+  end
+  return false
+end
+function MatchRoom:isPolice(userId)
+  for i, roomUserId in ipairs(self.userPolice) do
+    if roomUserId == userId then
+      return true
+    end
+  end
+  return false
+end
 function MatchRoom:roomListenning()
   local time=0
   local isGameStart = false
@@ -145,6 +162,11 @@ function MatchRoom:roomListenning()
           local player=Game.GetPlayerByUserId(v)
           Global.ui("ui/role",player,player:getValue("temporary"))
         end
+        World.Timer(40,
+      function ()
+        self:startGame()
+      end)
+        
       end
       return not (isGameStart)
     end
@@ -152,6 +174,16 @@ function MatchRoom:roomListenning()
 end
 function MatchRoom:startGame()
   local start=true
+  for k,v in pairs(self.userList) do
+    local player=Game.GetPlayerByUserId(v)
+    if self:isMurder(v) then
+      Global.ui("ui/MainPlay",player,{role="Murder"})
+    elseif self:isPolice(v) then
+      Global.ui("ui/MainPlay",player,{role="Sheriff"})
+    else
+      Global.ui("ui/MainPlay",player,{role="Innocent"})
+    end
+  end
   World.Timer(1,function ()
     return start
   end)

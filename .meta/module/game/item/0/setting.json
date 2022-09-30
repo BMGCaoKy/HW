@@ -30,11 +30,17 @@
         "z": 4.5978307723999
       }
     },
+    "ui_enable": {
+      "appMainRole": false,
+      "playerinfo": false,
+      "shortcutBar": false,
+      "toolbar": false
+    },
     "unlimitedPlayTime": true
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f7b95198d063ca1e0e94dfbf6c61a390",
+      "setting.json": "b1a62fab29c1647141cfb738e99c1231",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

@@ -1,5 +1,6 @@
 require "modules.match.common.define_match"
 require "modules.match.common.global_match"
+require "modules.match.common.define_map"
 require "modules.match.server.state"
 print("Load MATCH at",os.clock())
 if World.isClient then
