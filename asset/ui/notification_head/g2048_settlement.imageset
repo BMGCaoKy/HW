@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset imagefile="g2048_settlement.png" autoScaled="false" nativeHorzRes="1203" name="g2048_settlement" version="2" nativeVertRes="952">
+      <Image yPos="474" name="img_0_light_win" height="477" xPos="593" width="609"/>
+    <Image yPos="217" name="img_0_title_win" height="205" xPos="1" width="497"/>
+    <Image yPos="72" name="img_9_item" height="82" xPos="148" width="84"/>
+    <Image yPos="72" name="img_0_title_win_right" height="89" xPos="233" width="65"/>
+    <Image yPos="1" name="img_0_gold" height="27" xPos="161" width="30"/>
+    <Image yPos="1" name="img_0_silver" height="27" xPos="130" width="30"/>
+    <Image yPos="217" name="img_9_bottom" height="256" xPos="499" width="456"/>
+    <Image yPos="72" name="img_0_title_lost" height="144" xPos="494" width="541"/>
+    <Image yPos="1" name="img_0_kill" height="56" xPos="826" width="52"/>
+    <Image yPos="72" name="btn_0_hall" height="70" xPos="1" width="146"/>
+    <Image yPos="72" name="img_0_title_win_left" height="89" xPos="299" width="65"/>
+    <Image yPos="1" name="btn_0_again" height="70" xPos="985" width="146"/>
+    <Image yPos="1" name="img_9_reward" height="32" xPos="728" width="32"/>
+    <Image yPos="1" name="img_0_cast6" height="56" xPos="879" width="52"/>
+    <Image yPos="1" name="img_9_ranking_others" height="2" xPos="1" width="128"/>
+    <Image yPos="1" name="img_9_gradient" height="32" xPos="192" width="535"/>
+    <Image yPos="72" name="img_9_bubble" height="102" xPos="365" width="128"/>
+    <Image yPos="1" name="img_9_ranking_oneself" height="41" xPos="761" width="64"/>
+    <Image yPos="474" name="img_0_light_lost" height="444" xPos="1" width="591"/>
+    <Image yPos="1" name="img_0_xp" height="56" xPos="932" width="52"/>
+</Imageset>

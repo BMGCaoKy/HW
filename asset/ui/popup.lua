@@ -9,7 +9,7 @@ function self:onOpen(packet)
                 self.ListText.MainLabel.Text="Starts in "..tostring(p.timeWaitingToStart)
                 print(p.timeWaitingToStart)
             else
-                UI:closeWindow(self)
+                UI:closeWindow("ui/popup")
             end
         end)
         if UI:isOpenWindow("ui/popup")==nil then

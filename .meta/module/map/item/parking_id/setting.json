@@ -1,0 +1,317 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8799297482654236673"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8799297482719789057",
+        "ID": 3,
+        "lightBrightness": 0.7,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "needSync": true,
+        "skyColor": {
+          "b": 141,
+          "g": 156,
+          "r": 157
+        },
+        "skyLineColor": {
+          "b": 135,
+          "g": 146,
+          "r": 147
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8799297482823221249",
+        "ID": 4,
+        "lightBrightness": 0.5,
+        "lightColor": {
+          "b": 103,
+          "g": 124,
+          "r": 127
+        },
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "needSync": true,
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        },
+        "shadows": {
+          "shadowsOffset": 0.306,
+          "shadowsPresicion": "512",
+          "shadowsType": "soft"
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "92cdc76f-71a8-49a3-9488-25ecde69eb6f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8803812220092989441",
+        "massCenter": {
+          "y": 5.36204242706299
+        },
+        "mesh": "asset/Parking/Parking/Parking.mesh",
+        "mesh_selector": {
+          "asset": "asset/Parking/Parking/Parking.mesh",
+          "selector": "asset/Parking/Parking/Parking.mesh"
+        },
+        "name": "Parking.mesh",
+        "position": {
+          "y": 5.36204242706299
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "25c6fa62-b51e-4c4a-bf04-a015a1fd05d0",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803813543113965569",
+            "massCenter": {
+              "x": -25.1969985961914,
+              "y": 6.856,
+              "z": 34.7980003356934
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": -25.1969985961914,
+              "y": 6.856,
+              "z": 34.7980003356934
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "4f6dddfe-78a2-4b19-b532-0387e721cabd",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803812825345212417",
+            "massCenter": {
+              "x": -27.0959205627441,
+              "y": 6.85561466217041,
+              "z": 34.798038482666
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": -27.0959205627441,
+              "y": 6.85561466217041,
+              "z": 34.798038482666
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "b01fe0e6-5d54-49f7-96a0-93c46f02e82e",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803814737101881345",
+            "massCenter": {
+              "x": -27.0959205627441,
+              "y": 2.74961256980896,
+              "z": 34.798038482666
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": -27.0959205627441,
+              "y": 2.74961256980896,
+              "z": 34.798038482666
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "ccf89722-86a8-422a-8690-b43439ee98c5",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803814737107189761",
+            "massCenter": {
+              "x": -25.1969985961914,
+              "y": 2.74999785423279,
+              "z": 34.7980003356934
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": -25.1969985961914,
+              "y": 2.74999785423279,
+              "z": 34.7980003356934
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "ac4db4b6-6716-4284-90ea-46a9187b69fb",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026477551617",
+            "massCenter": {
+              "x": 20.4160060882568,
+              "y": 2.69099831581116,
+              "z": -34.9660110473633
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": 20.4160060882568,
+              "y": 2.69099831581116,
+              "z": -34.9660110473633
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "07b5566f-4f39-423c-8e9e-92cefc7cea96",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026483499009",
+            "massCenter": {
+              "x": 18.5170841217041,
+              "y": 6.98661518096924,
+              "z": -34.9659805297852
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": 18.5170841217041,
+              "y": 6.98661518096924,
+              "z": -34.9659805297852
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "562fb0ff-be06-4df3-9b60-29a646630978",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026488856577",
+            "massCenter": {
+              "x": 20.4160060882568,
+              "y": 6.98700046539307,
+              "z": -34.9660110473633
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": 20.4160060882568,
+              "y": 6.98700046539307,
+              "z": -34.9660110473633
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "d9ea010a-4683-4c72-9f0f-39d19ac20595",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026494115841",
+            "massCenter": {
+              "x": 18.5170841217041,
+              "y": 2.69061303138733,
+              "z": -34.9659805297852
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": 18.5170841217041,
+              "y": 2.69061303138733,
+              "z": -34.9659805297852
+            },
+            "restitution": 0.3,
+            "staticBatchNo": "1",
+            "useAnchor": true
+          }
+        ],
+        "id": "8803814431854837761",
+        "name": "Door",
+        "position": {
+          "x": -26.1464595794678,
+          "y": 6.85580730438232,
+          "z": 34.7980194091797
+        }
+      }
+    ],
+    "name": {
+      "value": "map_parking_id"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1fd4040ec71d6e6bc05c4c8c2f6bd8e7"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "data": {
+    "md5": "4c0910ea5dd3cda11f3ab0692d5428ea",
+    "path": "asset/ui/notification_head.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 3,
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a7a126b8-2fdb-4c7c-97c1-5747dd8e6241"
+              },
+              "name": "label",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "You will become Sheriff",
+              "text_key": {
+                "value": "asset/ui/notification_head.layout.StaticText#86e62544-d9c1-44ef-8467-48ae2b5d6c5a"
+              },
+              "TextColours": {
+                "g": 255
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "51b80e7f-037a-488f-95c8-05f8e11a8915"
+          },
+          "Image": {
+            "asset": "asset/ui/notification_head/g2048_settlement.imageset",
+            "imageset_key": "img_9_gradient"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.8
+            },
+            "UDim_Y": {
+              "Offect": 60
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "f9f1cb38-dbe5-48ac-8a09-9442825d915d"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 100
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "4c0910ea5dd3cda11f3ab0692d5428ea",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

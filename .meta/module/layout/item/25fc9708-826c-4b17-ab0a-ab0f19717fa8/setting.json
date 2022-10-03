@@ -1,17 +1,22 @@
 {
   "data": {
-    "md5": "a77504a0cc6bfce11438699c11f23f83",
+    "md5": "55ba0f907b50187cdb7b8f2a8380ed21",
     "path": "asset/ui/loading.layout",
     "root": {
       "children": [
         {
           "__OBJ_TYPE": "StaticImage",
-          "Alpha": 0.994,
+          "BackgroundColours": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BackgroundEnabled": true,
           "id": {
             "value": "0d88a3ec-4845-4c06-af54-0b15dd007fd4"
           },
           "Image": {
-            "asset": "asset/ui/loading/bg_hwl1.png"
+            "asset": ""
           },
           "size": {
             "UDim_X": {
@@ -25,48 +30,13 @@
           }
         },
         {
-          "__OBJ_TYPE": "StaticText",
-          "anchor": {
-            "VerticalAlignment": "Bottom"
-          },
-          "BorderColor": {
-            "b": 0,
-            "g": 85
-          },
-          "BorderWidth": 4,
-          "Font": "Fonts/RWcreepsville",
-          "Font_size": 40,
-          "HorzFormatting": "CentreAligned",
-          "id": {
-            "value": "44093df3-f9f1-4df2-898f-07084fc1134d"
-          },
-          "name": "Status",
-          "size": {
-            "UDim_X": {
-              "Offect": 0,
-              "Scale": 1
-            },
-            "UDim_Y": {
-              "Offect": 100
-            }
-          },
-          "Text": "Create map...",
-          "text_key": {
-            "value": "asset/ui/loading.layout.StaticText#03f006dd-4556-4e48-ba3b-88270cff485d"
-          },
-          "TextColours": {
-            "g": 255
-          },
-          "VertFormatting": "CentreAligned"
-        },
-        {
           "__OBJ_TYPE": "EffectWindow",
           "anchor": {
             "HorizontalAlignment": "Centre",
-            "VerticalAlignment": "Bottom"
+            "VerticalAlignment": "Centre"
           },
           "effectName": {
-            "asset": "asset/ui/loading/loading.effect"
+            "asset": "asset/ui/loading/ghost_loading.effect"
           },
           "EffectPosition": {
             "y": 100
@@ -74,18 +44,89 @@
           "effectYPosition": 100,
           "id": {
             "value": "61332eda-4c47-40de-8991-4b383f1d976b"
+          }
+        },
+        {
+          "__OBJ_TYPE": "HorizontalLayoutContainer",
+          "anchor": {
+            "VerticalAlignment": "Centre"
           },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "BorderColor": {
+                "b": 0,
+                "g": 85
+              },
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 50,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "44093df3-f9f1-4df2-898f-07084fc1134d"
+              },
+              "name": "Status",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 100
+                }
+              },
+              "Text": "Halloween is coming",
+              "text_key": {
+                "value": "asset/ui/loading.layout.StaticText#03f006dd-4556-4e48-ba3b-88270cff485d"
+              },
+              "TextColours": {
+                "g": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 70,
+              "id": {
+                "value": "a38cf8d2-a4bc-4943-8272-dead98f70e2f"
+              },
+              "name": "Dot",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 898
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 100
+                }
+              },
+              "Text": "...",
+              "text_key": {
+                "value": "asset/ui/loading.layout.StaticText#4a2955f0-5b4b-4045-b6c2-07b95f0d4f18"
+              },
+              "TextColours": {
+                "g": 255
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "c2f37512-198e-4bf2-b424-db9766f51b73"
+          },
+          "name": "Container",
           "pos": {
             "UDim_Y": {
-              "Offect": -100
+              "Offect": 200
             }
           },
           "size": {
             "UDim_X": {
-              "Offect": 100
-            },
-            "UDim_Y": {
-              "Offect": 100
+              "Offect": 1284
             }
           }
         }
@@ -107,7 +148,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "a77504a0cc6bfce11438699c11f23f83",
+      "layout": "55ba0f907b50187cdb7b8f2a8380ed21",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

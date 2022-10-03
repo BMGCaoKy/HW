@@ -1,0 +1,22 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Orange Small Burger/g2040_candy_hamburg.mesh"
+    },
+    "name": {
+      "value": "item_candy_1"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "81c470c49055fab8bcba4956e84126ef",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

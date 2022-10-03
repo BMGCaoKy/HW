@@ -14,8 +14,9 @@ function MatchRoom:init(uid)
   self.userPolice = {} --danh sách người chơi là police    type: table playerId
   self.userStatus = {} --trạng thái người chơi             type: table {offline=true}
   self.roomStatus = 0 --trạng thái phòng (0: đã khởi tạo)(1: du nguoi choi)(2: phân vai xong)(3: đang chơi)
-  self.timeWaitingToStart=Define.MATCH.TIME_WAITING_TO_START
-  self.map={}
+  self.timeWaitingToStart = Define.MATCH.TIME_WAITING_TO_START
+  self.map = {}
+  self.timeGameRun=Define.MATCH.TIME_GAME_RUN
 end
 
 --get
@@ -56,11 +57,11 @@ function MatchRoom:setRoomStatus(codeStatus)
 end
 function MatchRoom:setMurder(userId)
   --self.userMurder = userIdList
-  table.insert(self.userMurder,userId)
+  table.insert(self.userMurder, userId)
 end
 function MatchRoom:setPolice(userId)
   --self.userPolice = userIdList
-  table.insert(self.userPolice,userId)
+  table.insert(self.userPolice, userId)
 end
 ---local function ---------------------------------
 local function getRandomItem(items)
@@ -78,32 +79,93 @@ function MatchRoom:setRoles()
   for k, v in pairs(self.userList) do
     local player = Game.GetPlayerByUserId(v)
     local playerBase = player:getValue("temporary")
-    table.insert(item,{
-      probability = playerBase.changeRoles + 5,
-      uid=v
-    })
+    table.insert(
+      item,
+      {
+        probability = playerBase.changeRoles + 5,
+        uid = v
+      }
+    )
   end
-  while Lib.getTableSize(self.userMurder)<Define.MATCH.MIN_MURDER do
-    local key,idUser=getRandomItem(item)
+  while Lib.getTableSize(self.userMurder) < Define.MATCH.MIN_MURDER do
+    local key, idUser = getRandomItem(item)
     self:setMurder(idUser)
-    table.remove(item,key)
+    table.remove(item, key)
   end
-  while Lib.getTableSize(self.userPolice)<Define.MATCH.MIN_POLICE do
-    local key,idUser,probability=getRandomItem(item)
+  while Lib.getTableSize(self.userPolice) < Define.MATCH.MIN_POLICE do
+    local key, idUser, probability = getRandomItem(item)
     self:setPolice(idUser)
-    table.remove(item,key)
+    table.remove(item, key)
   end
   self.roomStatus = 2
+end
+
+function MatchRoom:randomPolice()
+  local item = {}
+  for k, v in pairs(self.userList) do
+    if not (self:isMurder(v)) and not (self:isPolice(v)) then
+      local player = Game.GetPlayerByUserId(v)
+      local playerBase = player:getValue("temporary")
+      table.insert(
+        item,
+        {
+          probability = playerBase.changeRoles + 5,
+          uid = v
+        }
+      )
+    end
+  end
+  local key, idUser, probability = getRandomItem(item)
+
+  local player = Game.GetPlayerByUserId(idUser)
+  Global.ui("ui/notification_head", player)
+  World.Timer(
+    60,
+    function()
+      local packet = player:getValue("temporary")
+      self:setPolice(idUser)
+      Global.ui("ui/role", player, packet)
+
+      PackageHandlers:SendToClient(player, "UPDATE_ROOM", {role = "Sheriff"})
+    end
+  )
 end
 --function
 function MatchRoom:addPlayer(playerId)
   table.insert(self.userList, playerId)
-  self.timeWaitingToStart=Define.MATCH.TIME_WAITING_TO_START
+  self.timeWaitingToStart = Define.MATCH.TIME_WAITING_TO_START
+end
+function MatchRoom:removeMurder(playerId)
+  for k, v in pairs(self.userMurder) do
+    if v == playerId then
+      table.remove(self.userMurder, k)
+    end
+  end
+end
+function MatchRoom:removePolice(playerId)
+  for k, v in pairs(self.userPolice) do
+    if v == playerId then
+      table.remove(self.userPolice, k)
+      World.Timer(
+        30,
+        function()
+          self:randomPolice()
+        end
+      )
+    end
+  end
 end
 function MatchRoom:removePlayer(playerId)
   for k, v in pairs(self.userList) do
     if v == playerId then
       table.remove(self.userList, k)
+      if self.roomStatus >= 2 then
+        if self:isMurder(playerId) then
+          self:removeMurder(playerId)
+        elseif self:isPolice(playerId) then
+          self:removePolice(playerId)
+        end
+      end
     end
   end
 end
@@ -132,60 +194,84 @@ function MatchRoom:isPolice(userId)
   return false
 end
 function MatchRoom:roomListenning()
-  local time=0
+  local time = 0
   local isGameStart = false
   World.Timer(
     1,
     function()
-      time=time+1
+      time = time + 1
       --if not (isGameStart) then
-        isGameStart = (Define.MATCH.MIN_PLAYER <= Lib.getTableSize(self.userList))and(self.timeWaitingToStart==0)
-        --Lib.logs("waiting")
+      isGameStart = (Define.MATCH.MIN_PLAYER <= Lib.getTableSize(self.userList)) and (self.timeWaitingToStart == 0)
+      --Lib.logs("waiting")
       --end
       if Define.MATCH.MIN_PLAYER > Lib.getTableSize(self.userList) then
         self.roomStatus = 0
       end
       if Define.MATCH.MIN_PLAYER <= Lib.getTableSize(self.userList) then
         self.roomStatus = 1
-        if time%20==0 then
-          self.timeWaitingToStart=self.timeWaitingToStart-1
-          print("waiting: "..self.timeWaitingToStart)
+        if time % 20 == 0 then
+          self.timeWaitingToStart = self.timeWaitingToStart - 1
+          print("waiting: " .. self.timeWaitingToStart)
         end
       end
       if isGameStart then
         self.roomStatus = 2
-        --phan vai
-        self:setRoles()
-        Lib.pv(self.userMurder)
-        Lib.pv(self.userPolice)
-        for k,v in pairs(self.userList) do
-          local player=Game.GetPlayerByUserId(v)
-          Global.ui("ui/role",player,player:getValue("temporary"))
+        for k, v in pairs(self.userList) do
+          local player = Game.GetPlayerByUserId(v)
+          Global.ui("ui/loading", player)
         end
-        World.Timer(40,
-      function ()
-        self:startGame()
-      end)
-        
+
+        --phan vai
+        World.Timer(
+          20,
+          function()
+            self:setRoles()
+            self:startGame()
+            return false
+          end
+        )
       end
       return not (isGameStart)
     end
   )
 end
 function MatchRoom:startGame()
-  local start=true
-  for k,v in pairs(self.userList) do
-    local player=Game.GetPlayerByUserId(v)
-    if self:isMurder(v) then
-      Global.ui("ui/MainPlay",player,{role="Murder"})
-    elseif self:isPolice(v) then
-      Global.ui("ui/MainPlay",player,{role="Sheriff"})
-    else
-      Global.ui("ui/MainPlay",player,{role="Innocent"})
-    end
+  local start = true
+
+  self.roomStatus = 3
+
+  for k, v in pairs(self.userList) do
+    local player = Game.GetPlayerByUserId(v)
+    local packet = player:getValue("temporary")
+    Global.ui("ui/role", player, packet)
   end
-  World.Timer(1,function ()
-    return start
-  end)
+  World.Timer(
+    40,
+    function()
+      for k, v in pairs(self.userList) do
+        local player = Game.GetPlayerByUserId(v)
+        if self:isMurder(v) then
+          Global.ui("ui/MainPlay", player, {role = "Murder"})
+        elseif self:isPolice(v) then
+          Global.ui("ui/MainPlay", player, {role = "Sheriff"})
+        else
+          Global.ui("ui/MainPlay", player, {role = "Innocent"})
+        end
+      end
+    end
+  )
+  World.Timer(
+    20,
+    function()
+      self.timeGameRun= self.timeGameRun-1
+      return start
+    end
+  )
+  World.Timer(
+    1,
+    function()
+      return start
+    end
+  )
 end
 return MatchRoom

@@ -5,11 +5,11 @@ local function AnimationUI()
             local rot=self.win.Rotation
             local size=self.win.Size
             self.win.Rotation=rot-Lib.v3(0,0,3)
-            size[1][2]=size[1][2]-20
-            size[2][2]=size[2][2]-20
+            size[1][2]=size[1][2]-100
+            size[2][2]=size[2][2]-100
             self.win.Size=size
             if size[1][2]<=0 or size[2][2]<=0 then
-                UI:closeWindow(self)
+                UI:closeWindow("ui/role")
                 return false
             end
         return true
@@ -53,6 +53,7 @@ function self:onOpen(packet)
             if time >= 2 then
                 --UI:closeWindow(self)
                 AnimationUI()
+                
                 return false
             end
             return true

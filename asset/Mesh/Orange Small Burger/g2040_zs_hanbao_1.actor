@@ -1,0 +1,34 @@
+<ActorTemplates>
+	<ActorTemplate SoundName5="" AttackScale="1" SoundName4="" Volume="0.8" SoundFileNum="0" name="111.actor" MinDistance="1" Originalscale="0.5 0.5 0.5" Alpha="1" SoundName1="" SoundName2="" SoundName3="" WoundBone="" SelectedRingSize="1" WoundAngle="25" MaxDistance="16" IntervalTime="2" IsShowShadow="true" TextHeight="0" Skeleton="bone001.skel">
+		<SubActors/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" DefaultUse="true" MasterName="body" ColorParams="1 1 1 1" SlaveName="1">
+				<StaticMesh type_name="g2040_candy_hamburg" DiscardAlpha="1" LocalAlpha="1">
+					<EdgeColor value="0 0.67 0.50 1.0"/>
+					<LocalBrightnessScale value="0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<UseBloom value="false"/>
+					<Position_Z value="0"/>
+					<SocketName value="bone001"/>
+					<UseTransparentNearestSlice value="false"/>
+					<pitch value="0"/>
+					<SpecularStrength value="1.0"/>
+					<OverlayColor value="1.0 0.67 0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_X value="0"/>
+					<roll value="0"/>
+					<SpecularCoef value="0.01"/>
+					<UseReflect value="false"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseEdge value="false"/>
+					<FileName value="asset/Mesh/Orange Small Burger/g2040_candy_hamburg.mesh"/>
+					<scale value="1.5"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "c28b40680dd272ea4bad46d72913149a",
+    "md5": "6a328d647e21b93909397f76c2633182",
     "path": "asset/ui/MainPlay.layout",
     "root": {
       "anchor": {
@@ -31,6 +31,38 @@
             "value": "asset/ui/MainPlay.layout.StaticText#02005ead-72ad-4dda-8eb8-0ffca90c9299"
           },
           "VertFormatting": "CentreAligned"
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "Alpha": 0.985,
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "BorderWidth": 4,
+          "Font": "Fonts/shloprg",
+          "Font_size": 50,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "2f274db7-6e93-41ec-af8e-f70017f1bbd8"
+          },
+          "name": "time",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 100
+            }
+          },
+          "Text": "00:00",
+          "text_key": {
+            "value": "asset/ui/MainPlay.layout.StaticText#4e1ea0ce-8105-404c-9f3a-4efd762245a0"
+          },
+          "TextColours": {
+            "r": 170
+          },
+          "VertFormatting": "CentreAligned"
         }
       ],
       "id": {
@@ -51,7 +83,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "c28b40680dd272ea4bad46d72913149a",
+      "layout": "6a328d647e21b93909397f76c2633182",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

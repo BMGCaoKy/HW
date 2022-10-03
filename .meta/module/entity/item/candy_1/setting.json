@@ -1,0 +1,38 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Orange Small Burger/g2040_zs_hanbao_1.actor"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "memory": {
+        "Sphere": "1.000000-0.400000"
+      },
+      "radius": 0.6,
+      "type": "Sector"
+    },
+    "boundingVolumeEntityCfg": {
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.600000"
+      },
+      "radius": 0.6,
+      "type": "Sector"
+    },
+    "girlactor": {
+      "asset": "asset/Mesh/Orange Small Burger/g2040_zs_hanbao_1.actor"
+    },
+    "name": {
+      "value": "entity_candy_1"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3358bad222c86b74bcc45c4ffac63458",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

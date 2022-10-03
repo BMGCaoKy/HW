@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "a33843975b0c8a55198c3105b33121b0",
+    "md5": "62adb12f20757b0c02bd4359cdfc6794",
     "path": "asset/ui/role.layout",
     "root": {
       "anchor": {
@@ -218,7 +218,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "a33843975b0c8a55198c3105b33121b0",
+      "layout": "62adb12f20757b0c02bd4359cdfc6794",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"
