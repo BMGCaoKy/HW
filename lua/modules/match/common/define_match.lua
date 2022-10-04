@@ -17,7 +17,8 @@ Define.MATCH.EVENT={
 }
 
 Define.MATCH.MAP={
+
     [1]={
-        mapId="map001",
+        mapId="Halloween_Village_ID",
     }
 }

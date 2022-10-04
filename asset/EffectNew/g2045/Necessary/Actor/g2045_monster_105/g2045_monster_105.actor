@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate MaxDistance="16" SoundName5="" name="111.actor" SoundFileNum="0" WoundAngle="25" WoundBone="" IntervalTime="2" SelectedRingSize="1" SoundName4="" SoundName2="" TextHeight="0" Skeleton="asset/Actor/g2045_monster_105/g2045_monster_105.skel" SoundName1="" Originalscale="1 1 1" Alpha="1" SoundName3="" IsShowShadow="true" MinDistance="1" AttackScale="1" Volume="0.8">
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" MasterName="mutex_name0" ColorParams="1 1 1 1" DefaultUse="true" SlaveName="group0">
+				<Skin UseEdge="false" UseBloom="false" UseOriginalcolor="false" type_name="g2045_monster_105" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Actor/g2045_monster_105/g2045_monster_105.skin" EdgeColor="1.0 0 0 1.0" SpecularCoef="0.15" LocalBrightnessScale="1.0" SpecularColor="1.0 1.0 1.0 1.0" DiscardAlpha="0" OverlayColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" UseReflect="false" UseTransparentNearestSlice="false"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/g2045_monster_105/g2045_monster_105_die.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_105/g2045_monster_105_attack2.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_105/g2045_monster_105_idle.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_105/g2045_monster_105_run.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_105/g2045_monster_105_attack1.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2045_monster_105/g2045_monster_105_attack1.anim" Length="0.866" BeginTime="0" Times="1" TimeScale="1" FadeTime="0.25" Channel=""/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2045_monster_105/g2045_monster_105_attack2.anim" Length="0.966" BeginTime="0" Times="1" TimeScale="1" FadeTime="0.25" Channel=""/>
+			</Skill>
+			<Skill Name="die" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2045_monster_105/g2045_monster_105_die.anim" Length="1.033" BeginTime="0" Times="1" TimeScale="1" FadeTime="0.25" Channel=""/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2045_monster_105/g2045_monster_105_idle.anim" Length="0.833" BeginTime="0" Times="-1" TimeScale="1" FadeTime="0.25" Channel=""/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2045_monster_105/g2045_monster_105_run.anim" Length="1.033" BeginTime="0" Times="-1" TimeScale="1" FadeTime="0.25" Channel=""/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

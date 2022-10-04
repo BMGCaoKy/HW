@@ -5,7 +5,7 @@
   "cameraCfg": {
     "canSwitchView": true,
     "defaultPitch": 0,
-    "defaultView": 0,
+    "defaultView": 2,
     "defaultYaw": 0,
     "viewModeConfig": [
       {
@@ -28,7 +28,7 @@
       },
       {
         "distance": 4,
-        "enable": false,
+        "enable": true,
         "enableCollisionDetect": true,
         "lockSlideScreen": false,
         "offset": {
@@ -86,7 +86,7 @@
     "appMainRole": false,
     "chat": true,
     "playerinfo": false,
-    "shortcutBar": false,
+    "shortcutBar": true,
     "toolbar": false
   },
   "forcePickBlock": true,

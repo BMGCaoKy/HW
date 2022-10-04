@@ -1,0 +1,39 @@
+<ActorTemplates>
+	<ActorTemplate MinDistance="1" SoundName2="" SoundFileNum="0" SoundName3="" IsShowShadow="true" name="111.actor" MaxDistance="16" TextHeight="0" Originalscale="1 1 1" IntervalTime="2" SoundName1="" Skeleton="asset/Actor/g2045_monster_107/g2045_monster_107.skel" SelectedRingSize="1" Volume="0.8" Alpha="1" SoundName4="" AttackScale="1" SoundName5="" WoundAngle="25" WoundBone="">
+		<Anims>
+			<Anim Name="asset/Actor/g2045_monster_107/g2045_monster_107_die.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_107/g2045_monster_107_idle.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_107/g2045_monster_107_attack2.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_107/g2045_monster_107_attack1.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_107/g2045_monster_107_run.anim"/>
+		</Anims>
+		<Skills>
+			<Skill TextMode="0" EnableWound="false" UserDefineTime="-2" Name="attack1">
+				<Animation TimeScale="1" Times="1" Channel="" BeginTime="0" FadeTime="0.25" Length="0.966" Name="asset/Actor/g2045_monster_107/g2045_monster_107_attack1.anim"/>
+			</Skill>
+			<Skill TextMode="0" EnableWound="false" UserDefineTime="-2" Name="die">
+				<Animation TimeScale="1" Times="1" Channel="" BeginTime="0" FadeTime="0.25" Length="1.433" Name="asset/Actor/g2045_monster_107/g2045_monster_107_die.anim"/>
+			</Skill>
+			<Skill TextMode="0" EnableWound="false" UserDefineTime="-2" Name="idle">
+				<Animation TimeScale="1" Times="-1" Channel="" BeginTime="0" FadeTime="0.25" Length="0.833" Name="asset/Actor/g2045_monster_107/g2045_monster_107_idle.anim"/>
+			</Skill>
+			<Skill TextMode="0" EnableWound="false" UserDefineTime="-2" Name="run">
+				<Animation TimeScale="1" Times="-1" Channel="" BeginTime="0" FadeTime="0.25" Length="1.033" Name="asset/Actor/g2045_monster_107/g2045_monster_107_run.anim"/>
+			</Skill>
+			<Skill TextMode="0" EnableWound="false" UserDefineTime="-2" Name="attack2">
+				<Animation TimeScale="1" Times="1" Channel="" BeginTime="0" FadeTime="0.25" Length="0.7" Name="asset/Actor/g2045_monster_107/g2045_monster_107_attack2.anim"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart DefaultUse="true" SlaveName="group0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name0">
+				<Skin DiscardAlpha="0" EdgeColor="1.0 0 0 1.0" UseEdge="false" SpecularStrength="1.0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" OverlayColor="1.0 1.0 1.0 1.0" type_name="g2045_monster_107_shield" SpecularCoef="0.15" UseReflect="false" MeshName="asset/Actor/g2045_monster_107/g2045_monster_107_shield.skin" UseBloom="false" SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" LocalAlpha="1" UseTransparentNearestSlice="false" LocalBrightnessScale="1.0" UVSpeed="0 0"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" SlaveName="group1" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name1">
+				<Skin DiscardAlpha="0" EdgeColor="1.0 0 0 1.0" UseEdge="false" SpecularStrength="1.0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" OverlayColor="1.0 1.0 1.0 1.0" type_name="g2045_monster_107_weapon" SpecularCoef="0.15" UseReflect="false" MeshName="asset/Actor/g2045_monster_107/g2045_monster_107_weapon.skin" UseBloom="false" SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" LocalAlpha="1" UseTransparentNearestSlice="false" LocalBrightnessScale="1.0" UVSpeed="0 0"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" SlaveName="group2" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name2">
+				<Skin DiscardAlpha="0" EdgeColor="1.0 0 0 1.0" UseEdge="false" SpecularStrength="1.0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" OverlayColor="1.0 1.0 1.0 1.0" type_name="g2045_monster_107" SpecularCoef="0.15" UseReflect="false" MeshName="asset/Actor/g2045_monster_107/g2045_monster_107.skin" UseBloom="false" SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" LocalAlpha="1" UseTransparentNearestSlice="false" LocalBrightnessScale="1.0" UVSpeed="0 0"/>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

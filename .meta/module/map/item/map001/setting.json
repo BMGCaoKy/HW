@@ -75,6 +75,17 @@
         },
         "useAnchor": true,
         "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8830432082608881665",
+        "name": "Player",
+        "position": {
+          "x": -29.2983322143555,
+          "y": 0.999898910522461,
+          "z": 48.0238876342773
+        }
       }
     ],
     "name": {
@@ -86,7 +97,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "025a63ffcb29a58d8d96fd9bb3b6db05"
+      "setting.json": "d4b738fa7851cd89cf6fdfcefaf2160c"
     },
     "VERSION": "0.24"
   }

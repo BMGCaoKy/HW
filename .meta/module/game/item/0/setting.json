@@ -1,10 +1,14 @@
 {
   "data": {
+    "defaultView": "Front",
     "enableNewLighting": true,
     "fixed_viewPos": {
       "pos": {
         "__OBJ_TYPE": "Vector3i"
       }
+    },
+    "front_enable": {
+      "enable": true
     },
     "initPos": {
       "map": "map001",
@@ -33,14 +37,13 @@
     "ui_enable": {
       "appMainRole": false,
       "playerinfo": false,
-      "shortcutBar": false,
       "toolbar": false
     },
     "unlimitedPlayTime": true
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b1a62fab29c1647141cfb738e99c1231",
+      "setting.json": "e86cc20b45c09db22f114d002b690fe7",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

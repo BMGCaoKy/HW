@@ -1,0 +1,119 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/asset_Halloween_Village/Skybox/Sky1-Back.png"
+        },
+        "bottom": {
+          "asset": "asset/asset_Halloween_Village/Skybox/Sky1-Down.png"
+        },
+        "front": {
+          "asset": "asset/asset_Halloween_Village/Skybox/Sky1-Front.png"
+        },
+        "left": {
+          "asset": "asset/asset_Halloween_Village/Skybox/Sky1-Left.png"
+        },
+        "right": {
+          "asset": "asset/asset_Halloween_Village/Skybox/Sky1-Right.png"
+        },
+        "top": {
+          "asset": "asset/asset_Halloween_Village/Skybox/Sky1-UP.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8829295018971693057"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8829295019042570241",
+        "ID": 3,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 182,
+          "g": 201,
+          "r": 201
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8829295019149918209",
+        "ID": 4,
+        "lightColor": {
+          "b": 210,
+          "g": 252
+        },
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 10.125
+        },
+        "rotation": {
+          "x": 1.79089129233034e-05,
+          "y": -89.9999923706055,
+          "z": 27.9999942779541
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "y": 13.4662780761719
+        },
+        "batchType": "Dynamic",
+        "btsKey": "9b75b4a6-8372-4bc0-adc0-d81529760612",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8829299101062201345",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "y": 13.4662780761719
+        },
+        "material": {
+          "discardAlpha": 0.367,
+          "useTextureAlpha": true
+        },
+        "mesh": "asset/asset_Halloween_Village/Cartoon_Halloween_map/Cartoon_Halloween_map.mesh",
+        "mesh_selector": {
+          "asset": "asset/asset_Halloween_Village/Cartoon_Halloween_map/Cartoon_Halloween_map.mesh",
+          "selector": "asset/asset_Halloween_Village/Cartoon_Halloween_map/Cartoon_Halloween_map.mesh"
+        },
+        "name": "Cartoon_Halloween_map.mesh",
+        "position": {
+          "y": 13.4662780761719
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 109.281089782715,
+          "y": 24.9327621459961,
+          "z": 109.281158447266
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8830251583565053953",
+        "name": "Player",
+        "position": {
+          "x": -22,
+          "y": 5.39999961853027,
+          "z": -33
+        }
+      }
+    ],
+    "name": {
+      "value": "map_Halloween_Village_ID"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "70bdf07228bd1f9c56b6fca7f19ee0ff"
+    },
+    "VERSION": "0.24"
+  }
+}

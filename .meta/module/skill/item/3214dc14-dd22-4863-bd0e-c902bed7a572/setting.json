@@ -1,20 +1,44 @@
 {
   "data": {
+    "castAction": "aim2",
+    "castEffect": {
+      "scale": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "selfOnly": true
+    },
+    "defineActionTime": true,
+    "frontSight": "myplugin/frontsight1",
     "name": {
       "value": "skill_3214dc14-dd22-4863-bd0e-c902bed7a572"
     },
     "skill": {
       "base": {
-        "__OBJ_TYPE": "Skill_MeleeAttack"
-      }
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/dan_test"
+          }
+        ],
+        "target": {
+          "type": "CameraYaw"
+        }
+      },
+      "type": "Missile"
     },
     "skillReleaseWay": {
       "isClick": true
+    },
+    "startAction": "aim1",
+    "startActionTime": {
+      "value": 40
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3428246a225a50a975f061e5230d78b2",
+      "setting.json": "8b07766f78cb0218568b1e13c226d50a",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

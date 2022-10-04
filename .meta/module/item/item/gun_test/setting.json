@@ -1,0 +1,26 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3214dc14-dd22-4863-bd0e-c902bed7a572"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/EffectNew/g2045/Necessary/Mesh/Weapon/g2045_gun_101.mesh"
+    },
+    "name": {
+      "value": "item_gun_test"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8d44aad1a3855c98c1f7560d4daa65d2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

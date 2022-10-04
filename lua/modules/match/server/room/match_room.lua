@@ -239,9 +239,14 @@ function MatchRoom:startGame()
   local start = true
 
   self.roomStatus = 3
+  local get_map=math.random(1,#Define.MATCH.MAP)
+  local map_name=Define.MATCH.MAP[get_map].mapId
+  local map=World:CreateDynamicMap(map_name, true)
 
   for k, v in pairs(self.userList) do
     local player = Game.GetPlayerByUserId(v)
+    local pos=Define.MATCH.MAP_POS[map_name][math.random(1,#Define.MATCH.MAP_POS[map_name])]
+    player:setMapPos(map, pos)
     local packet = player:getValue("temporary")
     Global.ui("ui/role", player, packet)
   end

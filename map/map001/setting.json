@@ -128,7 +128,7 @@
         "partNavMeshType": "1",
         "position": "x:6.12121725082397 y:1.49990081787109 z:26.3501930236816",
         "restitution": "0.3",
-        "rotation": "x:-0.0 y:0.0 z:0.0",
+        "rotation": "x:0 y:0 z:0",
         "scale": "x:10.331 y:0.999997 z:23.7169",
         "selectable": "true",
         "shape": "1",
@@ -139,6 +139,29 @@
         "useForCollision": "false",
         "useGravity": "true",
         "useTextureAlpha": "false"
+      }
+    },
+    {
+      "attributes": [],
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "customProperties": [],
+      "properties": {
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "collisionGroup": "1",
+        "id": "8830432082608881665",
+        "isVisibleInEditor": "true",
+        "name": "Player",
+        "needSync": "true",
+        "position": "x:-29.2983322143555 y:0.999898910522461 z:48.0238876342773",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "false",
+        "useForCollision": "false"
       }
     }
   ],

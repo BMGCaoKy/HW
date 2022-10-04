@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "",
+  "itemname": "item_gun_test",
+  "mesh": "asset/EffectNew/g2045/Necessary/Mesh/Weapon/g2045_gun_101.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/3214dc14-dd22-4863-bd0e-c902bed7a572"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

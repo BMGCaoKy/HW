@@ -1,0 +1,17 @@
+<ActorTemplates>
+    <ActorTemplate name="g2045_monster_109_Body.actor" Originalscale="1 1 1" Skeleton="asset/Actor/g2045_monster_109/g2045_monster_109/g2045_monster_109_Body.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="0">
+        <BodyParts>
+            <BodyPart MasterName="mutex_name0" SlaveName="group0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+                <Skin MeshName="asset/Actor/g2045_monster_109/g2045_monster_109/g2045_monster_109.skin" ChangeColor="0 0 0" UVSpeed="0 0"/>
+            </BodyPart>
+        </BodyParts>
+        <Skills>
+            <Skill Name="g2045_monster_109_g2045_monster_109_Body" EnableWound="false" UserDefineTime="-2" TextMode="0">
+                <Animation Name="asset/Actor/g2045_monster_109/g2045_monster_109/g2045_monster_109_g2045_monster_109_Body.anim" BeginTime="0" Times="1" Length="3.3666666" FadeTime="0.050000001" Channel="upper" TimeScale="1"/>
+            </Skill>
+        </Skills>
+        <Anims>
+            <Anim Name="asset/Actor/g2045_monster_109/g2045_monster_109/g2045_monster_109_g2045_monster_109_Body.anim"/>
+        </Anims>
+    </ActorTemplate>
+</ActorTemplates>

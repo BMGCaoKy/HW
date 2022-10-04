@@ -1,12 +1,10 @@
 {
   "data": {
     "actorModel": {
-      "actorName": {
-        "asset": ""
-      },
       "girlactor": {
-        "asset": ""
-      }
+        "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+      },
+      "modelType": "Customize"
     },
     "AI_attack": {
       "enable": true
@@ -30,7 +28,7 @@
       "1",
       "2"
     ],
-    "hideHp": false,
+    "hideName": true,
     "isPlayer": true,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
@@ -40,12 +38,98 @@
     },
     "skill": [
       "myplugin/3214dc14-dd22-4863-bd0e-c902bed7a572"
-    ]
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "2c601235-f6ea-4983-8c03-22da9eaf5016"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/gun_test"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2bdf578d-c558-4d13-b8b9-da80c6fca4eb"
+              },
+              "pos": {
+                "x": 695,
+                "y": 355
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "2c601235-f6ea-4983-8c03-22da9eaf5016"
+              },
+              "pos": {
+                "x": 1081,
+                "y": 418
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "fc32c306-f6d1-4828-9988-2716aeb4e0d6"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2bdf578d-c558-4d13-b8b9-da80c6fca4eb"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "010fb545-3f7b-4c2d-bf6a-7722bc68b756"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3989dc3cc3232bdeca98e1ff579fe3a1",
-      "triggers.bts": ""
+      "setting.json": "ca4f386a3b742bad1f44d09fd3369d8c",
+      "triggers.bts": "812b9b536750685230468d21b2719e5b"
     },
     "VERSION": "0.24"
   }

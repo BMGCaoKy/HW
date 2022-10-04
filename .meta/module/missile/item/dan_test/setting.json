@@ -1,0 +1,19 @@
+{
+  "data": {
+    "name": {
+      "value": "missile_dan_test"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/EffectNew/g2061_Bombing_bullet_fat.effect"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "638c9a201ffb143660b25a35f7cf5673",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

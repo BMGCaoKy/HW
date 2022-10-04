@@ -1,0 +1,37 @@
+<ActorTemplates>
+	<ActorTemplate Originalscale="1 1 1" SoundName3="" IntervalTime="2" SoundName4="" SoundName2="" AttackScale="1" WoundBone="" SoundName1="" SelectedRingSize="1" MinDistance="1" TextHeight="0" WoundAngle="25" name="111.actor" IsShowShadow="true" SoundName5="" Alpha="1" Skeleton="g2045_monster_106.skel" Volume="0.8" MaxDistance="16" SoundFileNum="0">
+		<Anims>
+			<Anim Name="asset/Actor/g2045_monster_106/g2045_monster_106_idle.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_106/g2045_monster_106_die.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_106/g2045_monster_106_walk.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_106/g2045_monster_106_attack02.anim"/>
+			<Anim Name="asset/Actor/g2045_monster_106/g2045_monster_106_attack01.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart SlaveName="group0" DefaultUse="true" EdgeColor="1 1 1 1" MasterName="mutex_name0" ColorParams="1 1 1 1">
+				<Skin UseTransparentNearestSlice="false" DiscardAlpha="0" MeshName="asset/Actor/g2045_monster_106/Orc.skin" UseOriginalcolor="false" LocalBrightnessScale="1.0" UseOverlayColorReplaceMode="false" SpecularCoef="0.15" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" EdgeColor="1.0 0 0 1.0" UseBloom="false" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" UseEdge="false" LocalAlpha="1" UVSpeed="0 0" type_name="Orc"/>
+			</BodyPart>
+			<BodyPart SlaveName="group1" DefaultUse="true" EdgeColor="1 1 1 1" MasterName="mutex_name1" ColorParams="1 1 1 1">
+				<Skin UseTransparentNearestSlice="false" DiscardAlpha="0" MeshName="asset/Actor/g2045_monster_106/Maul.skin" UseOriginalcolor="false" LocalBrightnessScale="1.0" UseOverlayColorReplaceMode="false" SpecularCoef="0.15" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" EdgeColor="1.0 0 0 1.0" UseBloom="false" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" UseEdge="false" LocalAlpha="1" UVSpeed="0 0" type_name="Maul"/>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack01">
+				<Animation TimeScale="1" Channel="" Name="asset/Actor/g2045_monster_106/g2045_monster_106_attack01.anim" FadeTime="0.25" Times="1" BeginTime="0" Length="0.833"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack02">
+				<Animation TimeScale="1" Channel="" Name="asset/Actor/g2045_monster_106/g2045_monster_106_attack02.anim" FadeTime="0.25" Times="1" BeginTime="0" Length="2.033"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="die">
+				<Animation TimeScale="1" Channel="" Name="asset/Actor/g2045_monster_106/g2045_monster_106_die.anim" FadeTime="0.25" Times="1" BeginTime="0" Length="0.933"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="idle">
+				<Animation TimeScale="1" Channel="" Name="asset/Actor/g2045_monster_106/g2045_monster_106_idle.anim" FadeTime="0.25" Times="-1" BeginTime="0" Length="1.7"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="walk">
+				<Animation TimeScale="1" Channel="" Name="asset/Actor/g2045_monster_106/g2045_monster_106_walk.anim" FadeTime="0.25" Times="-1" BeginTime="0" Length="1.033"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>
+
