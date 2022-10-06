@@ -1,0 +1,27 @@
+{
+  "data": {
+    "name": {
+      "value": "missile_bullet"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/EffectNew/g2061_Bombing_bullet_fat.effect"
+      }
+    },
+    "startSound": {
+      "sound": {
+        "asset": "asset/EffectNew/gun.mp3"
+      },
+      "volume": {
+        "value": 0.2
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0a2a248b3f95af3a42366b4f0111451d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

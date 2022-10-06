@@ -1,0 +1,781 @@
+{
+  "data": {
+    "md5": "3fe750a8a7480ebcd36de56f61d682f5",
+    "path": "asset/ui/result.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.699,
+          "BackgroundColours": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BackgroundEnabled": true,
+          "id": {
+            "value": "3d269acd-54ad-48c3-a0ed-ad98cfd07166"
+          },
+          "Image": {
+            "asset": ""
+          },
+          "ImageColours": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackgroundColours": {
+                "b": 187,
+                "g": 187,
+                "r": 187
+              },
+              "id": {
+                "value": "77d58208-b984-4f64-8b2a-c039b219cca8"
+              },
+              "Image": {
+                "asset": "asset/ui/result/main_map.imageset",
+                "imageset_key": "img_9_map"
+              },
+              "name": "bg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "HorizontalLayoutContainer",
+              "children": [
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "ActorWindow",
+                          "ActorName": {
+                            "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+                          },
+                          "ActorScale": 1.2,
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "adea1a20-4eb8-4a24-bf38-43d878ab2c52"
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.8
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 0.8
+                            }
+                          }
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "BackgroundColours": {
+                            "b": 111,
+                            "g": 109,
+                            "r": 187
+                          },
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "Alpha": 0.5,
+                              "id": {
+                                "value": "eda7fb5a-32ce-40d0-ae9b-74a5af4e6c72"
+                              },
+                              "Image": {
+                                "asset": "asset/ui/result/signal_sos2.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              }
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 4,
+                              "Font": "Fonts/CakeZombie",
+                              "Font_size": 60,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "17f787b1-9d8f-492b-9227-cc4063be00e7"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              },
+                              "Text": "MURDER",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#2e20383d-206f-4a96-b353-6c1af63da0c2"
+                              },
+                              "TextColours": {
+                                "r": 170
+                              },
+                              "VertFormatting": "BottomAligned"
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderWidth": 3,
+                              "Font": "Fonts/shloprg",
+                              "Font_size": 25,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "5683b682-7a8e-44b1-a153-c84ad2b3e090"
+                              },
+                              "name": "name",
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 0.3
+                                }
+                              },
+                              "Text": "player01",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#1d1c859e-bcaa-4459-8d48-b5bf8cc5f3e7"
+                              },
+                              "VertFormatting": "CentreAligned"
+                            }
+                          ],
+                          "id": {
+                            "value": "e5d90c13-aac8-4cb8-85b7-90ed2c3fff55"
+                          },
+                          "Image": {
+                            "asset": ""
+                          },
+                          "name": "lose",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "BackgroundColours": {
+                            "b": 183,
+                            "g": 125,
+                            "r": 0
+                          },
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "Alpha": 0.5,
+                              "id": {
+                                "value": "643e7c5f-8f63-489e-bc19-98b56def6abe"
+                              },
+                              "Image": {
+                                "asset": "asset/ui/result/signal_muster2.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              }
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 4,
+                              "Font": "Fonts/CakeZombie",
+                              "Font_size": 60,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "7839c52c-b467-4945-bcf4-ab623025c7f5"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              },
+                              "Text": "MURDER",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#762e9d40-1a75-4f44-aae9-965f2ec1c975"
+                              },
+                              "TextColours": {
+                                "g": 255
+                              },
+                              "VertFormatting": "BottomAligned"
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderWidth": 3,
+                              "Font": "Fonts/shloprg",
+                              "Font_size": 25,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "1f471475-9d24-47e9-bd51-3dd3e1c3c448"
+                              },
+                              "name": "name",
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 0.3
+                                }
+                              },
+                              "Text": "player01",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#881a8212-7bf1-4102-8eb7-366b2d3a82b0"
+                              },
+                              "VertFormatting": "CentreAligned"
+                            }
+                          ],
+                          "id": {
+                            "value": "12047692-fb79-4eec-b8a8-05c60ecd257b"
+                          },
+                          "Image": {
+                            "asset": ""
+                          },
+                          "name": "win",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        }
+                      ],
+                      "id": {
+                        "value": "45500d92-bd63-42a3-9460-a95977b84550"
+                      },
+                      "Image": {
+                        "asset": ""
+                      },
+                      "name": "cell",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "207d287b-f915-41a0-9b2a-679e6144e534"
+                  },
+                  "name": "Murder",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "ActorWindow",
+                          "ActorName": {
+                            "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+                          },
+                          "ActorScale": 1.2,
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "43918926-ec2a-46c8-8295-509bd97b2cce"
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.8
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 0.8
+                            }
+                          }
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "BackgroundColours": {
+                            "b": 111,
+                            "g": 109,
+                            "r": 187
+                          },
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "Alpha": 0.5,
+                              "id": {
+                                "value": "b78922b6-943b-4442-a4ac-650e1f758aa0"
+                              },
+                              "Image": {
+                                "asset": "asset/ui/result/signal_sos2.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              }
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 4,
+                              "Font": "Fonts/CakeZombie",
+                              "Font_size": 60,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "e3432d0a-2d60-496a-8294-f35a38100d4d"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              },
+                              "Text": "SHERIFF",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#94ebf108-efe3-4c6c-a481-4ab8742caed6"
+                              },
+                              "TextColours": {
+                                "r": 170
+                              },
+                              "VertFormatting": "BottomAligned"
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderWidth": 3,
+                              "Font": "Fonts/shloprg",
+                              "Font_size": 25,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "bbd77b9a-797a-4916-afb5-2d232f4a2eaf"
+                              },
+                              "name": "name",
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 0.3
+                                }
+                              },
+                              "Text": "player01",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#777fc53d-d1c3-4a2f-938f-0a58b958d248"
+                              },
+                              "VertFormatting": "CentreAligned"
+                            }
+                          ],
+                          "id": {
+                            "value": "0b192e16-7ad4-4e9d-87a2-2e19cafa7c4b"
+                          },
+                          "Image": {
+                            "asset": ""
+                          },
+                          "name": "lose",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "BackgroundColours": {
+                            "b": 183,
+                            "g": 125,
+                            "r": 0
+                          },
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "Alpha": 0.5,
+                              "id": {
+                                "value": "1c1d751e-3861-4955-9d18-9afa786562dd"
+                              },
+                              "Image": {
+                                "asset": "asset/ui/result/signal_muster2.png"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              }
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderColor": {
+                                "b": 0,
+                                "g": 0,
+                                "r": 0
+                              },
+                              "BorderWidth": 4,
+                              "Font": "Fonts/CakeZombie",
+                              "Font_size": 60,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "fc4049c7-919d-444c-be32-6804dfd62c87"
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              },
+                              "Text": "SHERIFF",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#469e2a7c-ed11-42a7-acf6-23d20443f39d"
+                              },
+                              "TextColours": {
+                                "g": 255
+                              },
+                              "VertFormatting": "BottomAligned"
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderWidth": 3,
+                              "Font": "Fonts/shloprg",
+                              "Font_size": 25,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "5ec27471-e2ce-4509-ad6e-704894d628d9"
+                              },
+                              "name": "name",
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": 0,
+                                  "Scale": 0.3
+                                }
+                              },
+                              "Text": "player01",
+                              "text_key": {
+                                "value": "asset/ui/result.layout.StaticText#41875121-6c5a-4641-a228-920b0dd6fbf8"
+                              },
+                              "VertFormatting": "CentreAligned"
+                            }
+                          ],
+                          "id": {
+                            "value": "b8e891da-956b-409a-96de-c18f4d5c57f3"
+                          },
+                          "Image": {
+                            "asset": ""
+                          },
+                          "name": "win",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        }
+                      ],
+                      "id": {
+                        "value": "8676ecf1-929e-4bb7-8e80-e4398a283025"
+                      },
+                      "Image": {
+                        "asset": ""
+                      },
+                      "name": "cell",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "22241f27-b62b-4ed9-a2ad-4e7838eef3f3"
+                  },
+                  "name": "Sheriff",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 500
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "c5791c92-e997-4f7f-8dae-d4eb0ff96b87"
+              },
+              "name": "character",
+              "size": {
+                "UDim_X": {
+                  "Offect": 1000
+                },
+                "UDim_Y": {
+                  "Offect": 500
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 5,
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 72,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "de29c544-69f3-40f7-a904-48b84a31a44c"
+              },
+              "name": "Status",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                }
+              },
+              "Text": "YOU WIN !!!!",
+              "text_key": {
+                "value": "asset/ui/result.layout.StaticText#c2a62daa-0a9d-4a60-97d7-e4f174c8cc2f"
+              },
+              "TextColours": {
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            }
+          ],
+          "id": {
+            "value": "0463b130-54f9-476d-b7bd-4b23b89a7fd7"
+          },
+          "name": "win_result",
+          "size": {
+            "UDim_X": {
+              "Offect": 1000
+            },
+            "UDim_Y": {
+              "Offect": 500
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "BorderColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BorderWidth": 2,
+          "Font": "Fonts/youmurdererbbreg",
+          "Font_size": 40,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "90c82f07-5667-4250-86ab-5a21c5c3a0d9"
+          },
+          "name": "closeBtn",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 80
+            }
+          },
+          "Text": "Close after 3 seconds",
+          "text_key": {
+            "value": "asset/ui/result.layout.StaticText#e0176db5-d47a-4072-beb9-af971a0685d9"
+          },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "e666ae93-a385-4969-8b87-4625c2a33d47"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "3fe750a8a7480ebcd36de56f61d682f5",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

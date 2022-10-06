@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/EffectNew/g2045_icon_sword_102.png",
+  "itemname": "item_knife_01",
+  "mesh": "asset/EffectNew/g2045/Necessary/Mesh/Weapon/g2045_sword_102.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/knife_1"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

@@ -6,10 +6,8 @@
         "x": 0,
         "y": 0,
         "z": 0
-      },
-      "selfOnly": true
+      }
     },
-    "defineActionTime": true,
     "frontSight": "myplugin/frontsight1",
     "name": {
       "value": "skill_3214dc14-dd22-4863-bd0e-c902bed7a572"
@@ -19,12 +17,9 @@
         "__OBJ_TYPE": "Skill_Missile",
         "missile": [
           {
-            "missileCfg": "myplugin/dan_test"
+            "missileCfg": "myplugin/bullet"
           }
-        ],
-        "target": {
-          "type": "CameraYaw"
-        }
+        ]
       },
       "type": "Missile"
     },
@@ -34,12 +29,105 @@
     "startAction": "aim1",
     "startActionTime": {
       "value": 40
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "38a59282-ebdd-4328-91eb-8ea4589af546"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f4d4d28b-6c5f-421b-91ee-16e62855c49e"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2c9f26fd-2f1c-4be6-bea3-eade712327af"
+              },
+              "pos": {
+                "x": 663,
+                "y": 284
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "38a59282-ebdd-4328-91eb-8ea4589af546"
+              },
+              "pos": {
+                "x": 1006,
+                "y": 302
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f4d4d28b-6c5f-421b-91ee-16e62855c49e"
+              },
+              "pos": {
+                "x": 940,
+                "y": 500
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "b1a4679f-c7f7-4c34-8ccf-c5779e2133de"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2c9f26fd-2f1c-4be6-bea3-eade712327af"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8d1046ae-024b-4604-b422-c5b432f7936c"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8b07766f78cb0218568b1e13c226d50a",
-      "triggers.bts": ""
+      "setting.json": "5a2823a18eb6202408d6f4eab62df45b",
+      "triggers.bts": "b6882649f3a908109278fea45570fadb"
     },
     "VERSION": "0.24"
   }

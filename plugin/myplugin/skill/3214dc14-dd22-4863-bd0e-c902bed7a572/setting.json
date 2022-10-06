@@ -26,7 +26,7 @@
     0
   ],
   "castAction": "aim2",
-  "castActionTime": 20,
+  "castActionTime": -1,
   "cdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "",
@@ -68,7 +68,7 @@
   "isShowCdPoint": false,
   "isTouch": false,
   "missileCfg": [
-    "myplugin/dan_test"
+    "myplugin/bullet"
   ],
   "missileCount": 1,
   "preSwingTime": 0,
@@ -93,6 +93,6 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "CameraYaw",
+  "targetType": "Any",
   "type": "Missile"
 }

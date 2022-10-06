@@ -1,0 +1,25 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/EffectNew/g2045_icon_gun_101.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "mesh": {
+      "asset": "asset/EffectNew/g2045/Necessary/Mesh/Weapon/g2045_gun_101.mesh"
+    },
+    "name": {
+      "value": "item_gun_01"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5994eab5db5dc17cf1cfcf9b27fdbeca",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

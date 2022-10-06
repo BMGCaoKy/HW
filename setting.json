@@ -5,7 +5,7 @@
   "cameraCfg": {
     "canSwitchView": true,
     "defaultPitch": 0,
-    "defaultView": 2,
+    "defaultView": 0,
     "defaultYaw": 0,
     "viewModeConfig": [
       {

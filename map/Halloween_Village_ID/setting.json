@@ -150,29 +150,6 @@
         "useLodModel": "false",
         "useTextureAlpha": "true"
       }
-    },
-    {
-      "attributes": [],
-      "class": "Entity",
-      "config": "myplugin/player1",
-      "customProperties": [],
-      "properties": {
-        "bakeTextureWeight": "1",
-        "batchType": "Static",
-        "canAcceptShadow": "true",
-        "canGenerateShadow": "true",
-        "collisionGroup": "1",
-        "id": "8830251583565053953",
-        "isVisibleInEditor": "true",
-        "name": "Player",
-        "needSync": "true",
-        "position": "x:-22 y:5.39999961853027 z:-33",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1",
-        "selectable": "true",
-        "useAnchor": "false",
-        "useForCollision": "false"
-      }
     }
   ],
   "skyBox": [

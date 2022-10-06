@@ -13,7 +13,6 @@ local function SecondsToClock(seconds)
     end
   end
 function self:onOpen(packet)
-    Lib.pv(packet)
     self.role.Text=packet.role
 end
 PackageHandlers:Receive("UPDATE_ROOM",function (player,packet)

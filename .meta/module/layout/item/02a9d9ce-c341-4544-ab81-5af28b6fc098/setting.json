@@ -1,0 +1,93 @@
+{
+  "data": {
+    "md5": "74d11f790019d4663124ec85a6684d95",
+    "path": "asset/ui/toolbar2.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "b06b34fb-ab9e-4d74-9010-2003a8de566f"
+              },
+              "name": "settingBtn",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 10
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "49c0350f-eadc-46a8-b5a9-722ede464a49"
+              },
+              "name": "chatBtn",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 68
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "6a7423cb-a7fb-4722-afe1-6d3a7b849e66"
+          },
+          "name": "SystemBtnLayout",
+          "size": {
+            "UDim_X": {
+              "Offect": 184
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "89849062-5115-48f2-890b-de4e8cd668eb"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 58
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "74d11f790019d4663124ec85a6684d95",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

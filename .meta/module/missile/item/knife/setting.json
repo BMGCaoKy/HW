@@ -1,0 +1,112 @@
+{
+  "data": {
+    "name": {
+      "value": "missile_knife"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/EffectNew/g2045/Necessary/Effect/skill/g2045_melee_3.effect"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5257ec6b-1ef6-4a51-b8b9-2f337db1bb6c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "92dcd349-e30a-4473-82ee-4b7762b6fbb5"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2707a839-a5b6-4c88-bb71-d5a59a2dc780"
+              },
+              "pos": {
+                "x": 757,
+                "y": 296
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5257ec6b-1ef6-4a51-b8b9-2f337db1bb6c"
+              },
+              "pos": {
+                "x": 1154,
+                "y": 298
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "92dcd349-e30a-4473-82ee-4b7762b6fbb5"
+              },
+              "pos": {
+                "x": 1059,
+                "y": 481
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "035bb238-7ab1-4552-8069-99b0b9919d9e"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2707a839-a5b6-4c88-bb71-d5a59a2dc780"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "cf437a37-21f3-4241-8aff-bd978b2447d8"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7a4d47ae620ccc7f335446efb94c060c",
+      "triggers.bts": "c2276d56b3732a67298435b2daedc2d0"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -50,17 +50,13 @@
         "friction": 0.37,
         "id": "8813553933906608129",
         "massCenter": {
-          "x": 6.12121725082397,
-          "y": 1.49990081787109,
-          "z": 26.3501930236816
+          "y": 1.49990081787109
         },
         "material": {
           "alpha": 0.803
         },
         "position": {
-          "x": 6.12121725082397,
-          "y": 1.49990081787109,
-          "z": 26.3501930236816
+          "y": 1.49990081787109
         },
         "restitution": 0.3,
         "scale": {
@@ -75,17 +71,6 @@
         },
         "useAnchor": true,
         "useCollide": false
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/player1",
-        "id": "8830432082608881665",
-        "name": "Player",
-        "position": {
-          "x": -29.2983322143555,
-          "y": 0.999898910522461,
-          "z": 48.0238876342773
-        }
       }
     ],
     "name": {
@@ -97,7 +82,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d4b738fa7851cd89cf6fdfcefaf2160c"
+      "setting.json": "2fe7425a53837e6d580683d8ba6cbe7c"
     },
     "VERSION": "0.24"
   }

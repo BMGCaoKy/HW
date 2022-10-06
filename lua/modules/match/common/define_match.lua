@@ -14,6 +14,10 @@ Define.MATCH.EVENT={
         cfg="PLAYER",
         func=match_event_function["ENTITY_LEAVE"],
     },
+    ["ENTITY_DIE"]={
+        cfg="PLAYER",
+        func=match_event_function["ENTITY_DIE"],
+    },
 }
 
 Define.MATCH.MAP={
@@ -22,3 +26,5 @@ Define.MATCH.MAP={
         mapId="Halloween_Village_ID",
     }
 }
+
+Define.MATCH.LOBBY="map001"

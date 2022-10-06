@@ -1,0 +1,40 @@
+{
+  "data": {
+    "castAction": "attack",
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_knife_1"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/knife"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/EffectNew/g2045_icon_sword_102.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/EffectNew/g2045_icon_sword_102.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    },
+    "startAction": "attack"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "13573b199747d36e24556785141a98b4",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

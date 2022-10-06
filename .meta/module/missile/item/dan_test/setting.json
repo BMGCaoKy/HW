@@ -1,5 +1,19 @@
 {
   "data": {
+    "boundingVolume": {
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "boundingVolumeMissileCfg": {
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
     "name": {
       "value": "missile_dan_test"
     },
@@ -7,12 +21,38 @@
       "effect": {
         "asset": "asset/EffectNew/g2061_Bombing_bullet_fat.effect"
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "cd2f7dbc-3680-4e4e-92a5-54d129d182dd"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "3ac35e5e-bf22-4967-a3ea-ddd25cda8e4a"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "638c9a201ffb143660b25a35f7cf5673",
-      "triggers.bts": ""
+      "setting.json": "9255efe8a2b432b99da0845a0555c6e8",
+      "triggers.bts": "72cc3f900de3a515fff800d5ea063d11"
     },
     "VERSION": "0.24"
   }

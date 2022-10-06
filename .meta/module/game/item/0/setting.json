@@ -1,6 +1,5 @@
 {
   "data": {
-    "defaultView": "Front",
     "enableNewLighting": true,
     "fixed_viewPos": {
       "pos": {
@@ -43,7 +42,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e86cc20b45c09db22f114d002b690fe7",
+      "setting.json": "26893a90859d83ada45976d6b9ef7f7f",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

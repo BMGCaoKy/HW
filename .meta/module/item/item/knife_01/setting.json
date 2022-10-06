@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/EffectNew/g2045_icon_sword_102.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/knife_1"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/EffectNew/g2045/Necessary/Mesh/Weapon/g2045_sword_102.mesh"
+    },
+    "name": {
+      "value": "item_knife_01"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "66bcec596bf914e9b928724599dea9cb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

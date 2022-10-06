@@ -1,5 +1,8 @@
 {
   "data": {
+    "icon": {
+      "asset": "asset/EffectNew/g2045_icon_gun_101.png"
+    },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
@@ -18,7 +21,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8d44aad1a3855c98c1f7560d4daa65d2",
+      "setting.json": "88a37450826f4208353f0360be9f68af",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

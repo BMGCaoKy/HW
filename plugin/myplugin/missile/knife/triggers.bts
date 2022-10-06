@@ -1,0 +1,3 @@
+HIT_ENTITY {
+	KillEntity(entity = $obj1, from = $obj2)
+}
