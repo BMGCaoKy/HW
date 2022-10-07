@@ -150,20 +150,7 @@ function MatchRoom:setRoles()
   end
   self.roomStatus = 2
 end
-function MatchRoom:removeWapon(playerid, id)
-  local player = Game.GetPlayerByUserId(playerid)
-  local tray = player:tray()["_trays"]
-  local itemData =
-    tray:query_items(
-    function(item)
-      if item:cfg().fullName == "myplugin/" .. id then
-        return true
-      end
-      return false
-    end
-  )
-  itemData:consume(1)
-end
+
 function MatchRoom:getPlayerList()
   local list = {}
   local isPlaying = true
@@ -363,11 +350,7 @@ function MatchRoom:EndGameCondition()
         -- self:resetRoom()
         for k, v in pairs(self.userList) do
           local player = Game.GetPlayerByUserId(v)
-          local baseInform = player:getValue("baseInform")
-          if baseInform then
-            self:removeWapon(v, "knife_01")
-            self:removeWapon(v, "gun_01")
-          end
+          Lib.emitEvent("resetTray")
           player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
         end
       end

@@ -29,8 +29,6 @@ event["ENTITY_ENTER"] = function(p)
     end
     Lib.logs("Add player: " .. p.obj1.name)
     Lib.logs(Global.listRoom[keyId])
-    local tray = p.obj1:tray()
-    Lib.pv(tray)
 end
 event["ENTITY_LEAVE"] = function(p)
     for k, v in pairs(Global.listRoom) do

@@ -10,30 +10,129 @@
         "__OBJ_TYPE": "Skill_Missile",
         "missile": [
           {
-            "missileCfg": "myplugin/knife"
+            "missileCfg": "myplugin/knife",
+            "startPos": {
+              "y": 1
+            }
           }
-        ]
+        ],
+        "target": {
+          "type": "FrontSight"
+        }
       },
       "type": "Missile"
     },
     "skillReleaseWay": {
       "icon": {
-        "asset": "asset/EffectNew/g2045_icon_sword_102.png"
+        "asset": "asset/Texture/Skill/common/icon__act.png"
       },
       "icon_pushed": {
-        "asset": "asset/EffectNew/g2045_icon_sword_102.png"
+        "asset": "asset/Texture/Skill/common/icon__nor.png"
       },
       "iconPos": {
-        "area_number": 8
+        "area_number": 9
       },
-      "isClick": true
+      "isClickIcon": true
     },
-    "startAction": "attack"
+    "startAction": "attack",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "2efe8002-c8aa-4a8d-a49b-27db7aec33db"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9ad39f9e-1dad-4ad7-bc05-69165ef74c11"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4caba245-fbaa-4986-988c-93a6e24aa43d"
+              },
+              "pos": {
+                "x": 654,
+                "y": 343
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "9ad39f9e-1dad-4ad7-bc05-69165ef74c11"
+              },
+              "pos": {
+                "x": 916,
+                "y": 555
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "2efe8002-c8aa-4a8d-a49b-27db7aec33db"
+              },
+              "pos": {
+                "x": 1031,
+                "y": 401
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c3dd8a93-5523-41b0-b38e-a91ab719d774"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "4caba245-fbaa-4986-988c-93a6e24aa43d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "06d95537-8038-4f91-8f53-82f59015ebc9"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "13573b199747d36e24556785141a98b4",
-      "triggers.bts": ""
+      "setting.json": "71f6538be7ee1f6a3c0c3b1efcbc18b2",
+      "triggers.bts": "b6882649f3a908109278fea45570fadb"
     },
     "VERSION": "0.24"
   }

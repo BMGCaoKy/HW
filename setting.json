@@ -1,6 +1,6 @@
 {
   "automatch": false,
-  "bagCap": 9,
+  "bagCap": 2,
   "batchType": "Dynamic",
   "cameraCfg": {
     "canSwitchView": true,

@@ -2,11 +2,11 @@
   "area": [
     [
       0,
-      -190
+      -58
     ],
     [
       0,
-      -200
+      -238
     ],
     [
       0,
@@ -17,7 +17,7 @@
       88
     ]
   ],
-  "area_number": 8,
+  "area_number": 9,
   "backSwingTime": 0,
   "bodyPitchOffset": [
     0
@@ -58,13 +58,15 @@
   "enableMoveBrkPreS": false,
   "frontSight": "myplugin/frontsight1",
   "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon__act.png",
+  "icon_pushed": "@asset/Texture/Skill/common/icon__nor.png",
   "ignoreCastSkillBackS": false,
   "ignoreCastSkillPreS": true,
   "ignoreJumpBackS": false,
   "ignoreJumpPreS": false,
   "ignoreMoveBackS": false,
   "ignoreMovePreS": false,
-  "isClick": true,
+  "isClick": false,
   "isShowCdPoint": false,
   "isTouch": false,
   "missileCfg": [
@@ -82,7 +84,7 @@
   "startPos": [
     {
       "x": 0,
-      "y": 1.6,
+      "y": 1,
       "z": 0
     }
   ],
@@ -93,7 +95,7 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "Any",
+  "targetType": "FrontSight",
   "type": "Missile",
   "verticalAlignment": 2
 }

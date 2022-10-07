@@ -1,6 +1,8 @@
 {
   "_clientScript": [],
-  "_serverScript": [],
+  "_serverScript": [
+    "server/server_script"
+  ],
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
