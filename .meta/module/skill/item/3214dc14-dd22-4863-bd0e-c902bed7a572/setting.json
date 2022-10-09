@@ -19,7 +19,10 @@
           {
             "missileCfg": "myplugin/bullet"
           }
-        ]
+        ],
+        "target": {
+          "type": "FrontSight"
+        }
       },
       "type": "Missile"
     },
@@ -135,7 +138,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c082d77bded9d532557cbf7021f35174",
+      "setting.json": "47510ee0663343167d38440cf00e9e10",
       "triggers.bts": "b6882649f3a908109278fea45570fadb"
     },
     "VERSION": "0.24"

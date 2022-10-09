@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "55ba0f907b50187cdb7b8f2a8380ed21",
+    "md5": "0be94203fae1063ec4b642e0e398da9d",
     "path": "asset/ui/loading.layout",
     "root": {
       "children": [
@@ -13,10 +13,11 @@
           },
           "BackgroundEnabled": true,
           "id": {
-            "value": "0d88a3ec-4845-4c06-af54-0b15dd007fd4"
+            "value": "23c6b3f1-8189-47e4-ab0f-b01de91f3d3b"
           },
           "Image": {
-            "asset": ""
+            "asset": "",
+            "selector": ""
           },
           "size": {
             "UDim_X": {
@@ -43,7 +44,7 @@
           },
           "effectYPosition": 100,
           "id": {
-            "value": "61332eda-4c47-40de-8991-4b383f1d976b"
+            "value": "a8fb9dcb-5f35-4f66-91a4-e2620c878386"
           }
         },
         {
@@ -62,7 +63,7 @@
               "Font_size": 50,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "44093df3-f9f1-4df2-898f-07084fc1134d"
+                "value": "5f5d7264-e621-484d-8a7d-46f52a73e059"
               },
               "name": "Status",
               "size": {
@@ -88,7 +89,7 @@
               "Font": "Fonts/RWcreepsville",
               "Font_size": 70,
               "id": {
-                "value": "a38cf8d2-a4bc-4943-8272-dead98f70e2f"
+                "value": "9499fcdb-8e1f-41a2-a78a-20bca1cd95f4"
               },
               "name": "Dot",
               "pos": {
@@ -116,7 +117,7 @@
             }
           ],
           "id": {
-            "value": "c2f37512-198e-4bf2-b424-db9766f51b73"
+            "value": "ea4ea336-e270-49de-9784-e5ce0af474e3"
           },
           "name": "Container",
           "pos": {
@@ -126,13 +127,13 @@
           },
           "size": {
             "UDim_X": {
-              "Offect": 1284
+              "Offect": 1287
             }
           }
         }
       ],
       "id": {
-        "value": "a76e46d3-eb88-4b52-a15a-5ec706b1893b"
+        "value": "394c6b84-251c-4ed0-ae63-c0e852d41dad"
       },
       "size": {
         "UDim_X": {
@@ -148,7 +149,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "55ba0f907b50187cdb7b8f2a8380ed21",
+      "layout": "0be94203fae1063ec4b642e0e398da9d",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

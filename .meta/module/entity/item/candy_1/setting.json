@@ -3,11 +3,14 @@
     "actorName": {
       "asset": "asset/Mesh/Orange Small Burger/g2040_zs_hanbao_1.actor"
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "autoMove": true,
     "boundingVolume": {
-      "memory": {
-        "Sphere": "1.000000-0.400000"
-      },
       "radius": 0.6,
       "type": "Sector"
     },
@@ -30,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3358bad222c86b74bcc45c4ffac63458",
+      "setting.json": "e0157eea69c846bf793062e96f50da2a",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

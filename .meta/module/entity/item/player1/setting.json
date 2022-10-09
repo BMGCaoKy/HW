@@ -6,8 +6,11 @@
       }
     ],
     "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
       "girlactor": {
-        "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+        "asset": ""
       }
     },
     "AI_attack": {
@@ -17,8 +20,7 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height": 1.7,
-      "radius": 0.43,
+      "height": 1.5,
       "type": "Capsule"
     },
     "canRevive": true,
@@ -39,14 +41,11 @@
     },
     "reviveTime": {
       "value": 40
-    },
-    "skill": [
-      ""
-    ]
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "86db5b98acbaacfab1919c3d5122e56f",
+      "setting.json": "a7b0a5004e2d7140cc3a08d98623fd3c",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

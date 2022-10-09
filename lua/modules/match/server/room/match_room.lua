@@ -264,7 +264,7 @@ function MatchRoom:removePlayer(playerId)
         if self:isMurder(playerId) then
           self:removeMurder(playerId)
         elseif self:isPolice(playerId) then
-          self:removePolice(playerId)
+          self:removePolice(playerId,true)
         end
       end
     end
