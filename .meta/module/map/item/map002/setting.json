@@ -1,0 +1,901 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8799297482654236673"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8799297482719789057",
+        "ID": 3,
+        "lightBrightness": 0.7,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "needSync": true,
+        "skyColor": {
+          "b": 141,
+          "g": 156,
+          "r": 157
+        },
+        "skyLineColor": {
+          "b": 135,
+          "g": 146,
+          "r": 147
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8799297482823221249",
+        "ID": 4,
+        "lightBrightness": 0.5,
+        "lightColor": {
+          "b": 103,
+          "g": 124,
+          "r": 127
+        },
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "needSync": true,
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        },
+        "shadows": {
+          "shadowsOffset": 0.306,
+          "shadowsPresicion": "512",
+          "shadowsType": "soft"
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "92cdc76f-71a8-49a3-9488-25ecde69eb6f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8803812220092989441",
+        "massCenter": {
+          "y": 5.36204242706299
+        },
+        "mesh": "asset/Parking/Parking/Parking.mesh",
+        "mesh_selector": {
+          "asset": "asset/Parking/Parking/Parking.mesh",
+          "selector": "asset/Parking/Parking/Parking.mesh"
+        },
+        "name": "Parking.mesh",
+        "position": {
+          "y": 5.36204242706299
+        },
+        "restitution": 0.3,
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "25c6fa62-b51e-4c4a-bf04-a015a1fd05d0",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803813543113965569",
+            "massCenter": {
+              "x": -25.1969985961914,
+              "y": 6.856,
+              "z": 34.7980003356934
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": -25.1969985961914,
+              "y": 6.856,
+              "z": 34.7980003356934
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "4f6dddfe-78a2-4b19-b532-0387e721cabd",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803812825345212417",
+            "massCenter": {
+              "x": -27.0959205627441,
+              "y": 6.85561466217041,
+              "z": 34.798038482666
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": -27.0959205627441,
+              "y": 6.85561466217041,
+              "z": 34.798038482666
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "b01fe0e6-5d54-49f7-96a0-93c46f02e82e",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803814737101881345",
+            "massCenter": {
+              "x": -27.0959205627441,
+              "y": 2.74961256980896,
+              "z": 34.798038482666
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": -27.0959205627441,
+              "y": 2.74961256980896,
+              "z": 34.798038482666
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "ccf89722-86a8-422a-8690-b43439ee98c5",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803814737107189761",
+            "massCenter": {
+              "x": -25.1969985961914,
+              "y": 2.74999785423279,
+              "z": 34.7980003356934
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": -25.1969985961914,
+              "y": 2.74999785423279,
+              "z": 34.7980003356934
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "ac4db4b6-6716-4284-90ea-46a9187b69fb",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026477551617",
+            "massCenter": {
+              "x": 20.4160060882568,
+              "y": 2.69099831581116,
+              "z": -34.9660110473633
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": 20.4160060882568,
+              "y": 2.69099831581116,
+              "z": -34.9660110473633
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "07b5566f-4f39-423c-8e9e-92cefc7cea96",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026483499009",
+            "massCenter": {
+              "x": 18.5170841217041,
+              "y": 6.98661518096924,
+              "z": -34.9659805297852
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": 18.5170841217041,
+              "y": 6.98661518096924,
+              "z": -34.9659805297852
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "562fb0ff-be06-4df3-9b60-29a646630978",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026488856577",
+            "massCenter": {
+              "x": 20.4160060882568,
+              "y": 6.98700046539307,
+              "z": -34.9660110473633
+            },
+            "mesh": "asset/Parking/door/door2.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door2.mesh",
+              "selector": "asset/Parking/door/door2.mesh"
+            },
+            "name": "door2.mesh",
+            "position": {
+              "x": 20.4160060882568,
+              "y": 6.98700046539307,
+              "z": -34.9660110473633
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "batchType": "Dynamic",
+            "btsKey": "d9ea010a-4683-4c72-9f0f-39d19ac20595",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8803818026494115841",
+            "massCenter": {
+              "x": 18.5170841217041,
+              "y": 2.69061303138733,
+              "z": -34.9659805297852
+            },
+            "mesh": "asset/Parking/door/door1.mesh",
+            "mesh_selector": {
+              "asset": "asset/Parking/door/door1.mesh",
+              "selector": "asset/Parking/door/door1.mesh"
+            },
+            "name": "door1.mesh",
+            "position": {
+              "x": 18.5170841217041,
+              "y": 2.69061303138733,
+              "z": -34.9659805297852
+            },
+            "restitution": 0.3,
+            "useAnchor": true
+          }
+        ],
+        "id": "8803814431854837761",
+        "name": "Door",
+        "position": {
+          "x": -26.1464595794678,
+          "y": 6.85580730438232,
+          "z": 34.7980194091797
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "3e4e08a2-c8f9-4760-8682-9635f79247c3",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828989882071810049",
+        "massCenter": {
+          "x": 16.75266456604,
+          "y": 1.90792655944824,
+          "z": -34.3970947265625
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": 16.75266456604,
+          "y": 1.90792655944824,
+          "z": -34.3970947265625
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 87.9999923706055
+        },
+        "scale": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "size": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "a49c3d52-da50-4b11-bd2a-8da25b5fc012",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828990908948381697",
+        "massCenter": {
+          "x": 22.1143836975098,
+          "y": 1.8739275932312,
+          "z": -34.2098350524902
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": 22.1143836975098,
+          "y": 1.8739275932312,
+          "z": -34.2098350524902
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 87.9999923706055
+        },
+        "scale": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "size": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "66dabc9b-5afe-42dd-b4cd-091d5bd3403d",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828991279013314561",
+        "massCenter": {
+          "x": 16.75266456604,
+          "y": 6.16692447662354,
+          "z": -34.3970947265625
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": 16.75266456604,
+          "y": 6.16692447662354,
+          "z": -34.3970947265625
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 87.9999923706055
+        },
+        "scale": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "size": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "add9f94d-c4a3-4cda-a8af-c1868a10c35e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828991445690843137",
+        "massCenter": {
+          "x": 22.1024055480957,
+          "y": 6.16692447662354,
+          "z": -34.210262298584
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": 22.1024055480957,
+          "y": 6.16692447662354,
+          "z": -34.210262298584
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 87.9999923706055
+        },
+        "scale": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "size": {
+          "x": 0.269221,
+          "y": 0.269221,
+          "z": 0.26922
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "478ec9f4-05e9-47c1-b4cc-df583ee6e42f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828992345185402881",
+        "massCenter": {
+          "x": -23.253360748291,
+          "y": 6.1860933303833,
+          "z": 34.3668785095215
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": -23.253360748291,
+          "y": 6.1860933303833,
+          "z": 34.3668785095215
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 92.9999847412109
+        },
+        "scale": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        },
+        "size": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "685fc41c-f1c0-4d0a-86d4-14480682e455",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828993372247638017",
+        "massCenter": {
+          "x": -23.3729496002197,
+          "y": 1.91173362731934,
+          "z": 34.2392768859863
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": -23.3729496002197,
+          "y": 1.91173362731934,
+          "z": 34.2392768859863
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 92.9999847412109
+        },
+        "scale": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        },
+        "size": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "d848aa7a-8bb6-4ef6-ab37-47eb48d190da",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828993616394829825",
+        "massCenter": {
+          "x": -29.1013355255127,
+          "y": 6.1860933303833,
+          "z": 34.6733474731445
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": -29.1013355255127,
+          "y": 6.1860933303833,
+          "z": 34.6733474731445
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 92.9999847412109
+        },
+        "scale": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        },
+        "size": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "55f56703-9e0a-4a9e-8fcf-487bce3aea77",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828994499744497665",
+        "massCenter": {
+          "x": -7.91230821609497,
+          "y": 1.89617156982422,
+          "z": 33.6497840881348
+        },
+        "mesh": "asset/Pumpkin_01/Pumpkin_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Pumpkin_01/Pumpkin_01.mesh",
+          "selector": "asset/Pumpkin_01/Pumpkin_01.mesh"
+        },
+        "name": "Pumpkin_01.mesh",
+        "position": {
+          "x": -7.91230821609497,
+          "y": 1.89617156982422,
+          "z": 33.6497840881348
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 2.08511877059937,
+          "y": 126.99471282959,
+          "z": 0.225131884217262
+        },
+        "scale": {
+          "x": 1.94753,
+          "y": 1.94753,
+          "z": 1.94752
+        },
+        "size": {
+          "x": 1.94753,
+          "y": 1.94753,
+          "z": 1.94752
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "56392f4a-80de-49a9-9b3d-ad6e1900b2e5",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828996987986296833",
+        "massCenter": {
+          "x": -54.1164970397949,
+          "y": 1.85714995861053,
+          "z": -10.2766990661621
+        },
+        "mesh": "asset/Pumpkin_01/Pumpkin_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Pumpkin_01/Pumpkin_01.mesh",
+          "selector": "asset/Pumpkin_01/Pumpkin_01.mesh"
+        },
+        "name": "Pumpkin_01.mesh",
+        "position": {
+          "x": -54.1164970397949,
+          "y": 1.85714995861053,
+          "z": -10.2766990661621
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 29.0000076293945
+        },
+        "scale": {
+          "x": 1.99802,
+          "y": 1.99802,
+          "z": 1.99801
+        },
+        "size": {
+          "x": 1.99802,
+          "y": 1.99802,
+          "z": 1.99801
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "96f77df0-6413-4921-ad58-704f99b60f99",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8828997766752190465",
+        "massCenter": {
+          "x": -9.8550910949707,
+          "y": 1.78790497779846,
+          "z": -33.9144401550293
+        },
+        "mesh": "asset/Pumpkin_01/Pumpkin_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Pumpkin_01/Pumpkin_01.mesh",
+          "selector": "asset/Pumpkin_01/Pumpkin_01.mesh"
+        },
+        "name": "Pumpkin_01.mesh",
+        "position": {
+          "x": -9.8550910949707,
+          "y": 1.78790497779846,
+          "z": -33.9144401550293
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -58.9999885559082
+        },
+        "scale": {
+          "x": 1.94088,
+          "y": 1.94088,
+          "z": 1.94087
+        },
+        "size": {
+          "x": 1.94088,
+          "y": 1.94088,
+          "z": 1.94087
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "8f3b2d1f-6f6b-4efa-96eb-6b394f31b40c",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8829000838086033409",
+        "massCenter": {
+          "x": -53.9122428894043,
+          "y": 6.15108203887939,
+          "z": -10.3857364654541
+        },
+        "mesh": "asset/Pumpkin_01/Pumpkin_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Pumpkin_01/Pumpkin_01.mesh",
+          "selector": "asset/Pumpkin_01/Pumpkin_01.mesh"
+        },
+        "name": "Pumpkin_01.mesh",
+        "position": {
+          "x": -53.9122428894043,
+          "y": 6.15108203887939,
+          "z": -10.3857364654541
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 29.9999961853027
+        },
+        "scale": {
+          "x": 1.97011,
+          "y": 1.97011,
+          "z": 1.9701
+        },
+        "size": {
+          "x": 1.97011,
+          "y": 1.97011,
+          "z": 1.9701
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "0043267a-2d4f-4709-9225-1ffeb044174a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8829001981426188289",
+        "massCenter": {
+          "x": 47.5748558044434,
+          "y": 6.14118957519531,
+          "z": 10.4943237304688
+        },
+        "mesh": "asset/Pumpkin_01/Pumpkin_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Pumpkin_01/Pumpkin_01.mesh",
+          "selector": "asset/Pumpkin_01/Pumpkin_01.mesh"
+        },
+        "name": "Pumpkin_01.mesh",
+        "position": {
+          "x": 47.5748558044434,
+          "y": 6.14118957519531,
+          "z": 10.4943237304688
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -149.999984741211
+        },
+        "scale": {
+          "x": 1.97676,
+          "y": 1.97676,
+          "z": 1.97675
+        },
+        "size": {
+          "x": 1.97676,
+          "y": 1.97676,
+          "z": 1.97675
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "3c2686be-f2fc-496b-ba91-c4ff90f77f2a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8831680339005423617",
+        "massCenter": {
+          "x": -29.1053256988525,
+          "y": 1.90609586238861,
+          "z": 34.6735687255859
+        },
+        "mesh": "asset/untitled/untitled.mesh",
+        "mesh_selector": {
+          "asset": "asset/untitled/untitled.mesh",
+          "selector": "asset/untitled/untitled.mesh"
+        },
+        "name": "untitled.mesh",
+        "position": {
+          "x": -29.1053256988525,
+          "y": 1.90609586238861,
+          "z": 34.6735687255859
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 92.9999847412109
+        },
+        "scale": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        },
+        "size": {
+          "x": 0.288453,
+          "y": 0.288453,
+          "z": 0.288451
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/376270ea-6ea1-4c30-b574-3d4250039a5f",
+        "id": "8831680796920233985",
+        "name": "pigman",
+        "position": {
+          "x": -26.9044456481934,
+          "y": 1.3362523317337,
+          "z": 29.1080017089844
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/376270ea-6ea1-4c30-b574-3d4250039a5f",
+        "id": "8831681422029209601",
+        "name": "pigman",
+        "position": {
+          "x": -26.3954906463623,
+          "y": 5.43424415588379,
+          "z": 29.2979888916016
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/376270ea-6ea1-4c30-b574-3d4250039a5f",
+        "id": "8831682809754337281",
+        "name": "pigman",
+        "position": {
+          "x": 19.1679916381836,
+          "y": 1.47157108783722,
+          "z": -28.4859790802002
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/376270ea-6ea1-4c30-b574-3d4250039a5f",
+        "id": "8831683098417348609",
+        "name": "pigman",
+        "position": {
+          "x": 19.6400947570801,
+          "y": 5.53489637374878,
+          "z": -28.7909660339355
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/376270ea-6ea1-4c30-b574-3d4250039a5f",
+        "id": "8831683324852322305",
+        "name": "pigman",
+        "position": {
+          "x": 6.59346771240234,
+          "y": 1.23950386047363,
+          "z": 5.17877817153931
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/bba56584-0d5b-4b9a-9ecc-a355d16822bf",
+        "id": "8831684767838732289",
+        "name": "fashi",
+        "position": {
+          "x": 60.3185844421387,
+          "y": 1.25035881996155,
+          "z": 27.1615467071533
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/bba56584-0d5b-4b9a-9ecc-a355d16822bf",
+        "id": "8831685180739846145",
+        "name": "fashi",
+        "position": {
+          "x": -4.79203271865845,
+          "y": 5.47110271453857,
+          "z": 0.257526040077209
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8831689455807250433",
+        "name": "Player"
+      }
+    ],
+    "name": {
+      "value": "map_map002"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2b9f3f19791023fc86c71cacb9d8b7f7"
+    },
+    "VERSION": "0.24"
+  }
+}

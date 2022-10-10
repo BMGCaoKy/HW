@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "48e00ac4f0319d1479069a635a25d8ed",
+    "md5": "6a328d647e21b93909397f76c2633182",
     "path": "asset/ui/MainPlay.layout",
     "root": {
       "anchor": {
@@ -14,7 +14,7 @@
           "Font_size": 30,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "004eca73-70e5-49fa-8a1f-cfb3198b436e"
+            "value": "a26ed61c-a633-4630-83c0-772893dbe10f"
           },
           "name": "role",
           "size": {
@@ -43,7 +43,7 @@
           "Font_size": 50,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "4dbdcf4e-03f6-4906-b8cc-2e406d78ce0a"
+            "value": "9c5234e6-13f9-4a1a-be96-c10ecf0f585d"
           },
           "name": "time",
           "size": {
@@ -66,7 +66,7 @@
         }
       ],
       "id": {
-        "value": "bab35363-455b-41ef-bd2d-0c5d9d0c73b2"
+        "value": "bc60635f-890f-478c-bd63-efb4e05ff100"
       },
       "size": {
         "UDim_X": {
@@ -83,7 +83,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "48e00ac4f0319d1479069a635a25d8ed",
+      "layout": "6a328d647e21b93909397f76c2633182",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"
