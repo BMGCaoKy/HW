@@ -264,7 +264,12 @@ function MatchRoom:removePlayer(playerId)
         if self:isMurder(playerId) then
           self:removeMurder(playerId)
         elseif self:isPolice(playerId) then
-          self:removePolice(playerId,true)
+         
+          if Lib.getTableSize(self:getPlayerList())>Lib.getTableSize(self.userMurder) then
+            self:removePolice(playerId,true)
+          else
+            self:removePolice(playerId)
+          end
         end
       end
     end
