@@ -72,7 +72,7 @@
   "collisionMatrix": [
     "1"
   ],
-  "defaultMap": "map001",
+  "defaultMap": "parking_id",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -84,9 +84,9 @@
     "actionControl": true,
     "actionControlMode": "flexibleDragControl",
     "appMainRole": false,
-    "chat": true,
+    "chat": false,
     "playerinfo": false,
-    "shortcutBar": true,
+    "shortcutBar": false,
     "toolbar": false
   },
   "forcePickBlock": true,
@@ -96,10 +96,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "map001",
-    "x": 1.205,
-    "y": 1.03990081787109,
-    "z": 5.64541912078857
+    "map": "parking_id",
+    "x": -28.53,
+    "y": 1.24,
+    "z": 26.628
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -236,10 +236,10 @@
   },
   "startPos": [
     {
-      "map": "map001",
-      "x": 0.698406219482422,
-      "y": 1.03990081787109,
-      "z": 4.5978307723999
+      "map": "parking_id",
+      "x": -32.7894744873047,
+      "y": 1.23990146160126,
+      "z": 26.5700664520264
     }
   ],
   "team": [],

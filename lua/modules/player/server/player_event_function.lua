@@ -1,5 +1,5 @@
 local event = {}
-
+local MatchRoom = require("modules.match.server.room.match_room")
 local function CompareTwoTable(t1, t2)
     for k, v in pairs(t2) do
         if t1[k] == nil then
@@ -32,5 +32,13 @@ event["ENTITY_ENTER"] = function(p)
     playerBase:init()
     Entity.addValueDef("temporary", playerBase, true, true, false, false)
 
+end
+event["ENTITY_TOUCHDOWN"]=function (p)
+    for k, v in pairs(Global.listRoom) do
+        if v:isInRoom(p.obj1.platformUserId) then
+            v:removePlayer(p.obj1.platformUserId)
+            break
+        end
+    end
 end
 return event

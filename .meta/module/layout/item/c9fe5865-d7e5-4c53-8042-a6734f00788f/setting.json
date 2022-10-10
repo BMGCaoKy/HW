@@ -1,0 +1,993 @@
+{
+  "data": {
+    "md5": "f81882c926916efbe2087cfb7622680e",
+    "path": "gui/layout_presets/actionControl.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "ClippedByParent": true,
+          "DisabledImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "DisabledTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "HoverImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "id": {
+            "value": "ba1eb16a-1780-4ee6-bcce-a8beb670865b"
+          },
+          "lock": true,
+          "name": "SwitchButtonTest",
+          "NormalImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 493
+            },
+            "UDim_Y": {
+              "Offect": 127
+            }
+          },
+          "PushedImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "text_key": {
+            "value": "gui/layout_presets/actionControl.layout.Button#1d7fa441-4b3e-4bf9-8df3-c16ea5fb3ca9"
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "DisabledImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "DisabledTextColour": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "HoverImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "id": {
+            "value": "66994dce-cd53-406f-90a1-10e9b019607b"
+          },
+          "lock": true,
+          "name": "GM",
+          "NormalImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "pos": {
+            "UDim_Y": {
+              "Offect": 50
+            }
+          },
+          "PushedImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 100
+            },
+            "UDim_Y": {
+              "Offect": 50
+            }
+          },
+          "Text": "GM",
+          "text_key": {
+            "value": "gui/layout_presets/actionControl.layout.Button#52119011-154d-405e-a8ae-880d0426dce5"
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "id": {
+                        "value": "9e4442fe-c641-4911-98a0-64fa61fbd954"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                        "imageset_key": "linghuo_up",
+                        "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+                      },
+                      "lock": true,
+                      "name": "UpImage",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 69
+                        },
+                        "UDim_Y": {
+                          "Offect": 69
+                        }
+                      },
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "id": {
+                    "value": "1ac142d2-251c-45a1-abda-3900da6385cf"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                    "imageset_key": "linghuo_bottom",
+                    "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+                  },
+                  "lock": true,
+                  "name": "BottomImage",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 77
+                    },
+                    "UDim_Y": {
+                      "Offect": -86
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 192
+                    },
+                    "UDim_Y": {
+                      "Offect": 192
+                    }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "06e1a613-5180-4c7f-97e9-d7ba9825723f"
+              },
+              "lock": true,
+              "name": "FlexibleDragControl",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 1.01
+                },
+                "UDim_Y": {
+                  "Offect": -403
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 354.45641382217
+                },
+                "UDim_Y": {
+                  "Offect": 592.46
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "Alpha": 0.75,
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "2ca86e6d-73b0-4ced-b258-21d3a96fdf71"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/pole.imageset",
+                    "imageset_key": "pole_bg",
+                    "selector": "asset/Texture/Gui/imagesets/pole.imageset"
+                  },
+                  "lock": true,
+                  "name": "MoveBg",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "467346a9-f220-4b80-a790-5075132c54b1"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/pole.imageset",
+                    "imageset_key": "pole_center",
+                    "selector": "asset/Texture/Gui/imagesets/pole.imageset"
+                  },
+                  "lock": true,
+                  "name": "Point",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "id": {
+                    "value": "8d179de8-e9d0-4765-bd02-2de3dc1e4f01"
+                  },
+                  "lock": true,
+                  "name": "MoveArea",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.12
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.12
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1.24
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1.24
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "d85dd8c8-f089-46ed-95e0-dd957f2c152c"
+              },
+              "lock": true,
+              "name": "Pole",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 10
+                },
+                "UDim_Y": {
+                  "Offect": -50
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 10,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 80,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "20fb9418-9459-454e-b323-9d0fbf52595c"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "zuoxieshang",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "LeftTop",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "5561fc71-7f6f-44a9-9551-92e71ac4f0af"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "shang",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "CenterTop",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.33
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "aba5b59a-4003-4630-beaa-bf45fb31de57"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "youxieshang",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "RightTop",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.66
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "aa6613ae-bb01-460e-a83a-ef4d539caa52"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "zuo",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "LeftCenter",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.33
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "c4343079-2ebf-4d36-ad7f-e75419bd948c"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "you",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "RightCenter",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.66
+                    },
+                    "UDim_Y": {
+                      "Scale": 0.33
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "4e5c7eab-4357-4e36-ae5d-7c62edfcc184"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "xia",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "CenterBottom",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.33
+                    },
+                    "UDim_Y": {
+                      "Scale": 0.66
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "7bb4cc2b-f395-4f62-8c5d-43f9823d4f26"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "qifei",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "CenterJump",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.33
+                    },
+                    "UDim_Y": {
+                      "Scale": 0.33
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "e42554ff-47f6-4b5c-a1f0-039e36f9c38a"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "sneak",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "CenterSneak",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.33
+                    },
+                    "UDim_Y": {
+                      "Scale": 0.33
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "7dcf3380-6faa-43f2-b7b4-3f7b92fe9d0a"
+                  },
+                  "lock": true,
+                  "name": "LeftTopTouch",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.34
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.34
+                    }
+                  },
+                  "Visible": false
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "e7246c72-3575-4699-936e-1f30eac025a9"
+                  },
+                  "lock": true,
+                  "name": "RightTopTouch",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.62
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.34
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.34
+                    }
+                  },
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "cd7fa3b9-5952-4340-bd20-28edcf031334"
+              },
+              "lock": true,
+              "name": "Keyboard",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 20
+                },
+                "UDim_Y": {
+                  "Offect": -50
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 30,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 80,
+                  "Scale": 1
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "id": {
+                    "value": "2ad33c1f-a449-4075-9802-f28f80ee61f5"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/endless_main.imageset",
+                    "imageset_key": "control_bg_normal",
+                    "selector": "asset/Texture/Gui/imagesets/endless_main.imageset"
+                  },
+                  "lock": true,
+                  "name": "MoveBg",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "id": {
+                    "value": "6421036d-ab6f-4b78-8214-dc67abcb7fd8"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/endless_main.imageset",
+                    "imageset_key": "control_bg_push",
+                    "selector": "asset/Texture/Gui/imagesets/endless_main.imageset"
+                  },
+                  "lock": true,
+                  "name": "MoveBgPush",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "id": {
+                    "value": "22571f32-8e84-4fa1-b00a-bf6f010cd9ee"
+                  },
+                  "lock": true,
+                  "name": "MoveArea",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "8e31311b-af5a-4ab1-b7da-321a93cd06dc"
+              },
+              "lock": true,
+              "name": "DragControl",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Visible": false
+            }
+          ],
+          "ClippedByParent": true,
+          "id": {
+            "value": "dd2c62b1-fbba-49f2-af1e-a4c6848386fb"
+          },
+          "lock": true,
+          "name": "MoveCompomentBase",
+          "pos": {
+            "UDim_Y": {
+              "Offect": -30
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 240
+            },
+            "UDim_Y": {
+              "Offect": 160
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "235d4435-c2ea-464a-839e-73596af972cb"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "sneak",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "Sneak",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Visible": false
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "65f74734-43ba-4b62-9788-1429aa78d42d"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/new_gui_material.imageset",
+                    "imageset_key": "run",
+                    "selector": "asset/Texture/Gui/imagesets/new_gui_material.imageset"
+                  },
+                  "lock": true,
+                  "name": "Run",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "460a4d7f-59ec-40ab-afc2-29f686323d90"
+              },
+              "lock": true,
+              "name": "MoveState",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -240,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": -90,
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 60
+                },
+                "UDim_Y": {
+                  "Offect": 60
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "0040309f-6417-461b-8a5c-e62af7a7fdc4"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                    "imageset_key": "icon_jump_nor",
+                    "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+                  },
+                  "lock": true,
+                  "name": "Sneak",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "9265db9c-45df-4417-9758-e426400f2074"
+                      },
+                      "Image": {
+                        "asset": "",
+                        "selector": ""
+                      },
+                      "lock": true,
+                      "name": "JumpProgress",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": -10
+                        },
+                        "UDim_Y": {
+                          "Offect": -10
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 20,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 20,
+                          "Scale": 1
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "e57961ad-f5fb-419c-a6b8-f49e206e33fa"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                        "imageset_key": "icon_jump_nor",
+                        "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+                      },
+                      "lock": true,
+                      "name": "JumpPush",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "Visible": false
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "a542c9b2-77ea-4fb1-8317-f4c040a9849a"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
+                        "imageset_key": "icon_jump_nor",
+                        "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
+                      },
+                      "lock": true,
+                      "name": "Jump",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    }
+                  ],
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "7b1e521f-4289-4c4f-8fef-4d233ba5a0e5"
+                  },
+                  "lock": true,
+                  "name": "JumpLayout",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                }
+              ],
+              "ClippedByParent": true,
+              "id": {
+                "value": "0150d262-321a-42c7-9394-a615341cdd3f"
+              },
+              "lock": true,
+              "name": "JumpControl",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -140,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": -204,
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 120
+                },
+                "UDim_Y": {
+                  "Offect": 120
+                }
+              }
+            }
+          ],
+          "ClippedByParent": true,
+          "id": {
+            "value": "61051107-7e65-431d-a723-838ce8b6f3e0"
+          },
+          "lock": true,
+          "name": "StateControlBase",
+          "pos": {
+            "UDim_X": {
+              "Offect": -300,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": -300,
+              "Scale": 1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 300
+            }
+          }
+        }
+      ],
+      "ClippedByParent": true,
+      "id": {
+        "value": "8b9a04f0-95b5-4513-9716-b5caf7c88a3c"
+      },
+      "lock": true,
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "f81882c926916efbe2087cfb7622680e",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

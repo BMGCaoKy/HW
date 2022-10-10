@@ -11,11 +11,11 @@
       "enable": true
     },
     "initPos": {
-      "map": "map001",
+      "map": "parking_id",
       "pos": {
-        "x": 1.205,
-        "y": 1.03990081787109,
-        "z": 5.64541912078857
+        "x": -28.53,
+        "y": 1.24,
+        "z": 26.628
       }
     },
     "nowTime": {
@@ -27,23 +27,25 @@
       "min": 1
     },
     "startPos": {
-      "map": "map001",
+      "map": "parking_id",
       "pos": {
-        "x": 0.698406219482422,
-        "y": 1.03990081787109,
-        "z": 4.5978307723999
+        "x": -32.7894744873047,
+        "y": 1.23990146160126,
+        "z": 26.5700664520264
       }
     },
     "ui_enable": {
       "appMainRole": false,
+      "chat": false,
       "playerinfo": false,
+      "shortcutBar": false,
       "toolbar": false
     },
     "unlimitedPlayTime": true
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d31d09c34b1beb95167eec3313f4d6a3",
+      "setting.json": "8ac261f5180f5ee0b3a9e9d8784e47f8",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

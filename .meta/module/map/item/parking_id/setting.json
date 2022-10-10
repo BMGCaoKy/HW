@@ -56,7 +56,9 @@
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
-        "batchType": "Dynamic",
+        "anchorPoint": {
+          "y": 5.36204242706299
+        },
         "btsKey": "92cdc76f-71a8-49a3-9488-25ecde69eb6f",
         "density": 2.2,
         "friction": 0.37,
@@ -73,13 +75,25 @@
         "position": {
           "y": 5.36204242706299
         },
-        "restitution": 0.3
+        "restitution": 0.3,
+        "size": {
+          "x": 143.732528686523,
+          "y": 8.72428321838379,
+          "z": 91.1999893188477
+        },
+        "useAnchor": true,
+        "useGravity": false
       },
       {
         "__OBJ_TYPE": "Instance_Model",
         "children": [
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": -25.1969985961914,
+              "y": 6.85599994659424,
+              "z": 34.7980003356934
+            },
             "batchType": "Dynamic",
             "btsKey": "25c6fa62-b51e-4c4a-bf04-a015a1fd05d0",
             "density": 2.2,
@@ -102,11 +116,21 @@
               "z": 34.7980003356934
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271508216858,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": -27.0959205627441,
+              "y": 6.85561466217041,
+              "z": 34.798038482666
+            },
             "batchType": "Dynamic",
             "btsKey": "4f6dddfe-78a2-4b19-b532-0387e721cabd",
             "density": 2.2,
@@ -129,11 +153,21 @@
               "z": 34.798038482666
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271460533142,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": -27.0959205627441,
+              "y": 2.74961256980896,
+              "z": 34.798038482666
+            },
             "batchType": "Dynamic",
             "btsKey": "b01fe0e6-5d54-49f7-96a0-93c46f02e82e",
             "density": 2.2,
@@ -156,11 +190,21 @@
               "z": 34.798038482666
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271460533142,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": -25.1969985961914,
+              "y": 2.74999785423279,
+              "z": 34.7980003356934
+            },
             "batchType": "Dynamic",
             "btsKey": "ccf89722-86a8-422a-8690-b43439ee98c5",
             "density": 2.2,
@@ -183,11 +227,21 @@
               "z": 34.7980003356934
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271508216858,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": 20.4160060882568,
+              "y": 2.69099831581116,
+              "z": -34.9660110473633
+            },
             "batchType": "Dynamic",
             "btsKey": "ac4db4b6-6716-4284-90ea-46a9187b69fb",
             "density": 2.2,
@@ -210,11 +264,21 @@
               "z": -34.9660110473633
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271508216858,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": 18.5170841217041,
+              "y": 6.98661518096924,
+              "z": -34.9659805297852
+            },
             "batchType": "Dynamic",
             "btsKey": "07b5566f-4f39-423c-8e9e-92cefc7cea96",
             "density": 2.2,
@@ -237,11 +301,21 @@
               "z": -34.9659805297852
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271460533142,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": 20.4160060882568,
+              "y": 6.98700046539307,
+              "z": -34.9660110473633
+            },
             "batchType": "Dynamic",
             "btsKey": "562fb0ff-be06-4df3-9b60-29a646630978",
             "density": 2.2,
@@ -264,11 +338,21 @@
               "z": -34.9660110473633
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271508216858,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "x": 18.5170841217041,
+              "y": 2.69061303138733,
+              "z": -34.9659805297852
+            },
             "batchType": "Dynamic",
             "btsKey": "d9ea010a-4683-4c72-9f0f-39d19ac20595",
             "density": 2.2,
@@ -291,8 +375,13 @@
               "z": -34.9659805297852
             },
             "restitution": 0.3,
-            "staticBatchNo": "1",
-            "useAnchor": true
+            "size": {
+              "x": 1.8898047208786,
+              "y": 3.03271460533142,
+              "z": 0.346961945295334
+            },
+            "useAnchor": true,
+            "useGravity": false
           }
         ],
         "id": "8803814431854837761",
@@ -310,7 +399,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1fd4040ec71d6e6bc05c4c8c2f6bd8e7"
+      "setting.json": "d0033d66383731a8085cda03c58bb3ba"
     },
     "VERSION": "0.24"
   }

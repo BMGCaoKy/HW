@@ -1,0 +1,21 @@
+{
+  "attractedLv": 1,
+  "boundingVolume": {
+    "params": [
+      1,
+      1,
+      1
+    ],
+    "type": "Box"
+  },
+  "canAbandon": true,
+  "dropEffect": {
+    "effect": "g2045_monster_ghost.effect"
+  },
+  "icon": "",
+  "ignoreClickPenetrate": true,
+  "needSave": true,
+  "noAddBag": true,
+  "showBoundBox": true,
+  "stack_count_max": 1
+}

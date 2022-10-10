@@ -1,0 +1,101 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/asset_Medieval_Village/Skybox/MoonShine_back.png"
+        },
+        "bottom": {
+          "asset": "asset/asset_Medieval_Village/Skybox/MoonShine_down.png"
+        },
+        "front": {
+          "asset": "asset/asset_Medieval_Village/Skybox/MoonShine_front.png"
+        },
+        "left": {
+          "asset": "asset/asset_Medieval_Village/Skybox/MoonShine_left.png"
+        },
+        "right": {
+          "asset": "asset/asset_Medieval_Village/Skybox/MoonShine_right.png"
+        },
+        "top": {
+          "asset": "asset/asset_Medieval_Village/Skybox/MoonShine_up.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8831834006671130625"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8831834006732521473",
+        "ID": 3,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8831834006854205441",
+        "ID": 4,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 40.6280097961426
+        },
+        "rotation": {
+          "x": -9.44530984270386e-06,
+          "y": -89.9999465942383,
+          "z": -57
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -2.29519176483154,
+          "y": 49.927375793457,
+          "z": 9.67643260955811
+        },
+        "batchType": "Dynamic",
+        "btsKey": "f8338045-9142-4083-8be8-228f42e84bc3",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8831834904990220289",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": -2.29519176483154,
+          "y": 49.927375793457,
+          "z": 9.67643260955811
+        },
+        "mesh": "asset/asset_Medieval_Village/Medieval_Village_Map/Medieval_Village_Map.mesh",
+        "mesh_selector": {
+          "asset": "asset/asset_Medieval_Village/Medieval_Village_Map/Medieval_Village_Map.mesh",
+          "selector": "asset/asset_Medieval_Village/Medieval_Village_Map/Medieval_Village_Map.mesh"
+        },
+        "name": "Medieval_Village_Map.mesh",
+        "position": {
+          "x": -2.29519176483154,
+          "y": 49.927375793457,
+          "z": 9.67643260955811
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 249.09489440918,
+          "y": 48.9274787902832,
+          "z": 295.487518310547
+        },
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_Map_Medieval_Village_ID"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2131d99b91a7a96bc070595cbe4047c1"
+    },
+    "VERSION": "0.24"
+  }
+}

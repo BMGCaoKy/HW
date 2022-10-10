@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "091783b48e29dfd3c8971ca52e04a866",
+    "md5": "414035d9db2befc1692746e324fa4b31",
     "path": "gui/layout_presets/toolbar.layout",
     "root": {
       "children": [
@@ -20,6 +20,7 @@
                 "imageset_key": "icon_setting",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "settingBtn",
               "pos": {
                 "UDim_X": {
@@ -48,6 +49,7 @@
                 "imageset_key": "icon_chat",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "chatBtn",
               "pos": {
                 "UDim_X": {
@@ -76,6 +78,7 @@
                 "imageset_key": "icon_thrid_view",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "viewBtn",
               "pos": {
                 "UDim_X": {
@@ -104,6 +107,7 @@
                 "imageset_key": "icon_friends",
                 "selector": "asset/Texture/Gui/imagesets/friend.imageset"
               },
+              "lock": true,
               "name": "playerListBtn",
               "pos": {
                 "UDim_X": {
@@ -123,6 +127,7 @@
           "id": {
             "value": "484cd936-3abf-4c2e-987f-09e99a145208"
           },
+          "lock": true,
           "name": "SystemBtnLayout",
           "pos": {
             "UDim_X": {
@@ -161,6 +166,7 @@
                 "asset": "",
                 "selector": ""
               },
+              "lock": true,
               "name": "teamBg",
               "size": {
                 "UDim_X": {
@@ -178,6 +184,7 @@
           "id": {
             "value": "dc67c9fd-ea94-4065-90c0-9240ba3892a4"
           },
+          "lock": true,
           "name": "TeamLayout",
           "pos": {
             "UDim_X": {
@@ -212,6 +219,7 @@
                 "imageset_key": "toolbar_Countdown",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "countDownBg",
               "size": {
                 "UDim_X": {
@@ -235,6 +243,7 @@
               "id": {
                 "value": "68ce5aa9-7a1d-4ac7-980f-63d95c058232"
               },
+              "lock": true,
               "name": "countDownText",
               "pos": {
                 "UDim_X": {
@@ -268,6 +277,7 @@
           "id": {
             "value": "b7a4a213-d06b-4724-9fb7-804f907629cb"
           },
+          "lock": true,
           "name": "CountDownLayout",
           "pos": {
             "UDim_X": {
@@ -306,6 +316,7 @@
                 "imageset_key": "icon_coin_bg",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "coinLayoutBg",
               "size": {
                 "UDim_X": {
@@ -331,6 +342,7 @@
                 "imageset_key": "icon_diamond",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "coinIcon",
               "pos": {
                 "UDim_X": {
@@ -357,6 +369,7 @@
               "id": {
                 "value": "1f3fd307-6f7e-4b48-a8b0-85b4c438558b"
               },
+              "lock": true,
               "name": "coinText",
               "size": {
                 "UDim_X": {
@@ -393,6 +406,7 @@
                 "imageset_key": "icon_recharge_btn",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "buyBtn",
               "pos": {
                 "UDim_X": {
@@ -412,6 +426,7 @@
           "id": {
             "value": "b0838ccc-c082-4f61-aeb1-9bc37b604d48"
           },
+          "lock": true,
           "name": "BuyBtnLayout",
           "pos": {
             "UDim_X": {
@@ -445,6 +460,7 @@
                 "imageset_key": "icon_backEdit",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "backEditBtn",
               "size": {
                 "UDim_X": {
@@ -468,6 +484,7 @@
                 "imageset_key": "icon_onlineGame",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "onlineGameBtn",
               "pos": {
                 "UDim_Y": {
@@ -496,6 +513,7 @@
                 "imageset_key": "icon_uploadGame",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "uploadGameBtn",
               "pos": {
                 "UDim_Y": {
@@ -507,7 +525,7 @@
                   "Offect": 48
                 },
                 "UDim_Y": {
-                  "Offect": 48.0
+                  "Offect": 48
                 }
               }
             }
@@ -515,6 +533,7 @@
           "id": {
             "value": "8528696a-391f-4dc9-8bb0-dbf9ef71c040"
           },
+          "lock": true,
           "name": "EditGameLayout",
           "pos": {
             "UDim_X": {
@@ -551,6 +570,7 @@
                     "imageset_key": "icon_onlineRoom_bg",
                     "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
                   },
+                  "lock": true,
                   "name": "OnlineRoomLayout_Bg",
                   "pos": {
                     "UDim_X": {
@@ -581,6 +601,7 @@
                     "imageset_key": "icon_invite_friends",
                     "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
                   },
+                  "lock": true,
                   "name": "OnlineRoomLayout_Btn",
                   "size": {
                     "UDim_X": {
@@ -596,6 +617,7 @@
                   "id": {
                     "value": "553d5834-3457-4a39-9abb-15f05d2c784c"
                   },
+                  "lock": true,
                   "name": "OnlineRoomLayout_tipText",
                   "pos": {
                     "UDim_X": {
@@ -631,6 +653,7 @@
                   "id": {
                     "value": "f215ce17-ce84-4ccd-ac53-49f7f581b9ca"
                   },
+                  "lock": true,
                   "name": "OnlineRoomLayout_roomId",
                   "pos": {
                     "UDim_X": {
@@ -664,6 +687,7 @@
               "id": {
                 "value": "2646f634-f33a-4c7f-ad47-446cb9df5a5b"
               },
+              "lock": true,
               "name": "OnlineRoomLayout",
               "size": {
                 "UDim_X": {
@@ -685,6 +709,7 @@
                 "imageset_key": "icon_uploadGame",
                 "selector": "asset/Texture/Gui/imagesets/main_ui.imageset"
               },
+              "lock": true,
               "name": "onlineGameBtn_online",
               "pos": {
                 "UDim_Y": {
@@ -705,6 +730,7 @@
           "id": {
             "value": "7d4c0421-1299-4750-b7ee-0294f269cba0"
           },
+          "lock": true,
           "name": "OnlineGameLayout",
           "pos": {
             "UDim_X": {
@@ -748,6 +774,7 @@
                 "asset": "",
                 "selector": ""
               },
+              "lock": true,
               "name": "gameInfoBg",
               "size": {
                 "UDim_X": {
@@ -768,6 +795,7 @@
               "id": {
                 "value": "9be32a5f-f7b3-430f-8fdf-4d902982c9d9"
               },
+              "lock": true,
               "name": "playerCountText",
               "size": {
                 "UDim_X": {
@@ -799,6 +827,7 @@
               "id": {
                 "value": "28b31026-4659-4cf9-b818-54858e03a92c"
               },
+              "lock": true,
               "name": "scoreText",
               "pos": {
                 "UDim_X": {
@@ -832,6 +861,7 @@
           "id": {
             "value": "629c441e-8832-48b1-a549-722f89495d48"
           },
+          "lock": true,
           "name": "SingleGameInfoLayout",
           "pos": {
             "UDim_X": {
@@ -865,6 +895,7 @@
               "id": {
                 "value": "bea6166b-a7ec-4409-bb8a-04ed5292aa43"
               },
+              "lock": true,
               "name": "CountDownText_Tip",
               "size": {
                 "UDim_X": {
@@ -905,6 +936,7 @@
               "id": {
                 "value": "fb66a202-b50d-4916-9a0d-321597a7b280"
               },
+              "lock": true,
               "name": "CountDownText_Num",
               "pos": {
                 "UDim_X": {
@@ -938,6 +970,7 @@
           "id": {
             "value": "41e43659-48d2-42af-b0c1-a6b4e879ca4d"
           },
+          "lock": true,
           "name": "PropCountDownLayout",
           "pos": {
             "UDim_Y": {
@@ -959,6 +992,7 @@
       "id": {
         "value": "bc3c0c04-051d-45ac-befe-8d5816833938"
       },
+      "lock": true,
       "size": {
         "UDim_X": {
           "Offect": 0,
@@ -973,7 +1007,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "091783b48e29dfd3c8971ca52e04a866",
+      "layout": "414035d9db2befc1692746e324fa4b31",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

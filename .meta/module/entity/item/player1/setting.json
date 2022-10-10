@@ -1,17 +1,20 @@
 {
   "data": {
+    "_clientScript": [
+      {
+        "path": "client/client_script"
+      }
+    ],
     "_serverScript": [
       {
         "path": "server/server_script"
       }
     ],
     "actorModel": {
-      "actorName": {
-        "asset": ""
-      },
       "girlactor": {
-        "asset": ""
-      }
+        "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+      },
+      "modelType": "Customize"
     },
     "AI_attack": {
       "enable": true
@@ -45,7 +48,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "86db5b98acbaacfab1919c3d5122e56f",
+      "setting.json": "336b48adaac24537a2d2e99672b5cee8",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

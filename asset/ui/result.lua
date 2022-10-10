@@ -24,7 +24,7 @@ function self:onOpen(packet)
     end
 end
 
-local time = 60
+local time = 100
 World.Timer(
     10,
     function()

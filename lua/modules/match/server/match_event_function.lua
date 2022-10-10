@@ -53,7 +53,6 @@ event["ENTITY_DIE"] = function(p)
                     end
                 end
                 v:kill(victim.platformUserId)
-                print(Lib.pv(v))
                 break
             end
         end

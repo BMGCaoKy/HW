@@ -1,3 +1,4 @@
+
 if World.IsClient then
 require "script_client.main"
 else

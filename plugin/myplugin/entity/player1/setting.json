@@ -1,8 +1,12 @@
 {
-  "_clientScript": [],
+  "_clientScript": [
+    "client/client_script"
+  ],
   "_serverScript": [
     "server/server_script"
   ],
+  "actorGirlName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
+  "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
@@ -100,7 +104,7 @@
     10,
     30
   ],
-  "ignorePlayerSkin": false,
+  "ignorePlayerSkin": true,
   "isAIGoHomePos": true,
   "isPlayer": true,
   "jumpHeight": 0.6,
@@ -108,7 +112,7 @@
   "maxHp": 20,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
-  "modelType": "System",
+  "modelType": "Customize",
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,

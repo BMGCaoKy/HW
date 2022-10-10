@@ -1,0 +1,118 @@
+{
+  "data": {
+    "md5": "763bd2fc9c414c8ca2247c0e099b6be6",
+    "path": "asset/ui/over_shortcutBar.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Bottom"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "ClippedByParent": true,
+          "id": {
+            "value": "00bce42f-b273-477c-8008-217daa76b3d9"
+          },
+          "Image": {
+            "asset": "bottom_bar/bar_bg",
+            "selector": "bottom_bar/bar_bg"
+          },
+          "name": "BG",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "Disabled": true,
+          "id": {
+            "value": "bece3fbb-7163-44e1-ac25-283f4e61a7c3"
+          },
+          "Image": {
+            "asset": "bottom_bar/bar_bag",
+            "selector": "bottom_bar/bar_bag"
+          },
+          "name": "OpenBagItem",
+          "pos": {
+            "UDim_X": {
+              "Offect": -41
+            },
+            "UDim_Y": {
+              "Offect": -5
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 60
+            },
+            "UDim_Y": {
+              "Offect": 77
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "VerticalAlignment": "Bottom"
+          },
+          "id": {
+            "value": "5d0ae3c6-cfb7-4dce-88c0-1426d59ddd29"
+          },
+          "name": "ItemCellBase",
+          "pos": {
+            "UDim_X": {
+              "Offect": 49
+            },
+            "UDim_Y": {
+              "Offect": -12
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.78
+            },
+            "UDim_Y": {
+              "Offect": 78
+            }
+          }
+        }
+      ],
+      "ClippedByParent": true,
+      "id": {
+        "value": "f5b44604-fad6-436b-a215-8059f0890b07"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 746
+        },
+        "UDim_Y": {
+          "Offect": 53
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "763bd2fc9c414c8ca2247c0e099b6be6",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}
