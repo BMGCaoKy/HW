@@ -22,6 +22,7 @@ function MatchRoom:init(uid, map)
   self.mapLobby = map
   self.waitingUser = {}
   self.mapName=""
+  self.timeDeath={}
 end
 function MatchRoom:resetRoom()
   self.uid = self.uid --id phòng                          type: number
@@ -38,6 +39,7 @@ function MatchRoom:resetRoom()
   self.lastNamePolice = ""
   self.mapLobby = self.mapLobby
   self.mapName=""
+  self.timeDeath={}
   for k, v in pairs(self.waitingUser) do
     table.insert(self.userList, v)
   end
@@ -219,6 +221,7 @@ function MatchRoom:randomPolice()
 end
 --function
 function MatchRoom:kill(userId, isChange)
+  table.insert(self.timeDeath, {time=self.timeGameRun,id=userId})
   if self:isMurder(userId) then
     self:removeMurder(userId)
     table.insert(self.userDeath[3], userId)
@@ -348,19 +351,43 @@ function MatchRoom:roomListenning()
     end
   )
 end
+function MatchRoom:resultPoint()
+  for k, v in pairs(self.userList) do
+    local player = Game.GetPlayerByUserId(v)
+    local time_survival=Define.MATCH.TIME_GAME_RUN
+    for kk,vv in pairs(self.timeDeath) do
+      if vv.id==v then
+        time_survival=Define.MATCH.TIME_GAME_RUN-vv.time
+        break
+      end
+    end
+    local data=player:getValue("baseInform")
+    local max_exp=Define.PLAYER.LV_TO_EXP(data.exp.lv+1)
+    data.exp.point=data.exp.point+time_survival
+    while max_exp<data.exp.point do
+      data.exp.lv=data.exp.lv+1
+      data.exp.point=data.exp.point-max_exp
+      max_exp=Define.PLAYER.LV_TO_EXP(data.exp.lv+1)
+    end
+    player:setValue("baseInform",data)
+  end
+end
 function MatchRoom:EndGameCondition()
   World.Timer(
     1,
     function()
       if self.timeGameRun<0 then
-        Global.ui2List("ui/result", self.userList, {room = self})
+        self:resultPoint()
+        Global.ui2List("ui/result_new", self.userList, {room = self})
         self.roomStatus = -1
       end
       if Lib.getTableSize(self.userMurder) == 0 then
-        Global.ui2List("ui/result", self.userList, {room = self})
+        self:resultPoint()
+        Global.ui2List("ui/result_new", self.userList, {room = self})
         self.roomStatus = -1
       elseif Lib.getTableSize(self:getPlayerList()) == Lib.getTableSize(self.userMurder) then
-        Global.ui2List("ui/result", self.userList, {room = self})
+        self:resultPoint()
+        Global.ui2List("ui/result_new", self.userList, {room = self})
         self.roomStatus = -1
       end
       if self.roomStatus == -1 then

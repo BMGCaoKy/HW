@@ -1,0 +1,560 @@
+{
+  "data": {
+    "md5": "477e0b81b8343753c059244cdbbf7fe0",
+    "path": "asset/ui/guide.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "children": [
+            {
+              "__OBJ_TYPE": "HorizontalLayoutContainer",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "VerticalLayoutContainer",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre"
+                          },
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "children": [
+                                {
+                                  "__OBJ_TYPE": "StaticImage",
+                                  "anchor": {
+                                    "HorizontalAlignment": "Centre",
+                                    "VerticalAlignment": "Centre"
+                                  },
+                                  "id": {
+                                    "value": "6bcc591e-db06-48c8-a0d1-8f1f4ee3bcba"
+                                  },
+                                  "Image": {
+                                    "asset": "asset/ui/guide/killer.png"
+                                  }
+                                }
+                              ],
+                              "id": {
+                                "value": "8726e8ef-ed7d-4827-85df-4e08651ac934"
+                              },
+                              "Image": {
+                                "asset": ""
+                              },
+                              "name": "Image1",
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              }
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderWidth": 2,
+                              "Font": "Fonts/RWcreepsville",
+                              "Font_size": 15,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "e623027e-589e-4422-87f1-0668ab34e2fe"
+                              },
+                              "pos": {
+                                "UDim_Y": {
+                                  "Offect": 128
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": -150,
+                                  "Scale": 1
+                                }
+                              },
+                              "Text": "Secretly has a knife \nCan kill other players instantly using the knife \nCan aim and throw the knife from a distance\n",
+                              "text_key": {
+                                "value": "asset/ui/guide.layout.StaticText#dbf08ea7-e388-4c4a-afe5-3bdc6c7a6d52"
+                              },
+                              "TextColours": {
+                                "r": 170
+                              },
+                              "VertFormatting": "CentreAligned"
+                            }
+                          ],
+                          "id": {
+                            "value": "8102ea91-8f53-4bc9-9a18-62a9547fcd26"
+                          },
+                          "name": "List",
+                          "pos": {
+                            "UDim_Y": {
+                              "Offect": 20
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 240
+                            },
+                            "UDim_Y": {
+                              "Offect": 378
+                            }
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "2f2b7295-7630-4067-85eb-276a14efea8c"
+                      },
+                      "Image": {
+                        "asset": "asset/ui/Gui/backgroundDay.png"
+                      },
+                      "name": "bg",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "StaticImageStretch": {
+                        "bottom_left": 15,
+                        "bottom_right": 15,
+                        "top_left": 15,
+                        "top_right": 15
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "256f795b-27cf-4057-9b1b-0cbaf21df559"
+                  },
+                  "name": "murder_win",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.8
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "VerticalLayoutContainer",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre"
+                          },
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "children": [
+                                {
+                                  "__OBJ_TYPE": "StaticImage",
+                                  "anchor": {
+                                    "HorizontalAlignment": "Centre",
+                                    "VerticalAlignment": "Centre"
+                                  },
+                                  "id": {
+                                    "value": "02eb1f53-59a1-4276-a8ce-e555e216bcdd"
+                                  },
+                                  "Image": {
+                                    "asset": "asset/ui/guide/human.png"
+                                  }
+                                }
+                              ],
+                              "id": {
+                                "value": "d05d6e2a-d307-4630-b99e-ae0025de2463"
+                              },
+                              "Image": {
+                                "asset": ""
+                              },
+                              "name": "Image1",
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              }
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderWidth": 2,
+                              "Font": "Fonts/RWcreepsville",
+                              "Font_size": 20,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "454ea9f0-d3e0-4d1a-90fc-f1a69d488b03"
+                              },
+                              "pos": {
+                                "UDim_Y": {
+                                  "Offect": 128
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": -150,
+                                  "Scale": 1
+                                }
+                              },
+                              "Text": "No special ability\nCan pick up Sheriff gun and use it to kill the Killer\n",
+                              "text_key": {
+                                "value": "asset/ui/guide.layout.StaticText#721842d4-8b87-416e-a98c-4eff76ad160e"
+                              },
+                              "VertFormatting": "CentreAligned"
+                            }
+                          ],
+                          "id": {
+                            "value": "a1e0123a-1a05-48aa-9b29-8d113d864aa8"
+                          },
+                          "name": "List",
+                          "pos": {
+                            "UDim_Y": {
+                              "Offect": 20
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 240
+                            },
+                            "UDim_Y": {
+                              "Offect": 378
+                            }
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "98539cf2-d98d-4eb2-95f5-b63ebbfc412a"
+                      },
+                      "Image": {
+                        "asset": "asset/ui/Gui/backgroundDay.png"
+                      },
+                      "name": "bg",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "StaticImageStretch": {
+                        "bottom_left": 15,
+                        "bottom_right": 15,
+                        "top_left": 15,
+                        "top_right": 15
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "e89827ca-6f00-44ca-83ea-3ead88975a37"
+                  },
+                  "name": "murder_win1",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 265
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.8
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "VerticalLayoutContainer",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre"
+                          },
+                          "children": [
+                            {
+                              "__OBJ_TYPE": "StaticImage",
+                              "children": [
+                                {
+                                  "__OBJ_TYPE": "StaticImage",
+                                  "anchor": {
+                                    "HorizontalAlignment": "Centre",
+                                    "VerticalAlignment": "Centre"
+                                  },
+                                  "id": {
+                                    "value": "eb3d8b94-897b-4436-9cea-04785ffc2d93"
+                                  },
+                                  "Image": {
+                                    "asset": "asset/ui/guide/police.png"
+                                  }
+                                }
+                              ],
+                              "id": {
+                                "value": "a195fede-97da-46f3-8b8b-7b816fb72398"
+                              },
+                              "Image": {
+                                "asset": ""
+                              },
+                              "name": "Image1",
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                }
+                              }
+                            },
+                            {
+                              "__OBJ_TYPE": "StaticText",
+                              "BorderWidth": 2,
+                              "Font": "Fonts/RWcreepsville",
+                              "Font_size": 15,
+                              "HorzFormatting": "CentreAligned",
+                              "id": {
+                                "value": "aa481fcc-e8f1-4da3-945c-8744e58b1ce5"
+                              },
+                              "pos": {
+                                "UDim_Y": {
+                                  "Offect": 128
+                                }
+                              },
+                              "size": {
+                                "UDim_X": {
+                                  "Offect": 0,
+                                  "Scale": 1
+                                },
+                                "UDim_Y": {
+                                  "Offect": -150,
+                                  "Scale": 1
+                                }
+                              },
+                              "Text": "Secretly has a gun \nCan shoot at anyone and kill them \nThe gun has limited bullet \nDrop the gun if killed\n",
+                              "text_key": {
+                                "value": "asset/ui/guide.layout.StaticText#cdaf3197-13fb-4b03-a1b0-3bbb85e93d93"
+                              },
+                              "TextColours": {
+                                "b": 255,
+                                "g": 85
+                              },
+                              "VertFormatting": "CentreAligned"
+                            }
+                          ],
+                          "id": {
+                            "value": "3572a528-0f32-443a-a4ba-a1a114affb6b"
+                          },
+                          "name": "List",
+                          "pos": {
+                            "UDim_Y": {
+                              "Offect": 20
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 240
+                            },
+                            "UDim_Y": {
+                              "Offect": 378
+                            }
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "7e2f7fb0-cb2e-4416-afcb-7217feadbd0b"
+                      },
+                      "Image": {
+                        "asset": "asset/ui/Gui/backgroundDay.png"
+                      },
+                      "name": "bg",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "StaticImageStretch": {
+                        "bottom_left": 15,
+                        "bottom_right": 15,
+                        "top_left": 15,
+                        "top_right": 15
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "4194921c-962e-40a5-ba92-23bb34961a36"
+                  },
+                  "name": "murder_win2",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 530
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.3
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.8
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "37b82106-4c84-42a7-a465-1b7e372c02c8"
+              },
+              "name": "List",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 20
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 770
+                },
+                "UDim_Y": {
+                  "Offect": 400
+                }
+              },
+              "space": 25
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 3,
+              "btn_word_warpped": true,
+              "DisabledImage": {
+                "asset": ""
+              },
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 40,
+              "HoverImage": {
+                "asset": ""
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "ec57e92f-f731-48ee-9b13-2618547ca96d"
+              },
+              "NormalImage": {
+                "asset": ""
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 100
+                }
+              },
+              "PushedImage": {
+                "asset": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 100
+                }
+              },
+              "Text": "Tap here to close",
+              "text_key": {
+                "value": "asset/ui/guide.layout.Button#23f82199-8e4f-4997-b64d-e6ee9bee58ce"
+              }
+            }
+          ],
+          "id": {
+            "value": "77ebe343-d4f7-4c5d-8ac8-c690091f60ba"
+          },
+          "Image": {
+            "asset": "asset/ui/Gui/balo_bg.png"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "StaticImageStretch": {
+            "bottom_right": 24,
+            "top_right": 60
+          }
+        }
+      ],
+      "id": {
+        "value": "3d0eac9b-70f2-4ee2-b0dc-3bf1a4e90611"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 800
+        },
+        "UDim_Y": {
+          "Offect": 500
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "477e0b81b8343753c059244cdbbf7fe0",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

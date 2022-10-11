@@ -16,6 +16,8 @@ Global.ui2List=function (ui,playerList,packet)
     else
         for k,v in pairs(playerList) do
             local player=Game.GetPlayerByUserId(v)
+            local data=player:getValue("baseInform")
+            packet.playerData=data
             PackageHandlers:SendToClient(player,"UI_CONTROLLER",{ui=ui,params=packet})
         end
     end

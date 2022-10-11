@@ -3,7 +3,7 @@ local format={}
 format.baseInform={
     time_create=os.time(os.date("!*t")),
     exp={
-        lv=0,
+        lv=1,
         point=0
     },
     item={

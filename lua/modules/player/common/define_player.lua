@@ -10,3 +10,7 @@ Define.PLAYER.EVENT={
         func=player_event_function["ENTITY_TOUCHDOWN"],
     }
 }
+
+Define.PLAYER.LV_TO_EXP=function (lv)
+    return 2*lv
+end

@@ -1,0 +1,861 @@
+{
+  "data": {
+    "md5": "af5155b5c2cb52ebaa67993f2cabc472",
+    "path": "asset/ui/result_new.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.607,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackgroundColours": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BackgroundEnabled": true,
+          "id": {
+            "value": "479cfd6b-55e3-4c50-b50d-322649a44cf8"
+          },
+          "Image": {
+            "asset": ""
+          },
+          "ImageColours": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "f6685990-56bf-4892-bde0-7659354b993a"
+              },
+              "Image": {
+                "asset": "asset/ui/result_new/Vector.png"
+              },
+              "name": "bg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "StaticImageStretch": {
+                "bottom_left": 4,
+                "bottom_right": 4,
+                "top_left": 4,
+                "top_right": 4
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "bcea6585-00c8-484d-943a-18b93919e54a"
+                      },
+                      "Image": {
+                        "asset": "asset/ui/result_new/khung.png"
+                      },
+                      "name": "frame",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "StaticImageStretch": {
+                        "bottom_left": 10,
+                        "bottom_right": 8,
+                        "top_left": 7,
+                        "top_right": 5
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "ee15de1c-8dc5-449e-9ba9-9bd00fa9e209"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/Vector_mini.png"
+                  },
+                  "name": "frame",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "48d635c9-0162-4c70-936a-4cce8befe4d0"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/murder1.png"
+                  },
+                  "name": "icon",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -20
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 240
+                    },
+                    "UDim_Y": {
+                      "Offect": 200
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 2,
+                  "Font": "Fonts/youmurdererbbreg",
+                  "Font_size": 22,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "ffd609fa-7526-4b1e-b417-aa1cb51abafa"
+                  },
+                  "name": "name",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 70
+                    }
+                  },
+                  "Text": "Player01",
+                  "text_key": {
+                    "value": "asset/ui/result_new.layout.StaticText#27246fd7-3221-49c1-b953-030968f6328d"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "Alpha": 0.486,
+                      "BackgroundColours": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "BackgroundEnabled": true,
+                      "id": {
+                        "value": "93c912f4-23fe-47db-ad10-3e4331f96424"
+                      },
+                      "Image": {
+                        "asset": ""
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "b1708495-cafe-41e3-82f1-5749f8773d82"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/x.png"
+                  },
+                  "name": "lose",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "05fe8ff9-8a93-4b25-8ef0-d4519da4df6d"
+              },
+              "name": "murder_win",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 50
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 250
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "b76d1fc0-46b2-4fba-ac5a-d7772ddccd46"
+                      },
+                      "Image": {
+                        "asset": "asset/ui/result_new/khung.png"
+                      },
+                      "name": "frame",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      },
+                      "StaticImageStretch": {
+                        "bottom_left": 10,
+                        "bottom_right": 8,
+                        "top_left": 7,
+                        "top_right": 5
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "a1239b45-0171-4ab5-a973-5d7d5d28186c"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/Vector_mini.png"
+                  },
+                  "name": "frame",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "75ba25b6-f54e-46a8-ad25-7ea0e7594e21"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/police1.png"
+                  },
+                  "name": "icon",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -20
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 240
+                    },
+                    "UDim_Y": {
+                      "Offect": 200
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "BorderColor": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "BorderWidth": 2,
+                  "Font": "Fonts/youmurdererbbreg",
+                  "Font_size": 22,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "93d00488-25c5-46a5-ac3f-f6b555707df3"
+                  },
+                  "name": "name",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 70
+                    }
+                  },
+                  "Text": "Player02",
+                  "text_key": {
+                    "value": "asset/ui/result_new.layout.StaticText#6b9b7b2b-9d02-4336-b946-c9a2e1d1054a"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "Alpha": 0.486,
+                      "BackgroundColours": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "BackgroundEnabled": true,
+                      "id": {
+                        "value": "fad3cf5a-508d-48c3-9ff9-75f5aa534563"
+                      },
+                      "Image": {
+                        "asset": ""
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 1
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "c697498b-11ea-4edd-af25-5ef381d677d9"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/x.png"
+                  },
+                  "name": "lose",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "6af92a26-22dc-46a4-978e-286307872339"
+              },
+              "name": "police_win",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -50
+                },
+                "UDim_Y": {
+                  "Offect": -50
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 250
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "db746dea-327e-42c9-88ea-d8b9f9ea25f5"
+              },
+              "Image": {
+                "asset": "asset/ui/result_new/VS5.png"
+              },
+              "name": "vs",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 180
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 150
+                },
+                "UDim_Y": {
+                  "Offect": 150
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "HorizontalLayoutContainer",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ProgressBar",
+                  "id": {
+                    "value": "4b416528-e097-4b07-9dda-6f86c64688ff"
+                  },
+                  "progress_background_image": {
+                    "asset": "asset/ui/result_new/Rect.png"
+                  },
+                  "progress_lights_image": {
+                    "asset": "asset/ui/result_new/Rectangle11.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 400
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "HorizontalLayoutContainer",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "Font_size": 20,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "61867eeb-484f-48a0-9edc-cb17f43b7dbc"
+                          },
+                          "name": "add",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 90
+                            },
+                            "UDim_Y": {
+                              "Offect": 32
+                            }
+                          },
+                          "Text": "+0",
+                          "text_key": {
+                            "value": "asset/ui/result_new.layout.StaticText#c016c90a-bd9a-4939-b313-dbbcd0a9f9cc"
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "id": {
+                            "value": "3f6ce698-90d0-4264-9da0-59e094802ea1"
+                          },
+                          "Image": {
+                            "asset": "asset/ui/result_new/star.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 90
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 32
+                            },
+                            "UDim_Y": {
+                              "Offect": 32
+                            }
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "f510224e-fc92-4d02-8b95-c95386e6fa03"
+                      },
+                      "name": "text_layout",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 122
+                        },
+                        "UDim_Y": {
+                          "Offect": 32
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "7e3f0bcf-ace1-4a9a-b0e7-1c88a3e4ea49"
+                  },
+                  "name": "num_win",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 400
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 70
+                    },
+                    "UDim_Y": {
+                      "Offect": 32
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "945b006b-979d-4b29-b302-b38b2b2f6b4b"
+              },
+              "name": "exp_layout",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -100
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 470
+                },
+                "UDim_Y": {
+                  "Offect": 32
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "Alpha": 0.246,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "id": {
+                    "value": "f99d3111-5f64-4e3c-946e-80350c490787"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/bg_gray.png"
+                  },
+                  "name": "bg",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -20
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.7
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "Fonts/CakeZombie",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "b10090af-d56a-459e-b781-ba87268ae110"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.5
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.7
+                        }
+                      },
+                      "Text": "Survival",
+                      "text_key": {
+                        "value": "asset/ui/result_new.layout.StaticText#2beb6a2c-51a5-413b-9e5b-5fceea0c3093"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned"
+                    },
+                    {
+                      "__OBJ_TYPE": "HorizontalLayoutContainer",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "Font": "Fonts/youmurdererbbreg",
+                          "Font_size": 30,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "f03f3392-0f11-4e4d-8872-e14e69a17611"
+                          },
+                          "name": "add",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 90
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 0.7
+                            }
+                          },
+                          "Text": "+0",
+                          "text_key": {
+                            "value": "asset/ui/result_new.layout.StaticText#59ae16a2-0320-4f2f-aeb5-618c4f9b37cb"
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "id": {
+                            "value": "4069cca1-8158-4c21-a79d-c8fcfc613241"
+                          },
+                          "Image": {
+                            "asset": "asset/ui/result_new/star.png"
+                          },
+                          "pos": {
+                            "UDim_X": {
+                              "Offect": 90
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 60
+                            },
+                            "UDim_Y": {
+                              "Offect": 60
+                            }
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "db8484ef-611a-4c87-b28c-4969ce16c9d8"
+                      },
+                      "name": "text_layout",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 220
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 150
+                        },
+                        "UDim_Y": {
+                          "Offect": 63
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "01601ee1-3a00-43bd-b835-d89b829a586b"
+                  },
+                  "name": "layout",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 370
+                    },
+                    "UDim_Y": {
+                      "Offect": 63
+                    }
+                  },
+                  "space": 20
+                }
+              ],
+              "id": {
+                "value": "d8a3b7f5-1f24-4b85-b0af-5c2100a16564"
+              },
+              "name": "survial_point_win",
+              "size": {
+                "UDim_Y": {
+                  "Offect": 90
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "HoverImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "id": {
+                "value": "10fe275f-cf7a-4ce8-802e-b4d22d1fcfb8"
+              },
+              "name": "Exit",
+              "NormalImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 30
+                },
+                "UDim_Y": {
+                  "Offect": -30
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 60
+                },
+                "UDim_Y": {
+                  "Offect": 60
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/result_new.layout.Button#8a6d7c13-69fe-428a-989b-078d40b38119"
+              }
+            }
+          ],
+          "id": {
+            "value": "1f82be21-57a2-4430-ba1d-cab9ffac655f"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 800
+            },
+            "UDim_Y": {
+              "Offect": 500
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "3907b445-edc0-4568-8252-d21699f0e19c"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "af5155b5c2cb52ebaa67993f2cabc472",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}
