@@ -16,4 +16,5 @@ else
             }
         )
     end
+    require "modules.player.server.event_listening"
 end

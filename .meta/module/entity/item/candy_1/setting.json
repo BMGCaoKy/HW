@@ -1,7 +1,7 @@
 {
   "data": {
     "actorName": {
-      "asset": "asset/Mesh/Orange Small Burger/g2040_zs_hanbao_1.actor"
+      "asset": "asset/Candy/candy.actor"
     },
     "AI_attack": {
       "enable": true
@@ -11,29 +11,33 @@
     },
     "autoMove": true,
     "boundingVolume": {
-      "radius": 0.6,
-      "type": "Sector"
+      "height": 0.4,
+      "memory": {
+        "Sector": "1.000000-0.600000"
+      },
+      "type": "Cylinder"
     },
     "boundingVolumeEntityCfg": {
+      "height": 0.4,
       "memory": {
         "Capsule": "1.000000-0.500000",
         "Cylinder": "1.000000-0.500000",
-        "Sector": "1.000000-0.500000",
+        "Sector": "1.000000-0.600000",
         "Sphere": "1.000000-0.600000"
       },
-      "radius": 0.6,
-      "type": "Sector"
+      "type": "Cylinder"
     },
     "girlactor": {
-      "asset": "asset/Mesh/Orange Small Burger/g2040_zs_hanbao_1.actor"
+      "asset": "asset/Candy/candy.actor"
     },
+    "hideName": true,
     "name": {
       "value": "entity_candy_1"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3358bad222c86b74bcc45c4ffac63458",
+      "setting.json": "c15534c8e06bc1c52a35a49beb99068d",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

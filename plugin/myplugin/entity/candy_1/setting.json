@@ -1,9 +1,11 @@
 {
   "_clientScript": [],
   "_serverScript": [],
-  "actorGirlName": "asset/Mesh/Orange Small Burger/g2040_zs_hanbao_1.actor",
-  "actorName": "asset/Mesh/Orange Small Burger/g2040_zs_hanbao_1.actor",
+  "actorGirlName": "asset/Candy/candy.actor",
+  "actorName": "asset/Candy/candy.actor",
   "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": false,
   "autoMove": true,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
@@ -16,26 +18,24 @@
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "angle": {
-      "max": 360,
-      "min": 0
-    },
-    "height": 1,
+    "height": 0.4,
     "offset": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "radius": 0.6,
+    "radius": 0.5,
     "rotation": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "type": "Sector"
+    "type": "Cylinder"
   },
   "collision": false,
   "damage": 0,
@@ -54,24 +54,31 @@
   "headPic": "",
   "hideHolder": false,
   "hideHp": 1,
-  "hideName": false,
+  "hideName": true,
   "homeSize": 20,
   "hpBarColor": 4294967551,
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
   "hpFaceCamera": 0,
   "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
   "isAIGoHomePos": true,
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
   "maxHp": 20,
+  "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,
   "name": "entity_candy_1",
   "needCheckTouch": true,
+  "patrolDistance": 5,
   "randomPlayDeadActions": [
     ""
   ],

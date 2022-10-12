@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "983af61e91eacf1754fda80ae187dfb8",
+    "md5": "5f3d447f606b8185a4a2e7b8fc67aca7",
     "path": "gui/layout_presets/chat.layout",
     "root": {
       "children": [
@@ -17,13 +17,12 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "9bba8525-b743-4737-a028-0fc5d1b5441c"
+                "value": "3b44acff-014c-4e2b-b24e-217712a8761b"
               },
               "Image": {
                 "asset": "",
                 "selector": ""
               },
-              "lock": true,
               "name": "Chat_Content_Bg",
               "size": {
                 "UDim_X": {
@@ -38,9 +37,8 @@
             }
           ],
           "id": {
-            "value": "002606e9-6113-4d91-98bf-b9148318db3d"
+            "value": "2ce770ee-ca79-49dd-b078-18eed9ccfa30"
           },
-          "lock": true,
           "name": "Chat_Content",
           "size": {
             "UDim_X": {
@@ -62,13 +60,12 @@
             {
               "__OBJ_TYPE": "StaticImage",
               "id": {
-                "value": "c98932b6-6bf7-4510-aa0d-05ef4a63c289"
+                "value": "62004f4f-d045-4818-9e3d-581165499ba4"
               },
               "Image": {
                 "asset": "",
                 "selector": ""
               },
-              "lock": true,
               "name": "Chat_Content_Mask",
               "size": {
                 "UDim_X": {
@@ -84,9 +81,8 @@
             {
               "__OBJ_TYPE": "VerticalLayoutContainer",
               "id": {
-                "value": "64f632b6-1c7a-461e-9dda-f97a85b4727f"
+                "value": "6879f6ad-4bc3-4628-b939-e5f5c056968f"
               },
-              "lock": true,
               "name": "Chat_Content_MsgList",
               "space": 1,
               "WindowTouchThroughMode": "MousePassThroughOpen"
@@ -96,9 +92,8 @@
           "ForceVertScrollbar": false,
           "HorizontalMovable": false,
           "id": {
-            "value": "904adaf4-fff1-469b-b35e-b63f2e1b43ad"
+            "value": "82e6365c-bfac-4f8a-bc7f-669ec132871d"
           },
-          "lock": true,
           "name": "Chat_Content_ScrollableView",
           "pos": {
             "UDim_X": {
@@ -132,13 +127,12 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "969ba623-31c0-4010-9a07-f9a77f114c75"
+                "value": "32350510-a1e1-4af3-82bb-af3d8e6abf12"
               },
               "Image": {
                 "asset": "",
                 "selector": ""
               },
-              "lock": true,
               "name": "Chat_SendLayout_Bg",
               "size": {
                 "UDim_X": {
@@ -167,13 +161,12 @@
                   },
                   "BackgroundEnabled": true,
                   "id": {
-                    "value": "e2e66f0f-7c58-4c6f-8ddc-f4ba2c7317cd"
+                    "value": "06f7540f-9d1a-43a2-ba26-6af6470c2128"
                   },
                   "Image": {
                     "asset": "",
                     "selector": ""
                   },
-                  "lock": true,
                   "name": "Chat_SendLayout_Input_Bg",
                   "size": {
                     "UDim_X": {
@@ -194,9 +187,8 @@
                   },
                   "Font_size": 16,
                   "id": {
-                    "value": "996615ab-cc67-46c2-8590-930d0ae32183"
+                    "value": "dba8959b-bc62-48a8-b2dd-b9bbb6c588b5"
                   },
-                  "lock": true,
                   "MaxTextLength": 10,
                   "name": "Chat_SendLayout_Input_Btn",
                   "NormalTextColour": {
@@ -225,9 +217,8 @@
                 }
               ],
               "id": {
-                "value": "8083e445-288d-4520-88e6-06f59ac2dc05"
+                "value": "1d24ce63-c147-4d7c-937d-db658632dfee"
               },
-              "lock": true,
               "name": "Chat_SendLayout_Input",
               "pos": {
                 "UDim_X": {
@@ -260,9 +251,8 @@
                 "selector": "asset/Texture/Gui/imagesets/cegui_new_gameUI.imageset"
               },
               "id": {
-                "value": "16d9da29-7949-4bf1-af04-9732910560f1"
+                "value": "92c1402f-b33e-461c-940d-5ce30707fd70"
               },
-              "lock": true,
               "name": "Chat_SendLayout_SendMsg",
               "NormalImage": {
                 "asset": "asset/Texture/Gui/imagesets/cegui_new_gameUI.imageset",
@@ -304,12 +294,11 @@
                         {
                           "__OBJ_TYPE": "StaticImage",
                           "id": {
-                            "value": "19668804-f9f2-472a-b761-e71ebfb116cd"
+                            "value": "ef2fa0e0-f9d7-44a5-a3a6-27b368caa023"
                           },
                           "Image": {
                             "asset": "asset/Texture/Gui/progressbar_bg.png"
                           },
-                          "lock": true,
                           "name": "Chat_Friend_Bg",
                           "pos": {
                             "UDim_X": {
@@ -333,13 +322,12 @@
                             {
                               "__OBJ_TYPE": "StaticImage",
                               "id": {
-                                "value": "c277bc45-9869-41e2-96e0-9a4d68ff8c33"
+                                "value": "3df617f5-6e02-47cb-bb15-491472976aeb"
                               },
                               "Image": {
                                 "asset": "",
                                 "selector": ""
                               },
-                              "lock": true,
                               "name": "Chat_Friend_Head",
                               "pos": {
                                 "UDim_X": {
@@ -363,9 +351,8 @@
                               "__OBJ_TYPE": "StaticText",
                               "Alpha": 0.994,
                               "id": {
-                                "value": "c96b937a-776f-4240-9610-c19b46dadbe1"
+                                "value": "2934e523-6f8d-478b-874e-ada3868dbb23"
                               },
-                              "lock": true,
                               "name": "Chat_Friend_Name",
                               "pos": {
                                 "UDim_X": {
@@ -402,9 +389,8 @@
                             "top_left": 3
                           },
                           "id": {
-                            "value": "324c1f54-7ed6-46cb-ac94-7286e3a3a0ad"
+                            "value": "04bc4bda-86ad-4652-8525-2204c4880e47"
                           },
-                          "lock": true,
                           "name": "Chat_Friend_Select_Btn",
                           "NormalImage": {
                             "asset": "",
@@ -441,9 +427,8 @@
                         }
                       ],
                       "id": {
-                        "value": "9241ffc0-4fe5-4b08-8a6f-8af71b7738b1"
+                        "value": "50a4f873-9fb2-40d5-b713-8c54b27ccd9d"
                       },
-                      "lock": true,
                       "name": "Chat_Friend_Item1",
                       "size": {
                         "UDim_X": {
@@ -460,12 +445,11 @@
                         {
                           "__OBJ_TYPE": "StaticImage",
                           "id": {
-                            "value": "36075bad-5dee-42a9-be0e-0bfb58377b00"
+                            "value": "74884acb-79f6-4f4d-afe0-44578c438e5b"
                           },
                           "Image": {
                             "asset": "asset/Texture/Gui/progressbar_bg.png"
                           },
-                          "lock": true,
                           "name": "Chat_Friend_Bg",
                           "pos": {
                             "UDim_X": {
@@ -491,13 +475,12 @@
                             {
                               "__OBJ_TYPE": "StaticImage",
                               "id": {
-                                "value": "28a9974d-0f61-445d-8b4f-0583c1ba5ec5"
+                                "value": "b91cfcb5-b73c-490f-af55-51bad6edc196"
                               },
                               "Image": {
                                 "asset": "",
                                 "selector": ""
                               },
-                              "lock": true,
                               "name": "Chat_Friend_Head",
                               "pos": {
                                 "UDim_X": {
@@ -520,9 +503,8 @@
                             {
                               "__OBJ_TYPE": "StaticText",
                               "id": {
-                                "value": "80035989-db08-4dc9-90ce-d2c4747d29aa"
+                                "value": "4481e637-d11c-456a-9383-60bad9ba75ce"
                               },
-                              "lock": true,
                               "name": "Chat_Friend_Name",
                               "pos": {
                                 "UDim_X": {
@@ -559,9 +541,8 @@
                             "top_left": 3
                           },
                           "id": {
-                            "value": "e879d445-9d66-4fed-b750-3d3cf3da5eea"
+                            "value": "2739e6ac-c7f9-4e24-8fef-0661f45aa979"
                           },
-                          "lock": true,
                           "name": "Chat_Friend_Select_Btn",
                           "NormalImage": {
                             "asset": "",
@@ -598,9 +579,8 @@
                         }
                       ],
                       "id": {
-                        "value": "0e398e6e-83ba-419b-9946-a4c43f5cc42b"
+                        "value": "319477b0-4504-4188-8d7b-406ce3aad4b0"
                       },
-                      "lock": true,
                       "name": "Chat_Friend_Item2",
                       "pos": {
                         "UDim_Y": {
@@ -622,12 +602,11 @@
                         {
                           "__OBJ_TYPE": "StaticImage",
                           "id": {
-                            "value": "f999587d-e635-459b-bfdd-642248776d82"
+                            "value": "adeca97e-7783-405a-a37d-8384fdcf3719"
                           },
                           "Image": {
                             "asset": "asset/Texture/Gui/progressbar_bg.png"
                           },
-                          "lock": true,
                           "name": "Chat_Friend_Bg",
                           "pos": {
                             "UDim_X": {
@@ -652,13 +631,12 @@
                             {
                               "__OBJ_TYPE": "StaticImage",
                               "id": {
-                                "value": "75a8d845-c2d2-4175-bb26-42b91a5a4df5"
+                                "value": "8d28eb43-5140-419d-a57f-fa5fa58c04b5"
                               },
                               "Image": {
                                 "asset": "",
                                 "selector": ""
                               },
-                              "lock": true,
                               "name": "Chat_Friend_Head",
                               "pos": {
                                 "UDim_X": {
@@ -681,9 +659,8 @@
                             {
                               "__OBJ_TYPE": "StaticText",
                               "id": {
-                                "value": "5a59bf6b-6ca9-4c64-b19c-fd563f986103"
+                                "value": "1201a33a-91c5-403d-9c88-781e28cd976f"
                               },
-                              "lock": true,
                               "name": "Chat_Friend_Name",
                               "pos": {
                                 "UDim_X": {
@@ -716,9 +693,8 @@
                             "top_left": 3
                           },
                           "id": {
-                            "value": "85b0a16a-0815-43c5-9060-84a66a88fae5"
+                            "value": "94a53265-e4cf-45e3-aa1c-9e71677a0fc1"
                           },
-                          "lock": true,
                           "name": "Chat_Friend_Select_Btn",
                           "NormalImage": {
                             "asset": "",
@@ -755,9 +731,8 @@
                         }
                       ],
                       "id": {
-                        "value": "3abc18e4-e97f-435d-a501-fee6335658da"
+                        "value": "c7824de5-6f9d-4bb0-83ce-ef5977446865"
                       },
-                      "lock": true,
                       "name": "Chat_Friend_Item3",
                       "pos": {
                         "UDim_Y": {
@@ -775,15 +750,13 @@
                     }
                   ],
                   "id": {
-                    "value": "b0125e24-f062-47ae-892b-d96e6b48ec72"
-                  },
-                  "lock": true
+                    "value": "7c8848be-65bd-4b71-9cd4-324aeb557b2b"
+                  }
                 }
               ],
               "id": {
-                "value": "69f195e6-a995-49f7-9d9e-359aaecdabaf"
+                "value": "f7b77c5c-c0b9-449d-9a4d-1bd653c5fe49"
               },
-              "lock": true,
               "name": "Chat_Friend_SelectLayout",
               "pos": {
                 "UDim_X": {
@@ -814,9 +787,8 @@
                 "selector": ""
               },
               "id": {
-                "value": "4f51b0e5-5355-4cb1-917b-4de5b7f5f482"
+                "value": "3035f838-d5de-4ac0-acfa-4edfa016db09"
               },
-              "lock": true,
               "name": "Chat_Type_Select_Btn",
               "NormalImage": {
                 "asset": "",
@@ -849,9 +821,8 @@
             }
           ],
           "id": {
-            "value": "304ab7a1-92ea-459f-b295-710f7c676442"
+            "value": "03638f3a-08f7-449b-b81b-b432de276d94"
           },
-          "lock": true,
           "name": "Chat_SendLayout",
           "size": {
             "UDim_X": {
@@ -865,9 +836,8 @@
         }
       ],
       "id": {
-        "value": "8ec5474d-95cb-4df0-b113-6062cf93bd70"
+        "value": "72f620b7-3f6b-4da3-b863-4315d07a0283"
       },
-      "lock": true,
       "pos": {
         "UDim_X": {
           "Offect": 18
@@ -888,7 +858,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "983af61e91eacf1754fda80ae187dfb8",
+      "layout": "5f3d447f606b8185a4a2e7b8fc67aca7",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate AttackScale="1" SoundFileNum="0" SelectedRingSize="1" SoundName2="" MaxDistance="16" IsShowShadow="true" Originalscale="1 1 1" IntervalTime="2" name="111.actor" Skeleton="firstPrvActor.skel" Volume="0.8" SoundName5="" MinDistance="1" SoundName4="" WoundAngle="25" SoundName3="" WoundBone="" TextHeight="0" SoundName1="" Alpha="1">
+		<Anims/>
+		<Skills/>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name_0" ColorParams="1 1 1 1" SlaveName="group0" EdgeColor="1 1 1 1" DefaultUse="true">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="pCube4">
+					<Position_Y value="0.2"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<scale value="0.7"/>
+					<roll value="0"/>
+					<FileName value="asset/Candy/pCube4.mesh"/>
+					<pitch value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<SocketName value="Origin197011"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<UseOriginalcolor value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1.0"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

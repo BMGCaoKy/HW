@@ -6,6 +6,7 @@ format.baseInform={
         lv=1,
         point=0
     },
+    candy=0,
     item={
         weapon={
             gun={},

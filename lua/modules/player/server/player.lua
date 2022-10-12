@@ -9,6 +9,7 @@ end
 function PlayerBase:init()
     self.changeRoles=0
     self.statusPlayer=0
+    self.candyInRoom=0
 end
 
 return PlayerBase

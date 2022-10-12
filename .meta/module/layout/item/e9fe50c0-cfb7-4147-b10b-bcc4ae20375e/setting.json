@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "6a328d647e21b93909397f76c2633182",
+    "md5": "bd73a951dac5a63ea8c4afc9b7620a94",
     "path": "asset/ui/MainPlay.layout",
     "root": {
       "anchor": {
@@ -14,7 +14,7 @@
           "Font_size": 30,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "a26ed61c-a633-4630-83c0-772893dbe10f"
+            "value": "d854ef1f-a8b1-4c42-8431-da9842de02e2"
           },
           "name": "role",
           "size": {
@@ -30,6 +30,11 @@
           "text_key": {
             "value": "asset/ui/MainPlay.layout.StaticText#02005ead-72ad-4dda-8eb8-0ffca90c9299"
           },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
           "VertFormatting": "CentreAligned"
         },
         {
@@ -43,7 +48,7 @@
           "Font_size": 50,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "9c5234e6-13f9-4a1a-be96-c10ecf0f585d"
+            "value": "87bbaaaf-81eb-4af1-b4b2-ae9172507a08"
           },
           "name": "time",
           "size": {
@@ -63,10 +68,85 @@
             "r": 170
           },
           "VertFormatting": "CentreAligned"
+        },
+        {
+          "__OBJ_TYPE": "HorizontalLayoutContainer",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 3,
+              "Font": "Fonts/youmurdererbbreg",
+              "Font_size": 40,
+              "id": {
+                "value": "b2de3d89-3a63-4e85-8760-a10143aa8041"
+              },
+              "name": "count",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 60
+                }
+              },
+              "size": {
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "Text": "200",
+              "text_key": {
+                "value": "asset/ui/MainPlay.layout.StaticText#df467bbc-5949-48f3-beb8-1560f0ef1595"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0.985,
+              "id": {
+                "value": "ff5a07b4-4964-4656-9422-234df36ec2be"
+              },
+              "Image": {
+                "asset": "asset/ui/MainPlay/candy.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 40
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              }
+            }
+          ],
+          "dir": "Right",
+          "id": {
+            "value": "824e7206-bb42-4f80-841f-f7f90053bf49"
+          },
+          "name": "candy_layout",
+          "size": {
+            "UDim_X": {
+              "Offect": 316
+            },
+            "UDim_Y": {
+              "Offect": 50
+            }
+          },
+          "space": 20
         }
       ],
       "id": {
-        "value": "bc60635f-890f-478c-bd63-efb4e05ff100"
+        "value": "91485f67-9a2e-41df-a2e6-0109049a406a"
       },
       "size": {
         "UDim_X": {
@@ -83,7 +163,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "6a328d647e21b93909397f76c2633182",
+      "layout": "bd73a951dac5a63ea8c4afc9b7620a94",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

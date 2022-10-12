@@ -36,3 +36,16 @@ World.Timer(20,function ()
     end
     return true
 end)
+
+World.Timer(1,function ()
+ 
+        PackageHandlers:SendToServer("GET_temporary",{},function (p)
+            local candy=p.candyInRoom
+            self.candy_layout.count.Text=candy
+        end)
+
+    if UI:isOpenWindow("ui/MainPlay")==nil then
+        return false
+    end
+    return true
+end)

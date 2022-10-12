@@ -1,5 +1,5 @@
     <GUILayout version="4">
-        <Window name="Root" type="DefaultWindow">
+        <Window type="DefaultWindow" name="Root">
             <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
 
             </Property>
@@ -12,49 +12,49 @@
             <Property name="VerticalAlignment" value="Centre">
 
             </Property>
+            <Property name="WindowTouchThroughMode" value="MousePassThroughOpen">
+
+            </Property>
+            <Property name="PivotX" value="0.5">
+
+            </Property>
+            <Property name="SizeConstraint" value="0">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="PivotY" value="0.5">
+
+            </Property>
             <Property name="SoundTriggerRange" value="None">
 
             </Property>
             <Property name="Volume" value="1">
 
             </Property>
-            <Property name="Disabled" value="false">
-
-            </Property>
-            <Property name="ClippedByParent" value="false">
+            <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
 
             </Property>
             <Property name="WindowTouchThroughAlpha" value="1">
 
             </Property>
-            <Property name="PivotY" value="0.5">
-
-            </Property>
-            <Property name="SizeConstraint" value="0">
-
-            </Property>
-            <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
-
-            </Property>
-            <Property name="WindowTouchThroughMode" value="MousePassThroughOpen">
-
-            </Property>
-            <Property name="Alpha" value="1">
-
-            </Property>
             <Property name="SoundFile" value="">
 
             </Property>
-            <Property name="PivotX" value="0.5">
-
-            </Property>
-            <Property name="Visible" value="true">
+            <Property name="ClippedByParent" value="false">
 
             </Property>
             <Property name="level" value="50">
 
             </Property>
-              <Window name="role" type="WindowsLook/StaticText">
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+              <Window type="WindowsLook/StaticText" name="role">
                   <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.2,0}}">
 
                   </Property>
@@ -67,91 +67,97 @@
                   <Property name="VerticalAlignment" value="Top">
 
                   </Property>
-                  <Property name="SoundTriggerRange" value="None">
-
-                  </Property>
-                  <Property name="Volume" value="1">
-
-                  </Property>
-                  <Property name="Disabled" value="false">
-
-                  </Property>
-                  <Property name="TextWordBreak" value="false">
-
-                  </Property>
-                  <Property name="VertFormatting" value="CentreAligned">
-
-                  </Property>
-                  <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
-
-                  </Property>
-                  <Property name="BackgroundColours" value="ffffffff">
-
-                  </Property>
-                  <Property name="level" value="50">
-
-                  </Property>
-                  <Property name="word_warpped" value="true">
+                  <Property name="AutoScale" value="0">
 
                   </Property>
                   <Property name="HorzFormatting" value="WordWrapCentreAligned">
 
                   </Property>
-                  <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
-
-                  </Property>
-                  <Property name="FrameColours" value="ffffffff">
-
-                  </Property>
-                  <Property name="Alpha" value="1">
-
-                  </Property>
-                  <Property name="ClippedByParent" value="false">
-
-                  </Property>
-                  <Property name="MinAutoTextScale" value="8">
-
-                  </Property>
-                  <Property name="TextBoldWeight" value="0">
+                  <Property name="word_warpped" value="true">
 
                   </Property>
                   <Property name="text_key" value="asset/ui/MainPlay.layout.StaticText#02005ead-72ad-4dda-8eb8-0ffca90c9299">
 
                   </Property>
-                  <Property name="WindowTouchThroughAlpha" value="1">
-
-                  </Property>
-                  <Property name="BackgroundEnabled" value="false">
-
-                  </Property>
-                  <Property name="SizeConstraint" value="0">
-
-                  </Property>
-                  <Property name="AutoScale" value="0">
-
-                  </Property>
-                  <Property name="FrameEnabled" value="false">
+                  <Property name="Disabled" value="false">
 
                   </Property>
                   <Property name="Font_size" value="30">
 
                   </Property>
+                  <Property name="PivotY" value="0.5">
+
+                  </Property>
                   <Property name="AutoTextScale" value="false">
 
                   </Property>
-                  <Property name="BorderWidth" value="0">
+                  <Property name="BackgroundColours" value="ffffffff">
 
                   </Property>
-                  <Property name="TextColours" value="ff000000">
+                  <Property name="ClippedByParent" value="false">
 
                   </Property>
-                  <Property name="Font" value="Fonts/RWcreepsville-30">
+                  <Property name="SoundFile" value="">
+
+                  </Property>
+                  <Property name="level" value="50">
+
+                  </Property>
+                  <Property name="VertFormatting" value="CentreAligned">
+
+                  </Property>
+                  <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+
+                  </Property>
+                  <Property name="FrameEnabled" value="false">
+
+                  </Property>
+                  <Property name="TextWordBreak" value="false">
 
                   </Property>
                   <Property name="PivotX" value="0.5">
 
                   </Property>
+                  <Property name="Alpha" value="1">
+
+                  </Property>
+                  <Property name="Font" value="Fonts/RWcreepsville-30">
+
+                  </Property>
+                  <Property name="SoundTriggerRange" value="None">
+
+                  </Property>
+                  <Property name="BorderWidth" value="0">
+
+                  </Property>
+                  <Property name="SizeConstraint" value="0">
+
+                  </Property>
+                  <Property name="TextBoldWeight" value="0">
+
+                  </Property>
+                  <Property name="TextColours" value="ffffffff">
+
+                  </Property>
+                  <Property name="BackgroundEnabled" value="false">
+
+                  </Property>
+                  <Property name="MinAutoTextScale" value="8">
+
+                  </Property>
+                  <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+
+                  </Property>
+                  <Property name="Volume" value="1">
+
+                  </Property>
                   <Property name="BorderColor" value="ffffffff">
+
+                  </Property>
+                  <Property name="FrameColours" value="ffffffff">
+
+                  </Property>
+                  <Property name="WindowTouchThroughAlpha" value="1">
 
                   </Property>
                   <Property name="Text" value="Here is text">
@@ -160,15 +166,9 @@
                   <Property name="Visible" value="true">
 
                   </Property>
-                  <Property name="PivotY" value="0.5">
-
-                  </Property>
-                  <Property name="SoundFile" value="">
-
-                  </Property>
               </Window>
-              <Window name="time" type="WindowsLook/StaticText">
-                  <Property name="Area" value="{{0,0.0},{0,0.0},{0.3,0.0},{0,100.0}}">
+              <Window type="WindowsLook/StaticText" name="time">
+                  <Property name="Area" value="{{0,0},{0,0},{0.3,0},{0,100}}">
 
                   </Property>
                   <Property name="MaxSize" value="{{999,0},{999,0}}">
@@ -180,91 +180,97 @@
                   <Property name="VerticalAlignment" value="Top">
 
                   </Property>
-                  <Property name="SoundTriggerRange" value="None">
-
-                  </Property>
-                  <Property name="Volume" value="1">
-
-                  </Property>
-                  <Property name="Disabled" value="false">
-
-                  </Property>
-                  <Property name="TextWordBreak" value="false">
-
-                  </Property>
-                  <Property name="VertFormatting" value="CentreAligned">
-
-                  </Property>
-                  <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
-
-                  </Property>
-                  <Property name="BackgroundColours" value="ffffffff">
-
-                  </Property>
-                  <Property name="level" value="50">
-
-                  </Property>
-                  <Property name="word_warpped" value="true">
+                  <Property name="AutoScale" value="0">
 
                   </Property>
                   <Property name="HorzFormatting" value="WordWrapCentreAligned">
 
                   </Property>
-                  <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
-
-                  </Property>
-                  <Property name="FrameColours" value="ffffffff">
-
-                  </Property>
-                  <Property name="Alpha" value="0.985">
-
-                  </Property>
-                  <Property name="ClippedByParent" value="false">
-
-                  </Property>
-                  <Property name="MinAutoTextScale" value="8">
-
-                  </Property>
-                  <Property name="TextBoldWeight" value="0">
+                  <Property name="word_warpped" value="true">
 
                   </Property>
                   <Property name="text_key" value="asset/ui/MainPlay.layout.StaticText#4e1ea0ce-8105-404c-9f3a-4efd762245a0">
 
                   </Property>
-                  <Property name="WindowTouchThroughAlpha" value="1">
-
-                  </Property>
-                  <Property name="BackgroundEnabled" value="false">
-
-                  </Property>
-                  <Property name="SizeConstraint" value="0">
-
-                  </Property>
-                  <Property name="AutoScale" value="0">
-
-                  </Property>
-                  <Property name="FrameEnabled" value="false">
+                  <Property name="Disabled" value="false">
 
                   </Property>
                   <Property name="Font_size" value="50">
 
                   </Property>
+                  <Property name="PivotY" value="0.5">
+
+                  </Property>
                   <Property name="AutoTextScale" value="false">
 
                   </Property>
-                  <Property name="BorderWidth" value="4">
+                  <Property name="BackgroundColours" value="ffffffff">
 
                   </Property>
-                  <Property name="TextColours" value="ffaa0000">
+                  <Property name="ClippedByParent" value="false">
 
                   </Property>
-                  <Property name="Font" value="Fonts/shloprg-50">
+                  <Property name="SoundFile" value="">
+
+                  </Property>
+                  <Property name="level" value="50">
+
+                  </Property>
+                  <Property name="VertFormatting" value="CentreAligned">
+
+                  </Property>
+                  <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+
+                  </Property>
+                  <Property name="FrameEnabled" value="false">
+
+                  </Property>
+                  <Property name="TextWordBreak" value="false">
 
                   </Property>
                   <Property name="PivotX" value="0.5">
 
                   </Property>
+                  <Property name="Alpha" value="0.985">
+
+                  </Property>
+                  <Property name="Font" value="Fonts/shloprg-50">
+
+                  </Property>
+                  <Property name="SoundTriggerRange" value="None">
+
+                  </Property>
+                  <Property name="BorderWidth" value="4">
+
+                  </Property>
+                  <Property name="SizeConstraint" value="0">
+
+                  </Property>
+                  <Property name="TextBoldWeight" value="0">
+
+                  </Property>
+                  <Property name="TextColours" value="ffaa0000">
+
+                  </Property>
+                  <Property name="BackgroundEnabled" value="false">
+
+                  </Property>
+                  <Property name="MinAutoTextScale" value="8">
+
+                  </Property>
+                  <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+
+                  </Property>
+                  <Property name="Volume" value="1">
+
+                  </Property>
                   <Property name="BorderColor" value="ffffffff">
+
+                  </Property>
+                  <Property name="FrameColours" value="ffffffff">
+
+                  </Property>
+                  <Property name="WindowTouchThroughAlpha" value="1">
 
                   </Property>
                   <Property name="Text" value="00:00">
@@ -273,12 +279,303 @@
                   <Property name="Visible" value="true">
 
                   </Property>
+              </Window>
+              <Window type="HorizontalLayoutContainer" name="candy_layout">
+                  <Property name="Area" value="{{0,0.0},{0,0.0},{0,316.0},{0,50.0}}">
+
+                  </Property>
+                  <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                  </Property>
+                  <Property name="HorizontalAlignment" value="Right">
+
+                  </Property>
+                  <Property name="VerticalAlignment" value="Top">
+
+                  </Property>
+                  <Property name="space" value="20">
+
+                  </Property>
+                  <Property name="dir" value="Right">
+
+                  </Property>
+                  <Property name="ChildrenSize" value="x:128 y:128">
+
+                  </Property>
+                  <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+
+                  </Property>
+                  <Property name="PivotX" value="0.5">
+
+                  </Property>
+                  <Property name="Alpha" value="1">
+
+                  </Property>
+                  <Property name="SoundTriggerRange" value="None">
+
+                  </Property>
+                  <Property name="SizeConstraint" value="0">
+
+                  </Property>
+                  <Property name="Disabled" value="false">
+
+                  </Property>
+                  <Property name="ControlChildrenSize" value="false">
+
+                  </Property>
                   <Property name="PivotY" value="0.5">
+
+                  </Property>
+                  <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+
+                  </Property>
+                  <Property name="Volume" value="1">
+
+                  </Property>
+                  <Property name="ClippedByParent" value="false">
+
+                  </Property>
+                  <Property name="WindowTouchThroughAlpha" value="1">
 
                   </Property>
                   <Property name="SoundFile" value="">
 
                   </Property>
+                  <Property name="level" value="50">
+
+                  </Property>
+                  <Property name="Visible" value="true">
+
+                  </Property>
+                    <Window type="WindowsLook/StaticText" name="count">
+                        <Property name="Area" value="{{0,60},{0,0.0},{0,316},{0,50.0}}">
+
+                        </Property>
+                        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                        </Property>
+                        <Property name="HorizontalAlignment" value="Left">
+
+                        </Property>
+                        <Property name="VerticalAlignment" value="Top">
+
+                        </Property>
+                        <Property name="AutoScale" value="0">
+
+                        </Property>
+                        <Property name="HorzFormatting" value="WordWrapLeftAligned">
+
+                        </Property>
+                        <Property name="word_warpped" value="true">
+
+                        </Property>
+                        <Property name="text_key" value="asset/ui/MainPlay.layout.StaticText#df467bbc-5949-48f3-beb8-1560f0ef1595">
+
+                        </Property>
+                        <Property name="Disabled" value="false">
+
+                        </Property>
+                        <Property name="Font_size" value="40">
+
+                        </Property>
+                        <Property name="PivotY" value="0.5">
+
+                        </Property>
+                        <Property name="AutoTextScale" value="false">
+
+                        </Property>
+                        <Property name="BackgroundColours" value="ffffffff">
+
+                        </Property>
+                        <Property name="ClippedByParent" value="false">
+
+                        </Property>
+                        <Property name="SoundFile" value="">
+
+                        </Property>
+                        <Property name="level" value="50">
+
+                        </Property>
+                        <Property name="VertFormatting" value="CentreAligned">
+
+                        </Property>
+                        <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+
+                        </Property>
+                        <Property name="FrameEnabled" value="false">
+
+                        </Property>
+                        <Property name="TextWordBreak" value="false">
+
+                        </Property>
+                        <Property name="PivotX" value="0.5">
+
+                        </Property>
+                        <Property name="Alpha" value="1">
+
+                        </Property>
+                        <Property name="Font" value="Fonts/youmurdererbbreg-40">
+
+                        </Property>
+                        <Property name="SoundTriggerRange" value="None">
+
+                        </Property>
+                        <Property name="BorderWidth" value="3">
+
+                        </Property>
+                        <Property name="SizeConstraint" value="0">
+
+                        </Property>
+                        <Property name="TextBoldWeight" value="0">
+
+                        </Property>
+                        <Property name="TextColours" value="ffffffff">
+
+                        </Property>
+                        <Property name="BackgroundEnabled" value="false">
+
+                        </Property>
+                        <Property name="MinAutoTextScale" value="8">
+
+                        </Property>
+                        <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+
+                        </Property>
+                        <Property name="Volume" value="1">
+
+                        </Property>
+                        <Property name="BorderColor" value="ff000000">
+
+                        </Property>
+                        <Property name="FrameColours" value="ffffffff">
+
+                        </Property>
+                        <Property name="WindowTouchThroughAlpha" value="1">
+
+                        </Property>
+                        <Property name="Text" value="200">
+
+                        </Property>
+                        <Property name="Visible" value="true">
+
+                        </Property>
+                    </Window>
+                    <Window type="WindowsLook/StaticImage" name="Image">
+                        <Property name="Area" value="{{0,0},{0,0.0},{0,40},{0,50.0}}">
+
+                        </Property>
+                        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                        </Property>
+                        <Property name="HorizontalAlignment" value="Left">
+
+                        </Property>
+                        <Property name="VerticalAlignment" value="Top">
+
+                        </Property>
+                        <Property name="ImageDstBlend" value="4">
+
+                        </Property>
+                        <Property name="vertFormatting" value="Stretched">
+
+                        </Property>
+                        <Property name="SoundTriggerRange" value="None">
+
+                        </Property>
+                        <Property name="WindowTouchThroughAlpha" value="1">
+
+                        </Property>
+                        <Property name="ImageBlendOperation" value="0">
+
+                        </Property>
+                        <Property name="Disabled" value="false">
+
+                        </Property>
+                        <Property name="Volume" value="1">
+
+                        </Property>
+                        <Property name="SoundFile" value="">
+
+                        </Property>
+                        <Property name="ImageBlendMode" value="0">
+
+                        </Property>
+                        <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+
+                        </Property>
+                        <Property name="BackgroundColours" value="ffffffff">
+
+                        </Property>
+                        <Property name="StaticImageStretch" value="0 0 0 0">
+
+                        </Property>
+                        <Property name="FillArea" value="1">
+
+                        </Property>
+                        <Property name="PivotY" value="0.5">
+
+                        </Property>
+                        <Property name="IsUIMask" value="false">
+
+                        </Property>
+                        <Property name="ImageColours" value="ffffffff">
+
+                        </Property>
+                        <Property name="horzFormatting" value="Stretched">
+
+                        </Property>
+                        <Property name="PivotX" value="0.5">
+
+                        </Property>
+                        <Property name="Alpha" value="0.985">
+
+                        </Property>
+                        <Property name="StaticImageCutStretch" value="0 0 0 0">
+
+                        </Property>
+                        <Property name="IsDisplayUIMask" value="false">
+
+                        </Property>
+                        <Property name="FillType" value="Horizontal">
+
+                        </Property>
+                        <Property name="SizeConstraint" value="0">
+
+                        </Property>
+                        <Property name="FillPosition" value="Left_Horizontal">
+
+                        </Property>
+                        <Property name="FrameEnabled" value="false">
+
+                        </Property>
+                        <Property name="BackgroundEnabled" value="false">
+
+                        </Property>
+                        <Property name="ImageSrcBlend" value="2">
+
+                        </Property>
+                        <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+
+                        </Property>
+                        <Property name="AntiClockwise" value="false">
+
+                        </Property>
+                        <Property name="level" value="50">
+
+                        </Property>
+                        <Property name="FrameColours" value="ffffffff">
+
+                        </Property>
+                        <Property name="Image" value="gameres|asset/ui/MainPlay/candy.png">
+
+                        </Property>
+                        <Property name="ClippedByParent" value="false">
+
+                        </Property>
+                        <Property name="Visible" value="true">
+
+                        </Property>
+                    </Window>
               </Window>
         </Window>
     </GUILayout>

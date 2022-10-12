@@ -58,4 +58,19 @@ event["ENTITY_DIE"] = function(p)
         end
     end
 end
+event["ENTITY_TOUCH_ALL"]=function(p)
+    local from = p.obj1
+    local to =p.obj2
+    if string.find(to.name, "candy_1") then
+        local data=from:getValue("temporary")
+        data.candyInRoom=data.candyInRoom+1
+        from:setValue("temporary",data)
+        to:destroy()
+    end
+end
+-- Trigger.RegisterHandler(this:cfg(), "ENTITY_TOUCH_ALL", function(context)
+--     local from = context.obj1
+--     local to =context.obj2
+--     to:destroy()
+-- end)
 return event
