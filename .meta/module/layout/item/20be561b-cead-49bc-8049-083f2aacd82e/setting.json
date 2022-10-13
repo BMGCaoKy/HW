@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "2f58b001a6e5efefb45a824d3b5890c7",
+    "md5": "b465484da9b271af40d5733b4054c3ba",
     "path": "asset/ui/over_shortcutBar.layout",
     "root": {
       "anchor": {
@@ -16,7 +16,7 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "4d86be08-e1ee-4cb0-8f69-293c99b43947"
+            "value": "981a453b-f9b3-44be-b31e-92977045f62f"
           },
           "Image": {
             "asset": "bottom_bar/bar_bg",
@@ -32,7 +32,8 @@
               "Offect": 0,
               "Scale": 1
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         },
         {
           "__OBJ_TYPE": "StaticImage",
@@ -42,7 +43,7 @@
           },
           "Disabled": true,
           "id": {
-            "value": "427e558a-2a79-4f51-82e7-b2b352447815"
+            "value": "dcdda874-2cf8-4d8d-9342-bb4d1819694d"
           },
           "Image": {
             "asset": "bottom_bar/bar_bag",
@@ -64,7 +65,8 @@
             "UDim_Y": {
               "Offect": 77
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         },
         {
           "__OBJ_TYPE": "DefaultWindow",
@@ -72,7 +74,7 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "471ce6fb-4d5b-4d61-847c-de208e0fa850"
+            "value": "4d306046-4028-463c-9328-39db2b3e901a"
           },
           "name": "ItemCellBase",
           "pos": {
@@ -91,12 +93,13 @@
             "UDim_Y": {
               "Offect": 78
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         }
       ],
       "ClippedByParent": true,
       "id": {
-        "value": "6c4bb833-5efd-4bc6-aeab-0547d8f75ae3"
+        "value": "c98a0406-924d-4d0a-bf84-42777be9877c"
       },
       "size": {
         "UDim_X": {
@@ -110,7 +113,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "2f58b001a6e5efefb45a824d3b5890c7",
+      "layout": "b465484da9b271af40d5733b4054c3ba",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

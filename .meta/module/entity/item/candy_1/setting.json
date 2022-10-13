@@ -12,9 +12,6 @@
     "autoMove": true,
     "boundingVolume": {
       "height": 0.4,
-      "memory": {
-        "Sector": "1.000000-0.600000"
-      },
       "type": "Cylinder"
     },
     "boundingVolumeEntityCfg": {
@@ -30,6 +27,7 @@
     "girlactor": {
       "asset": "asset/Candy/candy.actor"
     },
+    "gravity": 1,
     "hideName": true,
     "name": {
       "value": "entity_candy_1"
@@ -37,7 +35,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c15534c8e06bc1c52a35a49beb99068d",
+      "setting.json": "d8d10fddd102aaeb8272a1a2c61f4766",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

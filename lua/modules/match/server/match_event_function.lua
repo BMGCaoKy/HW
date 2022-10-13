@@ -1,6 +1,7 @@
 local event = {}
 local MatchRoom = require("modules.match.server.room.match_room")
 event["ENTITY_ENTER"] = function(p)
+    Global.ui("ui/toolbar2",p.obj1, {})
     Global.ui("ui/popup", p.obj1, {})
     local keyId = nil
     -- for k, v in pairs(Global.listRoom) do
@@ -44,6 +45,7 @@ event["ENTITY_DIE"] = function(p)
     local victim = p.obj1
     local killer = p.obj2
     if killer then
+        Global.ui("ui/MainWait",p.obj1,{})
         for k, v in pairs(Global.listRoom) do
             if v:isInRoom(victim.platformUserId) then
                 if v:isPolice(killer.platformUserId) then

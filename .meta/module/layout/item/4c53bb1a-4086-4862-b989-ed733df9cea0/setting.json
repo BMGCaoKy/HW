@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "22191e34ee504c4055d934ca58ccce28",
+    "md5": "38bc9e8d99c9072c83c36326fe8f9bc0",
     "path": "asset/ui/guide.layout",
     "root": {
       "anchor": {
@@ -40,7 +40,7 @@
                                     "VerticalAlignment": "Centre"
                                   },
                                   "id": {
-                                    "value": "03b71287-8e77-4ba4-ae1c-ceb0c8541a5e"
+                                    "value": "20000623-89d6-4513-8257-ae565b032842"
                                   },
                                   "Image": {
                                     "asset": "asset/ui/guide/killer.png"
@@ -48,7 +48,7 @@
                                 }
                               ],
                               "id": {
-                                "value": "53b7d731-48dd-4cc6-b27d-549225cda7b7"
+                                "value": "9f1b651e-efc9-43b6-b0c9-14b3d53b4ee0"
                               },
                               "Image": {
                                 "asset": "",
@@ -69,7 +69,7 @@
                               "Font_size": 15,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "cf3c5d09-9154-47d1-af74-d4c0a2d23233"
+                                "value": "64206d17-442c-4630-99d1-fbb7c3093b8d"
                               },
                               "pos": {
                                 "UDim_Y": {
@@ -86,7 +86,7 @@
                                   "Scale": 1
                                 }
                               },
-                              "Text": "Secretly has a knife \nCan kill other players instantly using the knife \nCan aim and throw the knife from a distance\n",
+                              "Text": "Secretly has a knife \nCan kill other players instantly using the knife \nCan aim and throw the knife from a distance\n",
                               "text_key": {
                                 "value": "asset/ui/guide.layout.StaticText#dbf08ea7-e388-4c4a-afe5-3bdc6c7a6d52"
                               },
@@ -97,7 +97,7 @@
                             }
                           ],
                           "id": {
-                            "value": "387f0110-d75d-419b-bfd4-fca71e150985"
+                            "value": "59012d8b-fead-4781-90fc-643831960060"
                           },
                           "name": "List",
                           "pos": {
@@ -116,7 +116,7 @@
                         }
                       ],
                       "id": {
-                        "value": "9e8dd86d-bde8-4fab-8c5d-226dad8d5bae"
+                        "value": "a9b31b99-f7e4-4464-a24f-36f39b55d744"
                       },
                       "Image": {
                         "asset": "asset/ui/Gui/backgroundDay.png"
@@ -141,7 +141,7 @@
                     }
                   ],
                   "id": {
-                    "value": "123d471c-dd0a-4bf0-8c22-25f14b73817e"
+                    "value": "33b23886-1c27-4ed4-b5e8-a9be8d255dc6"
                   },
                   "name": "murder_win",
                   "size": {
@@ -177,7 +177,7 @@
                                     "VerticalAlignment": "Centre"
                                   },
                                   "id": {
-                                    "value": "a01ea663-7050-4fac-8e38-3f4d9df83978"
+                                    "value": "99fac4ce-3571-4abb-9411-2232d66c6239"
                                   },
                                   "Image": {
                                     "asset": "asset/ui/guide/human.png"
@@ -185,7 +185,7 @@
                                 }
                               ],
                               "id": {
-                                "value": "8164e7a2-b9ef-4db8-8fa5-720ce7721e7b"
+                                "value": "1aa80133-10a6-4322-ba6c-f452807771a3"
                               },
                               "Image": {
                                 "asset": "",
@@ -206,7 +206,7 @@
                               "Font_size": 20,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "e5c031b5-ec42-4882-92e6-1019eb9d5d1a"
+                                "value": "5db39f02-6692-474f-af4f-c747d6837566"
                               },
                               "pos": {
                                 "UDim_Y": {
@@ -223,7 +223,7 @@
                                   "Scale": 1
                                 }
                               },
-                              "Text": "No special ability\nCan pick up Sheriff gun and use it to kill the Killer\n",
+                              "Text": "No special ability\nCan pick up Sheriff gun and use it to kill the Killer\n",
                               "text_key": {
                                 "value": "asset/ui/guide.layout.StaticText#721842d4-8b87-416e-a98c-4eff76ad160e"
                               },
@@ -231,7 +231,7 @@
                             }
                           ],
                           "id": {
-                            "value": "17f4a5e2-56df-4593-a0ae-99f76ba6808d"
+                            "value": "b9c59dba-de1b-4cb3-8e42-9bb02138b3a1"
                           },
                           "name": "List",
                           "pos": {
@@ -250,7 +250,7 @@
                         }
                       ],
                       "id": {
-                        "value": "ac747f30-04fe-4a05-9cf2-8692564a3744"
+                        "value": "3cd43da7-39a1-4035-9f6a-e173bee72620"
                       },
                       "Image": {
                         "asset": "asset/ui/Gui/backgroundDay.png"
@@ -275,7 +275,7 @@
                     }
                   ],
                   "id": {
-                    "value": "2fdd8178-df1e-42cd-8fb6-b48b43639a18"
+                    "value": "ee8130c0-0820-4858-a138-b7cea6070c08"
                   },
                   "name": "murder_win1",
                   "pos": {
@@ -316,7 +316,7 @@
                                     "VerticalAlignment": "Centre"
                                   },
                                   "id": {
-                                    "value": "3e7d0192-f662-495b-bcfc-7a2f1dc543de"
+                                    "value": "c6054e05-dbc3-4087-82b9-2d03da50e86d"
                                   },
                                   "Image": {
                                     "asset": "asset/ui/guide/police.png"
@@ -324,7 +324,7 @@
                                 }
                               ],
                               "id": {
-                                "value": "4c7ed332-bc50-4873-a7c1-51ee61f17597"
+                                "value": "f6893c77-63c1-497e-8cd1-ee5bb35e53b5"
                               },
                               "Image": {
                                 "asset": "",
@@ -345,7 +345,7 @@
                               "Font_size": 15,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "e3a0e5af-b974-4ac0-bb40-afedc1e1e183"
+                                "value": "0b8e7d7b-c712-47bf-9256-2c8570490d28"
                               },
                               "pos": {
                                 "UDim_Y": {
@@ -362,7 +362,7 @@
                                   "Scale": 1
                                 }
                               },
-                              "Text": "Secretly has a gun \nCan shoot at anyone and kill them \nThe gun has limited bullet \nDrop the gun if killed\n",
+                              "Text": "Secretly has a gun \nCan shoot at anyone and kill them \nThe gun has limited bullet \nDrop the gun if killed\n",
                               "text_key": {
                                 "value": "asset/ui/guide.layout.StaticText#cdaf3197-13fb-4b03-a1b0-3bbb85e93d93"
                               },
@@ -374,7 +374,7 @@
                             }
                           ],
                           "id": {
-                            "value": "c37230c9-1738-4359-9961-e5417cc00453"
+                            "value": "a7752591-2b45-4ad1-b4d3-bf1adcdf2caf"
                           },
                           "name": "List",
                           "pos": {
@@ -393,7 +393,7 @@
                         }
                       ],
                       "id": {
-                        "value": "866100a0-3d55-4acf-8e36-0c845eb58e1f"
+                        "value": "86665ce1-e07c-46e6-8e33-306b42a803eb"
                       },
                       "Image": {
                         "asset": "asset/ui/Gui/backgroundDay.png"
@@ -418,7 +418,7 @@
                     }
                   ],
                   "id": {
-                    "value": "1649d8a4-8f29-43fe-ac9c-34b36bdfa986"
+                    "value": "5e0562ca-31a2-4326-94de-fb7b493c2281"
                   },
                   "name": "murder_win2",
                   "pos": {
@@ -439,7 +439,7 @@
                 }
               ],
               "id": {
-                "value": "9dd65179-e670-4696-89a2-9f5ac09e2a1a"
+                "value": "43b6ca16-7901-40c0-9faf-8295a8563e49"
               },
               "name": "List",
               "pos": {
@@ -486,8 +486,9 @@
                 "r": 255
               },
               "id": {
-                "value": "b1f55f93-b837-456a-a3ad-35fef4486f0e"
+                "value": "3ca9b35a-4f1c-49d3-b115-1580719732f2"
               },
+              "name": "CloseBtn1",
               "NormalImage": {
                 "asset": "",
                 "selector": ""
@@ -522,7 +523,7 @@
             }
           ],
           "id": {
-            "value": "912b5abe-e578-4891-a19b-5807c85f7c70"
+            "value": "5289b769-d938-4ccb-b343-3557db1701a1"
           },
           "Image": {
             "asset": "asset/ui/Gui/balo_bg.png"
@@ -545,7 +546,7 @@
         }
       ],
       "id": {
-        "value": "c51c7b05-9806-4d3c-8603-1259826356d5"
+        "value": "f6d60b77-71bb-48b4-bb58-dea002057915"
       },
       "size": {
         "UDim_X": {
@@ -559,7 +560,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "22191e34ee504c4055d934ca58ccce28",
+      "layout": "38bc9e8d99c9072c83c36326fe8f9bc0",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

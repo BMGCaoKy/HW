@@ -1,6 +1,6 @@
 Define.MATCH.MAP_POS = {
     ["parking_id"] = {
-        Lib.v3(-28.53, 1.24, 26.628)
+        Lib.v3(-2.683, 5.462, 19.353)
     },
     ["Halloween_Village_ID"] = {
         Lib.v3(11, 5.4, 28),

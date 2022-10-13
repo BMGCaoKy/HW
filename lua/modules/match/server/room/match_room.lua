@@ -10,7 +10,7 @@ end
 function MatchRoom:init(uid, map)
   self.uid = uid --id phòng                          type: number
   self.userList = {} --danh sách người chơi              type: table playerId
-  self.userDeath = { [1] = {}, [2] = {}, [3] = {} } --danh sách người chơi bị loại      type: table playerId  1: Inno, 2: Police  3: Mureder
+  self.userDeath = {[1] = {}, [2] = {}, [3] = {}} --danh sách người chơi bị loại      type: table playerId  1: Inno, 2: Police  3: Mureder
   self.userMurder = {} --danh sách người chơi là murder    type: table playerId
   self.userPolice = {} --danh sách người chơi là police    type: table playerId
   self.userStatus = {} --trạng thái người chơi             type: table {offline=true}
@@ -23,13 +23,14 @@ function MatchRoom:init(uid, map)
   self.mapLobby = map
   self.waitingUser = {}
   self.mapName = ""
+  self.mapNameId=0
   self.timeDeath = {}
 end
 
 function MatchRoom:resetRoom()
   self.uid = self.uid --id phòng                          type: number
   self.userList = self.userList --danh sách người chơi              type: table playerId
-  self.userDeath = { [1] = {}, [2] = {}, [3] = {} } --danh sách người chơi bị loại      type: table playerId  1: Inno, 2: Police  3: Mureder
+  self.userDeath = {[1] = {}, [2] = {}, [3] = {}} --danh sách người chơi bị loại      type: table playerId  1: Inno, 2: Police  3: Mureder
   self.userMurder = {} --danh sách người chơi là murder    type: table playerId
   self.userPolice = {} --danh sách người chơi là police    type: table playerId
   self.userStatus = {} --trạng thái người chơi             type: table {offline=true}
@@ -41,14 +42,16 @@ function MatchRoom:resetRoom()
   self.lastNamePolice = ""
   self.mapLobby = self.mapLobby
   self.mapName = ""
+  self.mapNameId=0
   self.timeDeath = {}
   for k, v in pairs(self.waitingUser) do
     table.insert(self.userList, v)
   end
   self.waitingUser = {}
-  Lib.emitEvent("resetRoom", { keyId = self.uid })
-  Global.closeListUI({ "ui/MainPlay" }, self.userList)
+  Lib.emitEvent("resetRoom", {keyId = self.uid})
+  Global.closeListUI({"ui/MainPlay"}, self.userList)
   Global.ui2List("ui/popup", self.userList, {})
+  Global.ui2List("ui/MainWait", self.userList, {})
   print("reset Data", Lib.pv(self))
 end
 
@@ -230,7 +233,7 @@ function MatchRoom:randomPolice()
         self:setPolice(idUser)
         Global.ui("ui/role", player, packet)
 
-        PackageHandlers:SendToClient(player, "UPDATE_ROOM", { role = "Sheriff" })
+        PackageHandlers:SendToClient(player, "UPDATE_ROOM", {role = "Sheriff"})
       end
     )
   end
@@ -238,7 +241,7 @@ end
 
 --function
 function MatchRoom:kill(userId, isChange)
-  table.insert(self.timeDeath, { time = self.timeGameRun, id = userId })
+  table.insert(self.timeDeath, {time = self.timeGameRun, id = userId})
   if self:isMurder(userId) then
     self:removeMurder(userId)
     table.insert(self.userDeath[3], userId)
@@ -249,11 +252,14 @@ function MatchRoom:kill(userId, isChange)
     table.insert(self.userDeath[1], userId)
   end
   local player = Game.GetPlayerByUserId(userId)
-  player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
+  player:serverRebirth()
+  --player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
 end
 
 function MatchRoom:addPlayer(playerId)
   table.insert(self.userList, playerId)
+  local player=Game.GetPlayerByUserId(playerId)
+  Global.ui("ui/MainWait",player,{})
   self.timeWaitingToStart = Define.MATCH.TIME_WAITING_TO_START
 end
 
@@ -295,7 +301,6 @@ function MatchRoom:removePlayer(playerId)
         if self:isMurder(playerId) then
           self:removeMurder(playerId)
         elseif self:isPolice(playerId) then
-
           if Lib.getTableSize(self:getPlayerList()) > Lib.getTableSize(self.userMurder) then
             self:removePolice(playerId, true)
           else
@@ -336,6 +341,7 @@ end
 
 function MatchRoom:roomListenning()
   local time = 0
+  
   local isGameStart = false
   World.Timer(
     1,
@@ -359,9 +365,9 @@ function MatchRoom:roomListenning()
         self.roomStatus = 2
         for k, v in pairs(self.userList) do
           local player = Game.GetPlayerByUserId(v)
-          local data=player:getValue("temporary")
-          data.candyInRoom=0
-          player:setValue("temporary",data)
+          local data = player:getValue("temporary")
+          data.candyInRoom = 0
+          player:setValue("temporary", data)
           Global.ui("ui/loading", player)
         end
 
@@ -371,7 +377,6 @@ function MatchRoom:roomListenning()
           function()
             self:setRoles()
             self:startGame()
-
           end
         )
       end
@@ -391,8 +396,8 @@ function MatchRoom:resultPoint()
       end
     end
     local data = player:getValue("baseInform")
-    local dataInRoom=player:getValue("temporary")
-    data.candy=data.candy+dataInRoom.candyInRoom
+    local dataInRoom = player:getValue("temporary")
+    data.candy = data.candy + dataInRoom.candyInRoom
     local max_exp = Define.PLAYER.LV_TO_EXP(data.exp.lv + 1)
     data.exp.point = data.exp.point + time_survival
     while max_exp < data.exp.point do
@@ -403,33 +408,37 @@ function MatchRoom:resultPoint()
     player:setValue("baseInform", data)
   end
 end
-
+function MatchRoom:resetBagAndSpawn()
+    -- self:resetRoom()
+    for k, v in pairs(self.userList) do
+      local player = Game.GetPlayerByUserId(v)
+      Lib.emitEvent("resetTray")
+      --player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
+     player:serverRebirth()
+    end
+end
 function MatchRoom:EndGameCondition()
   World.Timer(
     1,
     function()
       if self.timeGameRun < 0 then
         self:resultPoint()
-        Global.ui2List("ui/result_new", self.userList, { room = self })
+        Global.ui2List("ui/result_new", self.userList, {room = self})
+        self:resetBagAndSpawn()
         self.roomStatus = -1
       end
       if Lib.getTableSize(self.userMurder) == 0 then
         self:resultPoint()
-        Global.ui2List("ui/result_new", self.userList, { room = self })
+        Global.ui2List("ui/result_new", self.userList, {room = self})
+        self:resetBagAndSpawn()
         self.roomStatus = -1
       elseif Lib.getTableSize(self:getPlayerList()) == Lib.getTableSize(self.userMurder) then
         self:resultPoint()
-        Global.ui2List("ui/result_new", self.userList, { room = self })
+        Global.ui2List("ui/result_new", self.userList, {room = self})
+        self:resetBagAndSpawn()
         self.roomStatus = -1
       end
-      if self.roomStatus == -1 then
-        -- self:resetRoom()
-        for k, v in pairs(self.userList) do
-          local player = Game.GetPlayerByUserId(v)
-          Lib.emitEvent("resetTray")
-          player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
-        end
-      end
+      
       if self.roomStatus == -1 then
         World.Timer(
           70,
@@ -447,12 +456,13 @@ end
 
 function MatchRoom:startGame()
   local start = (self.roomStatus >= 2)
-
+  Global.closeListUI({"ui/MainWait"},self.userList)
   self.roomStatus = 3
   local get_map = math.random(1, #Define.MATCH.MAP)
   local map_name = Define.MATCH.MAP[get_map].mapId
   self.mapName = map_name
   local map = World:CreateDynamicMap(map_name, true)
+  self.mapNameId=map.ID
   for k, v in pairs(self.userList) do
     local player = Game.GetPlayerByUserId(v)
     local pos = Define.MATCH.MAP_POS[map_name][math.random(1, #Define.MATCH.MAP_POS[map_name])]
@@ -466,12 +476,16 @@ function MatchRoom:startGame()
       for k, v in pairs(self.userList) do
         local player = Game.GetPlayerByUserId(v)
         if self:isMurder(v) then
-          Global.ui("ui/MainPlay", player, { role = "Murder" })
+          Global.ui("ui/MainPlay", player, {role = "Murder"})
         elseif self:isPolice(v) then
-          Global.ui("ui/MainPlay", player, { role = "Sheriff" })
+          Global.ui("ui/MainPlay", player, {role = "Sheriff"})
         else
-          Global.ui("ui/MainPlay", player, { role = "Innocent" })
+          Global.ui("ui/MainPlay", player, {role = "Innocent"})
         end
+        World.Timer(30,function ()
+          Global.ui("ui/guide",player,{})
+        end)
+        
       end
     end
   )
@@ -505,79 +519,81 @@ function MatchRoom:resetPlayerValue(uid)
 end
 
 function MatchRoom:spawnCoin()
+  World.Timer(
+    Define.MATCH.TIME_SPAWN_COIN,
+    function()
+      for i = 1, Define.MATCH.COIN_PER_TIME do
+        local playerInMap = self:getPlayerList()[1]
+        local player = Game.GetPlayerByUserId(playerInMap)
+        local map = player.map
+        local pos = {}
+        if Define.MATCH.MAP_AREA[self.mapName].s.x > Define.MATCH.MAP_AREA[self.mapName].e.x then
+          pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].e.x, Define.MATCH.MAP_AREA[self.mapName].s.x)
+        else
+          pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].s.x, Define.MATCH.MAP_AREA[self.mapName].e.x)
+        end
+        if Define.MATCH.MAP_AREA[self.mapName].s.y > Define.MATCH.MAP_AREA[self.mapName].e.y then
+          pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].e.y, Define.MATCH.MAP_AREA[self.mapName].s.y)
+        else
+          pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].s.y, Define.MATCH.MAP_AREA[self.mapName].e.y)
+        end
+        if Define.MATCH.MAP_AREA[self.mapName].s.z > Define.MATCH.MAP_AREA[self.mapName].e.z then
+          pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].e.z, Define.MATCH.MAP_AREA[self.mapName].s.z)
+        else
+          pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].s.z, Define.MATCH.MAP_AREA[self.mapName].e.z)
+        end
+        local params = {
+          item = Item.CreateItem("myplugin/ghost", 1),
+          map = map,
+          pos = pos
+        }
 
-  World.Timer(Define.MATCH.TIME_SPAWN_COIN, function()
-
-    for i = 1, Define.MATCH.COIN_PER_TIME do
-      local playerInMap = self:getPlayerList()[1]
-      local player = Game.GetPlayerByUserId(playerInMap)
-      local map = player.map
-      local pos = {}
-      if Define.MATCH.MAP_AREA[self.mapName].s.x > Define.MATCH.MAP_AREA[self.mapName].e.x then
-        pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].e.x, Define.MATCH.MAP_AREA[self.mapName].s.x)
-      else
-        pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].s.x, Define.MATCH.MAP_AREA[self.mapName].e.x)
+        local dropItem = DropItemServer.Create(params)
       end
-      if Define.MATCH.MAP_AREA[self.mapName].s.y > Define.MATCH.MAP_AREA[self.mapName].e.y then
-        pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].e.y, Define.MATCH.MAP_AREA[self.mapName].s.y)
-      else
-        pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].s.y, Define.MATCH.MAP_AREA[self.mapName].e.y)
-      end
-      if Define.MATCH.MAP_AREA[self.mapName].s.z > Define.MATCH.MAP_AREA[self.mapName].e.z then
-        pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].e.z, Define.MATCH.MAP_AREA[self.mapName].s.z)
-      else
-        pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].s.z, Define.MATCH.MAP_AREA[self.mapName].e.z)
-      end
-      local params = {
-        item = Item.CreateItem("myplugin/ghost", 1),
-        map = map,
-        pos = pos
-      }
-
-      local dropItem = DropItemServer.Create(params)
-
+      return (self.roomStatus >= 2)
     end
-    return (self.roomStatus >= 2)
-
-  end)
+  )
 end
 
 function MatchRoom:spawnCandy()
+  World.Timer(
+    Define.MATCH.TIME_SPAWN_CANDY,
+    function()
+      for i = 1, Define.MATCH.CANDY_PER_TIME do
+        local playerInMap = self:getPlayerList()[1]
+        local player = Game.GetPlayerByUserId(playerInMap)
+        local map = player.map
+        local pos = {}
+        if Define.MATCH.MAP_AREA[self.mapName].s.x > Define.MATCH.MAP_AREA[self.mapName].e.x then
+          pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].e.x, Define.MATCH.MAP_AREA[self.mapName].s.x)
+        else
+          pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].s.x, Define.MATCH.MAP_AREA[self.mapName].e.x)
+        end
+        if Define.MATCH.MAP_AREA[self.mapName].s.y > Define.MATCH.MAP_AREA[self.mapName].e.y then
+          pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].e.y, Define.MATCH.MAP_AREA[self.mapName].s.y)
+        else
+          pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].s.y, Define.MATCH.MAP_AREA[self.mapName].e.y)
+        end
+        if Define.MATCH.MAP_AREA[self.mapName].s.z > Define.MATCH.MAP_AREA[self.mapName].e.z then
+          pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].e.z, Define.MATCH.MAP_AREA[self.mapName].s.z)
+        else
+          pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].s.z, Define.MATCH.MAP_AREA[self.mapName].e.z)
+        end
 
-  World.Timer(Define.MATCH.TIME_SPAWN_CANDY, function()
-
-    for i = 1, Define.MATCH.CANDY_PER_TIME do
-      local playerInMap = self:getPlayerList()[1]
-      local player = Game.GetPlayerByUserId(playerInMap)
-      local map = player.map
-      local pos = {}
-      if Define.MATCH.MAP_AREA[self.mapName].s.x > Define.MATCH.MAP_AREA[self.mapName].e.x then
-        pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].e.x, Define.MATCH.MAP_AREA[self.mapName].s.x)
-      else
-        pos.x = math.random(Define.MATCH.MAP_AREA[self.mapName].s.x, Define.MATCH.MAP_AREA[self.mapName].e.x)
+        local createParams = {cfgName = "myplugin/candy_1", pos = pos, map = map}
+        local entity = EntityServer.Create(createParams)
+        print("create entity")
+        World.Timer(
+          Define.MATCH.TIME_LIVE_CANDY,
+          function()
+            entity:kill()
+            print("kill entity")
+          end
+        )
       end
-      if Define.MATCH.MAP_AREA[self.mapName].s.y > Define.MATCH.MAP_AREA[self.mapName].e.y then
-        pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].e.y, Define.MATCH.MAP_AREA[self.mapName].s.y)
-      else
-        pos.y = math.random(Define.MATCH.MAP_AREA[self.mapName].s.y, Define.MATCH.MAP_AREA[self.mapName].e.y)
-      end
-      if Define.MATCH.MAP_AREA[self.mapName].s.z > Define.MATCH.MAP_AREA[self.mapName].e.z then
-        pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].e.z, Define.MATCH.MAP_AREA[self.mapName].s.z)
-      else
-        pos.z = math.random(Define.MATCH.MAP_AREA[self.mapName].s.z, Define.MATCH.MAP_AREA[self.mapName].e.z)
-      end
-
-      local createParams = { cfgName = "myplugin/candy_1", pos = pos, map = map }
-      local entity = EntityServer.Create(createParams)
-      print("create entity")
-      World.Timer(Define.MATCH.TIME_LIVE_CANDY,function ()
-        entity:kill()
-        print("kill entity")
-      end)
+      return (self.roomStatus >= 2)
     end
-    return (self.roomStatus >= 2)
-
-  end)
+  )
 end
 
 return MatchRoom

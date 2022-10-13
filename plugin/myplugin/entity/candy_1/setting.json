@@ -50,7 +50,7 @@
   "eyeHeight": 1.62,
   "followEntityDistanceWhenHasTarget": 10,
   "followEntityDistanceWhenNotTarget": 5,
-  "gravity": 0.08,
+  "gravity": 0.05,
   "headPic": "",
   "hideHolder": false,
   "hideHp": 1,

@@ -1,6 +1,18 @@
 print("startup ui")
 print("startup ui")
 --packet.room
+local function SecondsToClock(seconds)
+    local seconds = tonumber(seconds)
+  
+    if seconds <= 0 then
+      return "00:00";
+    else
+      local hours = string.format("%02.f", math.floor(seconds/3600));
+      local mins = string.format("%02.f", math.floor(seconds/60 - (hours*60)));
+      local secs = string.format("%02.f", math.floor(seconds - hours*3600 - mins *60));
+      return mins..":"..secs
+    end
+  end
 local char = self.bg
 local function MurderWin(win, lose)
     
@@ -35,7 +47,7 @@ function self:onOpen(packet)
         end
     end
     self.bg.exp_layout.num_win.text_layout.add.Text="+"..bonus
-            self.bg.survial_point_win.layout.text_layout.add.Text="+"..bonus
+            self.bg.survial_point_win.layout.text_layout.add.Text=SecondsToClock(bonus)
 end
 
 

@@ -1,32 +1,48 @@
 <ActorTemplates>
-	<ActorTemplate AttackScale="1" SoundFileNum="0" SelectedRingSize="1" SoundName2="" MaxDistance="16" IsShowShadow="true" Originalscale="1 1 1" IntervalTime="2" name="111.actor" Skeleton="firstPrvActor.skel" Volume="0.8" SoundName5="" MinDistance="1" SoundName4="" WoundAngle="25" SoundName3="" WoundBone="" TextHeight="0" SoundName1="" Alpha="1">
+	<ActorTemplate AttackScale="1" WoundBone="" IntervalTime="2" IsShowShadow="true" MinDistance="1" Skeleton="firstPrvActor.skel" WoundAngle="25" SoundName3="" SoundName5="" Alpha="1" SelectedRingSize="1" SoundName1="" SoundName2="" Originalscale="1 1 1" TextHeight="0" Volume="0.8" SoundName4="" SoundFileNum="0" MaxDistance="16" name="111.actor">
 		<Anims/>
 		<Skills/>
 		<BodyParts>
-			<BodyPart MasterName="mutex_name_0" ColorParams="1 1 1 1" SlaveName="group0" EdgeColor="1 1 1 1" DefaultUse="true">
-				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="pCube4">
-					<Position_Y value="0.2"/>
-					<UseOverlayColorReplaceMode value="false"/>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" MasterName="mutex_name_0" EdgeColor="1 1 1 1" SlaveName="group0">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="pCube4">
 					<scale value="0.7"/>
-					<roll value="0"/>
 					<FileName value="asset/Candy/pCube4.mesh"/>
-					<pitch value="0"/>
-					<LocalBrightnessScale value="1.0"/>
-					<UseEdge value="false"/>
-					<yaw value="0"/>
-					<OverlayColor value="1.0 1.0 1.0 1.0"/>
-					<UseReflect value="false"/>
-					<SocketName value="Origin197011"/>
+					<roll value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
 					<EdgeColor value="1.0 0 0 1.0"/>
 					<Position_Z value="0"/>
-					<UseOriginalcolor value="false"/>
 					<SpecularCoef value="0.15"/>
+					<UseReflect value="false"/>
+					<Position_Y value="0.2"/>
 					<SpecularColor value="1.0 1.0 1.0 1.0"/>
-					<UseTransparentNearestSlice value="false"/>
-					<UseBloom value="false"/>
+					<SocketName value="Origin197011"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
 					<SpecularStrength value="1.0"/>
+					<yaw value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseOriginalcolor value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<pitch value="0"/>
 					<Position_X value="0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
 				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" MasterName="mutex_name_1" EdgeColor="1 1 1 1" SlaveName="group1">
+				<Effect>
+					<scale value="0.4"/>
+					<Position_Y value="0"/>
+					<FileName value="asset/EffectNew/g2045_skill_hp.effect"/>
+					<Position_X value="0"/>
+					<SocketName value="Origin197011"/>
+					<type_name value="g2045_skill_hp"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<pitch value="0"/>
+					<TimeScale value="1"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+				</Effect>
 			</BodyPart>
 		</BodyParts>
 	</ActorTemplate>

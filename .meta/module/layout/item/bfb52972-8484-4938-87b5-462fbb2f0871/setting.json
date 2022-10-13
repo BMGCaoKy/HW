@@ -1,0 +1,272 @@
+{
+  "data": {
+    "md5": "8e18e3955a70c7a40c1d1233dd480894",
+    "path": "asset/ui/watch_mode.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0.608,
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BackgroundEnabled": true,
+              "id": {
+                "value": "835ef4f2-2f7c-46ec-8597-971cb2d6d6df"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 3,
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 40,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "ccb7da28-12b7-497b-b17d-8d1929c34bfb"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "Spectating Mode",
+              "text_key": {
+                "value": "asset/ui/watch_mode.layout.StaticText#39a2db94-d258-48db-a34e-a966e0c9e951"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "HoverImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "id": {
+                "value": "e3730341-18f9-4118-a83c-18dd50b10ff2"
+              },
+              "name": "CloseBtn",
+              "NormalImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "PushedImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 100
+                },
+                "UDim_Y": {
+                  "Offect": 100
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/watch_mode.layout.Button#e4f74ac6-e957-4aab-a414-6db447bdef49"
+              }
+            }
+          ],
+          "id": {
+            "value": "43e685e3-ab1f-43bf-b94e-38400d647008"
+          },
+          "name": "head",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 100
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "Alpha": 0.608,
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BackgroundEnabled": true,
+              "id": {
+                "value": "11ad4f76-b278-4a50-9afc-c98167c26eb2"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 3,
+              "Font": "Fonts/youmurdererbbreg",
+              "Font_size": 40,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "5d237389-d70a-4ef1-b33a-ff98a48c0f53"
+              },
+              "name": "name",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "Player01",
+              "text_key": {
+                "value": "asset/ui/watch_mode.layout.StaticText#df840db1-7163-4cfc-a5bc-dd9d1cb1bcaf"
+              },
+              "TextColours": {
+                "g": 255
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "b573ff27-d367-438b-bb10-5582e2a1fe3a"
+          },
+          "name": "tail",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 100
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "4e449c0a-2bb0-4ac0-892c-0bae8eb9a98f"
+          },
+          "name": "N",
+          "size": {
+            "UDim_X": {
+              "Offect": 100
+            },
+            "UDim_Y": {
+              "Offect": 100
+            }
+          },
+          "Text": "<",
+          "text_key": {
+            "value": "asset/ui/watch_mode.layout.Button#c1a8fc0c-cb00-4e62-925a-c989bc7912d2"
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "add5529f-87dd-4215-999e-1324c2c45c79"
+          },
+          "name": "P",
+          "size": {
+            "UDim_X": {
+              "Offect": 100
+            },
+            "UDim_Y": {
+              "Offect": 100
+            }
+          },
+          "Text": ">",
+          "text_key": {
+            "value": "asset/ui/watch_mode.layout.Button#05b98a42-8e4c-4f59-83b6-2416c5564d03"
+          }
+        }
+      ],
+      "id": {
+        "value": "581d1de0-05fc-4418-bc69-a6529c64386c"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "8e18e3955a70c7a40c1d1233dd480894",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

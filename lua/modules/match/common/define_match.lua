@@ -1,16 +1,16 @@
 local match_event_function = require "modules.match.server.match_event_function"
 Define.MATCH = {}
-Define.MATCH.MIN_PLAYER = 3
+Define.MATCH.MIN_PLAYER = 4
 Define.MATCH.MIN_MURDER = 1
 Define.MATCH.MIN_POLICE = 1
 Define.MATCH.TIME_WAITING_TO_START = 10
-Define.MATCH.TIME_GAME_RUN = 60
+Define.MATCH.TIME_GAME_RUN =6000
 Define.MATCH.TIME_SPAWN_COIN = 40
-Define.MATCH.COIN_PER_TIME = 1
-Define.MATCH.TIME_LIVE_CANDY = 100
+Define.MATCH.COIN_PER_TIME = 3
+Define.MATCH.TIME_LIVE_CANDY = 500
 
 Define.MATCH.TIME_SPAWN_CANDY = 40
-Define.MATCH.CANDY_PER_TIME = 20
+Define.MATCH.CANDY_PER_TIME = 10
 Define.MATCH.EVENT = {
     ["ENTITY_ENTER"] = {
         cfg = "PLAYER",

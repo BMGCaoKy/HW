@@ -18,6 +18,7 @@ end
 function self:onOpen(packet)
     local time = 0
     self.probability.Text="+"..packet.changeRoles.."% Get a special role"
+    Global.mapNameId=World.CurMap.ID
     World.Timer(
         1,
         function()

@@ -1,0 +1,144 @@
+{
+  "data": {
+    "md5": "eb2d1fa44c2d20289d3139f38fcb7c4d",
+    "path": "asset/ui/MainWait.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "Alpha": 0.985,
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "VerticalLayoutContainer",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "HoverImage": {
+                        "asset": "asset/ui/MainWait/CameraEye.png"
+                      },
+                      "id": {
+                        "value": "3e0b40c5-9e43-493d-995f-74be2918ff39"
+                      },
+                      "NormalImage": {
+                        "asset": "asset/ui/MainWait/CameraEye.png"
+                      },
+                      "PushedImage": {
+                        "asset": "asset/ui/MainWait/CameraEye.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 100
+                        },
+                        "UDim_Y": {
+                          "Offect": 100
+                        }
+                      },
+                      "Text": "",
+                      "text_key": {
+                        "value": "asset/ui/MainWait.layout.Button#035874bb-a194-4bad-af97-06aac237883c"
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.994,
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "BorderWidth": 2,
+                      "Font": "Fonts/CakeZombie",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "33c7a236-b88f-4340-b7a7-72ef447e0387"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 100
+                        },
+                        "UDim_Y": {
+                          "Offect": 20
+                        }
+                      },
+                      "Text": "Watch Mode",
+                      "text_key": {
+                        "value": "asset/ui/MainWait.layout.StaticText#046c19d7-565d-4e60-86b0-4caae8e6b6d0"
+                      },
+                      "VertFormatting": "CentreAligned"
+                    }
+                  ],
+                  "id": {
+                    "value": "2301fa39-cd65-49d4-81a1-dda0854afe66"
+                  },
+                  "name": "watchMode",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 100
+                    },
+                    "UDim_Y": {
+                      "Offect": 120
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "81d5a082-dba8-4118-9c6e-2fb5bb8de579"
+              },
+              "name": "ListBtn",
+              "size": {
+                "UDim_Y": {
+                  "Offect": 120
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "c7480156-94ab-4e56-ab07-3bb5c5cefff1"
+          },
+          "name": "Menu",
+          "size": {
+            "UDim_X": {
+              "Offect": 200
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "de5f605c-487c-4bdb-a5c7-90cd25e140da"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "eb2d1fa44c2d20289d3139f38fcb7c4d",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

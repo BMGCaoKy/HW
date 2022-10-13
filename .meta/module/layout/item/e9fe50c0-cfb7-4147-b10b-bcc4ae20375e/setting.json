@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "bd73a951dac5a63ea8c4afc9b7620a94",
+    "md5": "4411234ca6a2b0ce66558edae9d6d843",
     "path": "asset/ui/MainPlay.layout",
     "root": {
       "anchor": {
@@ -14,7 +14,7 @@
           "Font_size": 30,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "d854ef1f-a8b1-4c42-8431-da9842de02e2"
+            "value": "6d83c42c-0946-4ef1-b091-38a286ea5b1b"
           },
           "name": "role",
           "size": {
@@ -35,7 +35,8 @@
             "g": 255,
             "r": 255
           },
-          "VertFormatting": "CentreAligned"
+          "VertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         },
         {
           "__OBJ_TYPE": "StaticText",
@@ -48,7 +49,7 @@
           "Font_size": 50,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "87bbaaaf-81eb-4af1-b4b2-ae9172507a08"
+            "value": "36887b94-c999-4154-a818-aa398c9994b9"
           },
           "name": "time",
           "size": {
@@ -86,7 +87,7 @@
               "Font": "Fonts/youmurdererbbreg",
               "Font_size": 40,
               "id": {
-                "value": "b2de3d89-3a63-4e85-8760-a10143aa8041"
+                "value": "ec77e1ba-d54c-44a3-868c-d2704bf22b68"
               },
               "name": "count",
               "pos": {
@@ -95,6 +96,9 @@
                 }
               },
               "size": {
+                "UDim_X": {
+                  "Offect": 100
+                },
                 "UDim_Y": {
                   "Offect": 50
                 }
@@ -114,7 +118,7 @@
               "__OBJ_TYPE": "StaticImage",
               "Alpha": 0.985,
               "id": {
-                "value": "ff5a07b4-4964-4656-9422-234df36ec2be"
+                "value": "adc96d5b-ed19-4a46-b61f-f15f9e9dcfe9"
               },
               "Image": {
                 "asset": "asset/ui/MainPlay/candy.png"
@@ -131,12 +135,12 @@
           ],
           "dir": "Right",
           "id": {
-            "value": "824e7206-bb42-4f80-841f-f7f90053bf49"
+            "value": "67ad6840-5421-4f50-94bc-bc712233dd11"
           },
           "name": "candy_layout",
           "size": {
             "UDim_X": {
-              "Offect": 316
+              "Offect": 160
             },
             "UDim_Y": {
               "Offect": 50
@@ -146,7 +150,7 @@
         }
       ],
       "id": {
-        "value": "91485f67-9a2e-41df-a2e6-0109049a406a"
+        "value": "91c850d6-6e34-4cea-be8b-912a6c893e1c"
       },
       "size": {
         "UDim_X": {
@@ -163,7 +167,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "bd73a951dac5a63ea8c4afc9b7620a94",
+      "layout": "4411234ca6a2b0ce66558edae9d6d843",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"
