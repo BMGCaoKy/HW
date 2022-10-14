@@ -34,7 +34,7 @@
     "horizontalAlignment": 1,
     "verticalAlignment": 1
   },
-  "cdTime": 0,
+  "cdTime": 40,
   "chargeCdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "",
@@ -52,7 +52,7 @@
   "enable_pre": false,
   "enable_rear": false,
   "enableCdMask": false,
-  "enableCdTip": false,
+  "enableCdTip": true,
   "enableChargeTime": false,
   "enableMoveBrkBackS": false,
   "enableMoveBrkPreS": false,

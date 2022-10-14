@@ -1,0 +1,21 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/EffectNew/g2045/Necessary/Effect/skill/g2045_skill_shield.effect"
+      }
+    },
+    "moveSpeed": 5,
+    "name": {
+      "value": "buff_unassailable"
+    },
+    "unassailable": true,
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7377d4f5da4f8b2ad16bee4f7fd9d282"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -37,18 +37,18 @@
       "1",
       "2"
     ],
-    "hideName": true,
     "isPlayer": true,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
     "reviveTime": {
       "value": 40
-    }
+    },
+    "textHeight": 2
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "336b48adaac24537a2d2e99672b5cee8",
+      "setting.json": "0f94ec67406e5ad332dacc4e7958de9e",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

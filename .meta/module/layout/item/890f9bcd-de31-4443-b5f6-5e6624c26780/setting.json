@@ -1,0 +1,102 @@
+{
+  "data": {
+    "md5": "4fbd3752a505de204a8e05bdb8ea5233",
+    "path": "asset/ui/notification.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 3,
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "aed5641a-67f6-4d2a-9e2b-11903da10f0c"
+              },
+              "name": "label",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/notification.layout.StaticText#7fde658f-b510-4176-b0a9-0d193d77336f"
+              },
+              "TextColours": {
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "806ed00a-6651-404b-8161-34cd93fab01d"
+          },
+          "Image": {
+            "asset": "asset/ui/notification_head/g2048_settlement.imageset",
+            "imageset_key": "img_9_gradient",
+            "selector": "asset/ui/notification_head/g2048_settlement.imageset"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.8
+            },
+            "UDim_Y": {
+              "Offect": 60
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "25d72de5-5ff1-442a-88c1-c78bc9bfae41"
+      },
+      "pos": {
+        "UDim_Y": {
+          "Offect": 100
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 100
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "4fbd3752a505de204a8e05bdb8ea5233",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,6 +1,10 @@
 {
   "data": {
     "castAction": "attack",
+    "cdTime": {
+      "value": 40
+    },
+    "enableCdTip": true,
     "frontSight": "myplugin/frontsight1",
     "name": {
       "value": "skill_knife_1"
@@ -131,7 +135,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "71f6538be7ee1f6a3c0c3b1efcbc18b2",
+      "setting.json": "0c4ed0e7019fdb92db6d224de9832ad3",
       "triggers.bts": "b6882649f3a908109278fea45570fadb"
     },
     "VERSION": "0.24"

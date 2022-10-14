@@ -137,12 +137,20 @@ function MatchRoom:setPolice(userId)
 end
 
 ---local function ---------------------------------
-
+local function getTotalProbability(item)
+  local rs=0
+  for name, item in pairs(item) do
+    rs=rs+item.probability
+  end
+  return rs
+  -- body
+end
 local function getRandomItem(items)
   local p = math.random()
   local cumulativeProbability = 0
+  local total=getTotalProbability(items)
   for name, item in pairs(items) do
-    cumulativeProbability = cumulativeProbability + item.probability
+    cumulativeProbability = cumulativeProbability + item.probability/total
     if p <= cumulativeProbability then
       return name, item.uid
     end
@@ -242,6 +250,7 @@ end
 --function
 function MatchRoom:kill(userId, isChange)
   table.insert(self.timeDeath, {time = self.timeGameRun, id = userId})
+ 
   if self:isMurder(userId) then
     self:removeMurder(userId)
     table.insert(self.userDeath[3], userId)
@@ -253,6 +262,8 @@ function MatchRoom:kill(userId, isChange)
   end
   local player = Game.GetPlayerByUserId(userId)
   player:serverRebirth()
+  Global.ui2List("ui/notification",self:getPlayerList(),{name=player.name,lang="is dead"})
+
   --player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
 end
 
@@ -280,7 +291,7 @@ function MatchRoom:removePolice(playerId, isChange)
       local player = Game.GetPlayerByUserId(playerId)
       self.lastNamePolice = player.name
       if isChange then
-        if Lib.getTableSize(self.userList) > Lib.getTableSize(self.userMurder) + Lib.getTableSize(self.userPolice) then
+        if Lib.getTableSize(self.userList) > Lib.getTableSize(self.userMurder)  then
           World.Timer(
             30,
             function()
@@ -421,6 +432,7 @@ function MatchRoom:EndGameCondition()
   World.Timer(
     1,
     function()
+      Lib.pv(self:getPlayerList())
       if self.timeGameRun < 0 then
         self:resultPoint()
         Global.ui2List("ui/result_new", self.userList, {room = self})
@@ -432,13 +444,12 @@ function MatchRoom:EndGameCondition()
         Global.ui2List("ui/result_new", self.userList, {room = self})
         self:resetBagAndSpawn()
         self.roomStatus = -1
-      elseif Lib.getTableSize(self:getPlayerList()) == Lib.getTableSize(self.userMurder) then
-        self:resultPoint()
-        Global.ui2List("ui/result_new", self.userList, {room = self})
-        self:resetBagAndSpawn()
-        self.roomStatus = -1
+      -- elseif Lib.getTableSize(self.userPolice)==0 then
+      --       self:resultPoint()
+      --       Global.ui2List("ui/result_new", self.userList, {room = self})
+      --       self:resetBagAndSpawn()
+      --       self.roomStatus = -1
       end
-      
       if self.roomStatus == -1 then
         World.Timer(
           70,
@@ -469,6 +480,7 @@ function MatchRoom:startGame()
     player:setMapPos(map, pos)
     local packet = player:getValue("temporary")
     Global.ui("ui/role", player, packet)
+    player:addBuff("myplugin/unassailable",Define.MATCH.TIME_UNASSAIABLE)
   end
   World.Timer(
     40,

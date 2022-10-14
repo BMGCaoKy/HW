@@ -7,7 +7,7 @@ function self:onOpen(packet)
         end
         PackageHandlers:SendToServer("GET_ROOM_INFORM",{},function (p)
             if p.roomStatus==0 then
-                self.ListText.MainLabel.Text="Waiting player..."
+                self.ListText.MainLabel.Text="Waiting player ("..Lib.getTableSize(p.userList).."/"..Define.MATCH.MIN_PLAYER..")..."
             elseif p.roomStatus==1 then
                 self.ListText.MainLabel.Text="Starts in "..tostring(p.timeWaitingToStart)
                 print(p.timeWaitingToStart)

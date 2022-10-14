@@ -53,6 +53,7 @@ event["ENTITY_DIE"] = function(p)
                         v:kill(killer.platformUserId,true)
                         killer:kill()
                     end
+                    
                 end
                 v:kill(victim.platformUserId)
                 break
