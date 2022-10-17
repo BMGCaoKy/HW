@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate SoundFileNum="0" IntervalTime="2" WoundBone="" MinDistance="1" WoundAngle="25" SoundName3="" Alpha="1" MaxDistance="16" SoundName5="" name="111.actor" TextHeight="0" SoundName1="" Originalscale="1 1 1" AttackScale="1" SoundName2="" SoundName4="" Volume="0.8" SelectedRingSize="1" Skeleton="firstPrvActor.skel" IsShowShadow="true">
+		<Skills/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name_0" SlaveName="group0" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0.26" type_name="ghost005" LocalAlpha="0.55">
+					<roll value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularCoef value="0.59"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<FileName value="asset/EffectNew/ghost005.mesh"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<SpecularStrength value="1.0"/>
+					<UseBloom value="false"/>
+					<scale value="1"/>
+					<Position_Z value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularColor value="1.0 1.0 0 1.0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Ghost/ghost.actor"
+    },
+    "girlactor": {
+      "asset": "asset/Actor/Ghost/ghost.actor"
+    },
+    "name": {
+      "value": "entity_ghost"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0bbef4648f5dbeb4e5ef5593c6ca1419",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

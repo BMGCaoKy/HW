@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "38bc9e8d99c9072c83c36326fe8f9bc0",
+    "md5": "8cda8deb429019d0059e116462062211",
     "path": "asset/ui/guide.layout",
     "root": {
       "anchor": {
@@ -86,7 +86,7 @@
                                   "Scale": 1
                                 }
                               },
-                              "Text": "Secretly has a knife \nCan kill other players instantly using the knife \nCan aim and throw the knife from a distance\n",
+                              "Text": "Secretly has a knife. Can kill other players instantly using the knife. Can aim and throw the knife from a distance",
                               "text_key": {
                                 "value": "asset/ui/guide.layout.StaticText#dbf08ea7-e388-4c4a-afe5-3bdc6c7a6d52"
                               },
@@ -223,7 +223,7 @@
                                   "Scale": 1
                                 }
                               },
-                              "Text": "No special ability\nCan pick up Sheriff gun and use it to kill the Killer\n",
+                              "Text": "No special ability. Can pick up Sheriff gun and use it to kill the Killer",
                               "text_key": {
                                 "value": "asset/ui/guide.layout.StaticText#721842d4-8b87-416e-a98c-4eff76ad160e"
                               },
@@ -362,7 +362,7 @@
                                   "Scale": 1
                                 }
                               },
-                              "Text": "Secretly has a gun \nCan shoot at anyone and kill them \nThe gun has limited bullet \nDrop the gun if killed\n",
+                              "Text": "Secretly has a gun. Can shoot at anyone and kill them. The gun has limited bullet. Drop the gun if killed",
                               "text_key": {
                                 "value": "asset/ui/guide.layout.StaticText#cdaf3197-13fb-4b03-a1b0-3bbb85e93d93"
                               },
@@ -560,7 +560,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "38bc9e8d99c9072c83c36326fe8f9bc0",
+      "layout": "8cda8deb429019d0059e116462062211",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

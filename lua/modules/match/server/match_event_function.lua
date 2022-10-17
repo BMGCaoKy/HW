@@ -44,6 +44,9 @@ end
 event["ENTITY_DIE"] = function(p)
     local victim = p.obj1
     local killer = p.obj2
+
+    local createParams = { name=victim.name ,cfgName = "myplugin/ghost", pos = victim:getPosition() , map = victim.map }
+    local entity = EntityServer.Create(createParams)
     if killer then
         Global.ui("ui/MainWait",p.obj1,{})
         for k, v in pairs(Global.listRoom) do

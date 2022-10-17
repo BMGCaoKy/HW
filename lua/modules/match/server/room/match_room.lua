@@ -23,14 +23,15 @@ function MatchRoom:init(uid, map)
   self.mapLobby = map
   self.waitingUser = {}
   self.mapName = ""
-  self.mapNameId=0
+  self.mapNameId = 0
   self.timeDeath = {}
 end
 
 function MatchRoom:resetRoom()
   self.uid = self.uid --id phòng                          type: number
   self.userList = self.userList --danh sách người chơi              type: table playerId
-  self.userDeath = {[1] = {}, [2] = {}, [3] = {}} --danh sách người chơi bị loại      type: table playerId  1: Inno, 2: Police  3: Mureder
+  self.userDeath = {[1] = {}, [2] = {}, [3] = {}}
+  --danh sách người chơi bị loại      type: table playerId  1: Inno, 2: Police  3: Mureder
   self.userMurder = {} --danh sách người chơi là murder    type: table playerId
   self.userPolice = {} --danh sách người chơi là police    type: table playerId
   self.userStatus = {} --trạng thái người chơi             type: table {offline=true}
@@ -42,7 +43,7 @@ function MatchRoom:resetRoom()
   self.lastNamePolice = ""
   self.mapLobby = self.mapLobby
   self.mapName = ""
-  self.mapNameId=0
+  self.mapNameId = 0
   self.timeDeath = {}
   for k, v in pairs(self.waitingUser) do
     table.insert(self.userList, v)
@@ -138,9 +139,9 @@ end
 
 ---local function ---------------------------------
 local function getTotalProbability(item)
-  local rs=0
+  local rs = 0
   for name, item in pairs(item) do
-    rs=rs+item.probability
+    rs = rs + item.probability
   end
   return rs
   -- body
@@ -148,9 +149,9 @@ end
 local function getRandomItem(items)
   local p = math.random()
   local cumulativeProbability = 0
-  local total=getTotalProbability(items)
+  local total = getTotalProbability(items)
   for name, item in pairs(items) do
-    cumulativeProbability = cumulativeProbability + item.probability/total
+    cumulativeProbability = cumulativeProbability + item.probability / total
     if p <= cumulativeProbability then
       return name, item.uid
     end
@@ -188,22 +189,28 @@ function MatchRoom:getPlayerList()
   local list = {}
   local isPlaying = true
   for k, v in pairs(self.userList) do
-    for kk, vv in pairs(self.userDeath[1]) do
-      if vv == v then
-        isPlaying = false
-        break
+    if Lib.getTableSize(self.userDeath[1]) > 0 then
+      for kk, vv in pairs(self.userDeath[1]) do
+        if vv == v then
+          isPlaying = false
+          break
+        end
       end
     end
-    for kk, vv in pairs(self.userDeath[2]) do
-      if vv == v then
-        isPlaying = false
-        break
+    if Lib.getTableSize(self.userDeath[2]) > 0 then
+      for kk, vv in pairs(self.userDeath[2]) do
+        if vv == v then
+          isPlaying = false
+          break
+        end
       end
     end
-    for kk, vv in pairs(self.userDeath[3]) do
-      if vv == v then
-        isPlaying = false
-        break
+    if Lib.getTableSize(self.userDeath[3]) > 0 then
+      for kk, vv in pairs(self.userDeath[3]) do
+        if vv == v then
+          isPlaying = false
+          break
+        end
       end
     end
     if isPlaying then
@@ -250,7 +257,7 @@ end
 --function
 function MatchRoom:kill(userId, isChange)
   table.insert(self.timeDeath, {time = self.timeGameRun, id = userId})
- 
+
   if self:isMurder(userId) then
     self:removeMurder(userId)
     table.insert(self.userDeath[3], userId)
@@ -261,16 +268,29 @@ function MatchRoom:kill(userId, isChange)
     table.insert(self.userDeath[1], userId)
   end
   local player = Game.GetPlayerByUserId(userId)
+
+  local entityTrays = player:tray()
+  local trayTb =
+      entityTrays:query_trays(
+      function(tray)
+          return true
+      end
+  )
+  for _, _tray in pairs(trayTb) do
+      --print(_tray.tid,_tray.tray:capacity())
+      _tray.tray:remove_item(1) 
+      _tray.tray:remove_item(2) 
+  end
   player:serverRebirth()
-  Global.ui2List("ui/notification",self:getPlayerList(),{name=player.name,lang="is dead"})
+  Global.ui2List("ui/notification", self:getPlayerList(), {name = player.name, lang = "is dead"})
 
   --player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
 end
 
 function MatchRoom:addPlayer(playerId)
   table.insert(self.userList, playerId)
-  local player=Game.GetPlayerByUserId(playerId)
-  Global.ui("ui/MainWait",player,{})
+  local player = Game.GetPlayerByUserId(playerId)
+  Global.ui("ui/MainWait", player, {})
   self.timeWaitingToStart = Define.MATCH.TIME_WAITING_TO_START
 end
 
@@ -291,7 +311,7 @@ function MatchRoom:removePolice(playerId, isChange)
       local player = Game.GetPlayerByUserId(playerId)
       self.lastNamePolice = player.name
       if isChange then
-        if Lib.getTableSize(self.userList) > Lib.getTableSize(self.userMurder)  then
+        if Lib.getTableSize(self.userList) > Lib.getTableSize(self.userMurder) then
           World.Timer(
             30,
             function()
@@ -352,7 +372,7 @@ end
 
 function MatchRoom:roomListenning()
   local time = 0
-  
+
   local isGameStart = false
   World.Timer(
     1,
@@ -420,13 +440,13 @@ function MatchRoom:resultPoint()
   end
 end
 function MatchRoom:resetBagAndSpawn()
-    -- self:resetRoom()
-    for k, v in pairs(self.userList) do
-      local player = Game.GetPlayerByUserId(v)
-      Lib.emitEvent("resetTray")
-      --player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
-     player:serverRebirth()
-    end
+  -- self:resetRoom()
+  for k, v in pairs(self.userList) do
+    local player = Game.GetPlayerByUserId(v)
+    Lib.emitEvent("resetTray")
+    --player:setMapPos(self.mapLobby, Define.MATCH.MAP_POS[Define.MATCH.LOBBY])
+    player:serverRebirth()
+  end
 end
 function MatchRoom:EndGameCondition()
   World.Timer(
@@ -444,12 +464,16 @@ function MatchRoom:EndGameCondition()
         Global.ui2List("ui/result_new", self.userList, {room = self})
         self:resetBagAndSpawn()
         self.roomStatus = -1
-      elseif Lib.getTableSize(self.userMurder)==Lib.getTableSize(self:getPlayerList()) then
-            self:resultPoint()
-            Global.ui2List("ui/result_new", self.userList, {room = self})
-            self:resetBagAndSpawn()
-            self.roomStatus = -1
+      elseif
+        Lib.getTableSize(self.userMurder) == Lib.getTableSize(self:getPlayerList()) or
+          Lib.getTableSize(self:getPlayerList()) == 0
+       then
+        self:resultPoint()
+        Global.ui2List("ui/result_new", self.userList, {room = self})
+        self:resetBagAndSpawn()
+        self.roomStatus = -1
       end
+      Lib.pv(self)
       if self.roomStatus == -1 then
         World.Timer(
           70,
@@ -467,20 +491,20 @@ end
 
 function MatchRoom:startGame()
   local start = (self.roomStatus >= 2)
-  Global.closeListUI({"ui/MainWait"},self.userList)
+  Global.closeListUI({"ui/MainWait"}, self.userList)
   self.roomStatus = 3
   local get_map = math.random(1, #Define.MATCH.MAP)
   local map_name = Define.MATCH.MAP[get_map].mapId
   self.mapName = map_name
   local map = World:CreateDynamicMap(map_name, true)
-  self.mapNameId=map.ID
+  self.mapNameId = map.ID
   for k, v in pairs(self.userList) do
     local player = Game.GetPlayerByUserId(v)
     local pos = Define.MATCH.MAP_POS[map_name][math.random(1, #Define.MATCH.MAP_POS[map_name])]
     player:setMapPos(map, pos)
     local packet = player:getValue("temporary")
     Global.ui("ui/role", player, packet)
-    player:addBuff("myplugin/unassailable",Define.MATCH.TIME_UNASSAIABLE)
+    player:addBuff("myplugin/unassailable", Define.MATCH.TIME_UNASSAIABLE)
   end
   World.Timer(
     40,
@@ -494,10 +518,6 @@ function MatchRoom:startGame()
         else
           Global.ui("ui/MainPlay", player, {role = "Innocent"})
         end
-        World.Timer(30,function ()
-          Global.ui("ui/guide",player,{})
-        end)
-        
       end
     end
   )

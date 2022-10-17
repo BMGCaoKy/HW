@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "4411234ca6a2b0ce66558edae9d6d843",
+    "md5": "8459e15072a8c97e614c25f3f1f0123d",
     "path": "asset/ui/MainPlay.layout",
     "root": {
       "anchor": {
@@ -10,6 +10,72 @@
       "children": [
         {
           "__OBJ_TYPE": "StaticText",
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "FrameColours": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "id": {
+                    "value": "3373b42e-0e7a-4033-bc8d-d0aa5db6f8ba"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/MainPlay/Help.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 30
+                    },
+                    "UDim_Y": {
+                      "Offect": 30
+                    }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "DisabledImage": {
+                "asset": "asset/ui/MainPlay/Lock - Nail.png"
+              },
+              "HoverImage": {
+                "asset": "asset/ui/MainPlay/Lock - Nail.png"
+              },
+              "id": {
+                "value": "654a6ce8-0937-4f65-91da-e8d5e4efe25d"
+              },
+              "name": "Help",
+              "NormalImage": {
+                "asset": "asset/ui/MainPlay/Lock - Nail.png"
+              },
+              "PushedImage": {
+                "asset": "asset/ui/MainPlay/Lock - Nail.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 50
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/MainPlay.layout.Button#6e5cd331-7739-462f-888f-be97a2d59d40"
+              }
+            }
+          ],
           "Font": "Fonts/RWcreepsville",
           "Font_size": 30,
           "HorzFormatting": "CentreAligned",
@@ -27,6 +93,7 @@
               "Scale": 0.2
             }
           },
+          "Text": "",
           "text_key": {
             "value": "asset/ui/MainPlay.layout.StaticText#02005ead-72ad-4dda-8eb8-0ffca90c9299"
           },
@@ -147,6 +214,262 @@
             }
           },
           "space": 20
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "056e742e-c7b7-4ed2-b4c7-3bebc4c90724"
+              },
+              "Image": {
+                "asset": "asset/ui/Gui/bg_help.png"
+              },
+              "name": "bg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "fcd54a60-d5fa-4070-9d6a-e53382d949a0"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/police1.png"
+                  },
+                  "name": "police",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 150
+                    },
+                    "UDim_Y": {
+                      "Offect": 150
+                    }
+                  },
+                  "Visible": false,
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "efa1fc8e-cc65-42a5-b00c-5c696fe5ee5a"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/human1.png"
+                  },
+                  "name": "human",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 150
+                    },
+                    "UDim_Y": {
+                      "Offect": 150
+                    }
+                  },
+                  "Visible": false,
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "Alpha": 0.991,
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "5ad48e93-da4c-4ab8-bc21-edc73e206597"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/result_new/murder1.png"
+                  },
+                  "name": "murder",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 150
+                    },
+                    "UDim_Y": {
+                      "Offect": 150
+                    }
+                  },
+                  "Visible": false,
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "c9135cdb-3126-4a71-b5bd-37dbd5e73649"
+              },
+              "Image": {
+                "asset": "asset/ui/Gui/backgroundlight.png"
+              },
+              "name": "frame",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -100
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 150
+                },
+                "UDim_Y": {
+                  "Offect": 150
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 2,
+              "Font": "Fonts/shloprg",
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "7539e931-ef49-46af-bc8c-b148e4263e48"
+              },
+              "name": "label",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -50
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.4
+                }
+              },
+              "Text": "MainPlay.role",
+              "text_key": {
+                "value": "asset/ui/MainPlay.layout.StaticText#38f2bbcd-849f-49a9-82d1-561029cc54ea"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "BorderColor": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BorderWidth": 3,
+              "btn_word_warpped": true,
+              "DisabledImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 40,
+              "HoverImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "3a2ce27e-99e0-4f77-87d4-197eda3d5d8f"
+              },
+              "name": "CloseBtn1",
+              "NormalImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 100
+                }
+              },
+              "PushedImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 100
+                }
+              },
+              "Text": "Tap here to close",
+              "text_key": {
+                "value": "asset/ui/MainPlay.layout.Button#af19eda9-4b55-438f-8e04-2b4486960027"
+              }
+            }
+          ],
+          "id": {
+            "value": "52c41312-9a63-42a1-a8be-12e113375599"
+          },
+          "name": "help_win",
+          "size": {
+            "UDim_X": {
+              "Offect": 800
+            },
+            "UDim_Y": {
+              "Offect": 500
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         }
       ],
       "id": {
@@ -167,7 +490,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "4411234ca6a2b0ce66558edae9d6d843",
+      "layout": "8459e15072a8c97e614c25f3f1f0123d",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

@@ -5,8 +5,6 @@
   "_serverScript": [
     "server/server_script"
   ],
-  "actorGirlName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
-  "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
@@ -69,8 +67,8 @@
       }
     }
   ],
-  "deathHideTime": 60,
-  "destroyTime": 0,
+  "deathHideTime": 100,
+  "destroyTime": 100,
   "disableShadow": true,
   "disableShadowAtFirstPRV": true,
   "dropDamageRatio": 0,
@@ -104,7 +102,7 @@
     10,
     30
   ],
-  "ignorePlayerSkin": true,
+  "ignorePlayerSkin": false,
   "isAIGoHomePos": true,
   "isPlayer": true,
   "jumpHeight": 0.6,
@@ -112,7 +110,7 @@
   "maxHp": 20,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
-  "modelType": "Customize",
+  "modelType": "System",
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,

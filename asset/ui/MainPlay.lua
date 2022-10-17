@@ -14,13 +14,52 @@ local function SecondsToClock(seconds)
   end
 function self:onOpen(packet)
     self.role.Text=packet.role
+    self.role.Text=packet.role
+        if packet.role=="Murder" then
+            self.help_win.frame.murder.Visible=true
+            self.help_win.frame.police.Visible=false
+            self.help_win.frame.human.Visible=false
+            self.help_win.label.Text=Lang:toText("MainPlay.role.murder")
+        elseif packet.role=="Sheriff" then
+            self.help_win.frame.police.Visible=true
+            self.help_win.frame.murder.Visible=false
+            self.help_win.frame.human.Visible=false
+            self.help_win.label.Text=Lang:toText("MainPlay.role.police")
+        else
+            self.help_win.frame.human.Visible=true
+            self.help_win.frame.murder.Visible=false
+            self.help_win.frame.police.Visible=false
+            self.help_win.label.Text=Lang:toText("MainPlay.role.human")
+        end
 end
 PackageHandlers:Receive("UPDATE_ROOM",function (player,packet)
     if packet.role then
         self.role.Text=packet.role
-    end    
+        if packet.role=="Murder" then
+            self.help_win.frame.murder.Visible=true
+            self.help_win.frame.police.Visible=false
+            self.help_win.frame.human.Visible=false
+            self.help_win.label.Text=Lang:toText("MainPlay.role.murder")
+        elseif packet.role=="Sheriff" then
+            self.help_win.frame.police.Visible=true
+            self.help_win.frame.murder.Visible=false
+            self.help_win.frame.human.Visible=false
+            self.help_win.label.Text=Lang:toText("MainPlay.role.police")
+        else
+            self.help_win.frame.human.Visible=true
+            self.help_win.frame.murder.Visible=false
+            self.help_win.frame.police.Visible=false
+            self.help_win.label.Text=Lang:toText("MainPlay.role.human")
+        end
+    end
+   
 end)
-
+self.role.Help.onMouseClick=function ()
+    self.help_win.Visible=not(self.help_win.Visible)
+end
+self.help_win.CloseBtn1.onMouseClick=function ()
+    self.help_win.Visible=not(self.help_win.Visible)
+end
 World.Timer(20,function ()
     time=time-1
     self.time.Text=SecondsToClock(time)
