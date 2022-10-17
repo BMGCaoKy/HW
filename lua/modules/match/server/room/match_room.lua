@@ -444,11 +444,11 @@ function MatchRoom:EndGameCondition()
         Global.ui2List("ui/result_new", self.userList, {room = self})
         self:resetBagAndSpawn()
         self.roomStatus = -1
-      -- elseif Lib.getTableSize(self.userPolice)==0 then
-      --       self:resultPoint()
-      --       Global.ui2List("ui/result_new", self.userList, {room = self})
-      --       self:resetBagAndSpawn()
-      --       self.roomStatus = -1
+      elseif Lib.getTableSize(self.userMurder)==Lib.getTableSize(self:getPlayerList()) then
+            self:resultPoint()
+            Global.ui2List("ui/result_new", self.userList, {room = self})
+            self:resetBagAndSpawn()
+            self.roomStatus = -1
       end
       if self.roomStatus == -1 then
         World.Timer(
