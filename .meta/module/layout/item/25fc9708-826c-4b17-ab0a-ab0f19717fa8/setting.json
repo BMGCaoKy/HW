@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "ac3be30a5e8485ef4dceaa6b7dcf76de",
+    "md5": "8cd59481f5ee0d851c5be61988dcca7c",
     "path": "asset/ui/loading.layout",
     "root": {
       "children": [
@@ -13,7 +13,7 @@
           },
           "BackgroundEnabled": true,
           "id": {
-            "value": "536c54ea-9d01-46a7-a5d1-27b81c3098b2"
+            "value": "d663a6d7-8964-474a-a79c-821c699afccd"
           },
           "Image": {
             "asset": "",
@@ -44,7 +44,7 @@
           },
           "effectYPosition": 100,
           "id": {
-            "value": "0e0630ec-b4a1-4bdc-81be-2722cf734cb3"
+            "value": "b9211d11-92a1-486c-bdf0-5ac094373042"
           }
         },
         {
@@ -63,7 +63,7 @@
               "Font_size": 50,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "7ce7c334-77ca-4150-ad51-44731299b3a5"
+                "value": "0e95db43-6b97-4c35-bfda-d096d1386c58"
               },
               "name": "Status",
               "size": {
@@ -89,7 +89,7 @@
               "Font": "Fonts/RWcreepsville",
               "Font_size": 70,
               "id": {
-                "value": "4eca6fb4-d690-44a1-8d9a-b7d0e57dbee2"
+                "value": "f4c4339c-4862-4d29-b8f8-b121a77a4759"
               },
               "name": "Dot",
               "pos": {
@@ -117,7 +117,7 @@
             }
           ],
           "id": {
-            "value": "41858a65-a736-4f26-ad9a-d23372ee0910"
+            "value": "c8992092-89fc-4fd5-95aa-ea3016bae9b6"
           },
           "name": "Container",
           "pos": {
@@ -127,13 +127,13 @@
           },
           "size": {
             "UDim_X": {
-              "Offect": 1284
+              "Offect": 1287
             }
           }
         }
       ],
       "id": {
-        "value": "8b2a6850-8755-472f-af59-ed4759232c75"
+        "value": "fd8e7de3-b1e8-4e7e-9db9-273db0b63bae"
       },
       "size": {
         "UDim_X": {
@@ -149,7 +149,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "ac3be30a5e8485ef4dceaa6b7dcf76de",
+      "layout": "8cd59481f5ee0d851c5be61988dcca7c",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

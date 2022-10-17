@@ -11,8 +11,11 @@
       }
     ],
     "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
       "girlactor": {
-        "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+        "asset": ""
       }
     },
     "AI_attack": {
@@ -50,7 +53,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fd1d325e89811441b90696a7d5e4d601",
+      "setting.json": "b882397b91c603991889b6098fb1daa6",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

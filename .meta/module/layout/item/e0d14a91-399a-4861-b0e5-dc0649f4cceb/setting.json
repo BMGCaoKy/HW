@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "2e01338179b956a5e1d7ff87170943d6",
+    "md5": "6bb7de2cc115cb41a83a2193c15c1bf5",
     "path": "asset/ui/result_new.layout",
     "root": {
       "anchor": {
@@ -22,7 +22,7 @@
           },
           "BackgroundEnabled": true,
           "id": {
-            "value": "fcca5287-fc5f-45a6-aad0-0947cd3ca8d4"
+            "value": "1db60443-b76d-4d3a-b769-2b12fe7e48eb"
           },
           "Image": {
             "asset": "",
@@ -54,7 +54,7 @@
             {
               "__OBJ_TYPE": "StaticImage",
               "id": {
-                "value": "cc27da91-19c5-4cfd-8c5d-6547537caec5"
+                "value": "f67f0e17-fda5-4672-8b71-0cbeabf01de5"
               },
               "Image": {
                 "asset": "asset/ui/result_new/Vector.png"
@@ -86,7 +86,7 @@
                     {
                       "__OBJ_TYPE": "StaticImage",
                       "id": {
-                        "value": "796bee4f-e3f1-49ab-8909-8e6f1b20f6d5"
+                        "value": "8186d70a-67a2-4867-9125-844b87f70fa6"
                       },
                       "Image": {
                         "asset": "asset/ui/result_new/khung.png"
@@ -111,7 +111,7 @@
                     }
                   ],
                   "id": {
-                    "value": "253c2af7-7509-4833-b34e-580929a0b721"
+                    "value": "b9f897e1-268e-4aab-a956-cf840cc8252a"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/Vector_mini.png"
@@ -135,7 +135,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "9552be91-bc92-4077-86a0-6f2b362f0a76"
+                    "value": "7af0bd50-1855-40f8-ae0c-daf5f944683e"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/murder1.png"
@@ -171,7 +171,7 @@
                   "Font_size": 22,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "b18e0d91-9dc1-4da4-bca0-df27b7273b07"
+                    "value": "78f34ece-5ff6-42f6-8aa7-56f101ec0fd4"
                   },
                   "name": "name",
                   "size": {
@@ -207,7 +207,7 @@
                       },
                       "BackgroundEnabled": true,
                       "id": {
-                        "value": "09fa99a2-e97d-47c6-a449-175bd2e3353b"
+                        "value": "31dc4d2c-2314-471a-b194-5a577440d9ee"
                       },
                       "Image": {
                         "asset": "",
@@ -222,11 +222,12 @@
                           "Offect": 0,
                           "Scale": 1
                         }
-                      }
+                      },
+                      "Visible": false
                     }
                   ],
                   "id": {
-                    "value": "3cb17e8d-318c-4dda-8258-0caa1c04a1db"
+                    "value": "11445322-6dcc-4dce-8d15-8c491d47f970"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/x.png"
@@ -246,7 +247,7 @@
                 }
               ],
               "id": {
-                "value": "b7a9f2b8-de15-4349-9d1a-21025ce25bb2"
+                "value": "5f0540ef-268c-43b2-a958-bdc043ef8b85"
               },
               "name": "murder_win",
               "pos": {
@@ -276,7 +277,7 @@
                     {
                       "__OBJ_TYPE": "StaticImage",
                       "id": {
-                        "value": "d12204d6-e305-4627-9ed7-c8cd6dc7b867"
+                        "value": "19532327-0346-46d1-8eee-b080d3260715"
                       },
                       "Image": {
                         "asset": "asset/ui/result_new/khung.png"
@@ -301,7 +302,7 @@
                     }
                   ],
                   "id": {
-                    "value": "58086a15-da03-4cae-83cf-99a5a45571a9"
+                    "value": "275dffc2-06b9-470e-8aa4-0f5e93d3fb82"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/Vector_mini.png"
@@ -325,7 +326,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "747877f0-8d6b-4461-ae6a-e8b0b06e1c8f"
+                    "value": "dc6d1500-8322-4e3f-8daa-6bf7937b76da"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/police1.png"
@@ -361,7 +362,7 @@
                   "Font_size": 22,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "f53822f1-f5c5-4f6a-b8e9-062f6bb71041"
+                    "value": "ac175987-b5c5-4881-a60f-30d4f38070dd"
                   },
                   "name": "name",
                   "size": {
@@ -397,7 +398,7 @@
                       },
                       "BackgroundEnabled": true,
                       "id": {
-                        "value": "80c1cb5a-5eac-464c-8715-f1d2e7d728a6"
+                        "value": "9f5e780a-5843-40f7-8c11-f046c8888f8f"
                       },
                       "Image": {
                         "asset": "",
@@ -412,11 +413,12 @@
                           "Offect": 0,
                           "Scale": 1
                         }
-                      }
+                      },
+                      "Visible": false
                     }
                   ],
                   "id": {
-                    "value": "966ceada-b2c5-4a13-89f4-6edfe47ef091"
+                    "value": "96e3256a-0565-4195-9454-b6a750f9b14d"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/x.png"
@@ -436,7 +438,7 @@
                 }
               ],
               "id": {
-                "value": "442ef469-8f48-4810-8400-7a077a2d64f0"
+                "value": "4fddc498-b2c5-4a92-a9ec-25c233f3b4c2"
               },
               "name": "police_win",
               "pos": {
@@ -459,7 +461,7 @@
                 "HorizontalAlignment": "Centre"
               },
               "id": {
-                "value": "fba4fe6e-a3a0-4820-b807-3f23ebbf3d55"
+                "value": "30fec867-29ba-419c-8979-39c41d573db1"
               },
               "Image": {
                 "asset": "asset/ui/result_new/VS5.png"
@@ -489,7 +491,7 @@
                 {
                   "__OBJ_TYPE": "ProgressBar",
                   "id": {
-                    "value": "ac184aa3-1bf7-4245-9a18-d6ac65b30d65"
+                    "value": "2bc62190-9cb2-4836-84db-e817ff8ae9b3"
                   },
                   "progress_background_image": {
                     "asset": "asset/ui/result_new/Rect.png"
@@ -514,7 +516,7 @@
                           "Font_size": 20,
                           "HorzFormatting": "CentreAligned",
                           "id": {
-                            "value": "e9e55f55-10e4-4460-a0b5-f9e3fe981675"
+                            "value": "a1c63954-4bd7-4006-907c-79c99c53c2b3"
                           },
                           "name": "add",
                           "size": {
@@ -539,7 +541,7 @@
                         {
                           "__OBJ_TYPE": "StaticImage",
                           "id": {
-                            "value": "21c81cc2-c9b9-4fc9-a72d-0036fa750e8c"
+                            "value": "1f0413bf-f8ca-41a3-b22b-945349f036e0"
                           },
                           "Image": {
                             "asset": "asset/ui/result_new/star.png"
@@ -560,7 +562,7 @@
                         }
                       ],
                       "id": {
-                        "value": "88aea0a3-20c9-476c-b9ef-f7fbe1d9be56"
+                        "value": "74bc21a8-c1f3-4b11-816e-5551c1ceb02c"
                       },
                       "name": "text_layout",
                       "size": {
@@ -574,7 +576,7 @@
                     }
                   ],
                   "id": {
-                    "value": "cf5e47e4-84c2-4af2-a4da-f4876e89f7b0"
+                    "value": "e9eb7e1b-67be-475e-b0ab-6503025d2914"
                   },
                   "name": "num_win",
                   "pos": {
@@ -593,7 +595,7 @@
                 }
               ],
               "id": {
-                "value": "23b0812d-64b0-4385-bbd0-634ace3873d1"
+                "value": "af644982-4ff7-4c9d-9068-292dcc161b0f"
               },
               "name": "exp_layout",
               "pos": {
@@ -625,7 +627,7 @@
                     "VerticalAlignment": "Bottom"
                   },
                   "id": {
-                    "value": "cf96ae2d-9283-451d-9dc4-86b0ee8de264"
+                    "value": "9452c0ac-09b0-41ca-8b91-5ae016d75031"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/bg_gray.png"
@@ -660,7 +662,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "17fabbf2-e840-4bbd-bcf8-0646543844b0"
+                        "value": "2dbe82b3-e185-4a21-b15f-3e00a01bf481"
                       },
                       "size": {
                         "UDim_X": {
@@ -692,7 +694,7 @@
                           "Font_size": 30,
                           "HorzFormatting": "CentreAligned",
                           "id": {
-                            "value": "43ce4808-ae6f-4e35-b967-a9d329d6fc2b"
+                            "value": "599ae70e-8831-45e2-b78c-216779cfed5d"
                           },
                           "name": "add",
                           "size": {
@@ -719,7 +721,7 @@
                           "__OBJ_TYPE": "StaticImage",
                           "Alpha": 0.994,
                           "id": {
-                            "value": "6c48dd98-4ad1-4b24-9fb3-3e4ac96a8d8b"
+                            "value": "adc324fd-13e3-4ce5-99eb-1e1307a1cd52"
                           },
                           "Image": {
                             "asset": "asset/ui/result_new/Hourglass.png"
@@ -740,7 +742,7 @@
                         }
                       ],
                       "id": {
-                        "value": "b90cc2ce-b5d4-4e0f-960c-db4de3b52ca5"
+                        "value": "e9d441c4-0154-4bd6-8ea7-779ded854ab7"
                       },
                       "name": "text_layout",
                       "pos": {
@@ -759,7 +761,7 @@
                     }
                   ],
                   "id": {
-                    "value": "ec363b70-eac1-4a80-8345-2e409d12d4c1"
+                    "value": "7bad4f00-6df3-4144-9082-4e032d03a67d"
                   },
                   "name": "layout",
                   "size": {
@@ -774,7 +776,7 @@
                 }
               ],
               "id": {
-                "value": "507a26a0-68e8-4d6b-bac7-0ab64fe456e5"
+                "value": "34fb26a3-7d97-418b-beac-b3c888292b52"
               },
               "name": "survial_point_win",
               "size": {
@@ -795,7 +797,7 @@
                 "asset": "asset/ui/result_new/exit.png"
               },
               "id": {
-                "value": "805a56ad-b7ce-45b9-a38d-135bda726f69"
+                "value": "faa3caf3-e854-41dd-8018-4a973bf9dc44"
               },
               "name": "Exit",
               "NormalImage": {
@@ -827,7 +829,7 @@
             }
           ],
           "id": {
-            "value": "adc95017-2525-45f2-bab1-71abf9c6793a"
+            "value": "8c582edf-c68d-4d0e-ba03-f57688afa29a"
           },
           "name": "bg",
           "size": {
@@ -841,7 +843,7 @@
         }
       ],
       "id": {
-        "value": "879aadc6-945a-4235-a9ac-be8c1fb912af"
+        "value": "429d8357-e3ce-48ca-a4ac-da987f602bb5"
       },
       "size": {
         "UDim_X": {
@@ -857,7 +859,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "2e01338179b956a5e1d7ff87170943d6",
+      "layout": "6bb7de2cc115cb41a83a2193c15c1bf5",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

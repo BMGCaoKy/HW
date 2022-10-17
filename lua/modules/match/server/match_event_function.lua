@@ -44,13 +44,20 @@ end
 event["ENTITY_DIE"] = function(p)
     local victim = p.obj1
     local killer = p.obj2
-
-    local createParams = { name=victim.name ,cfgName = "myplugin/ghost", pos = victim:getPosition() , map = victim.map }
-    local entity = EntityServer.Create(createParams)
     if killer then
+        local createParams = { name=victim.name ,cfgName = "myplugin/ghost", pos = victim:getPosition() , map = killer.map }
+        local entity = EntityServer.Create(createParams)
+    end
+    
+    if killer and victim.isPlayer then
         Global.ui("ui/MainWait",p.obj1,{})
         for k, v in pairs(Global.listRoom) do
             if v:isInRoom(victim.platformUserId) then
+                print("Killer là police:",v:isPolice(killer.platformUserId))
+                print("Killer là murder:",v:isMurder(killer.platformUserId))
+
+                print("Victim là police:",v:isPolice(victim.platformUserId))
+                print("Victim là murder:",v:isMurder(victim.platformUserId))
                 if v:isPolice(killer.platformUserId) then
                     if not (v:isMurder(victim.platformUserId)) and not (v:isPolice(victim.platformUserId)) then
                         v:kill(killer.platformUserId,true)

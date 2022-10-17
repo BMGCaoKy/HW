@@ -1,16 +1,16 @@
 {
   "data": {
-    "md5": "c491d756fbf5ecfc87f241eb8c10ad82",
+    "md5": "1db696749c60598003a91f8092410154",
     "path": "asset/ui/bag.layout",
     "root": {
       "id": {
-        "value": "fa621fc6-bab8-473e-b23c-ab6ddadb9046"
+        "value": "dd3fae9d-9c60-4f0a-b62b-442c4a3743cd"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "c491d756fbf5ecfc87f241eb8c10ad82",
+      "layout": "1db696749c60598003a91f8092410154",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

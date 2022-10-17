@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "eb2d1fa44c2d20289d3139f38fcb7c4d",
+    "md5": "f32dec74fad3fc398352692a9b042430",
     "path": "asset/ui/MainWait.layout",
     "root": {
       "anchor": {
@@ -31,7 +31,7 @@
                         "asset": "asset/ui/MainWait/CameraEye.png"
                       },
                       "id": {
-                        "value": "3e0b40c5-9e43-493d-995f-74be2918ff39"
+                        "value": "3897c9b1-355a-4e59-b443-9fb1b84e871a"
                       },
                       "NormalImage": {
                         "asset": "asset/ui/MainWait/CameraEye.png"
@@ -63,7 +63,7 @@
                       "Font": "Fonts/CakeZombie",
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "33c7a236-b88f-4340-b7a7-72ef447e0387"
+                        "value": "b7b944a4-973e-4561-9348-46ee9bfd8a93"
                       },
                       "size": {
                         "UDim_X": {
@@ -81,7 +81,7 @@
                     }
                   ],
                   "id": {
-                    "value": "2301fa39-cd65-49d4-81a1-dda0854afe66"
+                    "value": "cb4851ac-0036-417a-a404-41b25fc6f5d4"
                   },
                   "name": "watchMode",
                   "size": {
@@ -95,7 +95,7 @@
                 }
               ],
               "id": {
-                "value": "81d5a082-dba8-4118-9c6e-2fb5bb8de579"
+                "value": "6206ac28-be8d-45fb-88af-2191412291ee"
               },
               "name": "ListBtn",
               "size": {
@@ -107,7 +107,7 @@
             }
           ],
           "id": {
-            "value": "c7480156-94ab-4e56-ab07-3bb5c5cefff1"
+            "value": "35b17032-eb59-4439-9f24-60ebbe0a72e1"
           },
           "name": "Menu",
           "size": {
@@ -119,7 +119,7 @@
         }
       ],
       "id": {
-        "value": "de5f605c-487c-4bdb-a5c7-90cd25e140da"
+        "value": "da9a3910-89ba-40f4-aee7-830462720389"
       },
       "size": {
         "UDim_X": {
@@ -136,7 +136,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "eb2d1fa44c2d20289d3139f38fcb7c4d",
+      "layout": "f32dec74fad3fc398352692a9b042430",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

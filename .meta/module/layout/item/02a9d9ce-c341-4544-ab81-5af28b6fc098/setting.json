@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "3fb18a0c73d851093e407816b0d1cea4",
+    "md5": "9012c248e0c467d73074997602709c10",
     "path": "asset/ui/toolbar2.layout",
     "root": {
       "children": [
@@ -14,7 +14,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "8bdd0d41-1c04-467f-b043-34dca94e9556"
+                "value": "3e3c87cd-04e0-4e94-b8f7-29286e3c05c2"
               },
               "Image": {
                 "asset": "asset/ui/toolbar2/Settings.png"
@@ -40,7 +40,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "4b2c0137-40a3-4e33-bdd9-1943f582e35f"
+                "value": "f6bdf2bf-345e-43fe-bf6c-d7901b2b056a"
               },
               "name": "chatBtn",
               "pos": {
@@ -60,7 +60,7 @@
             }
           ],
           "id": {
-            "value": "1b9bcbc6-bf5f-4a44-8ac9-0a5c1755ea6f"
+            "value": "fe62df5c-a030-48fb-ab62-3a5f74c281d6"
           },
           "name": "SystemBtnLayout",
           "size": {
@@ -75,7 +75,7 @@
         }
       ],
       "id": {
-        "value": "ad31bb07-0fd5-471a-ae92-b8d84bb972e9"
+        "value": "e8dbc577-10ff-4962-922c-01d687a993af"
       },
       "size": {
         "UDim_X": {
@@ -90,7 +90,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "3fb18a0c73d851093e407816b0d1cea4",
+      "layout": "9012c248e0c467d73074997602709c10",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "4fbd3752a505de204a8e05bdb8ea5233",
+    "md5": "49e8cad66ca9b4bcf239501dc862d635",
     "path": "asset/ui/notification.layout",
     "root": {
       "anchor": {
@@ -30,7 +30,7 @@
               "Font_size": 20,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "aed5641a-67f6-4d2a-9e2b-11903da10f0c"
+                "value": "401106ee-d8be-4d2c-a9ba-14db944ce4fc"
               },
               "name": "label",
               "size": {
@@ -54,7 +54,7 @@
             }
           ],
           "id": {
-            "value": "806ed00a-6651-404b-8161-34cd93fab01d"
+            "value": "985519ec-ca83-47f3-9108-6b38e1f09374"
           },
           "Image": {
             "asset": "asset/ui/notification_head/g2048_settlement.imageset",
@@ -74,7 +74,7 @@
         }
       ],
       "id": {
-        "value": "25d72de5-5ff1-442a-88c1-c78bc9bfae41"
+        "value": "17878363-5dec-4bc5-80df-e32984f2276f"
       },
       "pos": {
         "UDim_Y": {
@@ -94,7 +94,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "4fbd3752a505de204a8e05bdb8ea5233",
+      "layout": "49e8cad66ca9b4bcf239501dc862d635",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

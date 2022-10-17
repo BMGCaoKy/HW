@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "1baddfa589124a24ae6bbe37b0f325a4",
+    "md5": "0632a23c24072075d5ffad8e0824de71",
     "path": "asset/ui/popup.layout",
     "root": {
       "children": [
@@ -13,7 +13,7 @@
               "Font_size": 60,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "3cff12c1-846b-4a3c-9870-e4e001ddf953"
+                "value": "135b8a2c-b891-43ac-bbc4-a5bb6e11b2d7"
               },
               "name": "Label",
               "size": {
@@ -48,7 +48,7 @@
               "Font_size": 60,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "669f6efa-700f-42e9-929e-c6b55b46772a"
+                "value": "14ad67f9-beff-4b0f-9e66-f614dab20a2b"
               },
               "name": "MainLabel",
               "pos": {
@@ -75,12 +75,12 @@
             }
           ],
           "id": {
-            "value": "eabc7c25-56ab-4b2f-a6a5-b69856e6e6a8"
+            "value": "47cd39d1-49d9-49fa-9e7d-e8efbf3ad22e"
           },
           "name": "ListText",
           "size": {
             "UDim_X": {
-              "Offect": 1284
+              "Offect": 1287
             },
             "UDim_Y": {
               "Offect": 180
@@ -90,7 +90,7 @@
         }
       ],
       "id": {
-        "value": "908799ed-d252-4ae1-9e55-a8ed25c1a4c5"
+        "value": "001ae93d-9cf5-4418-b902-10bdb3fe37d7"
       },
       "size": {
         "UDim_X": {
@@ -107,7 +107,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "1baddfa589124a24ae6bbe37b0f325a4",
+      "layout": "0632a23c24072075d5ffad8e0824de71",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"
