@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "bec9c4eb65666a722bcfc976875a6a1f",
+    "md5": "e59a61509295c8fc2c6adeb57412126f",
     "path": "asset/ui/watch_mode.layout",
     "root": {
       "anchor": {
@@ -118,7 +118,8 @@
             "UDim_Y": {
               "Offect": 100
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
         },
         {
           "__OBJ_TYPE": "DefaultWindow",
@@ -201,7 +202,8 @@
             "UDim_Y": {
               "Offect": 100
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
         },
         {
           "__OBJ_TYPE": "Button",
@@ -223,7 +225,9 @@
           "Text": "<",
           "text_key": {
             "value": "asset/ui/watch_mode.layout.Button#c1a8fc0c-cb00-4e62-925a-c989bc7912d2"
-          }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
         },
         {
           "__OBJ_TYPE": "Button",
@@ -246,7 +250,31 @@
           "Text": ">",
           "text_key": {
             "value": "asset/ui/watch_mode.layout.Button#05b98a42-8e4c-4f59-83b6-2416c5564d03"
-          }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "4a85b42d-d622-4a3a-9c50-f491ecfaadd4"
+          },
+          "Image": {
+            "asset": "asset/ui/img/0001.jpg"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 400
+            },
+            "UDim_Y": {
+              "Offect": 700
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
         }
       ],
       "id": {
@@ -261,12 +289,13 @@
           "Offect": 0,
           "Scale": 1
         }
-      }
+      },
+      "WindowTouchThroughMode": "MousePassThroughAlpha"
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "bec9c4eb65666a722bcfc976875a6a1f",
+      "layout": "e59a61509295c8fc2c6adeb57412126f",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

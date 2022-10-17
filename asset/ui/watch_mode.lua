@@ -45,22 +45,35 @@ local function getPlayerList(room)
 end)
 function self:onOpen(packet)
     World.Timer(1,function ()
+        if self.Visible then
+         
+        else
+          
+        end
         if viewBy==nil then
             return true
         else
-            print("PLYAER: ",viewBy)
-            local player=Game.GetPlayerByUserId(viewBy)
-            print(Global.mapNameId)
-            local worldMap=World:GetMapByID(Global.mapNameId)
-            print("ID Map: ",worldMap)
-            local data=worldMap:getObject(player.objID)
-            Blockman.Instance():setViewEntity(data)
-            return false
+          local index=1
+           World.Timer(2,function()
+               local key=index
+               if index<10 then
+                key="0"..index
+              end
+               local imageName="00"..key..".jpg"
+               self.Image.Image = "asset/ui/img/"..imageName
+               index=index+1
+               if index>80 then
+                 index=1
+              end
+              return true
+          end)
+          return false
         end
         
     end)
     
 end
 self.head.CloseBtn.onMouseClick=function ()
-    UI:closeWindow(self)
+    self.Visible=false
+    TdAudioEngine.Instance():stopSound(Global.soundID)
 end
