@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "6836003c1052e6a6a0095b77db635715",
+    "md5": "3fe750a8a7480ebcd36de56f61d682f5",
     "path": "asset/ui/result.layout",
     "root": {
       "anchor": {
@@ -18,7 +18,7 @@
           },
           "BackgroundEnabled": true,
           "id": {
-            "value": "fcf0cd87-faf2-4224-991c-4b2308a7f80a"
+            "value": "30255800-70b2-4eb7-87e1-b26424c0ead1"
           },
           "Image": {
             "asset": "",
@@ -60,7 +60,7 @@
                 "r": 187
               },
               "id": {
-                "value": "baab83a2-b887-4457-9dac-37a14b609d58"
+                "value": "35fda29a-9302-47ab-8da5-373405d213c7"
               },
               "Image": {
                 "asset": "asset/ui/result/main_map.imageset",
@@ -102,7 +102,7 @@
                             "VerticalAlignment": "Centre"
                           },
                           "id": {
-                            "value": "3e22c2d0-5bb6-4caf-a5ae-e593186c639b"
+                            "value": "ba23e916-0db8-444b-9307-ecbac3fb8cc5"
                           },
                           "size": {
                             "UDim_X": {
@@ -127,7 +127,7 @@
                               "__OBJ_TYPE": "StaticImage",
                               "Alpha": 0.5,
                               "id": {
-                                "value": "84ffb02d-623d-49d2-95e3-d7d2e6c0a1ca"
+                                "value": "fd4fd6be-7d01-44de-bec6-7587f4bf8ead"
                               },
                               "Image": {
                                 "asset": "asset/ui/result/signal_sos2.png"
@@ -155,7 +155,7 @@
                               "Font_size": 60,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "127b5172-a2d1-4321-a2fc-34651907c7e7"
+                                "value": "814f2d06-61fd-47bb-a7b2-d8886befce2a"
                               },
                               "size": {
                                 "UDim_X": {
@@ -183,7 +183,7 @@
                               "Font_size": 25,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "325ca587-b53b-4774-9240-3a0cf5e3ea80"
+                                "value": "c74bb62d-2b0e-40f6-9c93-93810564c588"
                               },
                               "name": "name",
                               "size": {
@@ -204,7 +204,7 @@
                             }
                           ],
                           "id": {
-                            "value": "64d5acbf-591b-4f4d-83bb-6b0668110fa3"
+                            "value": "b0b3c360-d79a-4a07-8082-951c86d686c2"
                           },
                           "Image": {
                             "asset": "",
@@ -235,7 +235,7 @@
                               "__OBJ_TYPE": "StaticImage",
                               "Alpha": 0.5,
                               "id": {
-                                "value": "5644838b-ab6a-42cc-9fc6-40472fb0cc91"
+                                "value": "4b9dee8c-4501-4a70-91ed-7641e5325313"
                               },
                               "Image": {
                                 "asset": "asset/ui/result/signal_muster2.png"
@@ -263,7 +263,7 @@
                               "Font_size": 60,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "196029c6-7ef4-4cf5-b1be-07f54ad2a9a9"
+                                "value": "cf2fb4d5-f935-473f-b406-98919b2546f7"
                               },
                               "size": {
                                 "UDim_X": {
@@ -291,7 +291,7 @@
                               "Font_size": 25,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "9cdbdca8-e44f-4345-b28b-1de50b86e5ac"
+                                "value": "42e573fd-90da-4cc6-96f8-bd007e00c985"
                               },
                               "name": "name",
                               "size": {
@@ -312,7 +312,7 @@
                             }
                           ],
                           "id": {
-                            "value": "3527a716-7585-4501-b71a-cdbeb223a72a"
+                            "value": "cfb209dd-4d77-4442-ae17-4c67bbd0c17f"
                           },
                           "Image": {
                             "asset": "",
@@ -333,7 +333,7 @@
                         }
                       ],
                       "id": {
-                        "value": "d083c86c-71d8-4485-a96b-5842184e8cfb"
+                        "value": "4d405cbf-c1ea-46a0-9cf7-962bc3cf4050"
                       },
                       "Image": {
                         "asset": "",
@@ -353,7 +353,7 @@
                     }
                   ],
                   "id": {
-                    "value": "6a876451-5620-45d9-8506-e2f715dcdf50"
+                    "value": "c5260ea5-fc39-4665-bd32-2537a7548205"
                   },
                   "name": "Murder",
                   "size": {
@@ -387,7 +387,7 @@
                             "VerticalAlignment": "Centre"
                           },
                           "id": {
-                            "value": "f8621fca-bc80-431c-adbd-5a67e9a144cc"
+                            "value": "1d7d7c25-b3ce-48f0-9243-67498b95f86a"
                           },
                           "size": {
                             "UDim_X": {
@@ -412,7 +412,7 @@
                               "__OBJ_TYPE": "StaticImage",
                               "Alpha": 0.5,
                               "id": {
-                                "value": "8f6a6e06-1b57-444d-8e63-4d3cab33c407"
+                                "value": "3d7aac02-c65a-49d5-bdb0-f35763ec4e7d"
                               },
                               "Image": {
                                 "asset": "asset/ui/result/signal_sos2.png"
@@ -440,7 +440,7 @@
                               "Font_size": 60,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "1693afca-686c-4af3-9363-eac017e23833"
+                                "value": "ecbc3df1-6a50-420a-a1ef-28eeeb77be4f"
                               },
                               "size": {
                                 "UDim_X": {
@@ -468,7 +468,7 @@
                               "Font_size": 25,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "1b8d8906-ed90-4bcc-8dcc-316c96bf9618"
+                                "value": "7a37fe71-bdd8-472c-89b7-72ed409311b9"
                               },
                               "name": "name",
                               "size": {
@@ -489,7 +489,7 @@
                             }
                           ],
                           "id": {
-                            "value": "0ff47bb8-9603-4ca6-bc40-4c4eebca976d"
+                            "value": "dcfffb35-87bc-4266-af3d-bdec40102665"
                           },
                           "Image": {
                             "asset": "",
@@ -520,7 +520,7 @@
                               "__OBJ_TYPE": "StaticImage",
                               "Alpha": 0.5,
                               "id": {
-                                "value": "4cc0e5b3-960e-40d4-9bbf-2d76f91260e8"
+                                "value": "34868ef8-f202-4fcf-a896-33dcfb5e8a27"
                               },
                               "Image": {
                                 "asset": "asset/ui/result/signal_muster2.png"
@@ -548,7 +548,7 @@
                               "Font_size": 60,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "03106c42-a716-4396-9b1d-dd4647a5cd7e"
+                                "value": "a6ce0caf-646b-4ad1-8ddd-eab772e2cad5"
                               },
                               "size": {
                                 "UDim_X": {
@@ -576,7 +576,7 @@
                               "Font_size": 25,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "b06f06f9-9c47-48d8-b1ba-b2ec5be16879"
+                                "value": "c61cea44-b522-4e46-a435-5784a6fbf97e"
                               },
                               "name": "name",
                               "size": {
@@ -597,7 +597,7 @@
                             }
                           ],
                           "id": {
-                            "value": "927de2c1-2907-444f-896e-44d7fe9372e2"
+                            "value": "50028f1e-5c76-489b-a3ba-bad17ed76043"
                           },
                           "Image": {
                             "asset": "",
@@ -618,7 +618,7 @@
                         }
                       ],
                       "id": {
-                        "value": "58dd444f-2175-4a81-97ea-a9f726f1255d"
+                        "value": "f62bb74e-0301-4b67-900f-318eaaa5618e"
                       },
                       "Image": {
                         "asset": "",
@@ -638,7 +638,7 @@
                     }
                   ],
                   "id": {
-                    "value": "1b5d96d7-8e3f-4c22-93d1-711756df546d"
+                    "value": "bd74828e-f5fe-4fd0-9b41-0473b8833993"
                   },
                   "name": "Sheriff",
                   "pos": {
@@ -659,7 +659,7 @@
                 }
               ],
               "id": {
-                "value": "57f33433-3b7e-4347-9e7e-c72267c1cf2c"
+                "value": "afaa7c5d-4137-47ff-83a3-62f35df181b2"
               },
               "name": "character",
               "size": {
@@ -687,7 +687,7 @@
               "Font_size": 72,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "efef7acd-33a1-46ca-a8cd-0fd847583ec4"
+                "value": "830e3ebf-b446-4e1a-9f4b-d604225f4c04"
               },
               "name": "Status",
               "size": {
@@ -712,7 +712,7 @@
             }
           ],
           "id": {
-            "value": "4d6d218e-318e-469c-9e54-abd8156ffc1f"
+            "value": "e6dc76a4-9919-4b4b-a030-df77c0027b98"
           },
           "name": "win_result",
           "size": {
@@ -740,7 +740,7 @@
           "Font_size": 40,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "1acc8b26-5cb5-47af-b463-9887d29dead1"
+            "value": "8be019ab-5a31-4ac3-9619-a9c1e729b9a5"
           },
           "name": "closeBtn",
           "size": {
@@ -765,7 +765,7 @@
         }
       ],
       "id": {
-        "value": "557a818f-4718-4c5d-88ec-0778f8a80195"
+        "value": "bd5738c3-d3c1-4b7f-9e34-289e569ba18b"
       },
       "size": {
         "UDim_X": {
@@ -781,7 +781,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "6836003c1052e6a6a0095b77db635715",
+      "layout": "3fe750a8a7480ebcd36de56f61d682f5",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

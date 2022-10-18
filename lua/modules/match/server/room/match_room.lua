@@ -109,6 +109,7 @@ function MatchRoom:setMurder(userId)
   local player = Game.GetPlayerByUserId(userId)
   self.lastNameMurder = player.name
   table.insert(self.userMurder, userId)
+  PackageHandlers:SendToClient(player,"RESET_BAG")
 
   local baseInform = player:getValue("baseInform")
   if baseInform then
@@ -125,7 +126,7 @@ function MatchRoom:setPolice(userId)
   local player = Game.GetPlayerByUserId(userId)
   self.lastNamePolice = player.name
   table.insert(self.userPolice, userId)
-
+  PackageHandlers:SendToClient(player,"RESET_BAG")
   local baseInform = player:getValue("baseInform")
   if baseInform then
     local itemId = "myplugin/gun_01"
@@ -258,8 +259,48 @@ end
 
 function MatchRoom:randomPolice()
   local item = {}
-  local list1 = self:getPlayerList()
-  print(Lib.pv(list1))
+  
+  local list = {}
+  local isPlaying = true
+  for k, v in pairs(self.userList) do
+    print("--------------------check id:",v)
+    if Lib.getTableSize(self.userDeath[1]) > 0 then
+      for kk, vv in pairs(self.userDeath[1]) do
+        if vv == v then
+          isPlaying = false
+          print("khong add")
+          break
+        end
+      end
+    end
+    if Lib.getTableSize(self.userDeath[2]) > 0 then
+      for kk, vv in pairs(self.userDeath[2]) do
+        if vv == v then
+          isPlaying = false
+          print("khong add")
+          break
+        end
+      end
+    end
+    if Lib.getTableSize(self.userDeath[3]) > 0 then
+      for kk, vv in pairs(self.userDeath[3]) do
+        if vv == v then
+          isPlaying = false
+          print("khong add")
+          break
+        end
+      end
+    end
+    if isPlaying then
+      table.insert(list, v)
+      print("------>add",v)
+      print(Lib.pv(list))
+    end
+    print("-------------end------------")
+  end
+  local list1 = list
+  print("self:",Lib.pv(self))
+  print("list:",Lib.pv(list1))
   for k, v in pairs(list1) do
     if not (self:isMurder(v)) and not (self:isPolice(v)) then
       local player = Game.GetPlayerByUserId(v)
@@ -273,7 +314,7 @@ function MatchRoom:randomPolice()
       )
     end
   end
-  print(Lib.pv(item))
+  print("item:",Lib.pv(item))
   if Lib.getTableSize(item) > 0 then
     local key, idUser = getRandomItem(item)
     print("cảnh sát là:",idUser)
@@ -356,7 +397,7 @@ function MatchRoom:removePolice(playerId, isChange)
         if Lib.getTableSize(num) > Lib.getTableSize(self.userMurder) then
           print("Chia police")
           World.Timer(
-            30,
+            1,
             function()
               self:randomPolice()
             end
@@ -667,7 +708,7 @@ function MatchRoom:spawnCandy()
           World.Timer(
             Define.MATCH.TIME_LIVE_CANDY,
             function()
-              if entity then
+              if entity.name then
                 entity:kill()
               end
             end

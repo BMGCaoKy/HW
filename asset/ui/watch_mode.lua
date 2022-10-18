@@ -62,7 +62,7 @@ function self:onOpen(packet)
                local imageName="00"..key..".jpg"
                self.Image.Image = "asset/ui/img/"..imageName
                index=index+1
-               if index>80 then
+               if index>79 then
                  index=1
               end
               return true

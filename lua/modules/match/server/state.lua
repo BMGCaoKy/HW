@@ -19,3 +19,7 @@ Lib.subscribeEvent("resetRoom",function (p)
 end)
 
 
+PackageHandlers:Receive("GET_PLAYER_DATA",function (player,packet)
+    local data=player:getValue("baseInform")
+    return data
+end)

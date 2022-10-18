@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "f32dec74fad3fc398352692a9b042430",
+    "md5": "f8a70ad6f315712159406c5150d92f0c",
     "path": "asset/ui/MainWait.layout",
     "root": {
       "anchor": {
@@ -26,12 +26,81 @@
                   "__OBJ_TYPE": "DefaultWindow",
                   "children": [
                     {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "id": {
+                        "value": "29efa110-8671-440c-b484-49a9bb91363b"
+                      },
+                      "Image": {
+                        "asset": "asset/ui/MainPlay/candy.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 50
+                        },
+                        "UDim_Y": {
+                          "Offect": 50
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "Font": "Fonts/shloprg",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "514e7b53-f6fc-4b39-bd59-892a4fbac34e"
+                      },
+                      "name": "count",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 100
+                        },
+                        "UDim_Y": {
+                          "Offect": 50
+                        }
+                      },
+                      "Text": "0",
+                      "text_key": {
+                        "value": "asset/ui/MainWait.layout.StaticText#1e67209d-4b97-4982-a7ba-bcc1ccc4ee1f"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "BottomAligned"
+                    }
+                  ],
+                  "id": {
+                    "value": "9febe643-6c63-4692-93a7-313bec87e11e"
+                  },
+                  "name": "candyWin",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 100
+                    },
+                    "UDim_Y": {
+                      "Offect": 100
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
                       "__OBJ_TYPE": "Button",
                       "HoverImage": {
                         "asset": "asset/ui/MainWait/CameraEye.png"
                       },
                       "id": {
-                        "value": "3897c9b1-355a-4e59-b443-9fb1b84e871a"
+                        "value": "8402fb3b-ab2c-4a99-bed0-41eb988f7747"
                       },
                       "NormalImage": {
                         "asset": "asset/ui/MainWait/CameraEye.png"
@@ -63,7 +132,7 @@
                       "Font": "Fonts/CakeZombie",
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "b7b944a4-973e-4561-9348-46ee9bfd8a93"
+                        "value": "02b85f38-cdf4-4272-a9a8-df1fa5096381"
                       },
                       "size": {
                         "UDim_X": {
@@ -81,9 +150,14 @@
                     }
                   ],
                   "id": {
-                    "value": "cb4851ac-0036-417a-a404-41b25fc6f5d4"
+                    "value": "3ee93c3a-b8b3-4ccf-8245-e2fc9f14ee12"
                   },
                   "name": "watchMode",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 100
+                    }
+                  },
                   "size": {
                     "UDim_X": {
                       "Offect": 100
@@ -95,19 +169,19 @@
                 }
               ],
               "id": {
-                "value": "6206ac28-be8d-45fb-88af-2191412291ee"
+                "value": "4df73f62-2cb8-48a9-843a-b4290e0691e1"
               },
               "name": "ListBtn",
               "size": {
                 "UDim_Y": {
-                  "Offect": 120
+                  "Offect": 220
                 }
               },
               "WindowTouchThroughMode": "MousePassThroughOpen"
             }
           ],
           "id": {
-            "value": "35b17032-eb59-4439-9f24-60ebbe0a72e1"
+            "value": "4071116b-2168-45e5-a5c4-a76c7f7012ec"
           },
           "name": "Menu",
           "size": {
@@ -119,7 +193,7 @@
         }
       ],
       "id": {
-        "value": "da9a3910-89ba-40f4-aee7-830462720389"
+        "value": "b98e2244-ad03-4ccc-8422-c1481c1af941"
       },
       "size": {
         "UDim_X": {
@@ -136,7 +210,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "f32dec74fad3fc398352692a9b042430",
+      "layout": "f8a70ad6f315712159406c5150d92f0c",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

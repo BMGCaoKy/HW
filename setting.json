@@ -129,13 +129,13 @@
     },
     "useGroup": "_imagesets_"
   },
-  "maxPlayers": 6,
+  "maxPlayers": 15,
   "meshPartStaticMergeRender": true,
   "minPlayers": 1,
   "moveStateConfig": {
     "isShow": false
   },
-  "needSave": false,
+  "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
   "nowTime": 10666.6666666667,

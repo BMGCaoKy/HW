@@ -249,7 +249,9 @@ function self:updateCells()
 end
 
 function self:onOpen()
-
+  Lib.subscribeEvent("RESET_BAG",function()
+    self:resetSelect()
+  end)
 end
 
 function self:onClose()

@@ -45,6 +45,7 @@ event["ENTITY_DIE"] = function(p)
     local victim = p.obj1
     local killer = p.obj2
     if killer then
+        
         local createParams = { name=victim.name ,cfgName = "myplugin/ghost", pos = victim:getPosition() , map = killer.map }
         local entity = EntityServer.Create(createParams)
     end
@@ -61,6 +62,7 @@ event["ENTITY_DIE"] = function(p)
                 if v:isPolice(killer.platformUserId) then
                     if not (v:isMurder(victim.platformUserId)) and not (v:isPolice(victim.platformUserId)) then
                         v:kill(killer.platformUserId,true)
+                        Global.ui("ui/MainWait",p.obj2,{})
                         killer:kill()
                     end
                     
@@ -74,11 +76,13 @@ end
 event["ENTITY_TOUCH_ALL"]=function(p)
     local from = p.obj1
     local to =p.obj2
-    if string.find(to.name, "candy_1") then
-        local data=from:getValue("temporary")
-        data.candyInRoom=data.candyInRoom+1
-        from:setValue("temporary",data)
-        to:destroy()
+    if to.name then
+        if string.find(to.name, "candy_1") then
+            local data=from:getValue("temporary")
+            data.candyInRoom=data.candyInRoom+1
+            from:setValue("temporary",data)
+            to:destroy()
+        end
     end
 end
 -- Trigger.RegisterHandler(this:cfg(), "ENTITY_TOUCH_ALL", function(context)

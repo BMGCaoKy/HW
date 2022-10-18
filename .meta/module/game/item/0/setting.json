@@ -18,12 +18,13 @@
         "z": 26.628
       }
     },
+    "needSave": true,
     "nowTime": {
       "h": 16,
       "m": 40
     },
     "player_range": {
-      "max": 6,
+      "max": 15,
       "min": 1
     },
     "startPos": {
@@ -45,7 +46,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "547fe058425d0a708521e4938cc7e3de",
+      "setting.json": "0add78b8fb57b9056bbf947a0b9ff5ab",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

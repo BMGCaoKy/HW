@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "e59a61509295c8fc2c6adeb57412126f",
+    "md5": "24a95db6eff1525e95c3b31e66c73f2a",
     "path": "asset/ui/watch_mode.layout",
     "root": {
       "anchor": {
@@ -21,7 +21,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "87716bde-faff-4721-a2b5-0da7d4728d59"
+                "value": "099edfc2-9e51-45a2-963c-274bd3a5ce02"
               },
               "Image": {
                 "asset": "",
@@ -50,7 +50,7 @@
               "Font_size": 40,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "2bc146d0-d3e8-4aa7-8b55-a32ce3fe4188"
+                "value": "fcb421fc-ae2f-4520-b3df-366e84fe9c56"
               },
               "size": {
                 "UDim_X": {
@@ -83,7 +83,7 @@
                 "asset": "asset/ui/result_new/exit.png"
               },
               "id": {
-                "value": "0905c0c3-46e3-42f6-ad10-9bc7985f363d"
+                "value": "69f9a11e-e56e-47c1-a725-7db84480cb26"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -107,7 +107,7 @@
             }
           ],
           "id": {
-            "value": "0e62589e-745b-4af4-bed2-62ab65842927"
+            "value": "c262c136-6186-48d9-b6e9-ef1041919295"
           },
           "name": "head",
           "size": {
@@ -138,7 +138,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "c83f97c4-1ab0-4f10-92dc-65f1ceda95e7"
+                "value": "c3a76417-28fe-4965-96ea-f422a238e10f"
               },
               "Image": {
                 "asset": "",
@@ -167,7 +167,7 @@
               "Font_size": 40,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "c44f06b3-6339-441d-9658-fc26b862deb4"
+                "value": "3d32b91a-cc3c-4f04-8fbe-86b2d6ff4734"
               },
               "name": "name",
               "size": {
@@ -191,7 +191,7 @@
             }
           ],
           "id": {
-            "value": "19921a73-385f-449b-98c1-4fff7ce518e7"
+            "value": "5c8846a1-cf88-4784-b44b-09786b5392e0"
           },
           "name": "tail",
           "size": {
@@ -211,7 +211,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "c6d25e3f-34ad-4246-b617-a5cb58248f5c"
+            "value": "cdb898b3-b8c8-43fb-91c6-f3bc1cba390c"
           },
           "name": "N",
           "size": {
@@ -236,7 +236,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "1ec094c4-f958-40fa-9ab6-29e6f7c31383"
+            "value": "726d1db6-650e-4bd9-a07a-c8166aa76a7a"
           },
           "name": "P",
           "size": {
@@ -260,11 +260,88 @@
             "HorizontalAlignment": "Centre",
             "VerticalAlignment": "Centre"
           },
+          "BackgroundColours": {
+            "b": 151,
+            "g": 151,
+            "r": 151
+          },
+          "BackgroundEnabled": true,
+          "children": [
+            {
+              "__OBJ_TYPE": "EffectWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "effectName": {
+                "asset": "asset/ui/loading/loading.effect"
+              },
+              "EffectPosition": {
+                "y": 100
+              },
+              "effectYPosition": 100,
+              "id": {
+                "value": "cfb24fed-c8ab-472c-8109-f0ecdc065b16"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "34e47edd-5943-49a7-9080-da76949a719a"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                }
+              },
+              "Text": "Video Loading...",
+              "text_key": {
+                "value": "asset/ui/watch_mode.layout.StaticText#7e23c7c1-e904-433a-84b9-5f5f186c1b7c"
+              },
+              "TextBoldWeight": "1"
+            }
+          ],
           "id": {
-            "value": "4a85b42d-d622-4a3a-9c50-f491ecfaadd4"
+            "value": "713033ef-f95c-4a31-bdfb-36147339215f"
           },
           "Image": {
-            "asset": "asset/ui/img/0001.jpg"
+            "asset": "",
+            "selector": "asset/ui/img/0001.jpg"
+          },
+          "name": "Image1",
+          "size": {
+            "UDim_X": {
+              "Offect": 400
+            },
+            "UDim_Y": {
+              "Offect": 700
+            }
+          },
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "0cab5339-0c4c-4584-8305-d826e434ebc8"
+          },
+          "Image": {
+            "asset": "",
+            "selector": "asset/ui/img/0001.jpg"
           },
           "size": {
             "UDim_X": {
@@ -278,7 +355,7 @@
         }
       ],
       "id": {
-        "value": "6cddd03b-b2c1-47d6-aad2-030129ca5d6c"
+        "value": "2c3dad0f-e1d7-4061-aaa8-f6b1687460ba"
       },
       "size": {
         "UDim_X": {
@@ -295,7 +372,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "e59a61509295c8fc2c6adeb57412126f",
+      "layout": "24a95db6eff1525e95c3b31e66c73f2a",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

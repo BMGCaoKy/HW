@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "db870ab647793b2e769141708605aac3",
+    "md5": "62adb12f20757b0c02bd4359cdfc6794",
     "path": "asset/ui/role.layout",
     "root": {
       "anchor": {
@@ -31,7 +31,7 @@
                   "Font_size": 50,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "f83b6b87-d17c-40c1-bb5a-0d81017507d6"
+                    "value": "6f950fae-8f16-4958-91e0-77ac27853b17"
                   },
                   "name": "role_murder",
                   "size": {
@@ -68,7 +68,7 @@
                   "Font_size": 50,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "b467f175-6018-40a2-ad95-71d64b491ed9"
+                    "value": "8c580d67-3a86-422e-865e-ddbe737be3db"
                   },
                   "name": "role_sheriff",
                   "size": {
@@ -105,7 +105,7 @@
                   "Font_size": 50,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "02bd3517-b87a-491d-9a61-382060808278"
+                    "value": "1acea0e8-cdf9-4278-bf4d-264fe2fd016d"
                   },
                   "name": "role_innocent",
                   "size": {
@@ -131,7 +131,7 @@
                 }
               ],
               "id": {
-                "value": "87e2a4d4-ac1b-4d1c-8e42-0897ac1509ad"
+                "value": "7844bed3-7279-44c4-b42f-18e396643878"
               },
               "Image": {
                 "asset": "asset/ui/role/hlwBoard.png"
@@ -151,7 +151,7 @@
             }
           ],
           "id": {
-            "value": "6deaadd1-0d57-4d4b-ad52-8f4376ebde80"
+            "value": "265633c4-47b5-49ab-a62e-b8ab9fbd7073"
           },
           "name": "win",
           "size": {
@@ -176,7 +176,7 @@
           "Font_size": 20,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "33d1959e-9fc3-4d87-bc8f-8c945cf570cf"
+            "value": "61abd9ff-cd0f-479b-bc59-138f02f2dadf"
           },
           "name": "probability",
           "pos": {
@@ -201,7 +201,7 @@
         }
       ],
       "id": {
-        "value": "66bc21f1-6504-4c97-89dc-df807a8b3e94"
+        "value": "d0ed2c45-fe0c-46f7-8db3-122a1108952e"
       },
       "size": {
         "UDim_X": {
@@ -218,7 +218,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "db870ab647793b2e769141708605aac3",
+      "layout": "62adb12f20757b0c02bd4359cdfc6794",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

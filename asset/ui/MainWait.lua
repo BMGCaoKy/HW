@@ -14,5 +14,13 @@ function self:onOpen(packet)
             end
         end
     end)
-    
+    World.Timer(1,function ()
+        local ui=UI:isOpenWindow("ui/watch_mode") 
+        PackageHandlers:SendToServer("GET_PLAYER_DATA",{},function (p)
+            self.Menu.ListBtn.candyWin.count.Text=p.candy
+        end)
+        if ui then
+            return true
+        end
+    end)
 end
