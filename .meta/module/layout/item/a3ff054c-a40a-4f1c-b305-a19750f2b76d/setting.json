@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "414035d9db2befc1692746e324fa4b31",
+    "md5": "f3a49fecb8a6aa50bf10bfecc1e626fc",
     "path": "gui/layout_presets/toolbar.layout",
     "root": {
       "children": [
@@ -13,7 +13,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "3d7480b3-e949-4b96-bc2b-720c4513b6c3"
+                "value": "622ecf86-5fcc-4e59-bf8b-aff6bbe79cd0"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -41,7 +41,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "3fe6e960-b5e7-4a7f-b17f-783ec811e0e1"
+                "value": "643a057d-043a-47ec-94d6-6bd3d72a4322"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -69,7 +69,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "2df9b6ac-02a2-4adf-b00b-fcd7263d3ec9"
+                "value": "19454579-ff98-4a68-b642-106923a262a1"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -97,7 +97,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "b76af63a-b90d-4bdd-bba6-366b0d9421fe"
+                "value": "a7e7ae0f-bd33-45ec-93ff-9a8795f47879"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/friend.imageset",
@@ -121,7 +121,7 @@
             }
           ],
           "id": {
-            "value": "57116d1d-fb61-4e0b-a2e8-f83f09ea208a"
+            "value": "9b9274b0-9056-42c0-9f1e-e3832a717301"
           },
           "name": "SystemBtnLayout",
           "pos": {
@@ -155,7 +155,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "d8daefcc-de9c-459f-956d-6cb58cf77674"
+                "value": "fb7db13a-d543-4ed5-921e-3beaae500616"
               },
               "Image": {
                 "asset": "",
@@ -176,7 +176,7 @@
             }
           ],
           "id": {
-            "value": "1764dbd6-e604-401e-88ae-27547b9e9355"
+            "value": "ff6afcec-017e-4f6a-8df5-76ab476917a4"
           },
           "name": "TeamLayout",
           "pos": {
@@ -205,7 +205,7 @@
             {
               "__OBJ_TYPE": "StaticImage",
               "id": {
-                "value": "0cbc1de1-34f5-499a-abc9-37cfcbcea558"
+                "value": "f7bfe579-3b9e-4a75-9b73-46ee9c30043f"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -233,7 +233,7 @@
               "BorderWidth": 1,
               "Font_size": 16,
               "id": {
-                "value": "c15e99a1-6b3d-4606-98bf-5d235041c50b"
+                "value": "098a55ce-ae62-4aad-b617-837fb4d5e693"
               },
               "name": "countDownText",
               "pos": {
@@ -266,7 +266,7 @@
             }
           ],
           "id": {
-            "value": "4dc1c2df-8cb8-442a-a8cd-edb6e50d410a"
+            "value": "04809648-1943-4d1b-93c7-5a6d8f797d5f"
           },
           "name": "CountDownLayout",
           "pos": {
@@ -299,7 +299,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "50d23ea4-036c-45e2-b1b9-45bbe2c52524"
+                "value": "a0bdce59-c34f-48c8-9147-d5198be47675"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -324,7 +324,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "468c81a1-9c3b-40c3-98a6-f9d1f74116c0"
+                "value": "71b5ae54-ad48-4aac-aeb8-05e255038114"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -355,7 +355,7 @@
               "Font_size": 14,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "0ed9e053-4ee4-4757-9e63-504466836297"
+                "value": "509beb69-a179-478d-827e-c36e684c525c"
               },
               "name": "coinText",
               "size": {
@@ -386,7 +386,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "30071cbc-a0c4-4d38-8a82-40c405529ceb"
+                "value": "a46196c6-00eb-412a-a391-abbd0b8f1bcf"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -410,7 +410,7 @@
             }
           ],
           "id": {
-            "value": "d67f0613-bea4-4a1d-81c3-2ad30d839a14"
+            "value": "66f47214-64f0-4977-831b-5449d4fd03cd"
           },
           "name": "BuyBtnLayout",
           "pos": {
@@ -438,7 +438,7 @@
                 "HorizontalAlignment": "Centre"
               },
               "id": {
-                "value": "88c84a74-bbe6-453f-8211-6da1c65b38cf"
+                "value": "ee0528b4-b5de-41eb-90ab-1fada07ccaf0"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -461,7 +461,7 @@
                 "HorizontalAlignment": "Centre"
               },
               "id": {
-                "value": "f846450c-f4ab-4f7c-a3f4-589ffe81c30b"
+                "value": "ad00f546-3836-4dd8-84a1-f2d631af584e"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -489,7 +489,7 @@
                 "HorizontalAlignment": "Centre"
               },
               "id": {
-                "value": "97d0270d-f481-4f6f-af94-6f3ece11cd46"
+                "value": "eeb35bbe-c2a1-40ea-a88b-3d00cd1e5512"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -513,7 +513,7 @@
             }
           ],
           "id": {
-            "value": "dab7613a-dba4-4513-bcd7-d6884801832d"
+            "value": "887ff4f2-99c1-41a4-b430-3a80c575e668"
           },
           "name": "EditGameLayout",
           "pos": {
@@ -544,7 +544,7 @@
                 {
                   "__OBJ_TYPE": "StaticImage",
                   "id": {
-                    "value": "349f3d23-2cd2-4eab-96ce-441f5a5fac1d"
+                    "value": "fdbe3da5-e331-4610-8c27-c6c4c9353495"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -574,7 +574,7 @@
                 {
                   "__OBJ_TYPE": "StaticImage",
                   "id": {
-                    "value": "53d14c7e-8ea0-486c-8888-01abde434980"
+                    "value": "ff398370-417e-4760-9436-b4f131d5fafc"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -594,7 +594,7 @@
                 {
                   "__OBJ_TYPE": "StaticText",
                   "id": {
-                    "value": "7e3e9f71-b83a-48be-a120-9c4606282e89"
+                    "value": "dbdc1821-8133-4300-8979-498bf79165b6"
                   },
                   "name": "OnlineRoomLayout_tipText",
                   "pos": {
@@ -629,7 +629,7 @@
                   "__OBJ_TYPE": "StaticText",
                   "Font_size": 14,
                   "id": {
-                    "value": "89b0dac4-d06c-42d2-9881-b70c8d3db429"
+                    "value": "63ce8ace-9b79-4df8-9e5c-db214dba5fa9"
                   },
                   "name": "OnlineRoomLayout_roomId",
                   "pos": {
@@ -662,7 +662,7 @@
                 }
               ],
               "id": {
-                "value": "d1d95689-19a3-4ce6-8cfd-1fd6ec4487d6"
+                "value": "566a5df5-6b12-4c44-8f7a-d1a20fb8ba7c"
               },
               "name": "OnlineRoomLayout",
               "size": {
@@ -678,7 +678,7 @@
             {
               "__OBJ_TYPE": "StaticImage",
               "id": {
-                "value": "f19b5132-2521-45cd-948a-85853ebd282a"
+                "value": "8f9071b5-39f2-47fe-883d-b339341c6ca0"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -703,7 +703,7 @@
             }
           ],
           "id": {
-            "value": "b568c6f1-d89b-4296-9b56-38c89fe36032"
+            "value": "a403f44f-eb98-4137-90f7-77a5d3188688"
           },
           "name": "OnlineGameLayout",
           "pos": {
@@ -742,7 +742,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "7d6a1fee-487c-4e9b-ae5a-15e49b1dbedf"
+                "value": "2d6f8ff2-94fe-4a38-a87e-daa058fd0377"
               },
               "Image": {
                 "asset": "",
@@ -766,7 +766,7 @@
               "Font_size": 14,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "d63436bb-f75f-4f89-b98a-1ace98611806"
+                "value": "25979567-bc69-4184-84e2-99da3de8caf5"
               },
               "name": "playerCountText",
               "size": {
@@ -797,7 +797,7 @@
               "Font_size": 14,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "84ebc42c-ec90-49dd-acae-b63e208d7ced"
+                "value": "046fadaf-c3c2-4ec1-ac0d-0487b6a04ca2"
               },
               "name": "scoreText",
               "pos": {
@@ -830,7 +830,7 @@
             }
           ],
           "id": {
-            "value": "07d472ad-586c-4667-a26e-6d9a33b52828"
+            "value": "e081b3b1-c71e-44e1-aa71-b36af2a34c46"
           },
           "name": "SingleGameInfoLayout",
           "pos": {
@@ -863,7 +863,7 @@
               "Font_size": 34,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "3949af77-dab1-4da8-9572-6fab8098e69f"
+                "value": "3521eae7-ac4e-451d-8413-68d2ac712591"
               },
               "name": "CountDownText_Tip",
               "size": {
@@ -903,7 +903,7 @@
               "Font_size": 70,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "a78c35f8-48ee-41fa-95b9-75a6cde208b0"
+                "value": "2de792cf-506c-4248-8e16-f6c21d587e31"
               },
               "name": "CountDownText_Num",
               "pos": {
@@ -936,7 +936,7 @@
             }
           ],
           "id": {
-            "value": "2374618e-ca37-4ca6-9d5b-710c46339a4d"
+            "value": "b0aa3a41-d291-4964-aa16-cb550404e6c6"
           },
           "name": "PropCountDownLayout",
           "pos": {
@@ -957,7 +957,7 @@
         }
       ],
       "id": {
-        "value": "70465c1b-d7f5-4494-b695-46dd2c4ef1e5"
+        "value": "5aa61001-e99d-4e1b-a70e-f5ccb5892bed"
       },
       "size": {
         "UDim_X": {
@@ -973,7 +973,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "414035d9db2befc1692746e324fa4b31",
+      "layout": "f3a49fecb8a6aa50bf10bfecc1e626fc",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0fe9a461180c01c1d4cc0130818c4742",
+    "md5": "281eb3e359cc3663f36257d0213025fc",
     "path": "asset/ui/bag.layout",
     "root": {
       "anchor": {
@@ -18,7 +18,7 @@
             {
               "__OBJ_TYPE": "StaticImage",
               "id": {
-                "value": "e085e156-905e-4a65-a254-bc29fdaeaf6f"
+                "value": "278dbd9d-c5b9-4826-b898-397c4c9c1598"
               },
               "Image": {
                 "asset": "asset/ui/Gui/balo_bg.png"
@@ -46,13 +46,14 @@
                 "VerticalAlignment": "Centre"
               },
               "BackGroundImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "children": [
                 {
                   "__OBJ_TYPE": "GridView",
                   "id": {
-                    "value": "a846e46e-c358-489f-96e4-1b0856f2e9e0"
+                    "value": "d29e8c1d-faf5-400f-9af6-082556226491"
                   },
                   "rowSize": 4,
                   "Space": {
@@ -62,7 +63,7 @@
                 }
               ],
               "id": {
-                "value": "b2f56396-b652-4d87-ae82-9e3aaccfe592"
+                "value": "f45a31d9-cf99-4a35-a71f-fea80321eeca"
               },
               "pos": {
                 "UDim_Y": {
@@ -90,7 +91,7 @@
                 "asset": "asset/ui/result_new/exit.png"
               },
               "id": {
-                "value": "2f569484-6b9c-4060-89f7-67e94400e9e3"
+                "value": "76c05924-b5ad-4ea9-ac8a-4f3011104f2b"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -122,7 +123,7 @@
             }
           ],
           "id": {
-            "value": "f464ae7b-4e5c-45d6-aca1-494f2a3b4202"
+            "value": "9e0bfaa2-50e4-414a-97c1-021b30c9f689"
           },
           "name": "bag_win",
           "size": {
@@ -148,7 +149,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "53724d4b-dc94-4c4f-9123-5d463785f408"
+                    "value": "91502127-7320-46b7-9817-7311dff13450"
                   },
                   "Image": {
                     "asset": "asset/weapon/icon/g2045_icon_bow_103.png"
@@ -165,7 +166,7 @@
                 }
               ],
               "id": {
-                "value": "4c6f9440-1a66-4830-a8b4-aa3a93ff1456"
+                "value": "7680181d-f050-4b72-b0a1-efae56bf4f01"
               },
               "Image": {
                 "asset": "asset/ui/Gui/backgroundDay.png"
@@ -194,7 +195,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "211b60ee-0123-4953-b43b-f35a1ff71a04"
+                "value": "77aad6f1-9f35-4929-bb5c-64f085d74abc"
               },
               "Image": {
                 "asset": "asset/ui/bag/Checkmark.png"
@@ -218,7 +219,7 @@
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "4920fc41-06cc-4f18-b5fc-86224c49e371"
+                "value": "4cb2b26c-c7e8-48a9-80ec-85fcf89cd5c6"
               },
               "name": "Type",
               "size": {
@@ -243,19 +244,23 @@
             {
               "__OBJ_TYPE": "Button",
               "DisabledImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "HoverImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "id": {
-                "value": "f2a99d42-3d8a-4c9e-8e9f-9470dabfca33"
+                "value": "42cabfa6-be08-4477-acfb-87eb3120ded9"
               },
               "NormalImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "PushedImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "size": {
                 "UDim_X": {
@@ -275,7 +280,7 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "45a30305-c0f9-4da8-b3a7-aacfc8fe475c"
+            "value": "82e036ca-06d9-463c-9ea1-89329f1f9b4d"
           },
           "name": "weapon",
           "size": {
@@ -291,7 +296,7 @@
         }
       ],
       "id": {
-        "value": "8f6f37c3-b84f-437b-a040-a8fb6a1a1278"
+        "value": "a33b499a-b527-4d8c-bb5b-1014c368bec6"
       },
       "size": {
         "UDim_X": {
@@ -307,7 +312,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0fe9a461180c01c1d4cc0130818c4742",
+      "layout": "281eb3e359cc3663f36257d0213025fc",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

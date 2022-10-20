@@ -11,9 +11,7 @@ function self:onOpen(packet)
         PackageHandlers:SendToServer("GET_PLAYER_DATA",{},function (p)
             self.Menu.ListBtn.candyWin.count.Text=p.candy
         end)
-        if ui then
-            return true
-        end
+        return true
     end)
     self.Menu.ListBtn.watchMode.Button.onMouseClick=function ()
       if UI:isOpenWindow("ui/bag") then
@@ -21,6 +19,13 @@ function self:onOpen(packet)
       else
         UI:openWindow("ui/bag")
       end
+
+    end
+
+    self.Menu.ListBtn.shop.Button.onMouseClick=function ()
+
+        UI:openWindow("ui/shop")
+  
 
     end
 end

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "8459e15072a8c97e614c25f3f1f0123d",
+    "md5": "32fdc26cc441fc2a540781f296986e79",
     "path": "asset/ui/MainPlay.layout",
     "root": {
       "anchor": {
@@ -30,7 +30,7 @@
                     "r": 0
                   },
                   "id": {
-                    "value": "a40e9a12-23e2-4b87-b7f4-7605bb2bd00a"
+                    "value": "2abcc02b-cbac-4eef-b950-fbfd1bb9eebb"
                   },
                   "Image": {
                     "asset": "asset/ui/MainPlay/Help.png"
@@ -53,7 +53,7 @@
                 "asset": "asset/ui/MainPlay/Lock - Nail.png"
               },
               "id": {
-                "value": "ca2c875d-2cd0-429f-af8e-70b5c03caeb4"
+                "value": "607f3ad8-80cb-4301-9ad4-b55147762b82"
               },
               "name": "Help",
               "NormalImage": {
@@ -80,7 +80,7 @@
           "Font_size": 30,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "da65cbd5-4350-434c-851f-06b6fd8ef770"
+            "value": "2af73a11-aa68-40ad-bc06-24dd03d9e770"
           },
           "name": "role",
           "size": {
@@ -116,7 +116,7 @@
           "Font_size": 50,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "074540b7-d0e8-4128-ba37-e7f3e908d3b3"
+            "value": "6c3bd28e-a48e-434f-b6b9-ad8a7e0d3a5d"
           },
           "name": "time",
           "size": {
@@ -154,7 +154,7 @@
               "Font": "Fonts/youmurdererbbreg",
               "Font_size": 40,
               "id": {
-                "value": "30e8a38c-5d24-4b5a-a761-ebb3b217fd1e"
+                "value": "1d768565-7310-430c-8647-2f2273cbe046"
               },
               "name": "count",
               "pos": {
@@ -185,7 +185,7 @@
               "__OBJ_TYPE": "StaticImage",
               "Alpha": 0.985,
               "id": {
-                "value": "ed2f81ea-2a50-4eb8-a2ce-1cc32b0588a1"
+                "value": "00547a46-729e-4c35-ac49-db790aa66133"
               },
               "Image": {
                 "asset": "asset/ui/MainPlay/candy.png"
@@ -202,7 +202,7 @@
           ],
           "dir": "Right",
           "id": {
-            "value": "d51b6168-1ac3-446f-9419-a88db05f8b1d"
+            "value": "383d1bc0-2977-4252-b01e-d68b42b07c38"
           },
           "name": "candy_layout",
           "size": {
@@ -225,7 +225,7 @@
             {
               "__OBJ_TYPE": "StaticImage",
               "id": {
-                "value": "f3bea770-b921-48e3-a938-93f8357bde16"
+                "value": "d177d071-17d1-4536-9789-d1108efdfa2e"
               },
               "Image": {
                 "asset": "asset/ui/Gui/bg_help.png"
@@ -257,7 +257,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "16269bce-38a6-44ce-bd78-0fcbc305237a"
+                    "value": "b0b736db-d0d6-42f1-bd47-c8ce61db16a0"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/police1.png"
@@ -281,7 +281,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "f3fca35c-2890-449e-86f2-2b7cda0f7a0d"
+                    "value": "bb735854-fda7-4101-a418-93a379040e69"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/human1.png"
@@ -306,7 +306,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "8b5869c6-baa4-456b-8d16-f8db82b60030"
+                    "value": "49813c61-a382-4682-9129-65e8c32f988f"
                   },
                   "Image": {
                     "asset": "asset/ui/result_new/murder1.png"
@@ -325,7 +325,7 @@
                 }
               ],
               "id": {
-                "value": "813a5904-5a7a-40b0-9b3f-04829dbedcb8"
+                "value": "7e133db6-d111-472a-bcae-d71a34995559"
               },
               "Image": {
                 "asset": "asset/ui/Gui/backgroundlight.png"
@@ -362,7 +362,7 @@
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "fd52d7c1-a0f8-4921-98fc-a2dae54fe17c"
+                "value": "0c275fdc-e8e1-476d-b85d-207a9f8f5c94"
               },
               "name": "label",
               "pos": {
@@ -421,7 +421,7 @@
                 "r": 255
               },
               "id": {
-                "value": "4e317cb4-df0b-47ce-9a53-90b0894d48fc"
+                "value": "bba8807a-6467-4fb2-8812-dabfc5c9797a"
               },
               "name": "CloseBtn1",
               "NormalImage": {
@@ -458,7 +458,7 @@
             }
           ],
           "id": {
-            "value": "7d908cc4-5b06-4699-803b-d1bcb1beb6b7"
+            "value": "834471d7-efba-4bfe-931f-1cdf062b93a3"
           },
           "name": "help_win",
           "size": {
@@ -473,7 +473,7 @@
         }
       ],
       "id": {
-        "value": "576010ce-3b29-43a0-b2b9-c30843d50938"
+        "value": "2ae497cd-10f6-4735-9fbc-ff92da60fc03"
       },
       "size": {
         "UDim_X": {
@@ -490,7 +490,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "8459e15072a8c97e614c25f3f1f0123d",
+      "layout": "32fdc26cc441fc2a540781f296986e79",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

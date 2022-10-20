@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "b465484da9b271af40d5733b4054c3ba",
+    "md5": "9c427b355d3dd4d612de93a1f46b2751",
     "path": "asset/ui/over_shortcutBar.layout",
     "root": {
       "anchor": {
@@ -16,7 +16,7 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "4bb6390b-44ae-40bf-8503-eedf0d96a5ad"
+            "value": "a0e6526b-3916-4a9e-ad83-167eda4b6c0c"
           },
           "Image": {
             "asset": "bottom_bar/bar_bg",
@@ -43,7 +43,7 @@
           },
           "Disabled": true,
           "id": {
-            "value": "2d5bf31c-f86d-4ea7-8abe-b459a7a5ddc9"
+            "value": "b71d2534-40e0-4766-b5a2-5e9238cb857a"
           },
           "Image": {
             "asset": "bottom_bar/bar_bag",
@@ -74,7 +74,7 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "3f234691-dcfc-4659-abd2-9599c0c5fb66"
+            "value": "c44e9ab0-3bcf-495c-aee2-d6213c91de41"
           },
           "name": "ItemCellBase",
           "pos": {
@@ -99,7 +99,7 @@
       ],
       "ClippedByParent": true,
       "id": {
-        "value": "7d967d27-443f-4848-a46b-45c238fe6398"
+        "value": "9ecd669d-13c9-41a0-a30c-957bf744d49f"
       },
       "size": {
         "UDim_X": {
@@ -113,7 +113,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "b465484da9b271af40d5733b4054c3ba",
+      "layout": "9c427b355d3dd4d612de93a1f46b2751",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

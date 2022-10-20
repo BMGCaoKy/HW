@@ -35,3 +35,24 @@ PackageHandlers:Receive("EQUIP_WEAPON",function (player,packet)
         end
     end
 end)
+
+
+PackageHandlers:Receive("BUY_WEAPON",function (player,packet)
+    Lib.pv(packet)
+    local data=player:getValue("baseInform")
+    for k,v in pairs(Global.weapon[packet.type]) do
+        Lib.pv(v)
+        if v.itemId==packet.itemId then
+            print("--------------find----------------")
+            if data.candy>=v.price then
+                data.candy=data.candy-v.price
+                table.insert(data.item.weapon[packet.type].list,v)
+                
+                player:setValue("baseInform",data)
+                return 1
+            end
+            break
+        end
+    end
+    return 0
+end)

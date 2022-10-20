@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0911842596b8291480daf1153a3626ba",
+    "md5": "6a3ec44129f4fe3df190080543998813",
     "path": "asset/ui/shop.layout",
     "root": {
       "anchor": {
@@ -8,6 +8,36 @@
         "VerticalAlignment": "Centre"
       },
       "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.843,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackgroundColours": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BackgroundEnabled": true,
+          "id": {
+            "value": "65a5f0f6-9f92-427a-9d42-8690b1242ed7"
+          },
+          "Image": {
+            "asset": ""
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
         {
           "__OBJ_TYPE": "DefaultWindow",
           "Alpha": 0.997,
@@ -21,7 +51,7 @@
                     {
                       "__OBJ_TYPE": "StaticImage",
                       "id": {
-                        "value": "7a158731-21f6-460a-a7fc-6c26d3971dea"
+                        "value": "c426158e-fb26-4a0a-8544-1da0df74973b"
                       },
                       "Image": {
                         "asset": "asset/ui/shop/bg_f.png"
@@ -35,11 +65,12 @@
                           "Offect": 0,
                           "Scale": 1
                         }
-                      }
+                      },
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
                     }
                   ],
                   "id": {
-                    "value": "37395857-5bcf-495a-a458-0cb19a2f61ce"
+                    "value": "d8f3d416-08dd-476d-8783-c33c822da87a"
                   },
                   "Image": {
                     "asset": "asset/ui/shop/bg.png"
@@ -54,7 +85,8 @@
                       "Offect": 0,
                       "Scale": 1
                     }
-                  }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
                 },
                 {
                   "__OBJ_TYPE": "StaticImage",
@@ -63,7 +95,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "1430d079-4621-42a5-9eba-8f7a066ffe28"
+                    "value": "49a9715d-67b6-4422-aaea-54846a5ff5c9"
                   },
                   "Image": {
                     "asset": "asset/weapon/icon/g2045_icon_bow_103.png"
@@ -76,14 +108,16 @@
                     "UDim_Y": {
                       "Offect": 130
                     }
-                  }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
                 }
               ],
               "id": {
-                "value": "e3be817c-4dc9-4f4b-ab21-4d8e60d5d26b"
+                "value": "d9be6545-f2cd-4505-b716-1383308cc437"
               },
               "Image": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "name": "bg",
               "size": {
@@ -95,7 +129,8 @@
                   "Offect": 0,
                   "Scale": 1
                 }
-              }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
             },
             {
               "__OBJ_TYPE": "StaticImage",
@@ -104,7 +139,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "9a8c44d5-64c9-4108-a0a5-bc4be4b69bc5"
+                "value": "28763f89-5d6a-46f2-b7f8-ac4cb39520cd"
               },
               "Image": {
                 "asset": "asset/ui/shop/done.png"
@@ -123,7 +158,8 @@
                   "Offect": 50
                 }
               },
-              "Visible": false
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
             },
             {
               "__OBJ_TYPE": "StaticText",
@@ -134,7 +170,7 @@
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "3caa8bcf-b9ab-496c-a15d-a9e25fe9b6a5"
+                "value": "eb0b3a4e-120e-4d15-b5f6-8fb45a9f2ebb"
               },
               "name": "Type",
               "size": {
@@ -154,43 +190,8 @@
                 "g": 255,
                 "r": 255
               },
-              "VertFormatting": "CentreAligned"
-            },
-            {
-              "__OBJ_TYPE": "Button",
-              "DisabledImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "HoverImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "id": {
-                "value": "7bef714d-10ef-46f5-a020-b7f08ff3124c"
-              },
-              "NormalImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "PushedImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "size": {
-                "UDim_X": {
-                  "Offect": 0,
-                  "Scale": 1
-                },
-                "UDim_Y": {
-                  "Offect": 0,
-                  "Scale": 1
-                }
-              },
-              "Text": "",
-              "text_key": {
-                "value": "asset/ui/shop.layout.Button#cf17826d-d59c-4487-a53b-8b6e6f2060db"
-              }
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
             },
             {
               "__OBJ_TYPE": "StaticImage",
@@ -216,7 +217,7 @@
                   "Font_size": 30,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "b9571f5d-23c0-4716-8e85-bd9002c07e23"
+                    "value": "4de1f64b-6f04-4b0c-87de-aae6b9c2e39c"
                   },
                   "name": "Price",
                   "size": {
@@ -238,11 +239,12 @@
                     "g": 255,
                     "r": 255
                   },
-                  "VertFormatting": "CentreAligned"
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
                 }
               ],
               "id": {
-                "value": "400fa23b-5a41-42f4-9786-21e7c116e6b6"
+                "value": "8fbeb155-4c2e-4a28-b370-7abd7e6ed8a9"
               },
               "Image": {
                 "asset": "asset/ui/shop/button.png"
@@ -260,12 +262,50 @@
                 "UDim_Y": {
                   "Offect": 50
                 }
+              },
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "DisabledImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "HoverImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "id": {
+                "value": "b1cabf64-848a-4a79-a743-b0e927e9d2b2"
+              },
+              "NormalImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "PushedImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/shop.layout.Button#cf17826d-d59c-4487-a53b-8b6e6f2060db"
               }
             }
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "5134663a-d370-49a7-93cb-732f3debdbc1"
+            "value": "59fd31b8-2e1e-4ab1-8260-17f196fde167"
           },
           "name": "weapon",
           "size": {
@@ -291,7 +331,7 @@
             "asset": "asset/ui/result_new/exit.png"
           },
           "id": {
-            "value": "09051fd3-814d-4980-84c4-20fa6c3f4f7e"
+            "value": "96c8c79b-6fed-4c88-abee-bfa52e4bd845"
           },
           "name": "CloseBtn",
           "NormalImage": {
@@ -326,11 +366,82 @@
                 {
                   "__OBJ_TYPE": "StaticImage",
                   "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "19fd3c62-54c3-41c7-8646-d696d0c787f6"
+                  },
+                  "Image": {
+                    "asset": "asset/ui/MainPlay/candy.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 50
+                    },
+                    "UDim_Y": {
+                      "Offect": 50
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "Fonts/shloprg",
+                  "Font_size": 20,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "1e23e244-59a2-4db7-b2c3-deeb807ced38"
+                  },
+                  "name": "count",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": -50,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "0",
+                  "text_key": {
+                    "value": "asset/ui/shop.layout.StaticText#e7adb0e4-5ce7-4051-984e-b97fdfa67dc3"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "83b4b7e0-e365-4a46-aa0a-5615174de891"
+              },
+              "name": "candy",
+              "size": {
+                "UDim_X": {
+                  "Offect": 150
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
                     "HorizontalAlignment": "Centre",
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "f187516a-c3e6-4784-bac8-11e47279efb5"
+                    "value": "520c4264-355c-4435-80c7-4e1a142f3397"
                   },
                   "Image": {
                     "asset": "asset/ui/shop/shop_tab.png"
@@ -359,7 +470,8 @@
                     "VerticalAlignment": "Centre"
                   },
                   "BackGroundImage": {
-                    "asset": ""
+                    "asset": "",
+                    "selector": ""
                   },
                   "children": [
                     {
@@ -369,13 +481,13 @@
                         "VerticalAlignment": "Centre"
                       },
                       "id": {
-                        "value": "c6adcd87-f479-47f2-90bb-09b49b6344c6"
+                        "value": "79cdd169-2ede-4a3f-ae2b-e3329cda4e9d"
                       },
                       "name": "List"
                     }
                   ],
                   "id": {
-                    "value": "a4add456-9376-4865-82c0-2b9684a40691"
+                    "value": "f43dfd35-e31e-458c-ad4d-838e5969a6a6"
                   },
                   "size": {
                     "UDim_X": {
@@ -385,9 +497,14 @@
                 }
               ],
               "id": {
-                "value": "034cfec9-0260-41ce-822b-b1f88354dfb5"
+                "value": "248ce976-d136-401e-8aae-f87a64786e35"
               },
-              "name": "gun_win",
+              "name": "gun",
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
               "size": {
                 "UDim_X": {
                   "Offect": 1200
@@ -407,7 +524,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "dc2188ec-6427-4919-bf61-27cd148b5cdc"
+                    "value": "dc260556-ee8f-416e-86fc-b8f8c5a199a7"
                   },
                   "Image": {
                     "asset": "asset/ui/shop/shop_tab.png"
@@ -436,7 +553,8 @@
                     "VerticalAlignment": "Centre"
                   },
                   "BackGroundImage": {
-                    "asset": ""
+                    "asset": "",
+                    "selector": ""
                   },
                   "children": [
                     {
@@ -446,13 +564,13 @@
                         "VerticalAlignment": "Centre"
                       },
                       "id": {
-                        "value": "072a88ce-dff1-4827-a2da-71eb43d46591"
+                        "value": "ed89b244-86c7-41e0-85d2-59f3284eddf5"
                       },
                       "name": "List"
                     }
                   ],
                   "id": {
-                    "value": "76d9a810-6b31-4f86-8478-14df6cf464cb"
+                    "value": "b2baa203-533f-4e04-933c-64b0d489b14f"
                   },
                   "size": {
                     "UDim_X": {
@@ -462,12 +580,12 @@
                 }
               ],
               "id": {
-                "value": "1f7da6c9-9abd-4285-9393-777cf2dff094"
+                "value": "27852c52-a9a2-435f-ab57-0d6398f83846"
               },
-              "name": "knife_win",
+              "name": "knife",
               "pos": {
                 "UDim_Y": {
-                  "Offect": 200
+                  "Offect": 250
                 }
               },
               "size": {
@@ -481,7 +599,7 @@
             }
           ],
           "id": {
-            "value": "7ad4af90-b737-432e-9570-e06fb28a74b4"
+            "value": "e2317df9-7dd1-4904-b144-3942be3aa56a"
           },
           "name": "List",
           "size": {
@@ -489,13 +607,13 @@
               "Offect": 1200
             },
             "UDim_Y": {
-              "Offect": 400
+              "Offect": 450
             }
           }
         }
       ],
       "id": {
-        "value": "87e76543-b286-4a67-8251-b338cd40e653"
+        "value": "ae92605c-2d48-4aca-9a56-705a048f5b9d"
       },
       "size": {
         "UDim_X": {
@@ -511,7 +629,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0911842596b8291480daf1153a3626ba",
+      "layout": "6a3ec44129f4fe3df190080543998813",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

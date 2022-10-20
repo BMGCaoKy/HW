@@ -18,7 +18,6 @@
         "z": 26.628
       }
     },
-    "needSave": true,
     "nowTime": {
       "h": 16,
       "m": 40
@@ -46,7 +45,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0add78b8fb57b9056bbf947a0b9ff5ab",
+      "setting.json": "de89200f44494961b600b2de565305d0",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

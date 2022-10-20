@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "8cda8deb429019d0059e116462062211",
+    "md5": "422bf087bfbf74ad3b96e2331c7c1679",
     "path": "asset/ui/guide.layout",
     "root": {
       "anchor": {
@@ -40,7 +40,7 @@
                                     "VerticalAlignment": "Centre"
                                   },
                                   "id": {
-                                    "value": "4c933418-f0aa-43be-aaf1-307b9fd9b2ca"
+                                    "value": "76a6ec8f-a11a-476c-945f-78dc6c84d352"
                                   },
                                   "Image": {
                                     "asset": "asset/ui/guide/killer.png"
@@ -48,7 +48,7 @@
                                 }
                               ],
                               "id": {
-                                "value": "094cdd98-cf4e-40e9-b4c1-ba859a3a6ba6"
+                                "value": "e2bd6cb5-22e4-4069-bb3a-a6581fe32580"
                               },
                               "Image": {
                                 "asset": "",
@@ -69,7 +69,7 @@
                               "Font_size": 15,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "cd70679a-679e-40b5-9101-87db767edd1c"
+                                "value": "dc6a6136-474f-4696-ade0-a37893be7095"
                               },
                               "pos": {
                                 "UDim_Y": {
@@ -97,7 +97,7 @@
                             }
                           ],
                           "id": {
-                            "value": "19d06f03-bb54-467b-b088-f5c7c99e58da"
+                            "value": "458c119b-b266-4f8b-a2b6-ea54993367ca"
                           },
                           "name": "List",
                           "pos": {
@@ -116,7 +116,7 @@
                         }
                       ],
                       "id": {
-                        "value": "2a5dca18-9384-4055-9d56-ffc181a0a63b"
+                        "value": "7ac5635b-6cc7-42d0-a563-8252aba2c145"
                       },
                       "Image": {
                         "asset": "asset/ui/Gui/backgroundDay.png"
@@ -141,7 +141,7 @@
                     }
                   ],
                   "id": {
-                    "value": "86dd4449-0bfc-46aa-99fa-7ff9c5910f60"
+                    "value": "7bfdd920-e9a3-4e4c-93cd-93a0ec5fce74"
                   },
                   "name": "murder_win",
                   "size": {
@@ -177,7 +177,7 @@
                                     "VerticalAlignment": "Centre"
                                   },
                                   "id": {
-                                    "value": "0fcd72f5-c1ca-41d3-a669-0b71c6abcab9"
+                                    "value": "f73bcd57-4060-4db7-8680-3f353d9d5b68"
                                   },
                                   "Image": {
                                     "asset": "asset/ui/guide/human.png"
@@ -185,7 +185,7 @@
                                 }
                               ],
                               "id": {
-                                "value": "35e0a4d5-5f6b-42a1-9779-f248fbdb28fb"
+                                "value": "68ccfe62-5efb-4002-b84f-cee7b1ea13be"
                               },
                               "Image": {
                                 "asset": "",
@@ -206,7 +206,7 @@
                               "Font_size": 20,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "f866a3c0-d4c8-4d33-a40d-7fadbae1c707"
+                                "value": "fb8c4772-8483-4329-98a3-c234ecd38b1f"
                               },
                               "pos": {
                                 "UDim_Y": {
@@ -231,7 +231,7 @@
                             }
                           ],
                           "id": {
-                            "value": "ffb24c2b-8ba8-4180-90f2-b7a979393546"
+                            "value": "7a754852-4d1d-443f-936f-ca1b08e7f014"
                           },
                           "name": "List",
                           "pos": {
@@ -250,7 +250,7 @@
                         }
                       ],
                       "id": {
-                        "value": "8a4be3f7-995e-4456-953a-5c46fe972664"
+                        "value": "20fca1fc-b134-45db-9bc9-065fac1fedec"
                       },
                       "Image": {
                         "asset": "asset/ui/Gui/backgroundDay.png"
@@ -275,7 +275,7 @@
                     }
                   ],
                   "id": {
-                    "value": "81eb467b-3edc-44bd-b1d1-d11a93103943"
+                    "value": "9f16dde8-55fa-4fde-bbb9-e269201608bf"
                   },
                   "name": "murder_win1",
                   "pos": {
@@ -316,7 +316,7 @@
                                     "VerticalAlignment": "Centre"
                                   },
                                   "id": {
-                                    "value": "607b229c-ab6f-461f-8df5-be050e71f385"
+                                    "value": "16dd9844-6129-4ef6-ae2f-eaa48e50ef36"
                                   },
                                   "Image": {
                                     "asset": "asset/ui/guide/police.png"
@@ -324,7 +324,7 @@
                                 }
                               ],
                               "id": {
-                                "value": "6d008832-52e2-4b14-8bd8-08bf3d8add5b"
+                                "value": "85eb5d82-98e4-408c-b60a-6e3023105574"
                               },
                               "Image": {
                                 "asset": "",
@@ -345,7 +345,7 @@
                               "Font_size": 15,
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "2c8ab6c7-342f-4b2d-a026-25267fb03884"
+                                "value": "d2dc09e5-d81f-4f48-9ef0-3cf335644e5f"
                               },
                               "pos": {
                                 "UDim_Y": {
@@ -374,7 +374,7 @@
                             }
                           ],
                           "id": {
-                            "value": "5ca680d2-3733-461a-a3c6-4a7439008548"
+                            "value": "7d67d615-7636-4aeb-a5c5-a99927471695"
                           },
                           "name": "List",
                           "pos": {
@@ -393,7 +393,7 @@
                         }
                       ],
                       "id": {
-                        "value": "050d59dd-e9c9-4bc8-89ed-209b46de4cef"
+                        "value": "8cc53c03-cd9e-48ad-aa5b-e6d420ff0420"
                       },
                       "Image": {
                         "asset": "asset/ui/Gui/backgroundDay.png"
@@ -418,7 +418,7 @@
                     }
                   ],
                   "id": {
-                    "value": "02215db3-b1ff-4061-8dbe-3cbde946f178"
+                    "value": "5fe3c280-4b76-4fd0-be40-ed603343faad"
                   },
                   "name": "murder_win2",
                   "pos": {
@@ -439,7 +439,7 @@
                 }
               ],
               "id": {
-                "value": "9f86d10b-a197-45d2-9db2-c30cd0be728b"
+                "value": "24d4f0ee-e53b-4de8-b587-bef5de8c1df6"
               },
               "name": "List",
               "pos": {
@@ -486,7 +486,7 @@
                 "r": 255
               },
               "id": {
-                "value": "721e7e91-3c79-4e59-8e27-f552a76653e5"
+                "value": "6125f5bf-c726-415c-bf8c-81357bf95ac5"
               },
               "name": "CloseBtn1",
               "NormalImage": {
@@ -523,7 +523,7 @@
             }
           ],
           "id": {
-            "value": "343a653a-e9e5-4962-b131-dd6d148bffdf"
+            "value": "592f563d-34da-4d80-bb31-adfc6c06000b"
           },
           "Image": {
             "asset": "asset/ui/Gui/balo_bg.png"
@@ -546,7 +546,7 @@
         }
       ],
       "id": {
-        "value": "d841814c-e1b5-4f10-b74c-826948b2d566"
+        "value": "5e62f24b-9c49-4dc9-8bbe-1dffad6be844"
       },
       "size": {
         "UDim_X": {
@@ -560,7 +560,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "8cda8deb429019d0059e116462062211",
+      "layout": "422bf087bfbf74ad3b96e2331c7c1679",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

@@ -29,3 +29,12 @@ Global.weapon={
         },
     }
 }
+Global.shop={
+    gun={
+        [1]="gun_001",
+        [2]="gun_003",
+    },
+    knife={
+        [1]="knife_001"
+    }
+}

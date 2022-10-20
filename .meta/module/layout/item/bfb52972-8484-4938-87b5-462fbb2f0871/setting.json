@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "24a95db6eff1525e95c3b31e66c73f2a",
+    "md5": "fb4842f8f62ab0a3d1254d529e61c75a",
     "path": "asset/ui/watch_mode.layout",
     "root": {
       "anchor": {
@@ -21,7 +21,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "099edfc2-9e51-45a2-963c-274bd3a5ce02"
+                "value": "6662a25b-a7a8-41ba-8b6a-2a03d80385d1"
               },
               "Image": {
                 "asset": "",
@@ -50,7 +50,7 @@
               "Font_size": 40,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "fcb421fc-ae2f-4520-b3df-366e84fe9c56"
+                "value": "1a265070-e4b4-497a-90d8-b0d4ebe6b1c4"
               },
               "size": {
                 "UDim_X": {
@@ -83,7 +83,7 @@
                 "asset": "asset/ui/result_new/exit.png"
               },
               "id": {
-                "value": "69f9a11e-e56e-47c1-a725-7db84480cb26"
+                "value": "95fa934f-8e0d-492e-8a62-ddb4f4db4f76"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -107,7 +107,7 @@
             }
           ],
           "id": {
-            "value": "c262c136-6186-48d9-b6e9-ef1041919295"
+            "value": "8f41b171-b688-4450-8363-4c13734799b5"
           },
           "name": "head",
           "size": {
@@ -138,7 +138,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "c3a76417-28fe-4965-96ea-f422a238e10f"
+                "value": "eb30febe-14fa-44f1-88af-d60f9459c258"
               },
               "Image": {
                 "asset": "",
@@ -167,7 +167,7 @@
               "Font_size": 40,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "3d32b91a-cc3c-4f04-8fbe-86b2d6ff4734"
+                "value": "2c89d407-3713-4452-a43b-792bcc92c689"
               },
               "name": "name",
               "size": {
@@ -191,7 +191,7 @@
             }
           ],
           "id": {
-            "value": "5c8846a1-cf88-4784-b44b-09786b5392e0"
+            "value": "0dc1b644-c898-4239-b769-15fb3bd1f8e2"
           },
           "name": "tail",
           "size": {
@@ -211,7 +211,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "cdb898b3-b8c8-43fb-91c6-f3bc1cba390c"
+            "value": "d1c6353e-0bd7-4c4d-a15f-2df2e178f61e"
           },
           "name": "N",
           "size": {
@@ -236,7 +236,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "726d1db6-650e-4bd9-a07a-c8166aa76a7a"
+            "value": "3c228f0a-f6aa-43c3-911a-7cf262a37863"
           },
           "name": "P",
           "size": {
@@ -276,12 +276,9 @@
               "effectName": {
                 "asset": "asset/ui/loading/loading.effect"
               },
-              "EffectPosition": {
-                "y": 100
-              },
               "effectYPosition": 100,
               "id": {
-                "value": "cfb24fed-c8ab-472c-8109-f0ecdc065b16"
+                "value": "fbe926d0-d66f-46f1-a2ae-b772ad7cc253"
               }
             },
             {
@@ -293,7 +290,7 @@
               "Font_size": 25,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "34e47edd-5943-49a7-9080-da76949a719a"
+                "value": "cf1d3bdc-7fc5-4c3c-8041-2a242ab528cc"
               },
               "size": {
                 "UDim_X": {
@@ -313,11 +310,11 @@
             }
           ],
           "id": {
-            "value": "713033ef-f95c-4a31-bdfb-36147339215f"
+            "value": "6c87680a-2aad-473b-8f05-811c6d5cc9f8"
           },
           "Image": {
             "asset": "",
-            "selector": "asset/ui/img/0001.jpg"
+            "selector": ""
           },
           "name": "Image1",
           "size": {
@@ -337,11 +334,11 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "0cab5339-0c4c-4584-8305-d826e434ebc8"
+            "value": "0c48788c-468b-4af2-83a9-ec8188a21b27"
           },
           "Image": {
             "asset": "",
-            "selector": "asset/ui/img/0001.jpg"
+            "selector": ""
           },
           "size": {
             "UDim_X": {
@@ -355,7 +352,7 @@
         }
       ],
       "id": {
-        "value": "2c3dad0f-e1d7-4061-aaa8-f6b1687460ba"
+        "value": "0ccb2c46-51e4-4afd-99e0-7ad7f14cd28d"
       },
       "size": {
         "UDim_X": {
@@ -372,7 +369,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "24a95db6eff1525e95c3b31e66c73f2a",
+      "layout": "fb4842f8f62ab0a3d1254d529e61c75a",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

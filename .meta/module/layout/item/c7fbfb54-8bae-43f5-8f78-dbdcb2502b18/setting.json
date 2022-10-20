@@ -1,0 +1,282 @@
+{
+  "data": {
+    "md5": "25be041d106d2e7aba9d17da50b01897",
+    "path": "asset/ui/buyConfim.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.648,
+          "BackgroundColours": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "BackgroundEnabled": true,
+          "id": {
+            "value": "c64695f0-f744-4002-927d-e857347463b6"
+          },
+          "Image": {
+            "asset": ""
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "61ba343a-49be-4c32-a1e3-5be015ddaa75"
+              },
+              "Image": {
+                "asset": "asset/ui/shop/bg.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "Fonts/RWcreepsville",
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "171723a5-cf23-4bab-a57c-01dc9df048ef"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                }
+              },
+              "Text": "ui.confim",
+              "text_key": {
+                "value": "asset/ui/buyConfim.layout.StaticText#a81c42a1-d52d-4f19-b8fd-3e912676703c"
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": "asset/ui/shop/done.png"
+              },
+              "HoverImage": {
+                "asset": "asset/ui/shop/done.png"
+              },
+              "id": {
+                "value": "6a886faa-0c6f-4205-8b06-6061d626690a"
+              },
+              "name": "Yes",
+              "NormalImage": {
+                "asset": "asset/ui/shop/done.png"
+              },
+              "PushedImage": {
+                "asset": "asset/ui/shop/done.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 200
+                },
+                "UDim_Y": {
+                  "Offect": 200
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/buyConfim.layout.Button#8dbd0db6-2fb5-4b47-926a-48a831131173"
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "HoverImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "id": {
+                "value": "874f0ede-7358-4b3b-a05a-704b2ba8feec"
+              },
+              "name": "No",
+              "NormalImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "PushedImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 200
+                },
+                "UDim_Y": {
+                  "Offect": 200
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/buyConfim.layout.Button#dd1ae03a-94f2-4c27-8fcd-1f839b010984"
+              }
+            }
+          ],
+          "id": {
+            "value": "a5fce4a5-7e72-49ae-8722-1ccb3b5cda35"
+          },
+          "name": "win",
+          "size": {
+            "UDim_X": {
+              "Offect": 600
+            },
+            "UDim_Y": {
+              "Offect": 400
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackgroundColours": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "BackgroundEnabled": true,
+              "id": {
+                "value": "6ad92211-b61d-475d-9567-44bb71855255"
+              },
+              "Image": {
+                "asset": ""
+              },
+              "ImageColours": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "804153bd-f403-4e58-90e9-bfb0ae58fede"
+              },
+              "name": "label",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "ui.thanhcong",
+              "text_key": {
+                "value": "asset/ui/buyConfim.layout.StaticText#0c9ec9d7-5422-4bb6-abf5-b9bb05b7e7fc"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "171c51d7-c166-4d8f-bccf-833cc925e9bb"
+          },
+          "name": "stt_win",
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "aee8239e-9da8-46cf-bbca-d3a691922269"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "25be041d106d2e7aba9d17da50b01897",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}
