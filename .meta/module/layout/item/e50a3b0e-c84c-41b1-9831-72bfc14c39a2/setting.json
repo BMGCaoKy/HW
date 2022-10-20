@@ -1,16 +1,313 @@
 {
   "data": {
-    "md5": "c491d756fbf5ecfc87f241eb8c10ad82",
+    "md5": "0fe9a461180c01c1d4cc0130818c4742",
     "path": "asset/ui/bag.layout",
     "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "e085e156-905e-4a65-a254-bc29fdaeaf6f"
+              },
+              "Image": {
+                "asset": "asset/ui/Gui/balo_bg.png"
+              },
+              "name": "bg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "StaticImageStretch": {
+                "bottom_right": 25,
+                "top_right": 60
+              }
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "BackGroundImage": {
+                "asset": ""
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "GridView",
+                  "id": {
+                    "value": "a846e46e-c358-489f-96e4-1b0856f2e9e0"
+                  },
+                  "rowSize": 4,
+                  "Space": {
+                    "x": 10,
+                    "y": 5
+                  }
+                }
+              ],
+              "id": {
+                "value": "b2f56396-b652-4d87-ae82-9e3aaccfe592"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 20
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 650
+                },
+                "UDim_Y": {
+                  "Offect": 420
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "HoverImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "id": {
+                "value": "2f569484-6b9c-4060-89f7-67e94400e9e3"
+              },
+              "name": "CloseBtn",
+              "NormalImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": 40
+                },
+                "UDim_Y": {
+                  "Offect": -10
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/ui/result_new/exit.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 97
+                },
+                "UDim_Y": {
+                  "Offect": 96
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/bag.layout.Button#683d7a3c-95ca-4c18-9474-f89c2814d3c0"
+              }
+            }
+          ],
+          "id": {
+            "value": "f464ae7b-4e5c-45d6-aca1-494f2a3b4202"
+          },
+          "name": "bag_win",
+          "size": {
+            "UDim_X": {
+              "Offect": 700
+            },
+            "UDim_Y": {
+              "Offect": 500
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "Alpha": 0.997,
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "53724d4b-dc94-4c4f-9123-5d463785f408"
+                  },
+                  "Image": {
+                    "asset": "asset/weapon/icon/g2045_icon_bow_103.png"
+                  },
+                  "name": "icon",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 130
+                    },
+                    "UDim_Y": {
+                      "Offect": 130
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "4c6f9440-1a66-4830-a8b4-aa3a93ff1456"
+              },
+              "Image": {
+                "asset": "asset/ui/Gui/backgroundDay.png"
+              },
+              "name": "bg",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "StaticImageStretch": {
+                "bottom_left": 15,
+                "bottom_right": 15,
+                "top_left": 15,
+                "top_right": 15
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "211b60ee-0123-4953-b43b-f35a1ff71a04"
+              },
+              "Image": {
+                "asset": "asset/ui/bag/Checkmark.png"
+              },
+              "name": "isEquip",
+              "size": {
+                "UDim_X": {
+                  "Offect": 50
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "Font": "Fonts/youmurdererbbreg",
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "4920fc41-06cc-4f18-b5fc-86224c49e371"
+              },
+              "name": "Type",
+              "size": {
+                "UDim_X": {
+                  "Offect": 100
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "Text": "GUN",
+              "text_key": {
+                "value": "asset/ui/bag.layout.StaticText#77104122-85d0-461f-96e1-735c7f8ffd54"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "DisabledImage": {
+                "asset": ""
+              },
+              "HoverImage": {
+                "asset": ""
+              },
+              "id": {
+                "value": "f2a99d42-3d8a-4c9e-8e9f-9470dabfca33"
+              },
+              "NormalImage": {
+                "asset": ""
+              },
+              "PushedImage": {
+                "asset": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/ui/bag.layout.Button#a40664e9-3e39-4018-9957-f9e9b5f337b6"
+              }
+            }
+          ],
+          "ClippedByParent": true,
+          "id": {
+            "value": "45a30305-c0f9-4da8-b3a7-aacfc8fe475c"
+          },
+          "name": "weapon",
+          "size": {
+            "UDim_X": {
+              "Offect": 150
+            },
+            "UDim_Y": {
+              "Offect": 150
+            }
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
       "id": {
         "value": "8f6f37c3-b84f-437b-a040-a8fb6a1a1278"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "c491d756fbf5ecfc87f241eb8c10ad82",
+      "layout": "0fe9a461180c01c1d4cc0130818c4742",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

@@ -1,0 +1,31 @@
+Global.weapon={
+    gun={
+        [1]={
+            itemId="gun_001",
+            img="asset/weapon/icon/g2045_icon_bow_101.png",
+            name="ui.gun_001",
+            price=200,
+        },
+        [2]={
+            itemId="gun_002",
+            img="asset/weapon/icon/g2045_icon_bow_102.png",
+            name="ui.gun_002",
+            price=200,
+        },
+        [3]={
+            itemId="gun_003",
+            img="asset/weapon/icon/g2045_icon_bow_103.png",
+            name="ui.gun_003",
+            price=200,
+        },
+        
+    },
+    knife={
+        [1]={
+            itemId="knife_001",
+            img="asset/weapon/icon/g2045_icon_staff_101.png",
+            name="ui.knife_001",
+            price=200,
+        },
+    }
+}

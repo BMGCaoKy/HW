@@ -1,0 +1,25 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/weapon/icon/g2045_icon_bow_103.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "mesh": {
+      "asset": "asset/weapon/g2045_bow_103.mesh"
+    },
+    "name": {
+      "value": "item_gun_003"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "845a814cdcb5819446199b335ebaa2ca",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

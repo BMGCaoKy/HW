@@ -23,3 +23,15 @@ PackageHandlers:Receive("GET_PLAYER_DATA",function (player,packet)
     local data=player:getValue("baseInform")
     return data
 end)
+
+
+PackageHandlers:Receive("EQUIP_WEAPON",function (player,packet)
+    local data=player:getValue("baseInform")
+    for k,v in pairs(Global.weapon[packet.type]) do
+        if v.itemId==packet.itemId then
+            data.item.weapon[packet.type].equip=v
+            player:setValue("baseInform",data)
+            break
+        end
+    end
+end)

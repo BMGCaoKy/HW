@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "f8a70ad6f315712159406c5150d92f0c",
+    "md5": "300374e7d8acd38fa2f491547a1dc28b",
     "path": "asset/ui/MainWait.layout",
     "root": {
       "anchor": {
@@ -96,17 +96,20 @@
                   "children": [
                     {
                       "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/ui/bag/Bag.png"
+                      },
                       "HoverImage": {
-                        "asset": "asset/ui/MainWait/CameraEye.png"
+                        "asset": "asset/ui/bag/Bag.png"
                       },
                       "id": {
                         "value": "8402fb3b-ab2c-4a99-bed0-41eb988f7747"
                       },
                       "NormalImage": {
-                        "asset": "asset/ui/MainWait/CameraEye.png"
+                        "asset": "asset/ui/bag/Bag.png"
                       },
                       "PushedImage": {
-                        "asset": "asset/ui/MainWait/CameraEye.png"
+                        "asset": "asset/ui/bag/Bag.png"
                       },
                       "size": {
                         "UDim_X": {
@@ -142,7 +145,7 @@
                           "Offect": 20
                         }
                       },
-                      "Text": "Watch Mode",
+                      "Text": "Bag",
                       "text_key": {
                         "value": "asset/ui/MainWait.layout.StaticText#046c19d7-565d-4e60-86b0-4caae8e6b6d0"
                       },
@@ -166,6 +169,85 @@
                       "Offect": 120
                     }
                   }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "DisabledImage": {
+                        "asset": "asset/ui/bag/Shop.png"
+                      },
+                      "HoverImage": {
+                        "asset": "asset/ui/bag/Shop.png"
+                      },
+                      "id": {
+                        "value": "ce63cea6-0ced-4e60-b780-8220c07d9e3b"
+                      },
+                      "NormalImage": {
+                        "asset": "asset/ui/bag/Shop.png"
+                      },
+                      "PushedImage": {
+                        "asset": "asset/ui/bag/Shop.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 100
+                        },
+                        "UDim_Y": {
+                          "Offect": 100
+                        }
+                      },
+                      "Text": "",
+                      "text_key": {
+                        "value": "asset/ui/MainWait.layout.Button#c01ebb44-3c2a-4c85-a1db-17af146927e4"
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Alpha": 0.991,
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "BorderWidth": 2,
+                      "Font": "Fonts/CakeZombie",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "ae6fec98-33b2-48e3-8a06-45cf89a764d0"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 100
+                        },
+                        "UDim_Y": {
+                          "Offect": 20
+                        }
+                      },
+                      "Text": "Shop",
+                      "text_key": {
+                        "value": "asset/ui/MainWait.layout.StaticText#58f657ee-5e65-4b7f-b3b0-96bb3a3b5001"
+                      },
+                      "VertFormatting": "CentreAligned"
+                    }
+                  ],
+                  "id": {
+                    "value": "a0a21a56-9511-4ceb-92a7-3e3d6790bf35"
+                  },
+                  "name": "shop",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 220
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 100
+                    },
+                    "UDim_Y": {
+                      "Offect": 120
+                    }
+                  }
                 }
               ],
               "id": {
@@ -174,7 +256,7 @@
               "name": "ListBtn",
               "size": {
                 "UDim_Y": {
-                  "Offect": 220
+                  "Offect": 340
                 }
               },
               "WindowTouchThroughMode": "MousePassThroughOpen"
@@ -210,7 +292,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "f8a70ad6f315712159406c5150d92f0c",
+      "layout": "300374e7d8acd38fa2f491547a1dc28b",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

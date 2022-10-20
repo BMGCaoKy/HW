@@ -8,6 +8,7 @@ require "script_common.main"
 ---------------------------------
 require "modules.base.common.define_base"
 require "modules.base.common.global_base"
+require "modules.base.common.define_weapon"
 ---------------------------------
 -------required các modules------
 require "modules.debugSystem.debugSystem"

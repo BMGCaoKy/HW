@@ -109,14 +109,14 @@ function MatchRoom:setMurder(userId)
   local player = Game.GetPlayerByUserId(userId)
   self.lastNameMurder = player.name
   table.insert(self.userMurder, userId)
-  PackageHandlers:SendToClient(player,"RESET_BAG")
+  PackageHandlers:SendToClient(player, "RESET_BAG")
 
   local baseInform = player:getValue("baseInform")
   if baseInform then
-    local itemId = "myplugin/knife_01"
+    local itemId = baseInform.item.weapon.knife.equip.itemId
     -- if Lib.getTableSize(baseInform.item.weapon.knife)>=0 then
     -- end
-    player:addItem(itemId, 1, nil, "enter")
+    player:addItem("myplugin/" .. itemId, 1, nil, "enter")
   end
   self:resetPlayerValue(userId)
 end
@@ -126,14 +126,13 @@ function MatchRoom:setPolice(userId)
   local player = Game.GetPlayerByUserId(userId)
   self.lastNamePolice = player.name
   table.insert(self.userPolice, userId)
-  PackageHandlers:SendToClient(player,"RESET_BAG")
+  PackageHandlers:SendToClient(player, "RESET_BAG")
   local baseInform = player:getValue("baseInform")
   if baseInform then
-    local itemId = "myplugin/gun_01"
-
+    local itemId = baseInform.item.weapon.gun.equip.itemId
     -- if Lib.getTableSize(baseInform.item.weapon.knife)>=0 then
     -- end
-    player:addItem(itemId, 1, nil, "enter")
+    player:addItem("myplugin/" .. itemId, 1, nil, "enter")
   end
   self:resetPlayerValue(userId)
 end
@@ -222,7 +221,7 @@ function MatchRoom:getPlayerList()
 end
 function MatchRoom:getNumberPlayerList()
   local list = {}
-  local rs=0
+  local rs = 0
   local isPlaying = true
   for k, v in pairs(self.userList) do
     if Lib.getTableSize(self.userDeath[1]) > 0 then
@@ -251,7 +250,7 @@ function MatchRoom:getNumberPlayerList()
     end
     if isPlaying then
       table.insert(list, v)
-      rs=rs+1
+      rs = rs + 1
     end
   end
   return rs
@@ -259,11 +258,11 @@ end
 
 function MatchRoom:randomPolice()
   local item = {}
-  
+
   local list = {}
   local isPlaying = true
   for k, v in pairs(self.userList) do
-    print("--------------------check id:",v)
+    print("--------------------check id:", v)
     if Lib.getTableSize(self.userDeath[1]) > 0 then
       for kk, vv in pairs(self.userDeath[1]) do
         if vv == v then
@@ -293,14 +292,14 @@ function MatchRoom:randomPolice()
     end
     if isPlaying then
       table.insert(list, v)
-      print("------>add",v)
+      print("------>add", v)
       print(Lib.pv(list))
     end
     print("-------------end------------")
   end
   local list1 = list
-  print("self:",Lib.pv(self))
-  print("list:",Lib.pv(list1))
+  print("self:", Lib.pv(self))
+  print("list:", Lib.pv(list1))
   for k, v in pairs(list1) do
     if not (self:isMurder(v)) and not (self:isPolice(v)) then
       local player = Game.GetPlayerByUserId(v)
@@ -314,10 +313,10 @@ function MatchRoom:randomPolice()
       )
     end
   end
-  print("item:",Lib.pv(item))
+  print("item:", Lib.pv(item))
   if Lib.getTableSize(item) > 0 then
     local key, idUser = getRandomItem(item)
-    print("cảnh sát là:",idUser)
+    print("cảnh sát là:", idUser)
     local player = Game.GetPlayerByUserId(idUser)
     Global.ui("ui/notification_head", player)
     World.Timer(
@@ -341,7 +340,7 @@ function MatchRoom:kill(userId, isChange)
     self:removeMurder(userId)
     table.insert(self.userDeath[3], userId)
   elseif self:isPolice(userId) then
-    self:removePolice(userId, isChange)
+    self:removePolice(userId, true)
     table.insert(self.userDeath[2], userId)
   else
     table.insert(self.userDeath[1], userId)
@@ -350,15 +349,15 @@ function MatchRoom:kill(userId, isChange)
 
   local entityTrays = player:tray()
   local trayTb =
-      entityTrays:query_trays(
-      function(tray)
-          return true
-      end
+    entityTrays:query_trays(
+    function(tray)
+      return true
+    end
   )
   for _, _tray in pairs(trayTb) do
-      --print(_tray.tid,_tray.tray:capacity())
-      _tray.tray:remove_item(1) 
-      _tray.tray:remove_item(2) 
+    --print(_tray.tid,_tray.tray:capacity())
+    _tray.tray:remove_item(1)
+    _tray.tray:remove_item(2)
   end
   player:serverRebirth()
   Global.ui2List("ui/notification", self:getPlayerList(), {name = player.name, lang = "is dead"})
@@ -384,8 +383,8 @@ function MatchRoom:removeMurder(playerId)
 end
 
 function MatchRoom:removePolice(playerId, isChange)
-  local num=self:getPlayerList()
-  print("zxcv", "Đổi cảnh sát",isChange)
+  local num = self:getPlayerList()
+  print("zxcv", "Đổi cảnh sát", isChange)
   for k, v in pairs(self.userPolice) do
     if v == playerId then
       print("Đã tìm thấy id")
@@ -393,7 +392,6 @@ function MatchRoom:removePolice(playerId, isChange)
       local player = Game.GetPlayerByUserId(playerId)
       self.lastNamePolice = player.name
       if isChange then
-        
         if Lib.getTableSize(num) > Lib.getTableSize(self.userMurder) then
           print("Chia police")
           World.Timer(
@@ -536,27 +534,28 @@ function MatchRoom:EndGameCondition()
   World.Timer(
     1,
     function()
-      
       if self.timeGameRun < 0 then
         self:resultPoint()
         Global.ui2List("ui/result_new", self.userList, {room = self})
         self:resetBagAndSpawn()
         self.roomStatus = -1
       end
-      local numPlayer=self:getPlayerList()
+      local numPlayer = self:getPlayerList()
       if Lib.getTableSize(self.userMurder) == 0 then
         self:resultPoint()
         Global.ui2List("ui/result_new", self.userList, {room = self})
         self:resetBagAndSpawn()
         self.roomStatus = -1
       elseif
-          Lib.getTableSize(self.userDeath[2]) == Lib.getTableSize(self.userList)-Lib.getTableSize(self.userDeath[1])-Lib.getTableSize(self.userDeath[3])-Lib.getTableSize(self.userMurder)
+        Lib.getTableSize(self.userDeath[2]) ==
+          Lib.getTableSize(self.userList) - Lib.getTableSize(self.userDeath[1]) - Lib.getTableSize(self.userDeath[3]) -
+            Lib.getTableSize(self.userMurder)
        then
-        print("qwerty1: ",Lib.pv(self))
-        print("qwerty2: ",Lib.pv(numPlayer))
+        print("qwerty1: ", Lib.pv(self))
+        print("qwerty2: ", Lib.pv(numPlayer))
         print("DK 2")
-        print(#numPlayer,#self.userMurder)
-       
+        print(#numPlayer, #self.userMurder)
+
         self:resultPoint()
         Global.ui2List("ui/result_new", self.userList, {room = self})
         self:resetBagAndSpawn()
