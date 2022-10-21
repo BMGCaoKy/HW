@@ -6,7 +6,7 @@ format.baseInform = {
         lv = 1,
         point = 0
     },
-    candy = 500,
+    candy = 0,
     item = {
         weapon = {
             gun = {
@@ -21,11 +21,6 @@ format.baseInform = {
                         itemId = "gun_001",
                         img = "asset/weapon/icon/g2045_icon_bow_101.png",
                         name = "ui.gun_001",
-                    },
-                    [2]={
-                        itemId="gun_002",
-                        img="asset/weapon/icon/g2045_icon_bow_102.png",
-                        name="ui.gun_002",
                     }
                 }
             },
