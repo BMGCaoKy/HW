@@ -72,7 +72,7 @@
   "collisionMatrix": [
     "1"
   ],
-  "defaultMap": "parking_id",
+  "defaultMap": "map002",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -96,10 +96,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "parking_id",
-    "x": -28.53,
-    "y": 1.24,
-    "z": 26.628
+    "map": "map002",
+    "x": 76.2003936767578,
+    "y": 1.40609816551208,
+    "z": -37.8040351867676
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -236,10 +236,10 @@
   },
   "startPos": [
     {
-      "map": "parking_id",
-      "x": -32.7894744873047,
-      "y": 1.23990146160126,
-      "z": 26.5700664520264
+      "map": "map002",
+      "x": 75.3713302612305,
+      "y": 1.40609816551208,
+      "z": -37.4328117370605
     }
   ],
   "team": [],

@@ -5,8 +5,12 @@
     },
     "item": {
       "base": {
-        "__OBJ_TYPE": "ItemEquip"
-      }
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/arrow_1"
+        ]
+      },
+      "type": "InHand"
     },
     "mesh": {
       "asset": "asset/weapon/g2045_bow_102.mesh"
@@ -17,7 +21,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "24c49cb8e4622bf864bfb73329cbb424",
+      "setting.json": "8089742b122ac0662b6a723bd62b7e5e",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

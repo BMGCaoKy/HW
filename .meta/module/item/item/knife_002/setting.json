@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/weapon/icon/g2045_icon_staff_102.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/knife_1"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/weapon/g2045_staff_102.mesh"
+    },
+    "name": {
+      "value": "item_knife_002"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "308379c92db331fb94c8ae9f8f48701f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

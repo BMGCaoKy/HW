@@ -37,8 +37,9 @@ event["ENTITY_TOUCHDOWN"] = function(p)
         if v:isInRoom(p.obj1.platformUserId) then
             local entity = p.obj1 --Get bottomed entity
             if p.canDoDamage then --Have bottomed out damage
-                p.canDoDamage = false --Sets this entity to be immune to bottoming damage
-                v:removePlayer(p.obj1.platformUserId)
+                p.canDoDamage = true --Sets this entity to be immune to bottoming damage
+                --v:removePlayer(p.obj1.platformUserId)
+                v:kill(p.obj1.platformUserId,true)
                 break
           end
         end

@@ -5,8 +5,12 @@
     },
     "item": {
       "base": {
-        "__OBJ_TYPE": "ItemEquip"
-      }
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/knife_1"
+        ]
+      },
+      "type": "InHand"
     },
     "mesh": {
       "asset": "asset/weapon/g2045_staff_101.mesh"
@@ -17,7 +21,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "af638425fa7aaf9565a7f6eb885bde4f",
+      "setting.json": "d7f01ea65fee490f396d5abf33b524b3",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

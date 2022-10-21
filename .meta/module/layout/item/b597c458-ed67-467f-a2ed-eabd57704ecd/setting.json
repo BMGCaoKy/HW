@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "c187d1d8eba883bb54b5850821207780",
+    "md5": "92a57cf41fdbc902bd61fdbedb3daadd",
     "path": "gui/layout_presets/playerinfo.layout",
     "root": {
       "children": [
@@ -24,7 +24,7 @@
                       },
                       "ClippedByParent": true,
                       "id": {
-                        "value": "5d5313db-da55-4628-a61d-135c26cf3851"
+                        "value": "7c30bcb0-7192-4ab9-a725-736a33908f9e"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/default_icon.imageset",
@@ -44,7 +44,7 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "f4d32746-b8f9-41d6-bad9-3269245c2a26"
+                    "value": "ab49bcb3-1055-44ff-ad1c-ce45ac42cfbc"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/cegui_main_page.imageset",
@@ -69,7 +69,7 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "f26c7c64-5984-4678-904d-35b3fd643141"
+                "value": "f6fd1e15-65ed-4b69-9466-ad922dc01ae8"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/imagesets/cegui_main_page.imageset",
@@ -96,7 +96,7 @@
                       "__OBJ_TYPE": "StaticImage",
                       "ClippedByParent": true,
                       "id": {
-                        "value": "436c66e9-4dd2-4fd3-8bf3-76836281024f"
+                        "value": "c6c356a9-898d-43c4-b306-8dc8ca0a3de9"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/cegui_main_page.imageset",
@@ -134,7 +134,7 @@
                               },
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "023274cb-effc-47fb-b79c-68a6d852bbfe"
+                                "value": "8c5b4acf-2766-4aff-9fd5-50897e94e451"
                               },
                               "name": "PlayerInfo_Top_Health_Text",
                               "pos": {
@@ -166,7 +166,7 @@
                             }
                           ],
                           "id": {
-                            "value": "1bedfeb2-c4ce-4860-8850-b15fed04b210"
+                            "value": "73f71eb4-e2e4-440e-b25a-1ea26e1aed85"
                           },
                           "name": "PlayerInfo_Top_Health_Value",
                           "pos": {
@@ -196,7 +196,7 @@
                       ],
                       "ClippedByParent": true,
                       "id": {
-                        "value": "6bd79333-c2b1-4194-b839-70498aee90c5"
+                        "value": "4464deaa-f57d-4e33-a7fb-37011257bb7d"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/cegui_main_page.imageset",
@@ -221,7 +221,7 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "335b308a-2cec-4982-b814-8c5ede74b050"
+                    "value": "b63de04c-a38b-43b2-bc18-bc37353def6c"
                   },
                   "name": "PlayerInfo_Hp_Bar_Base",
                   "pos": {
@@ -245,7 +245,7 @@
                       "__OBJ_TYPE": "StaticImage",
                       "ClippedByParent": true,
                       "id": {
-                        "value": "6bfe8381-6c18-4bde-88ca-66321c35be3a"
+                        "value": "8a46731e-d433-452f-9e34-8f82c5ce702f"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/cegui_main_page.imageset",
@@ -283,7 +283,7 @@
                               },
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "0897f9d8-143b-4741-9bfb-f81902462a7e"
+                                "value": "08c83554-32fe-4c05-b90c-966e695cf983"
                               },
                               "name": "PlayerInfo_Top_Exp_Text",
                               "pos": {
@@ -315,7 +315,7 @@
                             }
                           ],
                           "id": {
-                            "value": "2b198e69-ea19-4aaa-9e6c-6ec51aab5dc3"
+                            "value": "7c91e537-c308-4479-9fa6-a38c01051aa1"
                           },
                           "name": "PlayerInfo_Top_Exp_Value",
                           "pos": {
@@ -345,7 +345,7 @@
                       ],
                       "ClippedByParent": true,
                       "id": {
-                        "value": "1e2f8612-da49-4f0e-ba94-3be7e654f293"
+                        "value": "3cf10320-010a-4bb0-b902-838ad8af9aea"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/cegui_main_page.imageset",
@@ -370,7 +370,7 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "b4295a8f-fbcc-4fdc-87e7-bcfcc920739d"
+                    "value": "de042cc3-73df-4f5c-b0b1-1d2f0ec00e32"
                   },
                   "name": "PlayerInfo_Level_Bar_Base",
                   "pos": {
@@ -394,7 +394,7 @@
                       "__OBJ_TYPE": "StaticImage",
                       "ClippedByParent": true,
                       "id": {
-                        "value": "7ba1d95d-71c4-4095-b511-a4b101fd04f3"
+                        "value": "b9ad5d6b-c7f1-4e70-a98c-e305ad3cff6e"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/cegui_main_page.imageset",
@@ -432,7 +432,7 @@
                               },
                               "HorzFormatting": "CentreAligned",
                               "id": {
-                                "value": "92bc27a3-559c-45f4-8f03-12514cbe8ba2"
+                                "value": "9ec60b37-5d44-44ab-9774-f7926c2112f7"
                               },
                               "name": "PlayerInfo_Top_Food_Text",
                               "pos": {
@@ -464,7 +464,7 @@
                             }
                           ],
                           "id": {
-                            "value": "57ae3d33-9bad-42b0-8496-c8749fcfc715"
+                            "value": "ee5b9a52-9aa2-457e-85d4-0f92f9993f1a"
                           },
                           "name": "PlayerInfo_Top_Food_Value",
                           "pos": {
@@ -494,7 +494,7 @@
                       ],
                       "ClippedByParent": true,
                       "id": {
-                        "value": "4c0cef8d-1e99-48c2-b282-1d73965250e0"
+                        "value": "64d68459-0d63-449e-8f9a-81aa375c2df1"
                       },
                       "Image": {
                         "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -519,7 +519,7 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "c26b3326-ee5b-4cb0-9dd3-52b79d007891"
+                    "value": "da3b0c66-f8bd-47e7-83de-1902bb721d4b"
                   },
                   "name": "PlayerInfo_Food_Bar_Base",
                   "pos": {
@@ -539,7 +539,7 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "2080186d-66e8-4c5e-a778-68d79ecea3ed"
+                "value": "a67d3bbd-2052-461b-8f1c-3486f0ebdacd"
               },
               "name": "PlayerInfo_Prog_Base",
               "pos": {
@@ -561,7 +561,7 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "eb50842d-44c0-4676-826a-1ec922eb8f24"
+            "value": "ba5475e2-170a-47ec-a8c8-82dd1731d01a"
           },
           "name": "PlayerInfo_Top_Infos",
           "pos": {
@@ -597,7 +597,7 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "abb337ac-8efa-4715-9d3d-0c373c4f2931"
+                    "value": "ed275646-1551-4c38-a37f-862f8c3be02d"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -621,7 +621,7 @@
                   },
                   "ClippedByParent": true,
                   "id": {
-                    "value": "e54a6ded-ab56-44b9-9ec9-71e3fbafbad6"
+                    "value": "140026b0-0d82-4f7d-ac08-62bf13251047"
                   },
                   "name": "PlayerInfo_Bottom_Health_Value",
                   "pos": {
@@ -652,7 +652,7 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "a2a1d641-d166-489f-a22f-63828140ac6b"
+                "value": "51ccec67-60f6-47aa-8a10-f20f14f44515"
               },
               "name": "PlayerInfo_Bottom_Health",
               "pos": {
@@ -680,7 +680,7 @@
               },
               "ClippedByParent": true,
               "id": {
-                "value": "e0d50275-9212-4dae-8ee6-26bb248e97b4"
+                "value": "eb0ccc0a-2814-46cf-9b74-82f38f8a976e"
               },
               "name": "PlayerInfo_Bottom_Exp",
               "progress_background_image": {
@@ -713,7 +713,7 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "48c5eb91-ce89-4ea7-ad00-07604402c418"
+                    "value": "c72f7eef-f4cf-49d7-9a9d-8d41f9cc4c4e"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/main_ui.imageset",
@@ -737,7 +737,7 @@
                   },
                   "ClippedByParent": true,
                   "id": {
-                    "value": "f89985bf-cee8-42ea-9e51-e5687b7b15cc"
+                    "value": "05d3f710-6729-40d5-be24-83928927f03c"
                   },
                   "name": "PlayerInfo_Bottom_Food_Value",
                   "pos": {
@@ -768,7 +768,7 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "1ba62005-ea73-415d-a235-690014615e69"
+                "value": "5278a1f1-b410-4185-a7f2-bb66450b22da"
               },
               "name": "PlayerInfo_Bottom_Food",
               "pos": {
@@ -793,7 +793,7 @@
               "ClippedByParent": true,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "f93421ea-95e2-4e23-9f34-771fff0d4289"
+                "value": "08c7175f-1f75-4b9b-ad1b-49a05ba25fac"
               },
               "name": "PlayerInfo_Bottom_Health_Text",
               "pos": {
@@ -830,7 +830,7 @@
               "__OBJ_TYPE": "StaticText",
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "6bf16d09-2fa5-4760-b46a-45010cf0fed5"
+                "value": "3c2b5278-61b2-475e-848b-7bd9b3d984ba"
               },
               "name": "PlayerInfo_Bottom_Food_Text",
               "pos": {
@@ -867,7 +867,7 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "c303e318-56ee-498e-8ebe-8e73929ec74b"
+            "value": "d3d6a9f6-0c0f-4aad-920f-67ab2e65c12d"
           },
           "name": "PlayerInfo_Bottom_Infos",
           "pos": {
@@ -892,7 +892,7 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "0abfc1d4-6fcb-49fc-a731-87357174659a"
+            "value": "81475c72-35ba-467f-a74d-0794ab4bce1d"
           },
           "name": "PlayerInfo_Air",
           "pos": {
@@ -917,7 +917,7 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "f931882b-0732-4e0e-8482-c7cdfa1a8653"
+            "value": "4580fc6f-c2bd-45f2-8e80-06199d6869bb"
           },
           "name": "PlayerInfo_HeartBar",
           "pos": {
@@ -949,7 +949,7 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "75b31d0e-641f-40cb-803f-f6485d6d45bf"
+                    "value": "e33d907d-ba8f-488e-90f2-497dc0568c61"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/endless_main.imageset",
@@ -978,7 +978,7 @@
                     {
                       "__OBJ_TYPE": "StaticText",
                       "id": {
-                        "value": "6cf7c5c8-c0c2-4d7d-87c3-5115b037ab4d"
+                        "value": "94543a83-1193-4397-b6a3-9e46f67eaefa"
                       },
                       "name": "PlayerInfo_MyLevel",
                       "pos": {
@@ -1017,7 +1017,7 @@
                       "ClippedByParent": true,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "bffc0112-56b3-4c40-9bdb-ca78a9f69629"
+                        "value": "09b1088c-b59b-42f9-8b3a-a719ff9b1f36"
                       },
                       "name": "PlayerInfo_MyLevel_Per",
                       "pos": {
@@ -1048,7 +1048,7 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "c30aff3a-92c6-4fd5-899e-d21a2422171f"
+                    "value": "dbe76463-073e-44f3-aa1e-df31972df0f6"
                   },
                   "name": "PlayerInfo_MyExp_p",
                   "progress_background_image": {
@@ -1074,7 +1074,7 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "0d89357b-0959-4b7d-8af0-c8b136410e70"
+                "value": "c645a228-c6e7-48c4-9ba7-20ffc4876cac"
               },
               "name": "PlayerInfo_MyExp",
               "size": {
@@ -1097,7 +1097,7 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "2d1f96da-ca13-46c4-904c-b7a8f4cc3de7"
+                    "value": "5649a042-abc1-4105-80d9-ae3bde8ed0cb"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/endless_main.imageset",
@@ -1128,7 +1128,7 @@
                       "ClippedByParent": true,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "2d03e7bc-4688-4f71-a560-d0784a9cb78d"
+                        "value": "f4c99fbd-2577-440e-b03a-d96b71265376"
                       },
                       "name": "PlayerInfo_HpText",
                       "size": {
@@ -1156,7 +1156,7 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "ce329821-906e-4d7d-b5a9-420637cd696e"
+                    "value": "47d9aa11-97f8-4ca0-9432-a75151fe0745"
                   },
                   "name": "PlayerInfo_MyHp_p",
                   "progress_background_image": {
@@ -1182,7 +1182,7 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "ccb4f1cf-8a0e-4538-b443-055c1b609480"
+                "value": "c5db793d-ab8a-43aa-9da8-92120986d521"
               },
               "name": "PlayerInfo_MyHp",
               "size": {
@@ -1206,7 +1206,7 @@
                   "__OBJ_TYPE": "StaticImage",
                   "ClippedByParent": true,
                   "id": {
-                    "value": "3c4d3764-381b-4b0c-8463-280909afe9b8"
+                    "value": "f65c2e61-44cf-4570-ad4a-88aa4c39b29f"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/imagesets/endless_main.imageset",
@@ -1237,7 +1237,7 @@
                       "ClippedByParent": true,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "00498aec-d146-48e6-b914-0a0ba5e691a9"
+                        "value": "0e4b609f-81f2-4683-853a-cd06cb1a9619"
                       },
                       "name": "PlayerInfo_VpText",
                       "size": {
@@ -1265,7 +1265,7 @@
                   ],
                   "ClippedByParent": true,
                   "id": {
-                    "value": "0d89805c-7529-479c-9646-8e4fd23d0368"
+                    "value": "85f23dbb-cbfb-4819-9cc4-5f82dc57e1ca"
                   },
                   "name": "PlayerInfo_MyVp_p",
                   "progress_background_image": {
@@ -1291,7 +1291,7 @@
               ],
               "ClippedByParent": true,
               "id": {
-                "value": "4dc7824a-6d7c-4399-865e-d29030c19ac9"
+                "value": "618aa488-f042-4563-a340-ac08bef5f63d"
               },
               "name": "PlayerInfo_MyVp",
               "size": {
@@ -1307,7 +1307,7 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "6364c54a-fcee-4b90-9ede-b5a15a96a3e5"
+            "value": "b24321d7-fee6-4fef-bfb3-8c5aa2b1a567"
           },
           "name": "PlayerInfo_MyInfo",
           "pos": {
@@ -1333,7 +1333,7 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "2ecaaabf-7551-4ef4-978a-4fdfab43f300"
+            "value": "91874772-2a84-4e2b-b389-fa0f42f97208"
           },
           "name": "PlayerInfo_Countdown",
           "pos": {
@@ -1361,7 +1361,7 @@
               "__OBJ_TYPE": "VerticalLayoutContainer",
               "ClippedByParent": true,
               "id": {
-                "value": "28d505b3-23f9-46d0-ac79-7da62d2d5204"
+                "value": "3b380a7d-07ea-4de7-a5a0-1abcb1a34620"
               },
               "name": "PlayerInfo_Countdown_List",
               "size": {
@@ -1378,7 +1378,7 @@
           "ForceHorzScrollbar": false,
           "ForceVertScrollbar": false,
           "id": {
-            "value": "dad5230e-e1ed-4499-a7f4-b674772e4f0f"
+            "value": "9595d781-4001-47f4-b117-b9bfae98c90a"
           },
           "name": "PlayerInfo_Countdown_ScrollableView",
           "pos": {
@@ -1414,7 +1414,7 @@
               "__OBJ_TYPE": "HorizontalLayoutContainer",
               "ClippedByParent": true,
               "id": {
-                "value": "b35cb6fc-d747-4383-983a-d36764d36db2"
+                "value": "dabf6c72-c5c8-44dc-8267-b143b639f539"
               },
               "name": "PlayerInfo_Armor_List",
               "size": {
@@ -1431,7 +1431,7 @@
           "ForceHorzScrollbar": false,
           "ForceVertScrollbar": false,
           "id": {
-            "value": "99abd6f9-12e4-4f00-b1b2-7fcc9dd10826"
+            "value": "7ce31b14-030a-4133-aed5-ca09e203a109"
           },
           "name": "PlayerInfo_Armor_ScrollableView",
           "pos": {
@@ -1452,7 +1452,7 @@
       ],
       "ClippedByParent": true,
       "id": {
-        "value": "3f2f03ae-a2a1-478b-82ae-9be9c83b6735"
+        "value": "faa48a8b-a627-4f9e-88f6-9ee92a9a7911"
       },
       "size": {
         "UDim_X": {
@@ -1468,7 +1468,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "c187d1d8eba883bb54b5850821207780",
+      "layout": "92a57cf41fdbc902bd61fdbedb3daadd",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

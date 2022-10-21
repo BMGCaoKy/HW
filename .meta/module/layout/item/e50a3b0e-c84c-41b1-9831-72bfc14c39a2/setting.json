@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "281eb3e359cc3663f36257d0213025fc",
+    "md5": "0fe9a461180c01c1d4cc0130818c4742",
     "path": "asset/ui/bag.layout",
     "root": {
       "anchor": {
@@ -18,7 +18,7 @@
             {
               "__OBJ_TYPE": "StaticImage",
               "id": {
-                "value": "278dbd9d-c5b9-4826-b898-397c4c9c1598"
+                "value": "16d3dc2e-5a92-485c-8553-ae54a89bf3e2"
               },
               "Image": {
                 "asset": "asset/ui/Gui/balo_bg.png"
@@ -53,7 +53,7 @@
                 {
                   "__OBJ_TYPE": "GridView",
                   "id": {
-                    "value": "d29e8c1d-faf5-400f-9af6-082556226491"
+                    "value": "f9cdb7da-83c9-4634-8dcd-c07025512d83"
                   },
                   "rowSize": 4,
                   "Space": {
@@ -63,7 +63,7 @@
                 }
               ],
               "id": {
-                "value": "f45a31d9-cf99-4a35-a71f-fea80321eeca"
+                "value": "57f0531a-9f37-40e5-a2cc-9f173ad0bf59"
               },
               "pos": {
                 "UDim_Y": {
@@ -91,7 +91,7 @@
                 "asset": "asset/ui/result_new/exit.png"
               },
               "id": {
-                "value": "76c05924-b5ad-4ea9-ac8a-4f3011104f2b"
+                "value": "0263c69e-6991-4b12-bffb-419da8b4d1ac"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -123,7 +123,7 @@
             }
           ],
           "id": {
-            "value": "9e0bfaa2-50e4-414a-97c1-021b30c9f689"
+            "value": "ca8f6748-be70-41bd-81a8-6d82b71501c6"
           },
           "name": "bag_win",
           "size": {
@@ -149,7 +149,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "91502127-7320-46b7-9817-7311dff13450"
+                    "value": "06075330-afad-4112-83c9-e871e294ca13"
                   },
                   "Image": {
                     "asset": "asset/weapon/icon/g2045_icon_bow_103.png"
@@ -166,7 +166,7 @@
                 }
               ],
               "id": {
-                "value": "7680181d-f050-4b72-b0a1-efae56bf4f01"
+                "value": "a174f816-6ed2-4fd8-8d80-7cddfc737372"
               },
               "Image": {
                 "asset": "asset/ui/Gui/backgroundDay.png"
@@ -195,7 +195,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "77aad6f1-9f35-4929-bb5c-64f085d74abc"
+                "value": "1ba38839-9a5b-45c0-bc0c-4e554c889a8e"
               },
               "Image": {
                 "asset": "asset/ui/bag/Checkmark.png"
@@ -219,7 +219,7 @@
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "4cb2b26c-c7e8-48a9-80ec-85fcf89cd5c6"
+                "value": "6b679ad6-74a5-4de7-a2a0-9355c6ed1e1d"
               },
               "name": "Type",
               "size": {
@@ -252,7 +252,7 @@
                 "selector": ""
               },
               "id": {
-                "value": "42cabfa6-be08-4477-acfb-87eb3120ded9"
+                "value": "2c26b527-e734-43f9-8679-2f88bf1675c3"
               },
               "NormalImage": {
                 "asset": "",
@@ -280,7 +280,7 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "82e036ca-06d9-463c-9ea1-89329f1f9b4d"
+            "value": "03068b6a-3e63-4eab-afaa-4ef5d898547f"
           },
           "name": "weapon",
           "size": {
@@ -296,7 +296,7 @@
         }
       ],
       "id": {
-        "value": "a33b499a-b527-4d8c-bb5b-1014c368bec6"
+        "value": "57eb937d-a01d-496b-9c40-582f9d2af35d"
       },
       "size": {
         "UDim_X": {
@@ -312,7 +312,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "281eb3e359cc3663f36257d0213025fc",
+      "layout": "0fe9a461180c01c1d4cc0130818c4742",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

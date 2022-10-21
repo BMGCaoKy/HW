@@ -40,4 +40,4 @@ Define.MATCH.MAP = {
     }
 }
 
-Define.MATCH.LOBBY = "parking_id"
+Define.MATCH.LOBBY = "map002"

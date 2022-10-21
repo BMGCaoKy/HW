@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "fb4842f8f62ab0a3d1254d529e61c75a",
+    "md5": "24a95db6eff1525e95c3b31e66c73f2a",
     "path": "asset/ui/watch_mode.layout",
     "root": {
       "anchor": {
@@ -21,7 +21,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "6662a25b-a7a8-41ba-8b6a-2a03d80385d1"
+                "value": "dbac966a-7d47-4503-a499-2a460cbc8c0b"
               },
               "Image": {
                 "asset": "",
@@ -50,7 +50,7 @@
               "Font_size": 40,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "1a265070-e4b4-497a-90d8-b0d4ebe6b1c4"
+                "value": "dc06dbc0-d34d-4878-9f36-597cb174cf92"
               },
               "size": {
                 "UDim_X": {
@@ -83,7 +83,7 @@
                 "asset": "asset/ui/result_new/exit.png"
               },
               "id": {
-                "value": "95fa934f-8e0d-492e-8a62-ddb4f4db4f76"
+                "value": "c2ffb9a1-3454-49e6-85aa-3133d2b6fcde"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -107,7 +107,7 @@
             }
           ],
           "id": {
-            "value": "8f41b171-b688-4450-8363-4c13734799b5"
+            "value": "60fe5c25-e97d-42e0-b884-040eb60c6b1d"
           },
           "name": "head",
           "size": {
@@ -138,7 +138,7 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "eb30febe-14fa-44f1-88af-d60f9459c258"
+                "value": "c72d3b01-62cf-4ae1-bfa3-5d048e5fca22"
               },
               "Image": {
                 "asset": "",
@@ -167,7 +167,7 @@
               "Font_size": 40,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "2c89d407-3713-4452-a43b-792bcc92c689"
+                "value": "f9eaf86a-f4b4-41f9-842d-ceeec8ab58b5"
               },
               "name": "name",
               "size": {
@@ -191,7 +191,7 @@
             }
           ],
           "id": {
-            "value": "0dc1b644-c898-4239-b769-15fb3bd1f8e2"
+            "value": "2d70c91c-b6ee-41a8-a660-275fadce8f77"
           },
           "name": "tail",
           "size": {
@@ -211,7 +211,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "d1c6353e-0bd7-4c4d-a15f-2df2e178f61e"
+            "value": "51e4a8c7-e4f4-4041-a2c2-413170ebbd5d"
           },
           "name": "N",
           "size": {
@@ -236,7 +236,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "3c228f0a-f6aa-43c3-911a-7cf262a37863"
+            "value": "a16dee2f-0956-4d33-89dc-62461e9f8d53"
           },
           "name": "P",
           "size": {
@@ -278,7 +278,7 @@
               },
               "effectYPosition": 100,
               "id": {
-                "value": "fbe926d0-d66f-46f1-a2ae-b772ad7cc253"
+                "value": "e1f3c824-96f8-4b70-ae76-c0453d87dba6"
               }
             },
             {
@@ -290,7 +290,7 @@
               "Font_size": 25,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "cf1d3bdc-7fc5-4c3c-8041-2a242ab528cc"
+                "value": "df1fc5e4-d673-41d6-be51-b38c2b39a277"
               },
               "size": {
                 "UDim_X": {
@@ -310,7 +310,7 @@
             }
           ],
           "id": {
-            "value": "6c87680a-2aad-473b-8f05-811c6d5cc9f8"
+            "value": "900c0214-1791-48cd-ab84-de2314082f5b"
           },
           "Image": {
             "asset": "",
@@ -334,7 +334,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "0c48788c-468b-4af2-83a9-ec8188a21b27"
+            "value": "d4eb9917-70d6-4eec-b341-6b632602aa7c"
           },
           "Image": {
             "asset": "",
@@ -352,7 +352,7 @@
         }
       ],
       "id": {
-        "value": "0ccb2c46-51e4-4afd-99e0-7ad7f14cd28d"
+        "value": "79c0c43e-72d6-4906-bebd-c7a8f569d33e"
       },
       "size": {
         "UDim_X": {
@@ -369,7 +369,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "fb4842f8f62ab0a3d1254d529e61c75a",
+      "layout": "24a95db6eff1525e95c3b31e66c73f2a",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

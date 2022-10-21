@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "25be041d106d2e7aba9d17da50b01897",
+    "md5": "e1ea3464abe730b3c3d11b3b7247d3be",
     "path": "asset/ui/buyConfim.layout",
     "root": {
       "anchor": {
@@ -18,10 +18,11 @@
           },
           "BackgroundEnabled": true,
           "id": {
-            "value": "c64695f0-f744-4002-927d-e857347463b6"
+            "value": "a1996048-6d21-4fb4-acf8-bc3ac73a55f1"
           },
           "Image": {
-            "asset": ""
+            "asset": "",
+            "selector": ""
           },
           "size": {
             "UDim_X": {
@@ -48,7 +49,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "61ba343a-49be-4c32-a1e3-5be015ddaa75"
+                "value": "70475d22-70c8-4819-82ca-0c99804c6078"
               },
               "Image": {
                 "asset": "asset/ui/shop/bg.png"
@@ -73,7 +74,7 @@
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "171723a5-cf23-4bab-a57c-01dc9df048ef"
+                "value": "501b2ac1-e343-473b-bf71-d98b937ada4b"
               },
               "size": {
                 "UDim_X": {
@@ -103,7 +104,7 @@
                 "asset": "asset/ui/shop/done.png"
               },
               "id": {
-                "value": "6a886faa-0c6f-4205-8b06-6061d626690a"
+                "value": "27132315-ca89-4557-ae42-eb1b3c1f873b"
               },
               "name": "Yes",
               "NormalImage": {
@@ -138,7 +139,7 @@
                 "asset": "asset/ui/result_new/exit.png"
               },
               "id": {
-                "value": "874f0ede-7358-4b3b-a05a-704b2ba8feec"
+                "value": "638f3ee6-94e9-471a-bfce-d07b4f5c10e4"
               },
               "name": "No",
               "NormalImage": {
@@ -162,7 +163,7 @@
             }
           ],
           "id": {
-            "value": "a5fce4a5-7e72-49ae-8722-1ccb3b5cda35"
+            "value": "e470c575-719c-46ba-8481-014d6a8acd31"
           },
           "name": "win",
           "size": {
@@ -194,10 +195,11 @@
               },
               "BackgroundEnabled": true,
               "id": {
-                "value": "6ad92211-b61d-475d-9567-44bb71855255"
+                "value": "a43ee68a-375e-4278-8c79-05457b3987f2"
               },
               "Image": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "ImageColours": {
                 "b": 0,
@@ -222,7 +224,7 @@
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "804153bd-f403-4e58-90e9-bfb0ae58fede"
+                "value": "0b7db93b-d3c2-4c03-9cb6-d186c537e08f"
               },
               "name": "label",
               "size": {
@@ -250,7 +252,7 @@
             }
           ],
           "id": {
-            "value": "171c51d7-c166-4d8f-bccf-833cc925e9bb"
+            "value": "3397f6af-58ea-4322-94c4-8c68b74c1f71"
           },
           "name": "stt_win",
           "Visible": false,
@@ -258,7 +260,7 @@
         }
       ],
       "id": {
-        "value": "aee8239e-9da8-46cf-bbca-d3a691922269"
+        "value": "14232f0a-8386-4121-ae29-f4ffd99093e8"
       },
       "size": {
         "UDim_X": {
@@ -274,7 +276,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "25be041d106d2e7aba9d17da50b01897",
+      "layout": "e1ea3464abe730b3c3d11b3b7247d3be",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

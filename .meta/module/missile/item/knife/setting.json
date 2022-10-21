@@ -18,6 +18,11 @@
         "asset": "asset/EffectNew/g2045/Necessary/Effect/skill/g2045_melee_3.effect"
       }
     },
+    "startSound": {
+      "sound": {
+        "asset": "asset/EffectNew/gun.mp3"
+      }
+    },
     "triggers": {
       "list": [
         {
@@ -114,7 +119,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4c1c3a7f9d14edf79ce46abf2fb9a8a0",
+      "setting.json": "d32d0c32d7db9caaace7251f4d8b0de3",
       "triggers.bts": "c2276d56b3732a67298435b2daedc2d0"
     },
     "VERSION": "0.24"

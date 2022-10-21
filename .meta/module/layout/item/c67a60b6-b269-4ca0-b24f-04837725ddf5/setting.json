@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "9371a1a2b5e9f282394270df91a086ee",
+    "md5": "300374e7d8acd38fa2f491547a1dc28b",
     "path": "asset/ui/MainWait.layout",
     "root": {
       "anchor": {
@@ -32,7 +32,7 @@
                         "VerticalAlignment": "Bottom"
                       },
                       "id": {
-                        "value": "1425a6e7-b354-418b-8efb-bdf54fe7a135"
+                        "value": "7ec9fe6e-c938-46ce-8596-748dbef0a29b"
                       },
                       "Image": {
                         "asset": "asset/ui/MainPlay/candy.png"
@@ -55,7 +55,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "e276ea33-22e3-4c47-a736-37962e7f8100"
+                        "value": "ed1c97f8-38fa-4ea3-bab8-9824dd926c07"
                       },
                       "name": "count",
                       "size": {
@@ -79,7 +79,7 @@
                     }
                   ],
                   "id": {
-                    "value": "b53a8896-f310-4377-8d9a-2612d7f0ae95"
+                    "value": "b4505cff-658c-422b-a9d1-3d46d2015f95"
                   },
                   "name": "candyWin",
                   "size": {
@@ -103,7 +103,7 @@
                         "asset": "asset/ui/bag/Bag.png"
                       },
                       "id": {
-                        "value": "e46ac1d3-13a3-407f-8792-559df259723c"
+                        "value": "8acca26c-497b-4fc8-8bf0-409f16e713db"
                       },
                       "NormalImage": {
                         "asset": "asset/ui/bag/Bag.png"
@@ -135,7 +135,7 @@
                       "Font": "Fonts/CakeZombie",
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "f555f34a-00de-435a-bf7e-372a640a05f5"
+                        "value": "fab861b7-374c-4cae-9a1e-cba3a00f5337"
                       },
                       "size": {
                         "UDim_X": {
@@ -153,7 +153,7 @@
                     }
                   ],
                   "id": {
-                    "value": "660968cf-8ff3-4f2d-83fb-b701b969319e"
+                    "value": "911c4583-b15f-4bc5-ba0a-42f7afc2e9a1"
                   },
                   "name": "watchMode",
                   "pos": {
@@ -182,7 +182,7 @@
                         "asset": "asset/ui/bag/Shop.png"
                       },
                       "id": {
-                        "value": "886cee34-c704-4d8b-8373-bbc15742aa08"
+                        "value": "dac82aaf-f3ce-44d1-b2dd-bf4421af0cf0"
                       },
                       "NormalImage": {
                         "asset": "asset/ui/bag/Shop.png"
@@ -214,7 +214,7 @@
                       "Font": "Fonts/CakeZombie",
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "451b8337-1e41-44cc-a1ff-899c07a47a56"
+                        "value": "647569ab-3bcf-4959-a7e4-357afbaf5581"
                       },
                       "size": {
                         "UDim_X": {
@@ -232,7 +232,7 @@
                     }
                   ],
                   "id": {
-                    "value": "86d00c1e-21d4-4930-8a4c-64994b0f3701"
+                    "value": "9420c8a1-c4e8-4a1e-9e23-528a6417d3c2"
                   },
                   "name": "shop",
                   "pos": {
@@ -251,7 +251,7 @@
                 }
               ],
               "id": {
-                "value": "3a097768-a3fe-4a2d-9a70-816396bced10"
+                "value": "d98a169a-246e-4960-ae5c-48d78884d266"
               },
               "name": "ListBtn",
               "size": {
@@ -263,7 +263,7 @@
             }
           ],
           "id": {
-            "value": "900e9d34-00dd-41ff-9541-731805214afd"
+            "value": "f7b944fd-7143-4dbf-9708-98797a122df9"
           },
           "name": "Menu",
           "size": {
@@ -275,7 +275,7 @@
         }
       ],
       "id": {
-        "value": "cff5f332-4fdc-41bd-881a-472615190da0"
+        "value": "26e15900-8500-41b7-b296-076a2fc6a3f2"
       },
       "size": {
         "UDim_X": {
@@ -292,7 +292,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "9371a1a2b5e9f282394270df91a086ee",
+      "layout": "300374e7d8acd38fa2f491547a1dc28b",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

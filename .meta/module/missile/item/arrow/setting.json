@@ -1,0 +1,120 @@
+{
+  "data": {
+    "name": {
+      "value": "missile_arrow"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/EffectNew/g2045/Necessary/Effect/weapon/g2045_bullet_bow_1.effect"
+      }
+    },
+    "startSound": {
+      "sound": {
+        "asset": "asset/EffectNew/gun.mp3"
+      },
+      "volume": {
+        "value": 0.2
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5e2a83f5-4b17-45e7-9198-21ac68c34142"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7ae24946-05ce-4b8e-b280-d3fa053463e7"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d9e071d0-cf61-4012-a63d-2fcce2b74abf"
+              },
+              "pos": {
+                "x": 707,
+                "y": 338
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5e2a83f5-4b17-45e7-9198-21ac68c34142"
+              },
+              "pos": {
+                "x": 1142,
+                "y": 330
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "7ae24946-05ce-4b8e-b280-d3fa053463e7"
+              },
+              "pos": {
+                "x": 1037,
+                "y": 512
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "missile_arrow"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d9e071d0-cf61-4012-a63d-2fcce2b74abf"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "39b045fa-ce40-41b6-ba5a-f24c745d2de2"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b93096d26a3a63eedc6da74e4016ba1e",
+      "triggers.bts": "c2276d56b3732a67298435b2daedc2d0"
+    },
+    "VERSION": "0.24"
+  }
+}

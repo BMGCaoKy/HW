@@ -52,6 +52,11 @@
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -2.29519176483154,
+          "y": 49.927375793457,
+          "z": 9.67643260955811
+        },
         "batchType": "Dynamic",
         "btsKey": "f8338045-9142-4083-8be8-228f42e84bc3",
         "density": 2.2,
@@ -75,6 +80,11 @@
           "z": 9.67643260955811
         },
         "restitution": 0.3,
+        "size": {
+          "x": 249.09489440918,
+          "y": 48.9274787902832,
+          "z": 295.487518310547
+        },
         "useAnchor": true
       }
     ],
@@ -84,7 +94,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "78b5d9706acd85f7456d892144f5bc11"
+      "setting.json": "2131d99b91a7a96bc070595cbe4047c1"
     },
     "VERSION": "0.24"
   }

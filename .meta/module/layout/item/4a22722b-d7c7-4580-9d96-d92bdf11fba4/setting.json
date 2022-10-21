@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "6a3ec44129f4fe3df190080543998813",
+    "md5": "da6857c54c0ad6b884d804772ebf4832",
     "path": "asset/ui/shop.layout",
     "root": {
       "anchor": {
@@ -22,10 +22,11 @@
           },
           "BackgroundEnabled": true,
           "id": {
-            "value": "65a5f0f6-9f92-427a-9d42-8690b1242ed7"
+            "value": "7edd74a5-6a33-4534-9891-a08630f84fb8"
           },
           "Image": {
-            "asset": ""
+            "asset": "",
+            "selector": ""
           },
           "size": {
             "UDim_X": {
@@ -51,7 +52,7 @@
                     {
                       "__OBJ_TYPE": "StaticImage",
                       "id": {
-                        "value": "c426158e-fb26-4a0a-8544-1da0df74973b"
+                        "value": "16116d8d-4540-4671-be60-79bd9c9a715b"
                       },
                       "Image": {
                         "asset": "asset/ui/shop/bg_f.png"
@@ -70,7 +71,7 @@
                     }
                   ],
                   "id": {
-                    "value": "d8f3d416-08dd-476d-8783-c33c822da87a"
+                    "value": "dc2c9454-7ae4-48f3-831e-89ce0adc149b"
                   },
                   "Image": {
                     "asset": "asset/ui/shop/bg.png"
@@ -95,7 +96,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "49a9715d-67b6-4422-aaea-54846a5ff5c9"
+                    "value": "1debe589-b08f-4680-8e37-78ac0aae61f0"
                   },
                   "Image": {
                     "asset": "asset/weapon/icon/g2045_icon_bow_103.png"
@@ -113,7 +114,7 @@
                 }
               ],
               "id": {
-                "value": "d9be6545-f2cd-4505-b716-1383308cc437"
+                "value": "578dfdf3-0797-418f-89af-ab31aee7a48b"
               },
               "Image": {
                 "asset": "",
@@ -139,7 +140,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "28763f89-5d6a-46f2-b7f8-ac4cb39520cd"
+                "value": "893fe123-3e41-4f2e-beb6-add6a6b719fb"
               },
               "Image": {
                 "asset": "asset/ui/shop/done.png"
@@ -170,7 +171,7 @@
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "eb0b3a4e-120e-4d15-b5f6-8fb45a9f2ebb"
+                "value": "65ed7cd9-a3a7-4e2a-b59d-e06ca8ed7a2e"
               },
               "name": "Type",
               "size": {
@@ -217,7 +218,7 @@
                   "Font_size": 30,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "4de1f64b-6f04-4b0c-87de-aae6b9c2e39c"
+                    "value": "4dba21e7-623b-436e-b757-bb749cb0c4b1"
                   },
                   "name": "Price",
                   "size": {
@@ -244,7 +245,7 @@
                 }
               ],
               "id": {
-                "value": "8fbeb155-4c2e-4a28-b370-7abd7e6ed8a9"
+                "value": "f1e8d815-3f3a-49a6-9b09-09f45af757f7"
               },
               "Image": {
                 "asset": "asset/ui/shop/button.png"
@@ -277,7 +278,7 @@
                 "selector": ""
               },
               "id": {
-                "value": "b1cabf64-848a-4a79-a743-b0e927e9d2b2"
+                "value": "c1af1feb-bcda-4334-bfc3-0698d46cf2ac"
               },
               "NormalImage": {
                 "asset": "",
@@ -305,7 +306,7 @@
           ],
           "ClippedByParent": true,
           "id": {
-            "value": "59fd31b8-2e1e-4ab1-8260-17f196fde167"
+            "value": "a93e8620-1838-4563-a4a9-861fb6cdb7cd"
           },
           "name": "weapon",
           "size": {
@@ -331,7 +332,7 @@
             "asset": "asset/ui/result_new/exit.png"
           },
           "id": {
-            "value": "96c8c79b-6fed-4c88-abee-bfa52e4bd845"
+            "value": "66b15c0a-f1f3-45f7-8867-7906e9228c35"
           },
           "name": "CloseBtn",
           "NormalImage": {
@@ -370,7 +371,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "19fd3c62-54c3-41c7-8646-d696d0c787f6"
+                    "value": "ca9563ff-bca4-42d7-a5df-56812e8e8ad4"
                   },
                   "Image": {
                     "asset": "asset/ui/MainPlay/candy.png"
@@ -393,7 +394,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "RightAligned",
                   "id": {
-                    "value": "1e23e244-59a2-4db7-b2c3-deeb807ced38"
+                    "value": "38a91946-5a6b-4937-9030-40a5b9131b1d"
                   },
                   "name": "count",
                   "size": {
@@ -419,7 +420,7 @@
                 }
               ],
               "id": {
-                "value": "83b4b7e0-e365-4a46-aa0a-5615174de891"
+                "value": "5f30b2bd-c481-41de-b541-7f79f0486938"
               },
               "name": "candy",
               "size": {
@@ -441,7 +442,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "520c4264-355c-4435-80c7-4e1a142f3397"
+                    "value": "ece33a9a-a6eb-4d88-9691-422177b9686e"
                   },
                   "Image": {
                     "asset": "asset/ui/shop/shop_tab.png"
@@ -481,13 +482,13 @@
                         "VerticalAlignment": "Centre"
                       },
                       "id": {
-                        "value": "79cdd169-2ede-4a3f-ae2b-e3329cda4e9d"
+                        "value": "e9bdefac-a9a2-470b-b3d3-d813f35f5a23"
                       },
                       "name": "List"
                     }
                   ],
                   "id": {
-                    "value": "f43dfd35-e31e-458c-ad4d-838e5969a6a6"
+                    "value": "3edc79a9-a714-4791-8527-063858bf2ce9"
                   },
                   "size": {
                     "UDim_X": {
@@ -497,7 +498,7 @@
                 }
               ],
               "id": {
-                "value": "248ce976-d136-401e-8aae-f87a64786e35"
+                "value": "3875fa22-aa7d-4311-8892-f69fb1b27991"
               },
               "name": "gun",
               "pos": {
@@ -524,7 +525,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "dc260556-ee8f-416e-86fc-b8f8c5a199a7"
+                    "value": "cb715302-242c-4950-9060-8a75cb6e36c8"
                   },
                   "Image": {
                     "asset": "asset/ui/shop/shop_tab.png"
@@ -564,13 +565,13 @@
                         "VerticalAlignment": "Centre"
                       },
                       "id": {
-                        "value": "ed89b244-86c7-41e0-85d2-59f3284eddf5"
+                        "value": "1bf2413c-57b9-4e78-ac81-f4cde017548d"
                       },
                       "name": "List"
                     }
                   ],
                   "id": {
-                    "value": "b2baa203-533f-4e04-933c-64b0d489b14f"
+                    "value": "80783dd2-06e7-41a0-b525-b5b0991bd0be"
                   },
                   "size": {
                     "UDim_X": {
@@ -580,7 +581,7 @@
                 }
               ],
               "id": {
-                "value": "27852c52-a9a2-435f-ab57-0d6398f83846"
+                "value": "954f6d75-fcf4-4e89-9d87-55955bfee95a"
               },
               "name": "knife",
               "pos": {
@@ -599,7 +600,7 @@
             }
           ],
           "id": {
-            "value": "e2317df9-7dd1-4904-b144-3942be3aa56a"
+            "value": "97ec130a-c714-4623-9ea1-8becf6ee2a69"
           },
           "name": "List",
           "size": {
@@ -613,7 +614,7 @@
         }
       ],
       "id": {
-        "value": "ae92605c-2d48-4aca-9a56-705a048f5b9d"
+        "value": "f29103ab-91bd-4763-815c-a9600e93f87f"
       },
       "size": {
         "UDim_X": {
@@ -629,7 +630,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "6a3ec44129f4fe3df190080543998813",
+      "layout": "da6857c54c0ad6b884d804772ebf4832",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"
