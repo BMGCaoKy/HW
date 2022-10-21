@@ -38,7 +38,7 @@
         "asset": "asset/Texture/Skill/common/icon__nor.png"
       },
       "iconPos": {
-        "area_number": 9
+        "area_number": 5
       },
       "isClickIcon": true
     },
@@ -142,7 +142,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "788f3412464d6ab39eee0ccb6a3c930e",
+      "setting.json": "941b02721d91b93d920f33a0b87cdf02",
       "triggers.bts": "b6882649f3a908109278fea45570fadb"
     },
     "VERSION": "0.24"

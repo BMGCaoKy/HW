@@ -28,7 +28,7 @@ end
 function self:onOpen(packet)
     local room = packet.room
 
-    if Lib.getTableSize(room.userMurder) == 0 then
+    if Lib.getTableSize(room.userMurder) == 0 or room.timeGameRun==0 then
         PoliceWin(room.lastNamePolice, room.lastNameMurder)
     else
         MurderWin(room.lastNameMurder, room.lastNamePolice)
