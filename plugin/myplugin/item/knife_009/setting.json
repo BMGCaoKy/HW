@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/weapon/icon/img/wp1.png",
+  "itemname": "item_knife_009",
+  "mesh": "asset/weapon/g1042_g1045/pixel_gun_prop_27.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/knife_1"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

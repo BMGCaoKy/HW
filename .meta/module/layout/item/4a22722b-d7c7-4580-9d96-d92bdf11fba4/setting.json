@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "da6857c54c0ad6b884d804772ebf4832",
+    "md5": "a0d84030870e2567c5bea63c5c943a11",
     "path": "asset/ui/shop.layout",
     "root": {
       "anchor": {
@@ -51,6 +51,7 @@
                   "children": [
                     {
                       "__OBJ_TYPE": "StaticImage",
+                      "ClippedByParent": true,
                       "id": {
                         "value": "16116d8d-4540-4671-be60-79bd9c9a715b"
                       },
@@ -70,6 +71,7 @@
                       "WindowTouchThroughMode": "MousePassThroughOpen"
                     }
                   ],
+                  "ClippedByParent": true,
                   "id": {
                     "value": "dc2c9454-7ae4-48f3-831e-89ce0adc149b"
                   },
@@ -95,6 +97,7 @@
                     "HorizontalAlignment": "Centre",
                     "VerticalAlignment": "Centre"
                   },
+                  "ClippedByParent": true,
                   "id": {
                     "value": "1debe589-b08f-4680-8e37-78ac0aae61f0"
                   },
@@ -113,6 +116,7 @@
                   "WindowTouchThroughMode": "MousePassThroughOpen"
                 }
               ],
+              "ClippedByParent": true,
               "id": {
                 "value": "578dfdf3-0797-418f-89af-ab31aee7a48b"
               },
@@ -139,6 +143,7 @@
                 "HorizontalAlignment": "Centre",
                 "VerticalAlignment": "Bottom"
               },
+              "ClippedByParent": true,
               "id": {
                 "value": "893fe123-3e41-4f2e-beb6-add6a6b719fb"
               },
@@ -146,11 +151,6 @@
                 "asset": "asset/ui/shop/done.png"
               },
               "name": "isBuy",
-              "pos": {
-                "UDim_Y": {
-                  "Offect": 25
-                }
-              },
               "size": {
                 "UDim_X": {
                   "Offect": 50
@@ -159,7 +159,6 @@
                   "Offect": 50
                 }
               },
-              "Visible": false,
               "WindowTouchThroughMode": "MousePassThroughOpen"
             },
             {
@@ -167,6 +166,7 @@
               "anchor": {
                 "HorizontalAlignment": "Right"
               },
+              "ClippedByParent": true,
               "Font": "Fonts/youmurdererbbreg",
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
@@ -214,6 +214,7 @@
                     "r": 0
                   },
                   "BorderWidth": 2,
+                  "ClippedByParent": true,
                   "Font": "Fonts/youmurdererbbreg",
                   "Font_size": 30,
                   "HorzFormatting": "CentreAligned",
@@ -244,6 +245,7 @@
                   "WindowTouchThroughMode": "MousePassThroughOpen"
                 }
               ],
+              "ClippedByParent": true,
               "id": {
                 "value": "f1e8d815-3f3a-49a6-9b09-09f45af757f7"
               },
@@ -251,11 +253,6 @@
                 "asset": "asset/ui/shop/button.png"
               },
               "name": "price",
-              "pos": {
-                "UDim_Y": {
-                  "Offect": 25
-                }
-              },
               "size": {
                 "UDim_X": {
                   "Offect": 100
@@ -269,6 +266,7 @@
             },
             {
               "__OBJ_TYPE": "Button",
+              "ClippedByParent": true,
               "DisabledImage": {
                 "asset": "",
                 "selector": ""
@@ -494,7 +492,8 @@
                     "UDim_X": {
                       "Offect": 1170
                     }
-                  }
+                  },
+                  "VerticalMovable": false
                 }
               ],
               "id": {
@@ -577,7 +576,8 @@
                     "UDim_X": {
                       "Offect": 1170
                     }
-                  }
+                  },
+                  "VerticalMovable": false
                 }
               ],
               "id": {
@@ -630,7 +630,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "da6857c54c0ad6b884d804772ebf4832",
+      "layout": "a0d84030870e2567c5bea63c5c943a11",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

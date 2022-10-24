@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/weapon/icon/g2045_icon_pistol_104.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3214dc14-dd22-4863-bd0e-c902bed7a572"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/weapon/g2045_pistol_104.mesh"
+    },
+    "name": {
+      "value": "item_gun_013"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "679e98dcaf9778cc0ed2ee3b2a35331b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

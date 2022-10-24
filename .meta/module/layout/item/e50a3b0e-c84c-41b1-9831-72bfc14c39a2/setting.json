@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0fe9a461180c01c1d4cc0130818c4742",
+    "md5": "cc6c318acd44b2dce9910c036b69fc8f",
     "path": "asset/ui/bag.layout",
     "root": {
       "anchor": {
@@ -148,6 +148,7 @@
                     "HorizontalAlignment": "Centre",
                     "VerticalAlignment": "Centre"
                   },
+                  "ClippedByParent": true,
                   "id": {
                     "value": "06075330-afad-4112-83c9-e871e294ca13"
                   },
@@ -165,6 +166,7 @@
                   }
                 }
               ],
+              "ClippedByParent": true,
               "id": {
                 "value": "a174f816-6ed2-4fd8-8d80-7cddfc737372"
               },
@@ -194,6 +196,7 @@
               "anchor": {
                 "VerticalAlignment": "Bottom"
               },
+              "ClippedByParent": true,
               "id": {
                 "value": "1ba38839-9a5b-45c0-bc0c-4e554c889a8e"
               },
@@ -215,6 +218,7 @@
               "anchor": {
                 "HorizontalAlignment": "Right"
               },
+              "ClippedByParent": true,
               "Font": "Fonts/youmurdererbbreg",
               "Font_size": 30,
               "HorzFormatting": "CentreAligned",
@@ -243,6 +247,7 @@
             },
             {
               "__OBJ_TYPE": "Button",
+              "ClippedByParent": true,
               "DisabledImage": {
                 "asset": "",
                 "selector": ""
@@ -312,7 +317,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0fe9a461180c01c1d4cc0130818c4742",
+      "layout": "cc6c318acd44b2dce9910c036b69fc8f",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

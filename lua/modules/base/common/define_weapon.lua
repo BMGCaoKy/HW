@@ -30,7 +30,54 @@ Global.weapon={
             name="ui.gun_004",
             price=8000,
         },
-        
+        [6]={
+            itemId="gun_006",
+            img="asset/weapon/icon/g2045_icon_cannon_104.png",
+            name="ui.gun_004",
+            price=10000,
+        },
+        [7]={
+            itemId="gun_007",
+            img="asset/weapon/icon/g2045_icon_gun_101.png",
+            name="ui.gun_004",
+            price=12000,
+        },
+        [8]={
+            itemId="gun_008",
+            img="asset/weapon/icon/g2045_icon_gun_102.png",
+            name="ui.gun_004",
+            price=14000,
+        },
+        [9]={
+            itemId="gun_009",
+            img="asset/weapon/icon/g2045_icon_laser_102.png",
+            name="ui.gun_004",
+            price=16000,
+        },
+        [10]={
+            itemId="gun_010",
+            img="asset/weapon/icon/g2045_icon_laser_101.png",
+            name="ui.gun_004",
+            price=18000,
+        },
+        [11]={
+            itemId="gun_011",
+            img="asset/weapon/icon/g2045_icon_pistol_101.png",
+            name="ui.gun_004",
+            price=20000,
+        },
+        [12]={
+            itemId="gun_012",
+            img="asset/weapon/icon/g2045_icon_pistol_103.png",
+            name="ui.gun_004",
+            price=22000,
+        },
+        [13]={
+            itemId="gun_013",
+            img="asset/weapon/icon/g2045_icon_pistol_104.png",
+            name="ui.gun_004",
+            price=24000,
+        },
     },
     knife={
         [1]={
@@ -63,6 +110,36 @@ Global.weapon={
             name="ui.knife_005",
             price=2500,
         },
+        [6]={
+            itemId="knife_006",
+            img="asset/weapon/icon/img/wp0.png",
+            name="ui.knife_005",
+            price=3000,
+        },
+        [7]={
+            itemId="knife_007",
+            img="asset/weapon/icon/img/wp2.png",
+            name="ui.knife_005",
+            price=3500,
+        },
+        [8]={
+            itemId="knife_008",
+            img="asset/weapon/icon/img/wp3.png",
+            name="ui.knife_005",
+            price=4000,
+        },
+        [9]={
+            itemId="knife_009",
+            img="asset/weapon/icon/img/wp1.png",
+            name="ui.knife_005",
+            price=4500,
+        },
+        [10]={
+            itemId="knife_010",
+            img="asset/weapon/icon/img/wp4.png",
+            name="ui.knife_005",
+            price=5000,
+        },
     }
 }
 Global.shop={
@@ -71,13 +148,26 @@ Global.shop={
         [2]="gun_002",
         [3]="gun_003",
         [4]="gun_004",
-        [5]="gun_005"
+        [5]="gun_005",
+        [6]="gun_006",
+        [7]="gun_007",
+        [8]="gun_008",
+        [9]="gun_009",
+        [10]="gun_010",
+        [11]="gun_011",
+        [12]="gun_012",
+        [13]="gun_013",
     },
     knife={
         [1]="knife_001",
         [2]="knife_002",
         [3]="knife_003",
         [4]="knife_004",
-        [5]="knife_005"
+        [5]="knife_005",
+        [6]="knife_006",
+        [7]="knife_007",
+        [8]="knife_008",
+        [9]="knife_009",
+        [10]="knife_010",
     }
 }
